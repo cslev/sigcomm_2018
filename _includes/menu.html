@@ -1,0 +1,36 @@
+<div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
+
+  <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.logo.image }}" alt="{{ site.logo.info }}"></a>
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+
+    {% for item in site.menu %}
+      {% if item.submenu == nil %}
+        {% if item.url == page.url %}{% assign active = 'navselected' %}
+        {% else %}{% assign active = nil %}{% endif %}
+        <li class="{% if forloop.first != true and forloop.last != true %}notlast{% endif %} {{ active }} {% if active == nil %}{{ item.highlight }}{% endif %}" data-icon="false">
+          <a href="{{ site.baseurl }}{{ item.url }}">{% if item.icon %}<i class="fa {{ item.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ item.name }}</a>
+        </li>
+      {% else %}
+        {% if item.name == page.group %}{% assign collapsed = 'data-collapsed="false"' %}
+        {% else %}{% assign collapsed = nil %}{% endif %}
+        <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" {{ collapsed }} class="navgroup">
+          <h4>{% if item.icon %}<i class="fa {{ item.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ item.name }}</h4>
+          <ul data-role="listview" data-inset="false">
+            {% for subitem in item.submenu %}
+              {% if subitem.url == page.url %}{% assign active = 'navselected' %}
+              {% else %}{% assign active = nil %}{% endif %}
+              <li class="subnav {{ active }}" data-icon="false">
+                <a href="{{ site.baseurl }}{{ subitem.url }}">{% if subitem.icon %}<i class="fa {{ subitem.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ subitem.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}  
+    {% endfor %}
+  </ul>
+
+  <div class="border ui-corner-all ui-shadow socialbuttons">
+    <iframe src="{{ site.baseurl }}/misc/socialbtn.html" scrolling="no" height="21" width="100%" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+  </div>
+</div>

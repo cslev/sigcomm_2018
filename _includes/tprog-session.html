@@ -1,0 +1,43 @@
+<li class="ui-li ui-bar-{% if include.is_break %}b{% else %}a{% endif %} prog-item ui-li-divider {{ progitemclass }} {% if forloop.last %}listlast{% endif %} {% if forloop.last %}listlast{% endif %} {% if site.enable_remote and session.remote and session.remote != "" %}ui-li-has-remote{% endif %}" data-role="list-divider">
+  <h3>
+    {{ session.time }}
+    {% if session.link and session.link != "" %}
+      <a href="{{ session.link }}">{{ session.title }}</a>
+    {% else %}
+      {{ session.title }}
+    {% endif %}
+    {% if include.is_break and session.room and session.room %}
+      ({{ session.room }})
+    {% endif %}
+  </h3>
+  {% if include.is_break != true %}
+    {% if session.authors and session.authors != "" %}
+      <p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+    {% endif %}
+    {% if session.room and session.room != "" %}
+      <p>Room: {{ session.room }}</p>
+    {% endif %}
+  {% endif %}
+  {% if include.is_break != true %}
+    {% if site.enable_remote and session.remote and session.remote != "" %}
+      <div class="ui-li-aside-item">
+        {% if session.remote-qa and session.remote-qa != "" %}
+          <div class="button-remote">
+            {% assign tags = session.remote-qa | remove: '#' | split: ' ' %}
+
+            <a href="https://twitter.com/intent/tweet?hashtags={{ tags | join: ',' }}" rel="external" target="_blank" class="ui-link"><i class="fa fa-twitter"></i> Q&A</a>
+          </div>
+        {% endif %}
+        <div class="button-remote">
+          <a href="{{ session.remote }}" rel="external" target="_blank" class="ui-link">Live Streaming</a>
+        </div>
+      </div>
+    {% endif %}
+  {% endif %}
+</li>
+{% comment %}
+  // a list divider is not visible if not followed by an ordinary item,
+  // when data-filter is true. workaround: included an invisible li.
+  // here we include the session title so that it can be searchable
+{% endcomment %}
+<li class="hidden">{{ session.title }}</li>

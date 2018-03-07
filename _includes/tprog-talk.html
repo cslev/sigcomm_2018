@@ -1,0 +1,70 @@
+{% if (keynote.abstract == nil or keynote.abstract == "") and (keynote.bio == nil or keynote.bio == "") %}
+  {% assign paper = keynote %}
+  {% assign paper.title = "Keynote: " | append: keynote.title %}
+  {% include tprog-item.html %}
+{% else %}
+  {% if keynote.bio    and keynote.bio    != "" %}{% assign has_bio    = true %}{% else %}{% assign has_bio   = nil %}{% endif %}
+  {% if keynote.abstract and keynote.abstract != "" %}{% assign has_abstract = true %}{% else %}{% assign has_abstract = nil %}{% endif %}
+  {% if keynote.link   and keynote.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
+  {% if keynote.slides and keynote.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
+  {% if paper.video    and paper.video  != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
+
+  {% comment %}<!-- make space for the button(s) -->{% endcomment %}
+  {% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
+                                                                                           if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
+                                                                                                                                                                                 if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
+
+  <li data-icon="false" class="prog-item {{ progitemclass }} prog-keynote">
+    <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+
+      <h4>
+        <div {{ item_style }}>
+          <p class="keynote-header">
+            {% if has_link == true %}
+              <a href="javascript:void(0)" onclick="window.location='{{ keynote.link  }}'; event.stopPropagation();" class="ui-link">{{ keynote.title }}</a>
+            {% else %}
+              <h2>{{ keynote.title }}</h2>
+            {% endif %}
+          </p>
+          <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+          <p>{{ keynote.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+        </div>
+        <div class="ui-li-aside">
+          {% if has_link %}
+            <div class="button-paper">
+              <a href="{{ keynote.link }}" onclick="window.location='{{ keynote.link }}'; event.stopPropagation();" class="ui-link">Keynote</a>
+            </div>
+          {% endif %}
+          {% if has_slides %}
+            <div class="button-paper">
+              <a href="{{ keynote.slides }}" onclick="window.location='{{ keynote.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
+            </div>
+          {% endif %}
+          {% if has_video %}
+            <div class="button-paper">
+              <a href="{{ keynote.video }}" onclick="window.location='{{ keynote.video }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Video</a>
+            </div>
+          {% endif %}
+        </div>
+      </h4>
+
+      <ul data-role="listview" data-inset="false">
+        <li data-icon="false">
+          {% if has_abstract %}
+            <p>
+              <b>Abstract: </b>{{ keynote.abstract }}
+            </p>
+            <p>&nbsp;</p>
+          {% endif %}
+          {% if has_bio %}
+            <p>
+              {% if keynote.photo and keynote.photo != "" %}<img class="keynote-photo" src="{{ keynote.photo }}"/>{% endif %}
+              <b>Bio: </b>{{ keynote.bio }}
+            </p>
+            <p>&nbsp;</p>
+          {% endif %}
+        </li>
+      </ul>
+    </div>
+  </li>
+{% endif %}

@@ -1,0 +1,74 @@
+<div data-role="collapsible" data-theme="a" data-content-theme="a" id="{{ hotel.id }}-c" {% if include.expanded %}data-collapsed="false"{% endif %}>
+  <h3><font class="hotel-header">{{ hotel.name }}</font></h3>
+
+  {% if hotel.image %}
+    <img style="float:right;" src="{{ site.baseurl }}/{{ hotel.image }}" alt="{{ hotel.name }}" />
+  {% endif %}
+
+  <p>{{ hotel.address }}<br/>
+  {% if hotel.url %}
+    <a href="{{ hotel.url }}">Hotel Website</a>
+  {% endif %}
+  </p>
+
+  <table class="hotel">
+    <tr>
+      <th>Distance to venue:</th>
+      <td>{{ hotel.distance }}</td>
+    </tr>
+    {% if hotel.rating %}
+    <tr>
+      <th>Rating:</th>
+      <td>
+        {% assign stars = hotel.rating | times: 1 %}
+        {% for star in (1..5) %}
+          <i class="fa
+          {% if stars >= 1 %}
+            fa-star
+          {% elsif stars > 0 %}
+            fa-star-half-o
+          {% else %}
+            fa-star-o
+          {% endif %}
+            "></i>
+          {% assign stars = stars | minus: 1 %}
+        {% endfor %}
+      </td>
+      <!-- <td>{{ hotel.rating }}</td> -->
+    </tr>
+    {% endif %}
+    <tr>
+      <th>Cut-off date:</th>
+      <td><b>{{ hotel.deadline }}</b></td>
+    </tr>
+    <tr>
+      <th>Reservation:</th>
+      <td>{{ hotel.reservation-info }}</td>
+    </tr>
+    <tr>
+      <th>Reservations by phone:</th>
+      <td>{{ hotel.phone }}</td>
+    </tr>
+    <tr>
+      <th>Amenities:</th>
+      <td><ul>{% for item in hotel.amenities %}<li>{{ item }}</li>{% endfor %}</ul></td>
+    </tr>
+    <tr>
+      <th>Rates:</th>
+      <td>{% for rate in hotel.rates %}{{ rate }}<br/>{% endfor %}</td>
+    </tr>
+  </table>
+
+  {% if hotel.note %}
+    {{ hotel.note }}
+  {% endif %}
+
+  <a href="{{ hotel.reservation-link }}" class="button" data-role="button" data-theme="a" target="_blank"><i class="fa fa-hotel"></i>&nbsp;&nbsp;&nbsp;Online Reservation</a>
+  
+  <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="{{ hotel.id }}"></iframe>
+  <script>
+       $("#{{ hotel.id }}-c").on('collapsibleexpand', function () {
+         $("#{{ hotel.id }}-c").find("iframe#{{ hotel.id }}").attr("src","{{ hotel.map }}");
+       });
+  </script>
+</div>

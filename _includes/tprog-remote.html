@@ -1,0 +1,16 @@
+<li data-icon="false" class="prog-item {{ progitemclass }}">
+  <div {{ item_style }}>
+    <p class="paper-header">
+      {% if has_link %}
+        <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">{{ paper.title }}</a>
+      {% else %}
+        {{ paper.title }}
+      {% endif %}  
+    </p>
+  </div>
+  <div class="ui-li-aside-item">
+    <div class="button-paper">      
+      <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">? </a>
+    </div>
+  </div>
+</li>

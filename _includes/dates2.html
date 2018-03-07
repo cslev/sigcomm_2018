@@ -1,0 +1,10 @@
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  {% for item in include.dates %}
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>{{ item.date }}</h2></div>
+        <div class="ui-block-b"><p>{{ item.info }}</p></div>
+      </div>
+    </li>
+  {% endfor %}  
+</ul>

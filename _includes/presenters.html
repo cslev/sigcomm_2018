@@ -1,0 +1,31 @@
+<!-- <div  class="presenters"> -->
+  <ul class="program" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a">
+    {% for person in include.presenters %}     
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div {{ item_style }}>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>{{ person.name }}</p></div>
+                  <div class="ui-block-b"><p>{{ person.affiliation }}</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false">
+              <p>
+                {% if person.photo %}<img class="keynote-photo" src="{{ person.photo }}"/>{% endif %}
+                {{ person.bio }}
+              </p>
+              <p>&nbsp;</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <!-- </div> -->

@@ -1,0 +1,822 @@
+/* Customization
+-----------------------------------------------------------------------------------------------------------*/
+
+/* Conference logo in the mobile header. */
+.header {
+    background-color: #ffffff !important;
+    border-width: 0px;
+}
+
+.header img {
+    height : 100px;
+}
+
+.header .ui-btn {
+    right: 15px;
+    top: 30px;
+}
+
+/* main content */
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.border {
+    border: 1px solid #BBB;
+    margin-top: 2em;
+}
+
+.main-page {
+    overflow: visible !important;
+}
+
+/* Content container. */
+.ui-content {
+    padding: 1em 0px 1em 0px;
+    // max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The left side menu */
+.leftnav {
+    float: left;
+    text-align: left;
+    width: 25%;
+    max-width: 300px;
+    margin: 0px 1px 20px 20px;
+    /* padding-bottom: 120px; /* prevent menu from being hidden by sponsor ticker tape */
+    position: absolute;
+    left: 0;
+    clip: initial;
+    background-image: none;
+}
+
+/* Conf logo in the menu. */
+.leftnav img {
+    padding: 0px;
+    display: inline;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.leftnav .navgroup {
+    padding: 0px;
+    margin: -1px 0px;
+    border-radius: 0px;
+}
+
+.leftnav .subnav a {
+    padding-left: 30px;
+}
+
+.leftnav .ui-listview h4 {
+    font-size: 1em;
+}
+
+.leftnav .ui-listview .ui-btn {
+    font-size: 1em;
+    cursor: default;
+}
+
+.leftnav .ui-listview .subnav .ui-btn {
+    font-size: 1em;
+    font-weight: 500;
+    cursor: default;
+}
+
+.leftnav .ui-listview .navselected a {
+    color: $hfont !important;
+    background-color: #526796;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( $highlight /*{c-bup-background-start}*/), to( $highlight-darker /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient( $highlight /*{c-bup-background-start}*/, $highlight-darker /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+    background-image:    -moz-linear-gradient( $highlight /*{c-bup-background-start}*/, $highlight-darker /*{c-bup-background-end}*/); /* FF3.6 */
+    background-image:     -ms-linear-gradient( $highlight /*{c-bup-background-start}*/, $highlight-darker /*{c-bup-background-end}*/); /* IE10 */
+    background-image:      -o-linear-gradient( $highlight /*{c-bup-background-start}*/, $highlight-darker /*{c-bup-background-end}*/); /* Opera 11.10+ */
+    background-image:         linear-gradient( $highlight /*{c-bup-background-start}*/, $highlight-darker /*{c-bup-background-end}*/);
+    border-color: $highlight;
+}
+
+.leftnav .ui-listview .menu-hl a {
+    color: $brand-primary !important;
+    background-color: $gray;
+}
+
+/* The main contents */
+.content-primary .sponsors {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom : 10px;
+}
+
+.content-primary .center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.content-primary .sponsors img {
+    width: 40%;
+    max-width: 400px;
+    padding: 10px 20px 10px 20px;
+    vertical-align: middle
+}
+
+.content-primary .workshop-logo {
+    float: left;
+    margin: 0px 15px 0px 0px;
+    width: 240px;
+}
+
+.content-primary .img {
+    width: 300px;
+    padding: 5px 10px 5px 10px;
+    vertical-align: middle
+}
+
+.content-primary h1 {
+    font-size: 2.4em;
+    margin-top: 0.5em;
+    color: $highlight;
+    font-weight: 500;
+}
+
+.content-primary h2 {
+    font-size: 1.8em;
+    margin-top: 1em;
+    color: $highlight;
+    font-weight: 500;
+}
+
+.content-primary h3, h4 {
+    font-size: 1.4em;
+    margin-top: 1em;
+    color: $highlight;
+    font-weight: 500;
+}
+
+.ui-bar h2, .ui-bar h3, .ui-bar h4 {
+    margin: 0;
+}
+
+.content-primary .tbl {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.content-primary .datetbl {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.content-primary .datetbl .ui-grid-a .ui-block-a {
+    width: 30%;
+    height: 100%;
+}
+
+.content-primary .datetbl .ui-grid-a .ui-block-b {
+    width: 70%;
+    height: 100%;
+}
+
+.content-primary .datetbl .ui-btn {
+    margin:      0px;
+    line-height: 1em;
+    text-align:  center;
+    font-size:   0.9em;
+}
+
+.content-primary .ui-listview h2 {
+    margin: 0px;
+    color: #333333;
+    font-size: 0.85em;
+    font-weight: 700;
+    white-space: normal;
+    line-height: 1.2em;
+    padding-right: 0.25em;
+}
+
+.content-primary .ui-li-divider {
+    margin:      0px;
+    line-height: 1.2em;
+    background-color: $highlight;
+    border-top-color: #307630;
+    border-left-color: #307630;
+    border-right-color: #307630;
+    color: $hfont;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.content-primary .ui-listview p {
+    margin:      0px;
+    line-height: 1.2em;
+    padding-right: 0.25em;
+    font-size:   0.85em;
+    font-weight: 500;
+    white-space: normal;
+}
+
+/* custom controls for registration page placeholder */
+
+.content-primary .registration .ui-grid-a .ui-block-a {
+    width: 40%;
+    height: 100%;
+}
+
+.content-primary .registration .ui-grid-a .ui-block-b {
+    width: 20%;
+    height: 100%;
+}
+
+.content-primary .paperlist .ui-grid-a .ui-block-a {
+    width: 100%;
+    height: 100%;
+}
+
+/* custom styles for the conference program menu */
+
+.content-primary .program .prog-header {
+    color: #ffffff !important;
+    background-color: $highlight-darker !important;
+    border-color: $highlight !important;
+}
+
+.content-primary .program .prog-header h3 {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    text-align: center !important;
+    font-weight: 600;
+    margin: 0.3em 0em;
+}
+
+.content-primary .program .prog-no-filter {
+    display: block !important;
+}
+
+.ui-listview .ui-li-aside {
+    position: absolute;
+    top: 1em;
+    right: 3em;
+    margin: 0;
+    text-align: right;
+}
+
+.ui-listview .ui-li-aside-item {
+    position: absolute;
+    top: 0.65em;
+    right: 1em;
+    margin: 0;
+    text-align: right;
+}
+
+.content-primary .program .button-paper {
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    background-color: $highlight;
+    text-align: center;
+    width: auto;
+    margin: 0 0 6px 6px;
+    display: inline-block;
+}
+
+.content-primary .program .button-paper a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.content-primary .program .button-remote {
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    background-color: $brand-darker;
+    text-align: center;
+    width: auto;
+    margin: 0 0 6px 6px;
+    display: inline-block;
+}
+
+.content-primary .program .ui-li-static.ui-li-has-remote,
+.content-primary .program .ui-li-divider.ui-li-has-remote {
+	padding-right: 13.5em;
+}
+
+.content-primary .program .button-remote a {
+    color: #f9e90c;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.content-primary .program .button-remote a:hover {
+    text-decoration: underline;
+}
+
+.content-primary .program hr.keynote-divider {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.content-primary .program .paper-navgroup {
+    padding: 0px;
+    margin: -20px -17px;
+    border-radius: 0px;
+}
+
+.content-primary .program .paper-header a {
+    font-weight: 600;
+    color: #000000;
+}
+
+.content-primary .ui-listview p.paper-header {
+    font-weight: 600 !important;
+}
+
+.content-primary .program .keynote-photo {
+    float: right;
+    margin: 0px 0px 15px 15px;
+    width: 120px;
+}
+
+.content-primary .program .prog-item {
+    padding: 0.5em 1.0em;
+}
+
+.content-primary .program .ui-bar-a {
+    padding: 0em 1.0em;
+    background-color: $highlight;
+    border-color: #bbb;
+}
+
+html .ui-bar-a a:link, html .ui-bar-a a:visited, html .ui-bar-a a:hover, html .ui-bar-a a:active {
+    // color: $hfont;
+    color: #FFFFFF;
+}
+
+.content-primary .program .ui-bar-a h3 {
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: left;
+    text-shadow: none;
+}
+
+.content-primary .program .ui-bar-b {
+    padding: 0em 1.0em;
+    background-color: $program-break-background;
+    border-color: #bbb;
+}
+
+.content-primary .program .ui-bar-b h3 {
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+}
+
+.content-primary .program .prog-social {
+    padding: 0em 1.0em;
+    background-color: #558282;
+    border-color: #bbbbbb;
+}
+
+.content-primary .program .prog-social h3 {
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: left;
+    text-shadow: none;
+}
+
+.content-primary .program .prog-tutorial {
+    padding: 0em 1.0em;
+    background-color: #f2ffef;
+    // border-color: #bbbbbb;
+}
+
+.content-primary .program .prog-workshop {
+    padding: 0em 1.0em;
+    background-color: #eff5ff;
+}
+
+/* miscelaneous controls (hotel page, roomshare, etc.) */
+
+.content-primary .hotel-header {
+    font-size: 1em;
+    color: #1A601A;
+    font-weight: 500;
+}
+
+.content-primary table.hotel th {
+    text-align:left;
+    vertical-align:top;
+    width: 25%;
+    padding:0
+
+}
+
+.content-primary  table.hotel td{
+    text-align:left;
+    vertical-align:bottom;
+    padding:0
+
+}
+
+.content-primary  table.hotel tr{
+    line-height:1.3em
+
+}
+
+.content-primary table.hotel{
+    font-size:.9em;
+    padding-bottom:1em
+
+}
+
+.content-primary .roomshare {
+    background-color: #fdfdfd;
+    width: 70%;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* button rouding */
+.roundall {
+    border-radius: 0.6em 0.6em 0.6em 0.6em !important;
+}
+
+.roundright {
+    border-radius: 0px 0.6em 0.6em 0px !important;
+}
+
+.roundleft {
+    border-radius: 0.6em 0px 0px 0.6em !important;
+}
+
+.listlast {
+    border-radius: 0px 0px 0.6em 0.6em !important;
+}
+
+.listfirst {
+    border-radius: 0.6em 0.6em 0px 0px !important;
+}
+
+.notlast {
+    border-radius: 0px !important;
+}
+
+.dl-button {
+    width : 55%;
+    margin-top: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+    width: 95%;
+    max-width: 640px;
+    height: auto;
+}
+
+.socialbuttons {
+    background-color: #F6F6F6;
+    border-color: #BBB;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    padding-top: .65em;
+    padding-bottom: .5em;
+}
+
+.headlink {
+    text-decoration: none;
+    /* font-weight: 500 !important; */
+}
+
+.highlight {
+    margin-left : auto;
+    margin-right : auto;
+    text-align: center;
+    width : 80%;
+    padding: 1rem;
+    border: 2px solid;
+    border-color: #FD9827;
+    background-color: #F6F6F6;
+}
+
+.highlighttext {
+    font-weight: 700;
+    color: #FF0000;
+}
+
+/* sponsors ticker tape, adapted from sigcomm 2012 code */
+
+.hidden {
+    display: none !important;
+}
+
+.logobar {
+    -webkit-box-shadow: inset 0 0 7px #000;
+    -moz-box-shadow: inset 0 0 7px #000;
+    box-shadow: inset 0 0 7px #000;
+    border: 0;
+    background-color: #ffffff;
+}
+
+a.button{
+    width:40%;
+    margin-left:auto;
+    margin-right:auto
+
+}
+
+
+red {
+    color: red;
+}
+
+/* --------------------------------Style sheet for Slides in Tourism--------------------------*/
+
+/* Slideshow container */
+.slideshow-container,{
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  margin-left: 20px;
+}
+
+/* Next & previous buttons */
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text{
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 2.7em;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7{
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover, .dot2:hover, .dot3:hover, .dot4:hover, .dot5:hover, .dot6:hover, .dot7:hover {
+  background-color: #717171;
+}
+
+.picture{
+	width: 500px;
+	height: 300px;
+}	
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#source p {
+	font-size: .6em;
+	margin: 0;
+	padding: 0;
+}
+
+/* --------------------------------Style sheet for Social Events--------------------------*/
+
+.content-primary .event-header {
+    font-size: 1em;
+    color: #1A601A;
+    font-weight: 500;
+}
+
+.content-primary table.event th {
+    text-align:left;
+    vertical-align:top;
+    width: 25%;
+    padding:0
+
+}
+
+.content-primary  table.event td{
+    text-align:left;
+    vertical-align:bottom;
+    padding:0
+
+}
+
+.content-primary  table.event tr{
+    line-height:1.3em
+
+}
+
+.content-primary table.event{
+    font-size:.9em;
+    padding-bottom:1em
+
+}
+
+/* Layout rules
+-----------------------------------------------------------------------------------------------------------*/
+
+/* Small screens */
+@media all and (max-width: 55em) {
+    .ui-content {
+        margin: 5px !important;
+        padding: 0.5em 5px 0.5em 5px;
+    }
+
+    .content-primary {
+        float: none;
+        width: 100%;
+        max-width: 55em;
+    }
+
+    .content-primary h1 {
+        font-size: 1.8em;
+        margin-top: 0em;
+    }
+    .content-primary h2 {
+        font-size: 1.4em;
+        margin-top: 0.5em;
+    }
+    .content-primary h3, h4 {
+        font-size: 1.2em;
+        margin-top: 0.5em;
+    }
+
+    .ui-bar h2, .ui-bar h3, .ui-bar h4 {
+        margin: 0;
+    }
+
+    .content-primary .sponsors img {
+        width: 75%;
+        max-width: 300px;
+        padding: 5px 10px 5px 10px;
+        vertical-align: middle;
+    }
+
+    .content-primary .img {
+        width: 85%;
+        max-width: 300px;
+        padding: 5px 10px 5px 10px;
+        vertical-align: middle
+    }
+
+    .leftnav {
+        float: none;
+        width: 100%;
+        max-width: 55em;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .leftnav img {
+        display: none;
+    }
+}
+
+/* Bigger screens */
+@media all and (min-width: 55em) {
+    .header {
+        display: none;
+    }
+
+    .content-primary {
+        float: right;
+        width: 61%;
+        max-width: 1000px;
+        margin-right: 3%;
+        padding-right: 3%;
+    }
+}
+
+/* Printing */
+@media print {
+    #menu-btn {
+        display: none;
+    }
+
+    #leftnav {
+        display: none;
+    }
+
+    .content-primary {
+        width: 90%;
+    }
+
+    .logobar {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .ui-content {
+        overflow-x: visible;
+    }
+}
+
+#test img {
+	width:500px;
+	float: right;
+}
+
+.caption {
+    position:absolute;
+    left:0;
+    bottom:0;
+    padding-top:16px!important;
+    padding-bottom:16px!important;
+    color:white!important;
+    background-color:#000000!important;
+    content:"";
+    display:table;
+    clear:both;
+    font-size:18px!important;
+    padding:0.01em 16px;
+    float: right;
+}
+
+.display-container {
+    position:relative
+}
+
+hr.keynote-divider {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}

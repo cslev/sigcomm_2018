@@ -1,0 +1,14 @@
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  {% for itemKeyValue in site.data.dates %}
+    {% assign item = itemKeyValue[1] %}
+    {% if include.track == null and item.important == true %}{% assign included = true %}{% elsif include.track != null and item.track == include.track %}{% assign included = true %}{% else %}{% assign included = false %}{% endif %}
+    {% if included %}
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>{{ item.date }}</h2></div>
+          <div class="ui-block-b"><p>{% if include.track == null %}{{ site.data.tracks[item.track].title }} {{ item.info }}{% else %}{{ item.info }}{% endif %}</p></div>
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}  
+</ul>

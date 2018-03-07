@@ -1,0 +1,32 @@
+<div id="{{ include.type }}-program" class="{{ include.type }}-program">
+  <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
+    {% for item in include.data %}
+      {% if    item.type == "day"         %}
+        {% assign progdate = item.time | downcase | split: "," | first %}{% assign progitemclass = "prog-" | append: progdate %}
+        <li class="prog-header prog-no-filter ui-bar-a prog-item {{ progitemclass }}">
+          <h3>{{ item.time }}{% if item.room and item.room != "" %}, {{ item.room }}{% endif %}</h3>
+        </li>
+      {% elsif item.type == "break"       %}
+        {% assign session = item %}{% include tprog-session.html is_break = true%}
+      {% elsif item.type == "description" or item.type == "disc" %}
+        {% assign paper = item %}{% include tprog-item.html %}
+      {% elsif item.type == "keynote"     %}
+        {% assign keynote = item %}{% include tprog-keynote.html %}
+      {% elsif item.type == "paper" or item.type == "poster" or item.type == "demo" %}
+        {% assign paper = item %}{% include tprog-paper.html %}
+      {% elsif item.type == "session"     %}
+        {% assign session = item %}{% include tprog-session.html %}
+      {% elsif item.type == "tutorial"     %}
+        {% assign session = item %}{% include tprog-tutorial.html %}
+      {% elsif item.type == "workshop"     %}
+        {% assign session = item %}{% include tprog-workshop.html %}
+      {% elsif item.type == "social"      %}
+        {% include tprog-social.html %}
+      {% elsif item.type == "talk"        %}
+        {% assign keynote = item %}{% include tprog-talk.html %}
+      {% elsif item.type == "remote"        %}
+        {% assign paper = item %}{% include tprog-remote.html %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

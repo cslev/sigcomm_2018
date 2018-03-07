@@ -1,0 +1,314 @@
+safe: false
+source: .
+destination: ./_site
+plugins_dir: ./_plugins
+lsi: true
+highlighter: rouge
+markdown: kramdown
+exclude: ['_DOCS', '_SCRIPTS', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md']
+sass:
+  style: compressed
+encoding: UTF-8
+
+plugins:
+  - jekyll-assets
+
+url: http://conferences.sigcomm.org
+baseurl: /sigcomm/2018
+
+# Configuration for site
+title: ACM SIGCOMM 2018
+logo:
+  image: images/sigcomm-2018-logo.png
+  info: ACM SIGCOMM 2018, Budapest, Hungary
+
+google_analytics_id: UA-83529610-1
+
+## Note. Uncomment and update spreadsheet parameters to enable pulling program
+##       data from Google Sheet(s)
+# program:
+#   # If the specified file doesn't exist, there will be command-line dialog to create it
+#   # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
+#   google_client_id: .travis.d/google_client_id.json
+#   # Google spreadsheet with the conference data
+#   spreadsheet:
+#     - "1J-lppI-_qcclJbmP3DN_xhgKnJnL6S344BUQQ9JbvIE" # main
+#     # - "1XOHAs0JEPbhc41ibeaVmjHaPMhQ2uxYAEJhoIN7nrsU" # mecomm
+#     # - "1ta6334jIw2pDkVbdG5lCyw08PsRfpROlB8E8xQt2T6g" # reproducibility
+#     # - "1cAFdSKmJ1CDnFjIdl_YHoh7Sgw2hIR8H2D0VrfqcrvU" # mobiarch
+#     # - "1cHt23vRK5tkDpR7rHQPd9BN_vifj39YbGpWLitgZObo" # kbnets
+#     # - "16FQmmoXBXy_3GkerpAuFOY03VXhTdG_U-eXiBdJhBpM" # hotconnets
+#     # - "1vzsVcUrH9kq0l0HioOLeKejJhI74y7Wv7uhpVyyfIe8" # bigdama
+#     # - "1CR3uERciFO0nK9WZommQx-ROHgbEfrc7_Hxh4dgJM0U" # internet-qoe
+#     # - "1bQDVWh2ci7fpQg_VeQGFu8yiP-XQYDIYOFm9g8b4Ns4" # vr-ar
+#     # - "1U9kFMDsSA8kdfkJT8_Pdedbnsyzegu15QZFx2HE1Fwc" # netpl
+
+# Configuration for navbar.html
+menu:
+- name: Home
+  url: /
+  icon: fa-home
+- name: Main conference
+  icon: fa-area-chart
+  submenu:
+    - name: Submission instructions
+      url:  /submission.html
+      icon: fa-pencil
+    - name: Call for papers
+      url:  /cfp.html
+      icon: fa-bell-o
+    - name: Program committee
+      url:  /tpc.html
+      icon: fa-users
+  url: /program.html
+- name: Parallel events
+  icon: fa-list-ul
+  submenu:
+    - name: Posters and demos
+      url: /cf-posters.html
+      icon: fa-eye
+    - name: Industrial demos
+      url: /program-industrial-demos.html
+      icon:  fa-industry
+    - name: Mentoring
+      url: /mentoring.html
+      icon: fa-user-circle-o
+    - name: Student research competition
+      url: /src.html
+      icon: fa-graduation-cap
+    - name: Topic preview
+      url: /topic-preview.html
+      icon:  fa-comments-o
+- name: Workshops
+  icon: fa-wrench
+  submenu:
+  - name: Big-DAMA
+    url: /workshop-bigdama.html
+    icon: fa-gavel
+  - name: IoT S&P
+    url: /workshop-iotsp.html
+    icon: fa-gavel
+  - name: KBNets
+    url: /workshop-kbnets.html
+    icon: fa-gavel
+  - name: MECOMM
+    url: /workshop-mecomm.html
+    icon: fa-gavel
+  - name: NEAT
+    url: /workshop-neat.html
+    icon: fa-gavel
+  - name: NetAIM
+    url: /workshop-netaim.html
+    icon: fa-gavel
+  - name: NetCompute
+    url: /workshop-netcompute.html
+    icon: fa-gavel
+  - name: SecSoN
+    url: /workshop-secson.html
+    icon: fa-gavel
+  - name: SelfDN
+    url: /workshop-selfdn.html
+    icon: fa-gavel
+  - name: VR/AR Network
+    url: /workshop-arvr.html
+    icon: fa-gavel
+  - name: WTMC
+    url: /workshop-wtmc.html
+    icon: fa-gavel
+  - name: Call for workshops
+    url: /cf-workshops.html
+    icon: fa-bell-o
+- name: Tutorials
+  icon: fa-bell-o
+  submenu:
+  - name: Call for tutorials
+    url: /cf-tutorials.html
+    icon: fa-bell-o
+- name: Supporters
+  url: /supporters.html
+  icon: fa-handshake-o
+- name: Organizing committee
+  url: /org-committee.html
+  icon: fa-users
+
+#- name: Program
+#  url: /program.html
+#  icon: fa-list-ul
+# - name: Workshops and Tutorials
+#   url: /program-workshops-and-tutorials.html
+#   icon: fa-list-ul
+#- name: Conference
+#  icon: fa-bar-chart
+#  submenu:
+#    - name: Registration
+#      url: /registration.html
+#      # highlight: menu-hl
+#    - name: Program
+#      url: /program.html
+#      # icon: fa-list-ul
+#    - name: Posters
+#      url: /program-posters.html
+#    - name: Demos
+#      url: /program-demos.html
+#    - name: Industrial Demos
+#      url: /program-industrial-demos.html
+#    - name: Awards
+#      url: /awards.html
+#    - name: Social Events
+#      url: /social-events.html
+#    - name: Accepted Papers
+#      url: /accepted-papers.html
+#    - name: Program Committee
+#      url: /tpc.md
+      # icon: fa-users
+#    - name: Organizing Committee
+#      url: /org-committee.html
+#      # icon: fa-users
+    # - name: ACM SRC
+    #   url: /acm-src.html
+    # - name: Industrial Demos
+    #   url: /industrial-demos.html
+    # - name: Posters/Demos from Main Track
+    #   url: /posters-and-demos-main-track.html
+    # - name: Topic Preview
+    #   url: /topic-preview.html
+#    - name: Mentoring
+#      url: /mentoring.html
+#    - name: Remote Participation
+#      url: /remote.html
+#- name: Workshops
+#  icon: fa-bullhorn
+#  submenu:
+#    - name: Program
+#      url: /program-workshops-and-tutorials.html
+#      icon: fa-list-ul
+#    - name: "WS1: MECOMM"
+#      url: /workshop-mecomm.html
+#    - name: "WS2: KBNets"
+#      url: /workshop-kbnets.html
+#    - name: "WS3: Big-DAMA"
+#      url: /workshop-big-dama.html
+#    - name: "WS4: Internet QoE"
+#      url: /workshop-internet-qoe.html
+#    - name: "WS5: NetPL"
+#      url: /workshop-netpl.html
+#    - name: "WS6: HotConNet"
+#      url: /workshop-hotconnet.html
+#    - name: "WS7: MobiArch"
+#      url: /workshop-mobiarch.html
+#    - name: "WS8: VR/AR Network"
+#      url: /workshop-vrar-network.html
+#    - name: "WS9: Reproducibility"
+#      url: /workshop-reproducibility.html
+#    - name: N2Women
+#      url: /workshop-n2women.html
+#- name: Tutorials
+#  icon: fa-newspaper-o
+#  submenu:
+#    - name: Program
+#      url: /program-workshops-and-tutorials.html
+#      icon: fa-list-ul
+#    - name: "T1: mmWave"
+#      url: /tutorial-mmWave.html
+#      icon: fa-adjust
+#    - name: "T2: NDN"
+#      url: /tutorial-ndn.html
+#      icon: fa-adjust
+#    - name: "T3: Adaptive Streaming"
+#      url: /tutorial-adaptive-streaming.html
+#      icon: fa-adjust
+#    - name: "T4: P4→NetFPGA"
+#      url: /tutorial-P4-NetFPGA.html
+#      icon: fa-circle
+#    - name: "T5: P4"
+#      url: /tutorial-p4.html
+#      icon: fa-circle
+#    - name: "T6: Understanding Latency"
+#      url: /tutorial-latency.html
+#      icon: fa-adjust
+#    - name: "T7: Netmap for NFV"
+#      url: /tutorial-netmap-nfv.html
+#      icon: fa-circle
+#    - name: "T8: C2C"
+#      url: /tutorial-c2c.html
+#      icon: fa-adjust
+- name: Local information
+  icon:  fa-map-pin
+  submenu:
+    - name: Venue
+      url: /venue.html
+      icon:  fa-building-o
+#    - name: Accommodations
+#      url: /accommodations.html
+    - name: Visa
+      url: /visa.html
+      icon: fa-address-card-o
+#    - name: Tourism
+#      url: /tourism.html
+#    - name: Room Share
+#      url: /room-share.html
+- name: Policies
+  icon: fa-book
+  submenu:
+    - name: Anti-harassment policy
+      url: /policy-anti-harassment.html
+      icon: fa-file-text-o
+
+
+#- name: Calls
+#  icon: fa-bullhorn
+#  submenu:
+##    - name: Call for Travel Grants
+##      url: /cf-travel-grants.html
+#    - name: Call for Papers
+#      url: /cfp.html
+#    - name: Submission Requirements
+#      url: /submission.html
+#    - name: Camera-Ready Instructions
+#      url: /camera-ready.html
+#    - name: Call for Posters & Demos
+#      url: /cf-posters.html
+#    - name: Student Research Competition
+#      url: /src.html
+#    - name: Call for Industrial Demos
+#      url: /cf-industrial-demos.html
+#    - name: Call for Tutorials
+#      url: /cf-tutorials.html
+#    - name: Call for Workshops
+#      url: /cf-workshops.html
+#    - name: Author Registration Policy
+#      url: /policy-author-registration.html
+# - name: Policies
+#   icon: fa-book
+#   submenu:
+#- name: Anti-Harassment Policy
+#  url: /policy-anti-harassment.html
+#  icon: fa-book
+
+colors:
+  highlight: aaaaaa
+  highlight-darker: f9e90c
+  hfont: ffffff
+
+  program:
+    break-background: d1d1d1
+
+# Set to True when ready to show Live Streaming links in the program
+enable_remote: false
+
+assets:
+  cache: .sass-cache
+  features:
+    automatic_img_size: false
+
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/fonts
+    - _assets/js
+    - _assets/bower
+
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"

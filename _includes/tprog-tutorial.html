@@ -1,0 +1,18 @@
+<li class="prog-tutorial prog-item {{ progitemclass }}">
+  <h3>
+    {{ session.time }}
+    {% if session.link and session.link != "" %}
+      <a href="{{ session.link }}">{{ session.title }}</a>
+    {% else %}
+      {{ session.title }}
+    {% endif %}
+  </h3>
+  {% if include.is_break != true %}
+    {% if session.authors and session.authors != "" %}
+      <p>Presenter(s): {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+    {% endif %}
+    {% if session.room and session.room != "" %}
+      <p>Room: {{ session.room }}</p>
+      {% endif %}
+  {% endif %}
+</li>

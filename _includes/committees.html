@@ -1,0 +1,36 @@
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  {% for committee in include.committees %}
+
+    <li data-role="list-divider" style="white-space: normal; padding-right:.5em">{{ committee.role }}
+      {% if committee.mailing_list %}
+
+        <a href="mailto:{{committee.mailing_list}}?subject=[SIGCOMM 2018]">
+          <i class="fa fa-envelope-o" aria-hidden="true" style="float:right"></i>
+        </a>
+
+      {% endif %}
+
+    </li>
+    {% for person in committee.people %}
+      {% if person.status == "tbc" %}
+      <li data-icon="false" style="background-color: #d5d5d5">
+      {% else %}
+      <li data-icon="false">
+      {% endif %}
+        {% if person.homepage %}<a href="{{ person.homepage }}" target="_blank" rel="external">{% endif %}
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <p>
+                {% if person.status == "tbc" %}
+                TBC:
+                {% endif %}
+                {{ person.name }}
+              </p>
+            </div>
+            <div class="ui-block-b"><p>{{ person.affiliation }}</p></div>
+          </div>
+          {% if person.homepage %}</a>{% endif %}
+      </li>  
+    {% endfor %}
+  {% endfor %}
+</ul>

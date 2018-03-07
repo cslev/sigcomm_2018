@@ -1,0 +1,41 @@
+<div data-role="collapsible" data-theme="a" data-content-theme="a" id="{{ event.id }}-c" data-collapsed="false">
+  <h3><font class="event-header">{{ event.name }}</font></h3>
+
+  {% if event.image %}
+    {% if event.image_url %}<a href="{{ event.image_url }}" target="_blank">{% endif %}
+    <img style="float:right; margin:5px; max-height: 250px; max-width: 320px;" src="{{ site.baseurl }}/{{ event.image }}" alt="{{ event.name }}" />
+    {% if event.image_url %}</a>{% endif %}
+  {% endif %}
+
+  <p>{{ event.address }}<br/>
+  {% if event.url %}
+    <a href="{{ event.url }}">Event Website</a>
+  {% endif %}
+  </p>
+
+  <table class="hotel">
+    <tr>
+      <th>Date:</th>
+      <td>{{ event.date }}</td>
+    </tr>
+    <tr>
+      <th>Time:</th>
+      <td><b>{{ event.time }}</b></td>
+    </tr>
+  </table>
+
+  {% if event.note %}
+    {{ event.note }}
+  {% endif %}
+
+  {% if event.map %}
+  <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="{{ event.id }}"></iframe>
+  <script>
+   $("#{{ event.id }}-c").on('collapsibleexpand', function () {
+       $("#{{ event.id }}-c").find("iframe#{{ event.id }}").attr("src","{{ event.map }}");
+   });
+  </script>
+  {% endif %}
+  <div style="clear:both"></div>
+
+</div>

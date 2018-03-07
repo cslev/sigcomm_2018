@@ -1,0 +1,39 @@
+{% if paper.link   and paper.link != ""  %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
+{% if paper.slides and paper.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
+{% if paper.video  and paper.video != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
+  
+{% comment %}<!-- make space for the button(s) -->{% endcomment %}
+{% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
+   if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
+   if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
+
+<li data-icon="false" class="prog-item {{ progitemclass }}">
+  <div {{ item_style }}>
+    <p class="paper-header">
+      {% if has_link %}
+        <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">{{ paper.title }}</a>
+      {% else %}
+        {{ paper.title }}
+      {% endif %}  
+    </p>
+    <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+    <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+  </div>
+  <div class="ui-li-aside-item">
+      {% if has_link %}
+        <div class="button-paper">      
+          <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">Paper</a>
+        </div>
+      {% endif %}
+      {% if has_slides %}
+        <div class="button-paper">      
+          <a href="{{ paper.slides }}" rel="external" target="_blank" class="ui-link">Slides</a>
+        </div>
+      {% endif %}
+      {% if has_video %}
+        <div class="button-paper">      
+          <a href="{{ paper.video }}" rel="external" target="_blank" class="ui-link">Video</a>
+        </div>
+      {% endif %}
+  </div>
+</li>

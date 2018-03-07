@@ -1,0 +1,28 @@
+{% assign abstract_label = 'Citation' %}
+
+{% for award in include.awards %}
+  <ul class="program" data-role="listview" data-inset="true" data-theme="d" data-content-theme="a" class="tbl">
+    <li data-role="list-divider">
+      {% if award.link %}<a href="{{ award.link }}" target="_blank" style="color:#F9E90C">{% endif %}
+        {{ award.type }}
+      {% if award.link %}</a>{% endif %}
+    </li>
+    {% for person in award.people %}
+      <li data-icon="false">
+        {% if person.homepage %}<a href="{{ person.homepage }}" target="_blank" rel="external">{% endif %}
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p><b>{{ person.name }}</b></p></div>
+            <div class="ui-block-b"><p>{{ person.affiliation }}</p></div>
+            <br/>
+            <hr class="keynote-divider" />
+            <p><b>{{ abstract_label }}: </b>{{ person.info }}</p>
+          </div>
+          {% if person.homepage %}</a>{% endif %}
+      </li>  
+    {% endfor %}
+    {% for paper in award.papers %}
+      {% include tprog-paper.html %}
+    {% endfor %}
+  </ul>
+{% endfor %}
+

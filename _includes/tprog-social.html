@@ -1,0 +1,8 @@
+<li class="prog-social prog-item {{ progitemclass }} {% if foreach.last %}listlast{% endif %}" data-role="list-divider">
+  <h3>{{ item.time }} {{ item.title }}</h3>
+</li>
+{% comment %}
+// a list divider is not visible if not followed by an ordinary item,
+  // when data-filter is true. workaround: included an invisible li
+{% endcomment %}
+<li class="hidden">&nbsp;</li>
