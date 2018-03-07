@@ -14,3 +14,4 @@ You are welcome to reuse and adapt the 2017 code under the same Creative Commons
 
 The 2017 web chair was [Alex Afanasyev](http://users.cs.fiu.edu/~afanasyev/)
 
+
