@@ -1,0 +1,385 @@
+#---
+#- type: day
+#  time: Monday, August 21, 2017
+#  room: Exploration Room (Luskin)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:00am - 9:20am
+#  room: Exploration Room (Luskin)
+#  title: Opening Remarks
+#  authors: Nikolaj Bjørner, Marco Canini, Nik Sultana
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:20am - 10:10am
+#  room: Exploration Room (Luskin)
+#  title: Session 1
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: talk
+#  time: ''
+#  room: ''
+#  title: Programmable Forwarding Planes are Here to Stay
+#  authors: Nick McKeown
+#  abstract: Many great research ideas and new languages are emerging for programmable
+#    forwarding. In this talk, I'll take a step back and consider how we got here,
+#    why programmable forwarding planes are inevitable, why now is the right time,
+#    why they are a final frontier for SDN, and why they are here to stay.
+#  bio: |-
+#    Nick McKeown (PhD/MS UC Berkeley ’95/’92; B.E Univ. of Leeds, ’86) is the Kleiner Perkins, Mayfield and Sequoia Professor of Electrical Engineering and Computer Science at Stanford University, and Faculty Director of the Open Networking Research Center. From 1986-1989 he worked for Hewlett-Packard Labs in Bristol, England. In 1995, he helped architect Cisco's GSR 12000 router. Nick was co-founder and CTO at Abrizio (acquired by PMC-Sierra, 1998), co-founder and CEO of Nemo (“Network Memory”),acquired by Cisco, 2005. In 2007 he co-founded Nicira (acquired by VMware) with Martin Casado and Scott Shenker. Nick is chairman of Barefoot Networks which he co-founded with Pat Bosshart and Martin Izzard in 2013. In 2011, he co-founded the Open Networking Foundation (ONF) with Scott Shenker; and the Open Networking Lab (ON.Lab) with Guru Parulkar and Scott Shenker.
+#    Nick is a member of the US National Academy of Engineering (NAE), the American Academy of Arts and Sciences, a Fellow of the Royal Academy of Engineering (UK), the IEEE and the ACM. He received the British Computer Society Lovelace Medal (2005), the IEEE Kobayashi Computer and Communications Award (2009), the ACM Sigcomm Lifetime Achievement Award (2012), the IEEE Rice communications theory award (1999). Nick has an Honorary Doctorate from ETH (Zurich, 2014). Nick's current research interests include software defined networks (SDN), network verification, video streaming, how to enable more rapid improvements to the Internet infrastructure, and tools and platforms for networking research and teaching.
+#  photo: images/speakers/Nick-McKeown.jpg
+#  link: ''
+#  slides: files/program-netpl/01-mckeown.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: Exploration Room (Luskin)
+#  title: Session 2
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: talk
+#  time: ''
+#  room: ''
+#  title: 'For Good Measure: Programmable Measurement Using Emerging Switches'
+#  authors: Jennifer Rexford
+#  abstract: Large networks rely on timely and accurate measurements to detect unwanted
+#    traffic, diagnose performance problems, and optimize the use of resources. Emerging
+#    programmable forwarding planes are a "game changer" for answering sophisticated
+#    measurement questions directly inside the network, rather than shipping reams
+#    of data to a remote collector for subsequent analysis. Capitalizing on these new
+#    switch capabilities requires innovation in rich, high-level query abstractions
+#    as well as runtime systems that can generate efficient data structures for streaming
+#    analytics at line rate.
+#  bio: Jennifer Rexford (PhD/MSE UMichigan '96/'93, BSE Princeton '91) is the Gordon
+#    Y.S. Wu Professor of Engineering and the Chair of Computer Science at Princeton
+#    University. Before joining Princeton in 2005, she worked for eight years at AT&T
+#    Labs–Research. Jennifer is co-author of the book "Web Protocols and Practice"
+#    (Addison-Wesley, May 2001). She served as the chair of ACM SIGCOMM from 2003 to
+#    2007, and a member of the Open Networking Foundation board of directors from 2014
+#    to 2017. Jennifer received ACM's Grace Murray Hopper Award (2004) and Athena Lecturer
+#    Award (2016). She is an ACM Fellow (2008), and a member of the American Academy
+#    of Arts and Sciences (2013) and the National Academy of Engineering (2014).
+#  photo: images/speakers/Jennifer-Rexford.jpg
+#  link: ''
+#  slides: files/program-netpl/02-rexford.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: talk
+#  time: ''
+#  room: ''
+#  title: 'Programming Network Policies by Examples: Platform, Abstraction, and User
+#    Studies'
+#  authors: Boon Thau Loo
+#  abstract: NetEgg is a scenario-based programming toolkit that allows network operators
+#    to program network policies by describing representative example behaviors. Given
+#    these scenarios, a synthesis algorithm automatically infers the controller state
+#    that needs to be maintained along with the rules to process network events and
+#    update state. NetEgg executes the generated policy implementation on top of a
+#    centralized controller, and automatically infers flow-table rules that can be
+#    pushed to switches to improve throughput. This talk will present the design and
+#    implementation of the NetEgg toolkit, empirical results on multiple example policies,
+#    and experiences on running controlled user studies. The talk concludes with a
+#    discussion on the importance of controlled user studies in evaluating new programming
+#    languages in the networking domain and the lessons we learnt in the process.
+#  bio: Boon Thau Loo is an Associate Professor in the Computer and Information Science
+#    (CIS) department at the University of Pennsylvania. He holds a secondary appointment
+#    in the Electrical and Systems Engineering (ESE) department. He is also the CIS
+#    Masters Chair, overseeing all masters programs within the CIS department, and
+#    Director of the Master of Science in Engineering in CIS program. He received his
+#    Ph.D. degree in Computer Science from the University of California at Berkeley
+#    in 2006. Prior to his Ph.D, he received his M.S. degree from Stanford University
+#    in 2000, and his B.S. degree with highest honors from UC Berkeley in 1999. His
+#    research focuses on distributed data management systems, Internet-scale query
+#    processing, and the application of data-centric techniques and formal methods
+#    to the design, analysis and implementation of networked systems. He was awarded
+#    the 2006 David J. Sakrison Memorial Prize for the most outstanding dissertation
+#    research in the Department of EECS at UC Berkeley, and the 2007 ACM SIGMOD Dissertation
+#    Award. He is a recipient of the NSF CAREER award (2009) and the Air Force Office
+#    of Scientific Research (AFOSR) Young Investigator Award (2012). He has published
+#    100+ peer reviewed publications and has supervised twelve Ph.D dissertations.
+#    His graduated Ph.D. students include 3 tenure-track faculty members and winners
+#    of 3 dissertation awards. He is also co-founder and Chief Scientist at Termaxia,
+#    a big data storage startup.
+#  photo: images/speakers/Boon-Thau-Loo.jpg
+#  link: ''
+#  slides: files/program-netpl/03-loo.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: talk
+#  time: ''
+#  room: ''
+#  title: Abstractions for Safety of Stateful Networks
+#  authors: Mooly Sagiv
+#  abstract: "<p>Modern networks store states at individual nodes. This allows the
+#    forwarding behavior to change over time, which is useful to implement many kinds
+#    of functionalities for performance and security. However, this makes the task
+#    of network programming hard and error-prone. I will describe several abstractions
+#    that simplify the task of proving the safety of stateful networks. The abstraction
+#    include modelling state changes as a finite-state machine, ignoring the order
+#    of packet receival, and assuming that nodes can non-deterministically reset to
+#    their initial states. I will show that these abstractions reduce the asymptotic
+#    complexity of network verification.</p> \n<p>This is a joint work with Kalev Alpernas
+#    (TAU), Aurojt Panda (UCB), Roman Manevich (BGU), Scott Shenker (UCB), Sharon Shoham
+#    (TAU), Yaron Velner (HUJI)</p>"
+#  bio: Mooly serves as Member of the Advisory Board at Panaya Inc. He is a Senior
+#    Member of staff in the Computer Sciences Department School of Mathematical Sciences
+#    Tel-Aviv University. A leading scientist in large scale (inter-procedural) program
+#    analysis, his fields of interests include Programming Languages, Compilers, Abstract
+#    interpretation, Profiling, Pointer Analysis, Shape Analysis, Inter-procedural
+#    dataflow analysis, Program Slicing, Language-based programming environments.
+#  photo: images/speakers/Mooly-Sagiv.jpg
+#  link: ''
+#  slides: files/program-netpl/04-sagiv.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 2:00pm
+#  room: Centennial Terrace
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: Exploration Room (Luskin)
+#  title: Session 3
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Verifying networks with symbolic execution and temporal logic
+#  authors: Matei Popovici, Radu Stoenescu, Lorina Negreanu, Costin Raiciu (University
+#    Politehnica of Bucharest)
+#  abstract: We introduce NetCTL, a language designed for expressing and verifying
+#    network operator policies. NetCTL can be deployed on arbitrary network infrastructures.
+#    It relies on performing symbolic execution on a model of the network at hand in
+#    order to prove policy compliance or violation. We have implemented NetCTL verification
+#    as an extension to the Symnet symbolic execution engine.
+#  bio: ''
+#  photo: ''
+#  link: files/program-netpl/sigcomm17netpl-paper1.pdf
+#  slides: files/program-netpl/05-popovici.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Towards An Auditing Language for Preventing Cascading Failures
+#  authors: Ennan Zhai, Ruzica Piskac (Yale University)
+#  abstract: In this paper, we present the basic ideas behind a framework RepAudit
+#    for preventing cascading failures. RepAudit helps administrators to identify potential
+#    root causes resulting in cascading failures at an early stage, i.e., before service
+#    outages occur. To the best of our knowledge, RepAudit is the first effort capable
+#    of simultaneously achieving expressive, efficient, and accurate structural reliability
+#    auditing to cloud systems.
+#  bio: ''
+#  photo: ''
+#  link: files/program-netpl/sigcomm17netpl-paper2.pdf
+#  slides: files/program-netpl/06-zhai.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Network Protocol Programming in Haskell
+#  authors: Kazuhiko Yamamoto (Internet Initiative Japan Inc.)
+#  abstract: Over seven years, we have developed several network protocol libraries
+#    including anti-spam, DNS, HTTP/1.1, HTTP/2 and TLS 1.3 in Haskell. Based on these
+#    experiences, we regard Haskell as a safe and highly-concurrent network programming
+#    language thanks to its strong type system and lightweight threads (i.e. green
+#    threads). This paper describes advantages and disadvantages of Haskell and reports
+#    our experiences.
+#  bio: ''
+#  photo: ''
+#  link: files/program-netpl/sigcomm17netpl-paper3.pdf
+#  slides: files/program-netpl/07-yamamoto.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Dynamic Compilation and Optimization of Packet Processing Programs
+#  authors: Gábor Rétvári (Budapest University of Technology and Economics); László
+#    Molnár, Gábor Enyedi, Gergely Pongrácz (TrafficLab, Ericsson Research)
+#  abstract: Data plane compilation is a transformation from a high-level description
+#    of the intended packet processing functionality to the underlying data plane architecture.
+#    Compilation in this setting is usually done statically, i.e., the input of the
+#    compiler is a fixed description of the forwarding plane semantics and the output
+#    is code that can accommodate any packet processing behavior set by the controller
+#    at runtime. Below we advocate a dynamic approach to data plane compilation instead,
+#    where not just the semantics but the intended behavior is also also input to the
+#    compiler. We point out a handful of runtime optimization opportunities that can
+#    be leveraged to improve the performance of custom-compiled datapaths beyond what
+#    is possible in a static setting.
+#  bio: ''
+#  photo: ''
+#  link: files/program-netpl/sigcomm17netpl-paper4.pdf
+#  slides: files/program-netpl/08-retvari.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Toward building memory-safe network functions with modest performance overhead
+#  authors: Keunhong Lee, Shinae Woo (KAIST); Sanghyeon Seo (Hyperconnect, Inc.); Jihyeok
+#    Park, Sukyoung Ryu, Sue Moon (KAIST)
+#  abstract: For the past few decades network functions have evolved much in variety
+#    and complexity. Network functions rely heavily on low-level memory management
+#    to deliver high performance but such memory management is error-prone. Rust, a
+#    recently developed language for safe system programming, aims to support memory-safety
+#    with modest performance overhead. In this work we build network functions in Rust,
+#    with type-safe guarantees and modest performance overhead.
+#  bio: ''
+#  photo: ''
+#  link: files/program-netpl/sigcomm17netpl-paper5.pdf
+#  slides: files/program-netpl/09-lee.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Mapping Programmable Network Packet Pipelines to HMC-Enabled FPGAs
+#  authors: Jehandad Khan, Peter Athanas (Virgina Tech)
+#  abstract: A higher tier of network packet processing performance can be achieved
+#    by augmenting the agility FPGAs offer with the sheer streaming throughput of a
+#    Hybrid Memory Cube (HMC). The notion of a programmable data plane specified in
+#    a domain-specific language enables the creation of custom protocol and packet
+#    operations. This paper presents an effort to map one such domain specific language,
+#    namely P4 (Protocol Independent Packet Processing) to an HMC-enabled FPGA platform
+#    by using HLS as the intermediate representation. The use of HLS affords productivity
+#    advantages as well as enabling a close correlation between the P4 code and the
+#    corresponding hardware units required to achieve the functionality. The resulting
+#    code leverages the parallel nature of the HMC to yield a packet pipeline capable
+#    of delivering 30 million packets per second (Mpps) using only a single HMC channel,
+#    which translates to 30 Gbps of data throughput for a Layer-3 router with an average
+#    of 128-byte long packets. Demonstrated here, by using 10 HMC user channels, the
+#    system is capable of achieving 300 Mpps (or 300 Gbps) of throughput. Comparisons
+#    with other P4 to FPGA endeavors, as well as with CPUs and GPUs, indicate that
+#    the proposed system achieves equal or higher performance and lower power while
+#    enabling much higher table scale and overall system simplicity.
+#  bio: ''
+#  photo: ''
+#  link: files/program-netpl/sigcomm17netpl-paper6.pdf
+#  slides: files/program-netpl/10-khan.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Posters Session + Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 3:30pm - 4:30pm
+#  room: Exploration Room (Luskin)
+#  title: Posters Session
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:30pm - 5:00pm
+#  room: Exploration Room (Luskin)
+#  title: Session 4
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: talk
+#  time: ''
+#  room: ''
+#  title: Network Verification in the Real World
+#  authors: Wenxuan Zhou (Veriflow / UIUC)
+#  abstract: |-
+#    <p>Enterprise networks have become complex software artifacts weaving together interdependent devices, protocols, virtualization layers, optimizations, software bugs, and security controls. Yet communication is now critical infrastructure. How can we be sure networks are doing the right thing? The fact is, too often, they aren't. Despite enormous amounts of manual effort, outages and security vulnerabilities are common.</p>
+#    <p>Can we prove that a network is correct? This is the goal of the emerging area of network verification, which applies ideas of formal methods to network infrastructure. From its recent genesis in the research community, network verification blossomed into a hot area of research and quickly had impact on industry, with startups and hyperscale cloud providers deploying verification technology today. In this talk, we'll briefly review key research advances that influenced industrial verification software. Then, based on experience with production deployments, we will discuss what principles of verification persevered, what surprises we encountered, and how verification is solving problems in the real world. Finally, we will discuss challenging future research directions.</p>
+#  bio: Wenxuan Zhou is a software engineer at Veriflow and a Ph.D. student in Computer
+#    Science at the University of Illinois at Urbana-Champaign (UIUC), advised by Prof.
+#    Matthew Caesar. Her research focuses on network verification and synthesis, with
+#    an emphasis on software-defined networks, data centers, and enterprise networks.
+#    She received her Bachelor’s degree in Electronic Engineering from Beijing University
+#    of Aeronautics and Astronautics, China, and her Master’s degree in Computer Science
+#    from UIUC. She co-authored research that led to network verification startup Veriflow,
+#    where she serves as one of the original engineers on the core verification team.
+#  photo: images/speakers/Wenxuan-Zhou.jpg
+#  link: ''
+#  slides: files/program-netpl/11-zhou.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 5:00pm - 5:15pm
+#  room: Exploration Room (Luskin)
+#  title: Closing
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

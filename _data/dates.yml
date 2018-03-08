@@ -1,0 +1,197 @@
+# Special considerations for the index page:
+# - track's title will be automatically added as a prefix
+# - the specified title will be downcased
+# - info: Workshop proposals due
+# - index page will show date only if important==true
+
+# All listed dates will appear in the specified order
+
+main-program:
+  track: main
+  info: Main conference
+  date: August 21-23, 2018
+  important: true
+
+main-workshops:
+  track: workshops
+  info: Workshops
+  date: August 20 and 24, 2018
+  important: true
+
+main-tutorials:
+  track: tutorials
+  info: Tutorials
+  date: August 20 and 24, 2018
+  important: true
+
+
+# order: reg, submission, notification
+#main-notification:
+#  track: main
+#  info: Author notification for the main conference
+#  date: TBA
+#  important: true
+#
+#main-submission:
+#  info: Paper submission to the main conference
+#  date: TBA
+#  important: true
+
+#main-registration:
+#  track: main
+#  info: Paper registration for the main conference
+#  date: TBA
+#  important: true
+
+posters-submission:
+  track: posters_demos
+  info: Poster and demo submission deadline
+  date: May 21, 2018
+  important: true
+
+
+main-notification:
+  track: main
+  info: Reviews returned to authors of the main conference
+  date: May 11, 2018
+  important: true
+
+
+workshop-submission:
+  track: workshops
+  info: Workshop paper submission
+  date: March 25, 2018
+  important: true
+
+tutorials-notification:
+  track: tutorials
+  info: Notification of tutorial acceptance
+  date: March 20, 2018
+  important: true
+
+workshop-abstract:
+  track: workshops
+  info: Workshop abstract registration
+  date: March 18, 2018
+  important: true
+
+
+tutorials-proposals:
+  track: tutorials
+  info: <span style="color:red;font-weight:700;">Extended </span> deadline for tutorial submissions
+  date: March 12, 2018
+  important: true
+
+main-submission:
+  track: main
+  info: Paper submission deadline of the main conference
+  date: <del>January 31, 2018</del>
+  important: true
+
+
+main-registration:
+  track: main
+  info: Abstract submission deadline of the main conference
+  date: <del>January 24, 2018</del>
+  important: true
+
+
+
+
+
+
+# main-due:
+#   track: main
+#   info: Final papers due
+#   date: Late June, 2017
+#
+
+#workshops-notification:
+#  track: workshops
+#  info: Workshop and tutorials
+#  date: December 22, 2017
+#  important: true
+
+
+
+
+workshops-notification:
+  track: workshops
+  info: Announcement of workshops CFPs
+  date: <del>December 22, 2017</del>
+  important: true
+
+workshops-papers-due:
+  track: workshops
+  info: Announcement of selected workshops
+  date: <del>December 4, 2017</del>
+
+
+workshops-proposals:
+  track: workshops
+  info: Submission of workshop proposals
+  date: <del>November 23, 2017</del>
+  important: true
+
+#workshops-notification:
+#  track: workshops
+#  info: Announcement of workshops selected
+#  date: TBA
+#workshops-papers-due:
+#  track: workshops
+#  info: Workshop Call for Papers due
+#  date: TBA
+#
+
+
+
+posters-notification:
+  track: posters_demos
+  info: Acceptance notification
+  date: June 19, 2018
+
+
+posters-due:
+  track: posters_demos
+  info: Camera ready deadline
+  date: June 26, 2017
+
+
+
+### Workshop planning dates
+workshops-planning-submission:
+  track: workshops-planning
+  date:  Before March 25, 2018
+  info:  Paper submissions deadline
+workshops-planning-notification:
+  track: workshops-planning
+  date:  Before end of April, 2018
+  info:  Paper acceptance notification
+workshops-planning-due:
+  track: workshops-planning
+  date:  Before end of May, 2018
+  info:  Camera ready due
+workshops-planning-program:
+  track: workshops-planning
+  date:  Before mid-June, 2018
+  info:  Program available online
+workshops-planning-org:
+  track: workshops-planning
+  date:  Before mid-June, 2018
+  info:  List of organization details
+
+
+
+# important: true
+
+#
+#
+### Industrial demos
+#industrial-demos-submission:
+#  track: industrial-demos
+#  date:  TBA
+#  info:  Submission Deadline
+#industrial-demos-notification:
+#  track: industrial-demos
+#  date:  TBA
+#  info:  Acceptance Notification

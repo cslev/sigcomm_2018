@@ -1,0 +1,128 @@
+#---
+#- type: day
+#  time: Tuesday-Thursday, August 22-24, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:45am - 6:00pm (Tuesday)
+#  room: Illumination Room
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:30am - 5:30pm (Wednesday)
+#  room: Illumination Room
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:00am - 5:35pm (Thursday)
+#  room: Illumination Room
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'NetO: Alibaba’s WAN Orchestrator'
+#  authors: Xin Wu (Alibaba), Chao Huang (Alibaba), Ming Tang (Alibaba), Yihong Sang
+#    (Alibaba), Wei Zhou (Alibaba), Tao Wang (Alibaba), Yuan He (Alibaba), Dennis Cai
+#    (Alibaba), Haiyong Wang (Alibaba), Ming Zhang (Alibaba)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: files/program-industrial-demos/sigcomm17industrialdemos-paper1.pdf
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Timestamp-Aware RTP Video Switching Using Programmable Data Plane
+#  authors: Thomas G. Edwards (FOX), Nick Ciarleglio (Arista Networks)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: files/program-industrial-demos/sigcomm17industrialdemos-paper2.pdf
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Exablaze: High Precision Timing and Capture'
+#  authors: Matthew Grosvenor (Exablaze)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: files/program-industrial-demos/sigcomm17industrialdemos-paper3.pdf
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Leveraging Multipath TCP to create Hybrid Access Networks
+#  authors: Gregory Detal (Tessares), Sebastien Barr (Tessares), Bart Peirens (Tessares),
+#    Olivier Bonaventure (Tessares)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: files/program-industrial-demos/sigcomm17industrialdemos-paper4.pdf
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: IPv6 Segment Routing
+#  authors: Clarence Filsfils (Cisco Systems), Francois Clad (Cisco Systems), Pablo
+#    Camarillo (Cisco Systems), Jose Liste (Cisco Systems), Prem Jonnalagadda (Barefoot
+#    Networks), Milad Sharif (Barefoot Networks), Stefano Salsano (Universita di Roma
+#    Tor Vergata), Ahmed AbdelSalam (Gran Sasso Science Institute)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: files/program-industrial-demos/sigcomm17industrialdemos-paper5.pdf
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Application Driven Network: Quality of experience guarantee with self learning'
+#  authors: Bo Jin (Huawei), Changtai Li (Huawei), Weichao Li (Huawei), Gong Zhang
+#    (Huawei)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: files/program-industrial-demos/sigcomm17industrialdemos-paper6.pdf
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

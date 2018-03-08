@@ -1,0 +1,306 @@
+#---
+#- type: day
+#  time: Friday, August 25, 2017
+#  room: Laureate Room (Luskin Center)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:15am - 9:30am
+#  room: Laureate Room (Luskin Center)
+#  title: Opening Remarks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:30am - 10:30am
+#  room: ''
+#  title: Keynote
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: Azure vNet for Containers
+#  authors: Deepak Bansal (Partner Dev Manager in Microsoft Azure)
+#  abstract: 'SDN/network virtualization technologies have been a great enabler and
+#    are widely used for the VM based workloads in public and private clouds. With
+#    the growing popularity of containers, these technologies are being extended to
+#    containers. In this talk, I am going to talk about the challenges that must be
+#    addressed to extend SDN technologies to containers. In addition to the much larger
+#    scale and much stringent rate of provisioning requirements imposed by container
+#    workloads, container SDN must co-exist seamlessly with VM SDN as customers will
+#    have both container based and VM based deployments. This means seamless policy
+#    language across the container and VM SDN and virtual networks that span across
+#    both. I will then describe Azure Virtual Network (VNet) that provides SDN for
+#    VMs and is being extended seamlessly to support containers. It provides powerful
+#    capabilities such as network isolation, load balancer, internet connectivity,
+#    private access to resources and services in Azure, peering networks, on-premise
+#    connectivity, traffic filtering, user defined routes, network security policies.
+#    <a href="https://github.com/Azure/azure-container-networking" target="_blank">azure-container-networking
+#    project</a> extends the richness of Azure VNet to container workloads managed
+#    by leading orchestrators: Docker, Kubernetes, Mesos DC/OS and Service Fabric.
+#    It has a rich API surface and modular architecture to create/manage/connect networks
+#    and provision SDN policies. It adopts prevalent network provisioning models (CNM,
+#    CNI) to integrate Azure VNet seamlessly with container orchestrators that conform
+#    to these standards. Azure container networking provides unified experience and
+#    capabilities across Windows and Linux platforms. It also brings the capability
+#    of Azure VNet to standalone clusters deployed outside public Azure cloud which
+#    provides a unified devops experience and makes transition to public cloud effortless.
+#    <a href="https://github.com/Azure/azure-container-networking" target="_blank">azure-container-networking</a>
+#    is open source project on github that enables dev community to participate in
+#    its evolution and help build a rich eco system for container networking with Azure
+#    VNet.'
+#  bio: |-
+#    Deepak Bansal founded and leads the SDN team in Microsoft Azure. He is an earlu member of the Azure team having been in Azure for 9 years. He has developed, deployed and operated one of the world’s largest, most reliable and most scalable SDN implementations in the world. Azure SDN enables customers to deploy their workloads in Azure on a private network (“called Azure Vnets”) and leverage NFVs such as load balancing provided via “Azure LBs”. Azure Vnets offer rich security features such as subnet based ACLs via “Network Security Groups” and service chaining with a rich marketplace of NFV appliances via “User Defined Routes”. Customers can connect the cloud resources to on-premise via various private connectivity options offered through “ExpressRoute”. Azure Vnets can be peered.<br/>
+#    Prior to Windows Azure, Deepak led the development of the TCP/IP network stack in Windows, including IPv6 support. Deepak has a Masters in Computer Science from MIT, Cambridge where he won Masterworks awards for his thesis on new TCP congestion control algorithms. He has Bachelors from IIT Delhi, India where he topped the Computer Science department. Deepak’s areas of interest are Cloud, SDN, core networking protocols such as TCP/IP, IPsec, and HTTP, load balancing, new network abstractions, wireless networks, network security, and QoS.
+#  photo: images/speakers/Deepak-Bansal.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: Laureate Room (Luskin Center)
+#  title: 'Session 1: Container infrastructures'
+#  authors: Xin Jin (Johns Hopkins University)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Performance of Container Networking Technologies
+#  authors: Yang Zhao, Nai Xia, Chen Tian, Bo Li, and Yizhou Tang (Nanjing University),
+#    Yi Wang and Gong Zhang (Huawei), Rui Li (Dongguan University of Technology), and
+#    Alex X. Liu (Michigan State University)
+#  abstract: "<p>Container networking is now an important part of cloud virtualization
+#    architectures. It provides network access for containers by connecting both virtual
+#    and physical network interfaces. The performance of container networking has multiple
+#    dependencies, and each factor may significantly affect the performance. In this
+#    paper, we perform systematic experiments to study the performance of container
+#    networking. We qualify influencing factors and explain the cause of overhead.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33929"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: The Grand CRU Challenge
+#  authors: Marcel Blöcher and Malte Viering (TU Darmstadt, Germany), Stefan Schmid
+#    (Aalborg University, Denmark and TU Berlin, Germany), and Patrick Eugster (TU
+#    Darmstadt, Germany and Purdue University, USA)
+#  abstract: "<p>One of the main objectives of any cluster management system is the
+#    maximization of cluster resource utilization (CRU). In this paper, we argue that
+#    there is a dilemma underlying the challenge of maximizing CRU, as soon as network
+#    resources enter the picture. In contrast to local resources which can be handled
+#    in a more isolated fashion, global network resources are namely shared, and their
+#    allocation is intertwined with that of local resources. For effective resource
+#    management, either applications thus have to learn more about the infrastructure,
+#    or the resource manager has to understand application semantics – both options
+#    violate the separation of applications from the underlying infrastructure strived
+#    for by resource managers. This paper makes the case for a resource management
+#    system that addresses the dilemma, and presents first ideas.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33920"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Contain-ed: An NFV Micro-Service System for Containing e2e Latency'
+#  authors: Amit Sheoran (Purdue University), Puneet Sharma (Hewlett Packard Labs),
+#    Sonia Fahmy (Purdue University), and Vinay Saxena (Hewlett Packard Enterprise)
+#  abstract: |
+#    <p>Network Functions Virtualization (NFV) has enabled operators to dynamically place and allocate resources for network services to match workload requirements. However, unbounded end-to-end (e2e) latency of Service Function Chains (SFCs) resulting from distributed Virtualized Network Function (VNF) deployments can severely degrade performance. In particular, SFC instantiations with inter-data center links can incur high e2e latencies and Service Level Agreement (SLA) violations. These latencies can trigger timeouts and protocol errors with latency-sensitive operations.</p>
+#    <p>Traditional solutions to reduce e2e latency involve physical deployment of service elements in close proximity. These solutions are, however, no longer viable in the NFV era. In this paper, we present our solution that bounds the e2e latency in SFCs and inter-VNF control message exchanges by creating micro-service aggregates based on the affinity between VNFs. Our system, Contain-ed, dynamically creates and manages affinity aggregates using light-weight virtualization technologies like containers, allowing them to be placed in close proximity and hence bounding the e2e latency. We have applied Contain-ed to the Clearwater IP Multimedia System and built a proof-of-concept. Our results demonstrate that, by utilizing application and protocol specific knowledge, affinity aggregates can effectively bound SFC delays and significantly reduce protocol errors and service disruptions.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33921"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Reproducible Distributed Clusters with Mutable Containers: To Minimize Cost
+#    and Provisioning Time'
+#  authors: Hooman Peiro Sajjad, Kamal Hakimzadeh, and Shelan Perera (KTH - Royal Institute
+#    of Technology)
+#  abstract: |
+#    <p>Reproducible and repeatable provisioning of large-scale distributed systems is laborious. The cost of virtual infrastructure and the provisioning complexity are two of the main concerns. The trade-offs between virtual machines (VMs) and containers, the most popular virtualization technologies, further complicate the problem. Although containers incur little overhead compared to VMs, VMs are required for their certain guarantees such as hardware isolation.</p>
+#    <p>In this paper, we present a mutable container provisioning solution, enabling users to switch infrastructure between VMs and containers seamlessly. Our solution allows for significant infrastructure-cost optimizations.We discuss that immutable containers come short for certain provisioning scenarios. However, mutable containers can incur a large time overhead. To reduce the time overhead, we propose multiple provisioning-time optimizations.We implement our solution in Karamel, an open-sourced reproducible provisioning system. Based on our evaluation results, we discuss the cost-optimization opportunities and the time-optimization challenges of our new model.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33922"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 2:00pm
+#  room: Centennial Terrace
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: Laureate Room (Luskin Center)
+#  title: 'Session 2: Containerized Systems'
+#  authors: Yibo Zhu (Microsoft Research)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Container-based Emulation of Network Control Plane
+#  authors: Hui Kang and Shu Tao (IBM Research)
+#  abstract: "<p>An ongoing challenge in network system development is in evaluating
+#    the design and implementation of its control plane, without actually deploying
+#    it at production scale. Existing approaches based on simulation or emulation have
+#    various limitations. The emergence of containers offers a new way of emulating
+#    network control plane. In this paper, we design a container-based emulation framework,
+#    and introduce its implementation with two concrete use cases: a centralized SDN
+#    control plane design in Open Virtual Network (OVN) and a decentralized design
+#    in Docker’s *libnetwork*. Through sample scalability studies on these two designs,
+#    we demonstrate the effectiveness of the proposed approach.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33923"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Characterizing Docker Overhead in Mobile Edge Computing Scenarios
+#  authors: Giuseppe Avino, Marco Malinverno, Francesco Malandrino, Claudio Casetti,
+#    and Carla-Fabiana Chiasserini (Politecnico di Torino)
+#  abstract: "<p>Mobile Edge Computing (MEC) is an emerging network paradigm that provides
+#    cloud and IT services at the point of access of the network. Such proximity to
+#    the end user translates into ultra-low latency and high bandwidth, while, at the
+#    same time, it alleviates traffic congestion in the network core. Due to the need
+#    to run servers on edge nodes (e.g., a an LTE-A macro eNodeB), a key element of
+#    MEC architectures is to ensure server portability and low overhead. A possible
+#    tool that can be used for this purpose is Docker, a framework that allows easy,
+#    fast deployment of Linux containers. This paper addresses the suitability of Docker
+#    in MEC scenarios by quantifying the CPU consumed by Docker when running two different
+#    containerized services: multiplayer gaming and video streaming. Our tests, run
+#    with varying numbers of clients and servers, yield different results for the two
+#    case studies: for the gaming service, the overhead logged by Docker increases
+#    only with the number of servers; conversely, for the video streaming case, the
+#    overhead is not affected by the number of either clients or servers.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33924"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'FADES: Fine-Grained Edge Offloading with Unikernels'
+#  authors: Vittorio Cozzolino, Aaron Yi Ding, and Jörg Ott (Technical University of
+#    Munich)
+#  abstract: "<p>FADES is an edge offloading architecture that empowers us to run compact,
+#    single purpose tasks at the edge of the network to support a variety of IoT and
+#    cloud services. The design principle behind FADES is to efficiently exploit the
+#    resources of constrained edge devices through fine-grained computation offloading.
+#    FADES takes advantage of MirageOS unikernels to isolate and embed application
+#    logic in concise Xen-bootable images. We have implemented FADES and evaluated
+#    the system performance under various hardware and network conditions. Our results
+#    show that FADES can effectively strike a balance between running complex applications
+#    in the cloud and simple operations at the edge. As a solid step to enable fine-grained
+#    edge offloading, our experiments also reveal the limitation of existing IoT hardware
+#    and virtualization platforms, which shed light on future research to bring unikernel
+#    into IoT domain.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33935"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: A Framework based on SDN and Containers for Dynamic Service Chains on IoT
+#    Gateways
+#  authors: Roberto Morabito and Nicklas Beijar (Ericsson Research)
+#  abstract: "<p>In this paper, we describe a new approach for managing service function
+#    chains in scenarios where data from Internet of Things (IoT) devices are partially
+#    processed at the network edge. Our framework is enabled by two emerging technologies,
+#    Software-Defined Networking (SDN) and container based virtualization, which ensure
+#    several benefits in terms of flexibility, easy programmability, and versatility.
+#    These features are well suitable with the increasingly stringent requirements
+#    of IoT applications, and allow a dynamic and automated network service chaining.
+#    An extensive performance evaluation, which has been carried out by means of a
+#    testbed, seeks to understand how our proposed framework performs in terms of computational
+#    overhead, network bandwidth, and energy consumption. By accounting for the constraints
+#    of typical IoT gateways, our evaluation tries to shed light on the actual deployability
+#    of the framework on low-power nodes.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33936"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

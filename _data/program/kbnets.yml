@@ -1,0 +1,332 @@
+#---
+#- type: day
+#  time: Monday, August 21, 2017
+#  room: Laureate Room (Luskin Center)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:00am - 9:15am
+#  room: Laureate Room (Luskin Center)
+#  title: Opening Remarks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:15am - 10:20am
+#  room: Laureate Room (Luskin Center)
+#  title: Keynote 1
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: 'Towards A Software Defined Data Plane for Datacenters
+#
+#'
+#  authors: Arvind Krishnamurthy
+#  abstract: |-
+#    <p>Emerging networking architectures are allowing for flexible and reconfigurable packet processing at line rate both at the NIC and the switch.  These emerging technologies address a key limitation with software defined networking solutions such as OpenFlow, which allow for custom handling of flows only as part of the control plane.  Many network protocols, such as those that perform resource allocation, require per-packet processing, which is feasible only if the data plane can be customized to the needs of the protocol.  These new technologies thus have the potential to address this limitation and truly enable a "Software Defined Data Plane" that provides greater performance and isolation for datacenter applications.</p>
+#    <p>Despite their promising new functionality, intelligent NICs and flexible switches are not all-powerful; they have limited state, support limited types of operations, and limit per-packet computation in order to be able to operate at line rate.  Recent work addresses some of these limitations by providing a set of general building blocks that mask these limitations using approximation techniques and thereby enabling the implementation of realistic network protocols and distributed systems.  But this represents just a first step towards developing an understanding as to how to enable a Software Defined Data Plane and how to best leverage that for applications.  This talk will survey both recent work and discuss future directions to fully realize the potential of recent and upcoming hardware.</p>
+#  bio: Arvind Krishnamurthy is a Professor of Computer Science and Engineering at
+#    the University of Washington. His research interests span all aspects of building
+#    practical and robust computer systems and is aimed at making improvements to the
+#    robustness, security, and performance of Internet-scale systems. A recent focus
+#    of his work has been to develop ways to dramatically improve the performance of
+#    networked applications deployed inside datacenters by rearchitecting all layers
+#    of the datacenter software stack.
+#  photo: images/speakers/Arvind-Krishnamurthy.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:20am - 10:50am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:50am - 12:30pm
+#  room: Laureate Room (Luskin Center)
+#  title: 'Session 1: High Performance Networks & Apps'
+#  authors: Costin Raiciu (University Politehnica of Bucharest)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: LogMemcached - An RDMA based Continuous Cache Replication
+#  authors: Samyon Ristov (The Hebrew University of Jerusalem, Israel), Yaron Weinsberg
+#    (Microsoft), Danny Dolev (The Hebrew University of Jerusalem, Israel), and Tal
+#    Anker (Mellanox Technologies)
+#  abstract: |
+#    <p>One of the advantages of cloud computing is its ability to quickly scale out services to meet demand. A common technique to mitigate the increasing load in these services is to deploy a cache.</p>
+#    <p>Although it seems natural that the caching layer would also deal with availability and fault tolerance, these issues are nevertheless often ignored, as the cache has only recently begun to be considered a critical system component. A cache may evict items at any moment, and so a failing cache node can simply be treated as if the set of items stored on that node have already been evicted. However, setting up a cache instance is a time-consuming operation that could inadvertently affect the service’s operation.</p>
+#    <p>This paper addresses this limitation by introducing cache replication at the server side by expanding Memcached (which currently provides availability via client side replication). This paper presents the design and implementation of LogMemcached, a modification of Memcached’s internal data structures to include state replication via RDMA to provide an increased system availability, improved failure resilience and enhanced load balancing capabilities without compromising performance and with introducing a very low CPU load, while keeping the main principles of Memcached’s Design Philosophy.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34781"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Accelerating Open vSwitch with Integrated GPU
+#  authors: Janet Tseng, Ren Wang, James Tsai, Yipeng Wang, and Charlie Tai (Intel
+#    Labs)
+#  abstract: "<p>With the fast development of Software Defined Networking (SDN) and
+#    network virtualization, software-based network virtual switches have emerged as
+#    a critical component to provide network services to VMs. Among virtual switches,
+#    Open vSwitch (OvS) is an open source virtual switch implementation commonly used
+#    and well-studied. Using Data Plane Development Kit (DPDK) with OvS to bypass the
+#    OS kernel and process packets in userspace provides tremendous performance benefits
+#    on general purpose platforms. Integrated GPUs, residing on the same die with the
+#    CPU on general purpose platforms, offering many advanced features such as on-chip
+#    interconnect CPU-GPU communication, and sharing physical/virtual memory, become
+#    a promising additional compute resource to further accelerate the OvS process.
+#    In this paper, we design and implement an inline GPU assisted OvS architecture,
+#    via offloading the expensive tuple space search to GPU and balancing switching
+#    processing between CPU and GPU. We evaluated the performance on an Intel® Xeon®
+#    processor of the E3-1575M v5 product family (code-name Skylake) with an integrated
+#    GT4e GPU. The results show that our proposed architecture improved the OvS throughput
+#    by 3x, compared to the optimized CPU-only OvS-DPDK implementation.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34782"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'VIRTIO-USER: A New Versatile Channel for Kernel-Bypass Networks'
+#  authors: Jianfeng Tan, Cunming Liang, Huawei Xie, Qian Xu, Jiayu Hu, Heqing Zhu,
+#    and Yuanhan Liu (Intel)
+#  abstract: |
+#    <p>Kernel-Bypass Networks still faces some challenging problems: (1) it’s hard for container to gain better performance by kernel-bypass virtual switch; (2) it lacks stable and efficient way to inject packets back to kernel stack for kernel-bypass network interface.</p>
+#    <p>To solve above problems, we propose VIRTIO-USER, as a versatile, performant, secure and standardized channel. Instead of using hypervisor to bridge frontend and backend driver, we implement an embedded vhost adapter in frontend driver to talk with vhost backend directly. It keeps other mechanisms like memory sharing model, ring layout and feature negotiation, in the same way with VIRTIO. We implement and upstream it into DPDK. In comparison with kernel-based container networking and existing exception path solution, our evaluation shows +3.5x performance boost in both scenarios.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34783"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Towards a Scalable Modular QUIC Server
+#  authors: Yufeng Duan (Politecnico di Torino), Massimo Gallo (Nokia Bell Labs), Stefano
+#    Traverso (Politecnico di Torino), Rafael Laufer (Nokia Bell Labs), and Paolo Giaccone
+#    (Politecnico di Torino)
+#  abstract: "<p>QUIC has been recently proposed as an alternative transport protocol
+#    for web services requiring both low latency and end-to-end encryption. In a different
+#    direction, recent kernel-bypass techniques enabling high-speed packet I/O have
+#    fostered the development of scalable middleboxes and servers with the introduction
+#    of user-space network stacks. Attempting to join the best of both solutions, we
+#    introduce in this paper a modular L2–L7 network stack in user space based on QUIC.
+#    Our modular and scalable QUIC transport protocol called cQUIC is implemented in
+#    Click and uses Intel<sup></sup> DPDK for high-speed packet I/O. We prototype cQUIC
+#    and show at least an order of magnitude improvement over the Google QUIC server.
+#    We also show that cQUIC scalability is CPU (and not I/O) bounded due to the high
+#    cost of cryptographic operations. From real-world traffic traces, we observe that
+#    up to 18% of QUIC connections are established using the expensive 2-RTT handshake,
+#    limiting scalability further.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34784"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 1:45pm
+#  room: Centennial Terrace
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 1:45pm - 2:50pm
+#  room: Laureate Room (Luskin Center)
+#  title: Keynote 2
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: Building Hardware-Accelerated Networks at Scale in the Cloud
+#  authors: Daniel Firestone
+#  abstract: |-
+#    <p>All modern clouds are built on top of software-defined networking for flexibility, programmability, and scale-out. In the last several years, as server densities have risen along with NIC speeds to 40/50GbE and beyond, numerous hardware acceleration techniques have been popularized claiming to solve software networking’s scalability problems at high speeds – SR-IOV is said to remove the overhead of virtualization, DPDK should bring the cost of packet processing on cores to near-zero, and RDMA eliminates the TCP stack and replaces it with a low-latency hardware transport layer. But what does it take to really deploy and use these technologies widely in a public cloud? Default implementations often lack the programmability, flexibility, serviceability, visibility, diagnosability, and reliability that we'd need at scale.</p>
+#    <p>In Microsoft Azure, we’ve been working to operationalize these offloads for years and have seen their ups and downs. In this talk we'll review our experiences building and deploying technologies like Azure Accelerated Networking, and RDMA-based scale-out storage, into our high speed software-defined network. We’ll discuss changes to offloads we needed and technologies we had to build on top, such as the Azure SmartNIC, to enable reliability and flexibility at scale. Finally, we’ll discuss some principles that we think are fundamental to building any successful hardware-accelerated network at scale such as ours, and open problems and challenges we see going forward.</p>
+#  bio: Daniel Firestone is the Tech Lead and Manager for the Azure Host Networking
+#    Group at Microsoft. His team builds the Azure virtual switch, which serves as
+#    the datapath for Azure virtual networks, as well as SmartNIC, the Azure platform
+#    for offloading host network functions to reconfigurable FPGA hardware, and Azure’s
+#    RDMA stack. Before Azure, Daniel did his undergraduate studies at MIT.
+#  photo: images/speakers/Daniel-Firestone.png
+#  link: ''
+#  slides: files/program-kbnets/keynote-2.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:50pm - 3:40pm
+#  room: Laureate Room (Luskin Center)
+#  title: 'Session 2: Congestion Control'
+#  authors: Hongqiang Liu (Microsoft Research)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'RoCE Rocks without PFC: Detailed Evaluation'
+#  authors: Alexander Shpiner, Eitan Zahavi, Omar Dahley, Aviv Barnea, Rotem Damsker,
+#    Gennady Yekelis, Michael Zus, Eitan Kuta, and Dean Baram (Mellanox Technologies)
+#  abstract: |
+#    <p>In recent years, the usage of RDMA in data center networks has increased significantly, with RDMA over Converged Ethernet (RoCE) emerging as the canonical approach to deploying RDMA in Ethernet-based data centers. Initial implementations of RoCE required a lossless fabric for optimal performance. This is typically achieved by enabling Priority Flow Control (PFC) on Ethernet NICs and switches. The RoCEv2 specification introduced RoCE congestion control, which allows throttling the transmission rate in response to congestion. Consequently, packet loss is minimized and performance is maintained, even if the underlying Ethernet network is lossy.</p>
+#    <p>In this paper, we discuss the latest developments in RoCE congestion control. Hardware congestion control reduces the latency of the congestion control loop; it reacts promptly in the face of congestion by throttling the transmission rate quickly and accurately. The short control loop also prevents network buffers from overfilling under various congestion scenarios. In addition, fast hardware retransmission complements congestion control in severe congestion scenarios, by significantly reducing the performance penalty of packet drops. We survey architectural features that allow deployment of RoCE over lossy networks and present real lab test results.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34795"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Sharing CPUs via endpoint congestion control
+#  authors: Laura Vasilescu, Vladimir Olteanu, and Costin Raiciu (University Politehnica
+#    of Bucharest)
+#  abstract: |
+#    <p>Software network processing relies on dedicated cores and hardware isolation to ensure appropriate throughput guarantees. Such isolation comes at the expense of low utilization in the average case, and severely restricts the number of network processing functions one can execute on a host.</p>
+#    <p>In this paper we propose that multiple processing functions should simply share a CPU core, turning the CPU into a special type of “link”. We use multiple NIC receive queues and the Fastclick suite to test the feasibility of this approach. We find that, as expected, per core throughput decreases when more processes are contending, however the decrease is not dramatic: around 10 Finally, we implement and test in simulation a solution that enables efficient CPU sharing by sending congestion signals proportional to per-packet cost for each flow. This enables endpoint congestion control (e.g. TCP) to react appropriately and share the CPU fairly.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34796"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:40pm - 4:10pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:10pm - 5:25pm
+#  room: Laureate Room (Luskin Center)
+#  title: 'Session 3: Measurement & Performance Analysis'
+#  authors: Eitan Zahavi (Mellanox)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: How to Measure the Killer Microsecond
+#  authors: Mia Primorac, Edouard Bugnion, and Katerina Argyraki (EPFL)
+#  abstract: |
+#    <p>Datacenter-networking research requires tools to both generate traffic and accurately measure latency and throughput. While hardware-based tools have long existed commercially, they are primarily used to validate ASICs and lack flexibility, e.g. to study new protocols. They are also too expensive for academics. The recent development of kernel-bypass networking and advanced NIC features such as hardware timestamping have created new opportunities for accurate latency measurements. This paper compares these two approaches, and in particular whether commodity servers and NICs, when properly configured, can measure the latency distributions as precisely as specialized hardware.</p>
+#    <p>Our work shows that well-designed commodity solutions can capture subtle differences in the tail latency of stateless UDP traffic. We use hardware devices as the ground truth, both to measure latency and to forward traffic. We compare the ground truth with observations that combine five latency-measuring clients and five different port forwarding solutions and configurations. State-of-the-art software such as MoonGen that uses NIC hardware timestamping provides sufficient visibility into tail latencies to study the effect of subtle operating system configuration changes. We also observe that the kernel-bypass-based T-Rex software, that only relies on the CPU to timestamp traffic, can also provide solid results when NIC timestamps are not available for a particular protocol or device.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34797"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Performance Isolation Anomalies in RDMA
+#  authors: Yiwen Zhang, Juncheng Gu, Youngmoon Lee, Mosharaf Chowdhury, and Kang G.
+#    Shin (University of Michigan)
+#  abstract: |
+#    <p>To meet the increasing throughput and latency demands of modern applications, many operators are rapidly deploying RDMA in their datacenters. At the same time, developers are re-designing their software to take advantage of RDMA’s benefits for individual applications. However, when it comes to RDMA’s performance, many simple questions remain open.</p>
+#    <p>In this paper, we consider the performance isolation characteristics of RDMA. Specifically, we conduct three sets of experiments – three combinations of one throughput-sensitive flow and one latency-sensitive flow – in a controlled environment, observe large discrepancies in RDMA performance with and without the presence of a competing flow, and describe our progress in identifying plausible root-causes.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34798"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Design Challenges for High Performance, Scalable NFV Interconnects
+#  authors: Guyue Liu (The George Washington University), K.K. Ramakrishnan (University
+#    of California, Riverside), Mike Schlansker and Jean Tourrilhes (Hewlett Packard
+#    Labs), and Timothy Wood (The George Washington University)
+#  abstract: "<p>Software-based network functions (NFs) have seen growing interest.
+#    Increasingly complex functionality is achieved by having multiple functions chained
+#    together to support the required network-resident services. Network Function Virtualization
+#    (NFV) platforms need to scale and achieve high performance, potentially utilizing
+#    multiple hosts in a cluster. Efficient data movement is crucial, a cornerstone
+#    of kernel bypass. Moving packet data involves delivering the packet from the network
+#    interface to an NF, moving it across functions on the same host, and finally across
+#    yet another network to NFs running on other hosts in a cluster/data center. In
+#    this paper we measure the performance characteristics of different approaches
+#    for moving data at each of these levels. We also introduce a new high performance
+#    inter-host interconnect using InfiniBand. We evaluate the performance of Open
+#    vSwitch and the OpenNetVM NFV platform, considering a simple forwarding function
+#    and Snort, a popular intrusion detection system.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34799"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

@@ -1,0 +1,241 @@
+#---
+#- type: day
+#  time: Monday, August 21, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_mon_morning
+#- type: session
+#  time: 12:30pm - 2:00pm
+#  room: Foyer
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gren_lunch_mon
+#- type: session
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_mon_afternoon
+#- type: day
+#  time: Tuesday, August 22, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_tue_morning
+#- type: session
+#  time: 12:40pm - 2:00pm
+#  room: Foyer
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gren_lunch_tue
+#- type: ignore
+#  time: 3:15pm - 4:15pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_tue_afternoon
+#- type: day
+#  time: Wednesday, August 23, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:10am - 10:40am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_wed_morning
+#- type: session
+#  time: 12:20pm - 1:30pm
+#  room: Foyer
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gren_lunch_wed
+#- type: ignore
+#  time: 3:10pm - 4:10pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_wed_afternoon
+#- type: day
+#  time: Thursday, August 24, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:35am - 11:05am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_thu_morning
+#- type: session
+#  time: 12:20pm - 1:30pm
+#  room: Foyer
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gren_lunch_thu
+#- type: ignore
+#  time: 2:45pm - 3:45pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_thu_afternoon
+#- type: day
+#  time: Friday, August 25, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_fri_morning
+#- type: session
+#  time: 12:30pm - 2:00pm
+#  room: Foyer
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gren_lunch_fri
+#- type: session
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: gen_break_fri_afternoon

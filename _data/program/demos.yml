@@ -1,0 +1,477 @@
+#---
+#- type: day
+#  time: Tuesday, August 22, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:45am - 6:00pm
+#  room: Legacy Room
+#  title: Session 1 - Demo presenters onsite during coffee breaks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: demos_tue_001
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'ClickP4: Towards Modular Programming of P4'
+#  authors: Yu Zhou and Jun Bi (Tsinghua University)
+#  abstract: "<p>P4 extends the boundary of network programmability and enables network
+#    operators to define device behaviors. However, developing monolithic P4 programs
+#    from scratch is prone to errors and can be a source of complexity. Furthermore,
+#    the features implemented by a P4 program can hardly be re-orchestrated at runtime,
+#    which reduces the flexibility of programmable networks. And there is no isolation
+#    mechanism for network policies to protect themselves from being enforced by undesired
+#    features. In this paper, we design and implement ClickP4, a modular programming
+#    architecture for P4. While incurring a little performance penalty, ClickP4 significantly
+#    mitigates the complexity of developing P4 programs, flexibly orchestrates program
+#    features at runtime and offers reliable enforcement of network policies.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34205"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: A Demonstration of the DeDoS Platform for Defusing Asymmetric DDoS Attacks
+#    in Data Centers
+#  authors: Henri Maxime Demoulin (University of Pennsylvania), Tavish Vaidya (Georgetown
+#    University), Isaac Pedisich, Nik Sultana, and Bowen Wang (University of Pennsylvania),
+#    Jingyu Qian and Yuankai Zhang (Georgetown University), Ang Chen, Andreas Haeberlen,
+#    Boon Thau Loo, and Linh Thi Xuan Phan (University of Pennsylvania), and Micah
+#    Sherr, Clay Shields, and Wenchao Zhou (Georgetown University)
+#  abstract: "<p>We propose a demonstration of DeDoS, a platform for mitigating asymmetric
+#    DDoS attacks. These attacks are particularly challenging since attackers using
+#    limited resources can exhaust the resources of even well-provisioned servers.
+#    DeDoS resolves this by splitting monolithic software stacks into separable components
+#    called minimum splittable units (MSUs). If part of the application stack is experiencing
+#    a DDoS attack, DeDoS can massively replicate only the affected MSUs, potentially
+#    across many machines. This allows scaling of the impacted resource separately
+#    from the rest of the application stack so that resources can be precisely added
+#    where needed to combat the attack. Our demonstration will show that DeDoS incurs
+#    reasonable overheads in normal operations and that it significantly outperforms
+#    naïve replication when defending against a range of asymmetric attacks.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34295"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Stateful Layer-4 Load Balancing in Switching ASICs
+#  authors: Jeongkeun Lee (Barefoot Networks), Rui Miao (University of Southern California),
+#    Changhoon Kim (Barefoot Networks), Minlan Yu (Yale University), and Hongyi Zeng
+#    (Facebook)
+#  abstract: |-
+#    <p>In this demo, we show that a large number of software based load balancer servers can be replaced by a single modern switching ASIC, potentially reducing the cost of load balancing by two orders of magnitude. Today, large data centers typically employ hundreds or thousands of servers (or around 4% of the data center compute resources) to load-balance incoming traffic over application servers. These software load balancers (SLBs) map packets destined to a service (with a virtual IP address, or VIP), to a pool of servers tasked with providing the service (with multiple direct IP addresses, or DIPs). An SLB is stateful; it must always map a connection to the same server, even if the pool of servers changes and/or if the load is spread differently across the pool. This property is called per-connection consistency or PCC. The challenge is that the load balancer must keep track of millions of connections simultaneously.</p>
+#    <p>Until recently, it was not possible to implement a load balancer with PCC in a commercial off-the-shelf (COTS) switching ASIC, because high-performance switching ASICs typically cannot maintain per-connection states with PCC. Newer switching ASICs provide resources and primitives to enable PCC at a large scale. We present a system, called SilkRoad, that is defined in a 400 line P4 program, and when compiled to a state-of-the-art switching ASIC, it can load-balance millions of connection simultaneously at line rate. Our conference paper details the solution design and evaluates its scale and cost by running trace-driven simulations on the data collected from a large web service provider. The paper also shows the feasibility of storing millions of connection states into a switching ASIC. On top of that, the present two-page abstract shows the full cycle of connection and DIP pool management, explaining the co-design between switch data plane (ASIC) and control plane (software) to enable PCC in switching ASICs.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34217"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Network Data Monetization Using Net2Vec
+#  authors: Roberto Gonzalez (NEC Labs. Europe), Pelayo Vallina (Universidad Carlos
+#    III de Madrid), and Alberto Garcia-Duran, Filipe Manco, and Mathias Niepert (NEC
+#    Labs. Europe)
+#  abstract: "<p>Net2Vec is a platform designed to allow data scientist the deployment
+#    of machine learning models in the network. It allows the capture, filtering and
+#    manipulation of network data to be analyzed using Deep Learning. In this work,
+#    we use Net2Vec to generate user profiles in real time using as input the network
+#    data without the need of storing any personal information.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34273"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Wi-Fi Goes to Town: Rapid Picocell Switching for Wireless Transit Networks'
+#  authors: Zhenyu Song, Longfei Shangguan, and Kyle Jamieson (Princeton University)
+#  abstract: "<p>We present the design and implementation of Wi-Fi Goes to Town, the
+#    first Wi-Fi based roadside hotspot network designed to operate at vehicular speeds
+#    and picocell (meter-sized) cells. Wi-Fi Goes to Town APs make delivery decisions
+#    to the vehicular clients they serve at millisecond-level granularities, exploiting
+#    path diversity in roadside networks. Wi-Fi Goes to Town achieves a 2.4-4.7X TCP
+#    throughput improvement over a baseline fast handover protocol that captures the
+#    state of the art in Wi-Fi roaming, the IEEE 802.11k and 802.11r standards. We
+#    will setup a small testbed of Wi-Fi Goes to Town system and demo how it works.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34209"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Boosting the BGP convergence in SDXes with SWIFT
+#  authors: Philipp Mao, Rudiger Birkner, Thomas Holterbach, and Laurent Vanbever (ETH
+#    Zurich)
+#  abstract: "<p>BGP, the only inter-domain routing protocol used today, often converges
+#    slowly upon outages. While fast-reroute solutions exist, they can only protect
+#    from local outages, not remote ones (e.g., a failure in a transit network). To
+#    address this problem, we proposed SWIFT, a fast-reroute framework enabling BGP
+#    routers to locally restore connectivity upon remote outages by combining fast
+#    inference mechanisms in the control-plane with fast data plane updates. While
+#    SWIFTis deployable on a per-router basis, we show in this demonstration that we
+#    can deploy SWIFT in Software-Defined Internet Exchange Points (SDXes) with a simple
+#    software update. We show that SWIFTing an SDX is highly beneficial as it enables
+#    to converge the entire fabric within few seconds instead of the tens of seconds
+#    required by the original software.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34260"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'FTGuard: A Priority-aware Strategy against the Flow Table Overflow Attack
+#    in SDN'
+#  authors: Menghao Zhang, Jun Bi, Jiasong Bai, Zhao Dong, Yongbin Li, and Zhaogeng
+#    Li (Tsinghua University)
+#  abstract: "<p>This paper proposes FTGuard, an innovative behavior-based priority-aware
+#    defense strategy to mitigate the flow table overflow attack in SDN. Different
+#    priorities are assigned to flows of different users dynamically based on the evaluation
+#    of their network behaviors. Implementations and evaluations demonstrate that FTGuard
+#    provides cost-efficient protection for the flow table and is able to mitigate
+#    the overflow attack effectively.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34210"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Ruru: High-speed, flow-level latency measurement and visualization of live
+#    Internet traffic'
+#  authors: Richard Cziva (University of Glasgow, UK), Christopher Lorier (REANNZ,
+#    NZ), and Dimitrios P Pezaros (University of Glasgow, UK)
+#  abstract: "<p>End-to-end latency is becoming an important metric for many emerging
+#    applications (e.g., 5G use cases) over the Internet. To better understand end-to-end
+#    latency, we present Ruru, a DPDK-based pipeline that exploits the recent advances
+#    in high-speed packet processing and visualization. We present an operational deployment
+#    of Ruru over an international high-speed link running between Auckland and Los
+#    Angeles and show how Ruru can be used for anomaly detection and network planning.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34286"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Safeguarding VNF Credentials with Intel SGX
+#  authors: Nicolae Paladi and Linus Karlsson (RISE SICS)
+#  abstract: |
+#    <p>Operators use containers – enabled by operating system (OS) level virtualization – to deploy virtual network functions (VNFs) that access the centralized network controller in software-defined networking (SDN) deployments. While SDN allows flexible network configuration, it also increases the attack surface on the network deployment. For example, insecure communication channels may be tapped to extract or inject sensitive data transferred on the north-bound interface, between the network controller and VNFs; furthermore, to protect the network controller from malicious VNF instances, the integrity and authenticity of VNFs must be verified prior to deployment.</p>
+#    <p>To mitigate the risks described above, we implemented a prototype that leverages hardware-based mechanisms for isolated execution implemented by Intel SGX in combination with a run-time integrity measurement subsystem, namely Linux Integrity Measurement Architecture (IMA). This prototype is a first step towards providing to tenants and end-users integrity guarantees regarding the network components in SDN deployments.</p>
+#    <p>A video demo of the prototype is available at https://vimeo.com/217788815 .</p>
+#  bio: ''
+#  photo: ''
+#  link: //dl.acm.org/authorize?N34211"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Automatic Custom Generation of Topologies and Configuration of Routing protocols
+#    in SDN
+#  authors: Apoorv Shukla, Mengchen Shi, and Anja Feldmann (TU Berlin)
+#  abstract: "<p>Software-Defined Networks (SDNs) has been an area of interest among
+#    researchers from academia and industry. SDNs, however, also introduce new challenges,
+#    for example researchers work under strict time constraints and need to conduct
+#    frequent experiments to verify their ideas on scalable simulation of real-life
+#    topologies. The challenge is two-fold: first, the researchers need to manually
+#    generate the topologies and second, manually configure the devices in the generated
+#    topologies to enable routing protocols. We demonstrate two novel tools, namely,
+#    TOPOLOGY GENERATOR and ENHANCED AUTOMATIC CONFIGURATION ROUTEFLOW (EACRF), which
+#    automatically generate the custom scalable topologies at the SDN data plane and
+#    configure routing protocols like BGP and OSPF, at the SDN control plane, in a
+#    seamless fashion in quick time. EACRF is an enhancement of RouteFlow which can
+#    be used in conjunction with Topology Generator or independently.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34261"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: day
+#  time: Wednesday, August 23, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:30am - 5:30pm
+#  room: Legacy Room
+#  title: Session 2 - Demo presenters onsite during coffee breaks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: demos_wed_001
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'DPS-Discuss: demonstrating Decentralized, Pseudonymous, Sybil-resistant
+#    communication'
+#  authors: Sebastian Friebe (Karlsruhe Institute of Technology (KIT)) and Martin Florian
+#    (Bundesdruckerei GmbH)
+#  abstract: |
+#    <p>A current trend on the Internet is the increasing surveillance of its users. A few big service providers have divided most of the user-facing Internet between them, observing and recording the activities of their users to increase profits. Additionally, government agencies have been found to practice mass surveillance.</p>
+#    <p>With regard to this it becomes even more important to provide online services that protect the privacy of their users and avoid censorship by single, powerful entities. To reach these goals, a trusted third party should be avoided. A prototype service which fulfills these goals is DPS-Discuss, a decentralized, pseudonymous online discussion application. It uses the libraries BitNym and Peer-Tor-Peer for pseudonym management and anonymous communication.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34296"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Enhancing Mobile Video Delivery over an Heterogeneous Network Access with
+#    Information-Centric Networking
+#  authors: Jacques SAMAIN (Cisco Systems/ Télécom Paristech), Jordan Augé, Giovanna
+#    Carofiglio, Luca Muscariello, and Michele Papalini (Cisco Systems), and Mauro
+#    Sardara (Cisco Systems/Télécom Paristech)
+#  abstract: "<p>Mobile video delivery drives Internet traffic evolution and puts colossal
+#    pressure on future 5G networks to support higher quality and lower latency requirements
+#    over an increasingly heterogeneous network access. Moreover the increasing part
+#    of mobile devices in the overall video traffic emphasizes how future network architectures
+#    should cope with heterogeneous accesses. Given this context, Future Internet paradigms
+#    recentering communication around content, such as Information Centric Networks
+#    (ICN), appear as promising candidates to relieve the challenges of a mobility-robust,
+#    efficient and cost-effective video delivery, by integrating video-awareness at
+#    network layer. In this demo, we focus on ICN-enabled Dynamic Adaptive Streaming
+#    (DAS) over an heterogeneous wireless access. We integrate ICN capabilities in
+#    DAS clients requesting 4K video content to standard DAS servers. We deploy a virtualized
+#    ICN-enabled network slice using LXC containers to connect clients to servers through
+#    an heterogeneous wireless access (including 802.11n and LTE emulated radios) and
+#    a simplified backhaul. The contribution of the demo is twofold. First it showcases
+#    what ICN can bring to DAS over a mobile heterogeneous access in virtue of its
+#    content-awareness at network layer. Second, it offers to the user a rich sandbox
+#    where several state-of-the-art DAS controllers are implemented and can be tested
+#    over ICN or standard TCP.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34278"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'HARMLESS: Cost-Effective Transitioning to SDN'
+#  authors: Mark Szalay (Budapest University of Technology and Economics), Laszlo Toka
+#    (MTA-BME Information Systems Research Group), Gabor Retvari (Budapest University
+#    of Technology and Economics), Gergely Pongracz (TrafficLab, Ericsson Research),
+#    and Levente Csikor and Dimitrios P. Pezaros (School of Computing Science, University
+#    of Glasgow)
+#  abstract: |
+#    <p>Recently, Software-Defined Networking has grown out of being an “intriguing approach” and turned into a “must-have” for communication networks to overcome many long-standing problems of traditional networking. However, there are still some obstacles on the way to the widespread adoption. Current commodity-off-the-shelf (COTS) SDN offerings are still in their infancy as being notorious of lacking standards compliance, scalability, and unpredictable performance indicators compared to their legacy counterparts. On the other hand, recent software based solutions might mitigate these pain factors, but in terms of cost-efficiency and port density they are in a different league.</p>
+#    <p>Here, we present HARMLESS, a novel SDN switch design that combines the rapid innovation and upgrade cycles of software switches with the port density of hardware-based appliances into a fully data plane-transparent, vendor-neutral and cost-effective solution for smaller enterprises to gain a foothold in this era. The demo showcases the SDN migration of a dumb legacy Ethernet switch to a powerful, fully reconfigurable, OpenFlow-enabled network device without incurring any major performance and latency penalty nor any substantial price tag enabling to realize many use cases that would have needed standalone hardware appliances before.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34292"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Deploy a 5G network in less than 5 minutes
+#  authors: Mohamed Naoufal Mahfoudi, Thierry Turletti, Thierry Parmentelat, and Walid
+#    Dabbous (Université Côte d’Azur, Inria, France) and Raymond Knopp (Eurecom, France)
+#  abstract: "<p>We describe a demonstration run on R2lab, an anechoic chamber located
+#    at Inria Sophia Antipolis, France. The demonstration consists in deploying a standalone
+#    5G network in less than 5 minutes. All the network components (base station, subscriber
+#    management, serving and packet gateways, network traffic analyzers) were run automatically
+#    using the nepi-ng experiment orchestration tool. Download and upload performance
+#    to the Internet from a commercial phone located in the anechoic chamber are shown.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34200"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: SDN/NFV-enabled Security Architecture for Fine-grained Policy Enforcement
+#    and Threat Mitigation for Enterprise Networks
+#  authors: Benedikt Pfaff, Johann Scherer, and David Hock (Infosim GmbH), Nicholas
+#    Gray, Thomas Zinner, and Phuoc Tran-Gia (University of Wuerzburg), Raphael Durner
+#    and Wolfgang Kellerer (Technical University of Munich), and Claas Lorenz (genua
+#    GmbH)
+#  abstract: |
+#    <p>Today, network security in enterprises is mainly enforced by firewalls guarding the perimeter of the network against an ever increasing number of cyber threats. While inspecting and enforcing security policies on every flow entering or leaving the network, Perimeter Gateway Firewalls (PFG) provide hardly any defense against attacks originating from and targeting the inside of the network. Thus, once the perimeter is breached attackers and malware can easily compromise additional hosts as we have seen in the recent outbreak of the WannaCry worm.</p>
+#    <p>To mitigate such outbreaks, enterprises usually rely on costly Intrusion Prevention Systems (IPS) and a centralized update management to install security updates in a timely manner. Both systems aim to minimize the window, in which the enterprise network is susceptible to attacks. Yet, this is a tedious process as the IPS requires an attack signature and changes to the software stack demands thorough testing. Furthermore, in the case of ZeroDay attacks no signatures and updates are available. Hence, this often results in a widened window in which the network remains vulnerable and an increased risk.</p>
+#    <p>A complimentary approach to alleviate these threats is to quarantine malicious hosts on a network level, as this can be deployed immediately and is independent from the update procedure. To accomplish this, a fine-grained flow selection and security control is needed. Whereas architectures such as Ethane and more recent technologies like Software-defined Networking (SDN) and Network Function Virtulization (NFV) provide this required granularity, the adaptation of thsi technologies in enterprise networks remains limited. This is due to the fact, that the integration of new technologies into an existing network infrastructure is a highly complex task, as the compatibility with systems such as network management and cloud management system has to be assured for production environments.</p>
+#    <p>In this work, we demonstrate the prospects of seamlessly integrating SDN and NFV based security operations into the existing enterprise network infrastructure to provide state-of-the-art stateful firewalling for advanced packet filtering as well as on-demand fine-grained flow separation and isolation for the exterior and interior network. This is achieved by levering an omnipresent firewall which is based on cloud principles enabling enhanced scalability and resilience, while simultaneously cutting down on Operation Expenses (OpEx). We illustrate the advantages of the implemented security architecture by the example of Bring-Your-Own-Device use case.</p>
+#    <p>In the following, we present the involved architectural components and outline the planned demonstration detailing fine-grained access control, firewall offloading for further optimization and the integration into a network management system.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34275"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Towards Distributed Threat Intelligence in Real-Time
+#  authors: Philipp Meyer, Raphael Hiesgen, and Thomas C. Schmidt (HAW Hamburg, Dept.
+#    Informatik) and Marcin Nawrocki and Matthias Wählisch (Freie Universität Berlin)
+#  abstract: "<p>In this demo, we address the problem of detecting anomalies on the
+#    Internet backbone in near real-time. Many of today’s incidents may only become
+#    visible from inspecting multiple data sources and by considering multiple vantage
+#    points simultaneously. We present a setup based on the distributed forensic platform
+#    VAST that was extended to import various data streams from passive measurements
+#    and incident reporting at multiple locations, and perform an effective correlation
+#    analysis shortly after the data becomes exposed to our queries.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34297"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Fine-grained RFID Localization via Ultra-wideband Emulation
+#  authors: Yunfei Ma, Nicholas Selby, Manish Singh, and Fadel Adib (MIT)
+#  abstract: "<p>This demo presents RFind, a system that enables fine-grained RFID
+#    localization via ultra-wideband emulation. RFind operates by measuring the time-of-flight
+#    – i.e., the time it takes the signal to travel from an antenna to an RFID tag.
+#    To do so, it emulates an ultrawide bandwidth on today’s narrowband RFIDs without
+#    requiring any hardware modification to the tags. It then uses the large emulated
+#    bandwidth to estimate the time-of-flight and localize RFIDs. In contrast to past
+#    RFID localization proposals, RFind can operate in multipath-rich environments
+#    without reference tags and without requiring tag or antenna motion. The demo will
+#    allow users to move RFID-tagged objects to any location in line-of-sight, non-line-of-sight,
+#    and multi-path rich settings and check that the system can accurately localize
+#    the objects.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34201"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'NS4: A P4-driven Network Simulator'
+#  authors: Chengze Fan, Jun Bi, Yu Zhou, Cheng Zhang, and Haisu Yu (Tsinghua University)
+#  abstract: |
+#    <p>We present NS4, a P4-driven network simulator, which is, to the best of our knowledge, the first research effort in applying P4 to network simulation. Key features of NS4 include (1) elimination of laborious and redundant work for developing internal models of the simulator; (2) direct migration from simulation code to real-world P4 devices; (3) simulation of P4-enabled devices and network systems; (4) seamless compatibility with ns-3; (5) better scalability over other P4 behavioral model validation tools.</p>
+#    <p>We proposed and prototyped NS4 by integrating a P4 behavioral model in ns-3, and evaluated its effectiveness by a user case study. Source codes and examples of NS4 are publicly available at https://ns-4.github.io/</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34207"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Making the Data Plane Ready for NFV: an Effective Way of Handling Resources'
+#  authors: Marton Szabo and Andras Majdan (Budapest University of Technology and Economics),
+#    Gergely Pongracz (Ericsson Research), and Laszlo Toka and Balazs Sonkoly (Budapest
+#    University of Technology and Economics)
+#  abstract: '<p>In order to enable carrier grade network services constructed from
+#    software-based network functions, we need a novel data plane supporting high performance
+#    packet processing, low latency and flexible, fine granular programmability and
+#    control. The network functions implemented as virtual machines or containers use
+#    the same hardware resources (cpu, memory) as the elements responsible for networking,
+#    therefore, a low-level resource orchestrator which is capable of jointly controlling
+#    these resources is an indispensable component. In this demonstration, we showcase
+#    our novel resource orchestrator (FERO) on top of a data plane making use of open-source
+#    components such as, Docker, DPDK and OVS. It is capable of <span class="math inline"><em>i</em>)</span>
+#    generating an abstract model of the underlying hardware architecture during the
+#    bootstrap process, <span class="math inline"><em>i</em><em>i</em>)</span> mapping
+#    the incoming network service requests to available resources based on our recently
+#    proposed Service Graph embedding engine and the generated graph model. The impact
+#    of the orchestration decision is shown on-the-fly by real-time performance measurements
+#    on a graphical dashboard.</p>
+#
+#'
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34294"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Demonstration of the Marple System for Network Performance Monitoring
+#  authors: Vikram Nathan, Srinivas Narayana, Anirudh Sivaraman, and Prateesh Goyal
+#    (MIT), Venkat Arun (IIT Guwahati), Mohammad Alizadeh (MIT), Vimalkumar Jeyakumar
+#    (Cisco Tetration Analytics), and Changhoon Kim (Barefoot Networks)
+#  abstract: "<p>We demonstrate Marple, a system that allows network operators to measure
+#    a wide variety of performance metrics in real time. It consists of a performance
+#    query language, Marple, modeled on familiar functional operators like map, filter,
+#    and groupby. Marple is supported by a programmable key-value store on switches,
+#    which can compute flexible aggregated statistics (e.g., per-flow counts, moving
+#    averages over queueing latencies) over packets at line rate. Our switch design
+#    implements performance queries which could previously run only on end hosts, while
+#    utilizing only a modest fraction of switch hardware resources. To demonstrate
+#    the utility of Marple, we compile Marple queries to a P4-programmable software
+#    switch running within Mininet. We demonstrate two example use cases of Marple:
+#    diagnosing the root cause of latency spikes and measuring the flowlet size distribution.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34280"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Manipulating Internet routes with the PEERING platform
+#  authors: Ethan Katz-Bassett (Columbia/USC), Brandon Schlinker (USC/Facebook), Italo
+#    Cunha (UFMG), Todd Arnold (Columbia)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

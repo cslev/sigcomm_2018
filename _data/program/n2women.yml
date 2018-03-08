@@ -1,0 +1,257 @@
+#---
+#- type: day
+#  time: Sunday, August 20, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 8:00am - 8:30am
+#  room: 3400 - Boelter Hall
+#  title: Registrations and Breakfast
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 8:30am - 8:45am
+#  room: 3400 - Boelter Hall
+#  title: Greetings
+#  authors: Workshop chairs
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 8:45am - 9:00am
+#  room: 3400 - Boelter Hall
+#  title: Opening Remarks
+#  authors: 'Prof. Lixia Zhang, UCLA - ACM SIGCOMM''17 General Chair '
+#  abstract: Prof. Zhang will be speaking in her capacity as the SIGCOMM Conference
+#    general chair and as a Professor at UCLA.
+#  bio: Prof. Lixia Zhang is the Jonathan B. Postel Professor of Computer Science at
+#    the University of California, Los Angeles. Her expertise is in computer networks;
+#    she helped found the Internet Engineering Task Force, designed the Resource Reservation
+#    Protocol, coined the term "middlebox", and pioneered the development of named
+#    data networking.
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:00am - 10:00am
+#  room: 3400 - Boelter Hall
+#  title: Keynote 1
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: 'The Internet: A complex system at its limits'
+#  authors: Anja Feldman
+#  abstract: 'While the Internet is a hugely successful, human made artifact that has
+#    changed the society fundamentally, it has become a complex system with many challenges.
+#    In this talk I will outline some of them and also point out a number of surprises
+#    in terms of our mental models of the Internet that we develop over the years.
+#    Next, I will focus on the evolution of the Internet and discuss methods for detecting
+#    Internet infrastructure outages, how to extend software-defined networking concepts
+#    to wireless networking, how to achieve predictable performance in distributed
+#    systems. I will end with an outlook on how we may evolve the Internet to tackle
+#    the future challenges of ubiquitous data availability from sensors and devices
+#    everywhere.
+#
+#'
+#  bio: Anja Feldmann is a full professor at the TU Berlin, Germany, since 2006. Her
+#    research interests include Internet measurement, traffic engineering and traffic
+#    characterization, network performance debugging, intrusion detection, network
+#    architecture.  She has published more than 60 papers and has served on more than
+#    50 program committees, including as Co-Chair of ACM SIGCOMM 2003 and ACM IMC 2011
+#    and as Co-PC-Chair of ACM SIGCOMM, ACM IMC, and ACM HotNets. From 2009 to 2013
+#    she was Dean of the Computer Science and Electrical Engineering department of
+#    TU Berlin, Germany. From 2000 to 2006 she headed the network architectures group
+#    first at Saarland University and then at TU München. Before that she was a member
+#    of AT&T Labs - Research in Florham Park, NJ. She received a M.S. degree from the
+#    University of Paderborn, and M.S. and Ph.D. degrees from Carnegie Mellon University.
+#    She is a member of the German Academy of Sciences Leopoldina, the BBAW, the supervisory
+#    board of SAP SE. She is a recipient of the Gottfried Wilhelm Leibniz Preis 2011
+#    and the Berliner Wissenschaftspreis 2011.
+#  photo: https://www.net.t-labs.tu-berlin.de/people/anja.jpg
+#  link: ''
+#  slides: http://www.nr2.ufpr.br/~michele/feldmann-n2w-2017.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:00am - 10:30am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:30am - 11:30am
+#  room: 3400 - Boelter Hall
+#  title: Panel
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: description
+#  time: ''
+#  room: ''
+#  title: ''
+#  authors: |-
+#    Moderator: Theophilus Benson, Duke University;
+#    Panelists: Lixia Zhang, UCLA;
+#    James Mickens, Harvard;
+#    Te-Yuan Huang, Netflix;
+#    George Porter, UCSD.
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:30am - 12:30pm
+#  room: 3400 - Boelter Hall
+#  title: Discussion Groups
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 2:00pm
+#  room: Foyer
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:00pm
+#  room: 3400 - Boelter Hall
+#  title: Keynote 2
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: 'The minority advantages: Benefits of being a female professor in science'
+#  authors: Wenjing Lou
+#  abstract: "Being female in a male-dominated profession is oftentimes perceived as
+#    a disadvantage. Special challenges we face can include work-life balance, relations
+#    with other colleagues, perceived discrimination, alienation, and exclusion, etc.
+#    At the same time, we know that diversity is critical to ensure a robust community
+#    and we have seen continuous effort being made to increase diversity and inclusion
+#    at different levels.  \nIn this talk, I will share my 14 years of career experience
+#    as a female science professor. I will discuss my views on how being a minority
+#    can be an advantage in your career development, and ways to make it happen (i.e.,
+#    a recipe of turning the lemons into lemonade). In addition, in my role as a NSF
+#    program director, this talk will also offer a broad view of wireless networking
+#    and security research and funding opportunities from the perspective of NSF investment
+#    in these areas. "
+#  bio: Wenjing Lou is a Fellow of the IEEE and a Professor of Computer Science at
+#    Virginia Tech. Her research interests include wireless networks and cyber security.
+#    Since August 2014, Prof. Lou has been serving as a program director at the US
+#    National Science Foundation (NSF). At NSF, her responsibilities include the Networking
+#    Technology and Systems (NeTS) program, a core program of the Computer and Network
+#    Systems (CNS) division within the Directorate for Computer & Information Science
+#    & Engineering (CISE), and the Secure and Trustworthy Cyberspace (SaTC) program,
+#    a cross-cutting security program led by CISE/CNS.
+#  photo: http://www.cnsr.ictas.vt.edu/peoplepics/WenjingLou.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 3:00pm - 3:45pm
+#  room: 3400 - Boelter Hall
+#  title: Lightning Presentations (2-min talks by the poster presenters)
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:45pm - 4:45pm
+#  room: Foyer
+#  title: Posters Session + Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:45pm - 5:00pm
+#  room: 3400 - Boelter Hall
+#  title: Awards and Concluding Remarks
+#  authors: Workshop Chairs and Professor Sami Rollins, N2Women Chair
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 5:00pm - 6:00pm
+#  room: 3400 - Boelter Hall
+#  title: 1x1 Mentoring (sign up required)
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

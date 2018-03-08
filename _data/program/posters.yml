@@ -1,0 +1,736 @@
+#---
+#- type: day
+#  time: Tuesday, August 22, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:45am - 6:00pm
+#  room: Legacy Room
+#  title: Session 1 - Poster presenters onsite during coffee breaks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: poster_ts_tue_001
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'WVCC: Weighted Virtual Congestion Control for Datacenter Networks'
+#  authors: Jiaqing Dong (Department of Computer Science, Tsinghua University, China),
+#    Yi Wang (Future Network Theory Lab, Huawei, Hong Kong, China), Chen Tian (State
+#    Key Laboratory for Novel Software Technology, Nanjing University, China), Bo Jin
+#    (Future Network Theory Lab, Huawei, Hong Kong, China), Hao Yin (Department of
+#    Computer Science, Tsinghua University, China), and Gong Zhang (Future Network
+#    Theory Lab, Huawei, Hong Kong, China)
+#  abstract: "<p>Enforce virtualized congestion control is a new trend for datacenter
+#    networks. Virtual Congestion Control (VCC) can also enforce differentiated Quality-of-Service
+#    (QoS) for flows. However, current flow differentiation algorithm only provides
+#    qualitative rather than quantitative bandwidth allocation. Weighted bandwidth
+#    allocation is critical to enforce administrator policy. In this work, we propose
+#    Weighted Virtual Congestion Control (WVCC) enforcement for datacenter networks.
+#    It is a novel per-flow differentiation mechanism capable of proportionally allocating
+#    bandwidth among flows.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34298"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: '3D Fabric: Differential Deceleration and Detour for Congestion Free Data
+#    Center Networks'
+#  authors: Haoyu Song (Futurewei Technologies, Santa Clara) and Zhigang Ji, Yali Zhang,
+#    and Yinben Xia (Huawei IP Network Research Department, Beijing)
+#  abstract: "<p>3D Fabric, a new data center network algorithm, jointly uses two strategies
+#    for congestion avoidance: flow rate adjustment and path switch. 3D Fabric predicts
+#    flow’s size and only decelerates large flows in case of light congestion. When
+#    the network is heavily congested, it starts to decelerate small flows as well,
+#    and meanwhile, considers to switch large flow’s path. 3D Fabric makes novel contributions
+#    such as a new artificial flowlet generation method for load balancing which avoids
+#    packet reordering. As a network-based solution, 3D Fabric does not modify the
+#    end host’s application and protocol stack and makes no assumption on the network
+#    topology. The main algorithm can be implemented in virtual switch, NIC, or ToR
+#    switch. ns-3 simulation shows 3D Fabric’s FCT outperforms DCTCP by more than 50%
+#    for small flows and 3% for large flows with low implementation cost.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34299"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Authentication-Bypass Vulnerabilities in SOHO Routers
+#  authors: Nadav Rotenberg (HUJI), Haya Shulman and Michael Waidner (Fraunhofer SIT
+#    and HUJI), and Benjamin Zeltser (HUJI)
+#  abstract: "<p>SOHO routers act as a gateway to the Internet for Small Office/Home
+#    Office networks. They typically run a firewall to filter potentially malicious
+#    traffic, and operate services such as NAT, DNS, DHCP, and web proxy. Despite the
+#    important role that they fulfill, there is a long history of vulnerabilities allowing
+#    attackers to breach security and availability of the clients and services on SOHO
+#    networks. Following the multiple disclosures and recommendations for patches in
+#    the last two decades it seems an obvious question to verify whether the reality
+#    meets the expectation. We focus on an important class of vulnerabilities called
+#    ‘authentication bypass’, which allow an attacker to take control over a network
+#    device by subverting the authentication procedure. To that end, we perform a stealthy
+#    and non disruptive Internet scale evaluation of authentication bypass vulnerabilities
+#    in SOHO routers. We systematically scanned portions of the Internet, focusing
+#    on a number of selected countries, to detect presence of vulnerable devices. The
+#    results of our study are worrisome: we find a large fraction of misconfigurations
+#    and insecurity issues in configuration of SOHO routers, which stand in sharp contrast
+#    to the awareness of the security and research communities to the vulnerabilities
+#    as well as a large body of work studying related topics.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34284"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Cognitive IoT Gateways: Automatic Task Sharing and Switching between Cloud
+#    and Edge/Fog Computing'
+#  authors: Fatemeh Jalali, Olivia Smith, Timothy Lynar, and Frank Suits (IBM Research)
+#  abstract: "<p>Fog computing, also known as Edge computing, is an emerging computational
+#    paradigm, increasingly utilized in Internet of Things (IoT) applications, particularly
+#    those that cannot be served efficiently using Cloud computing due to limitations
+#    such as bandwidth, latency, Internet connectivity. At present, the norm is the
+#    static allocation of tasks by developers of an application, where some IoT applications
+#    are allocated to be performed on the Cloud, some on the Fog, and some on a hybrid
+#    Cloud-Fog. The applications are pre-programmed and predefined to be run on a platform,
+#    and this is unchangeable at run-time. IoT gateways, which are devices that bridge
+#    the IoT local network and the Internet, are in a position to make dynamic adjustments
+#    and allocation decision between platforms based upon real-time conditions such
+#    as an IoT applications’ performance. However, currently there is no (or very little)
+#    intelligence embedded into IoT gateways. This paper proposes cognitive IoT gateways
+#    powered by cognitive analytics and data mining techniques to improve the performance
+#    of IoT applications. These IoT devices are able to automatically learn and decide
+#    when and where to run an application, be that on the Cloud or on the Fog. The
+#    dynamic task sharing and platform interchanging will enable the IoT applications
+#    to be optimized for multiple objectives including task performance.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34203"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Towards Zero Copy Dataflows using RDMA
+#  authors: Bairen Yi, Jiacheng Xia, Li Chen, and Kai Chen (HKUST)
+#  abstract: "<p>Remote Direct Memory Access (RDMA) offers ultra-low latency and CPU
+#    bypass networking to application programmers. Existing applications are often
+#    designed around socket based software stack that manages application buffers separately
+#    from networking buffers and do memory copies between them when sending/receiving
+#    data. With large sized (up to hundreds MB) application buffers, the overhead of
+#    such copies adds non trivial overhead to the end-to-end communication pipeline.
+#    In this work, we made an attempt to design a zero copy transport for distribute
+#    dataflow frameworks that unifies application and networking buffer management
+#    and completely eliminates unnecessary memory copies. Our prototype on top of TensorFlow
+#    shows 2.43x performance improvement over gRPC based transport and 1.21x performance
+#    improvement over an alternative RDMA transport with private buffers and memory
+#    copies.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34270"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Closing the Network Diagnostics Gap with Vigil
+#  authors: Behnaz Arzani (University of Pennsylvania), Selim Ciraci (Microsoft), Luiz
+#    Chamon (University of Pennsylvania), Yibo Zhu and Hongqiang Liu (Microsoft Research),
+#    Jitu Padhye and Geoff Outhred (Microsoft), and Boon Thau Loo (University of Pennsylvania)
+#  abstract: "<p>Network failures continue to plague data center operators as their
+#    symptoms may not have any direct correlation with where or why they occur. In
+#    this paper we introduce Vigil, a lightweight, always-on monitoring/diagnosis application
+#    that pinpoints problems for each TCP connection and is completely contained within
+#    the end hosts. Vigil can also be used to find the problematic links in the network.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34274"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'LDplayer: DNS Experimentation at Scale'
+#  authors: Liang Zhu and John Heidemann (USC/Information Sciences Institute)
+#  abstract: "<p>In the last 20 years the core of the Domain Name System (DNS) has
+#    improved in security and privacy, and DNS use broadened from name-to-address mapping
+#    to a critical roles in service discovery and anti-spam. However, protocol evolution
+#    and expansion of use has been slow because advances must consider a huge and diverse
+#    installed base. We suggest that experimentation at scale can fill this gap. To
+#    meet the need for experimentation at scale, this paper presents LDplayer, a configurable,
+#    general-purpose DNS testbed. LDplayer enables DNS experiments to scale in several
+#    dimensions: many zones, multiple levels of DNS hierarchy, high query rates, and
+#    diverse query sources. To meet these requirements while providing high fidelity
+#    experiments, LDplayer includes a distributed DNS query replay system and methods
+#    to rebuild the relevant DNS hierarchy from traces. We show that a single DNS server
+#    can correctly emulate multiple independent levels of the DNS hierarchy while providing
+#    correct responses as if they were independent. We show the importance of our system
+#    to evaluate pressing DNS design questions, using it to evaluate changes in DNSSEC
+#    key size.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34281"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Use of Cuckoo Filters with FD.io VPP for Software IPv6 Routing Lookup
+#  authors: Minseok Kwon, Shailesh Vajpayee, Pragash Vijayaragavan, and Arjun Dhuliya
+#    (Rochester Institute of Technology) and John Marshall (Cisco Systems, Inc.)
+#  abstract: "<p>The filter technologies, e.g., Bloom filters, have been used for IP
+#    lookup for their compactness and efficiency. We investigate the performance of
+#    cuckoo filters with Cisco’s VPP (Vector Packet Processing) for IP lookup. We also
+#    introduce a variant called a length-aware cuckoo filter that treats incoming IP
+#    addresses discriminatively, and study its performance with VPP. As proof-of-concept,
+#    we implement cuckoo filters with VPP, and test them on both functions and performance
+#    with focus on the ip6-input node in VPP.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34215"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Cooperative Active Distribution of Videos in Telco-CDNs
+#  authors: Khaled Diab and Mohamed Hefeeda (Simon Fraser University)
+#  abstract: "<p>Telco-CDNs are ISP-managed CDNs deployed inside ISP networks. We propose
+#    a new content distribution system inside telco-CDN called CAD. In CAD, Content
+#    Provider and ISP collaborate to distribute multimedia content to users inside
+#    the ISP network. CAD manages both the overlay and underlay of the network to reduce
+#    the ISP interdomain traffic, improve the service latency, and minimize the intradomain
+#    link utilization. CAD achieves these goals by allowing caching servers to fetch
+#    content from other caching servers, and create videos on-demand inside the telco-CDN.
+#    We propose an algorithm to calculate the overlay and underlay of the CAD-managed
+#    telco-CDN in polynomial time. Compared against the closest approach in the literature,
+#    our initial results showed that CAD achieves up to 30% reduction in the interdomain
+#    traffic and up to 230% improvement in the service latency, while not increasing
+#    the intradomain link utilization.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34277"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Demystifying Hardware Bottlenecks in Mobile Web Quality of Experience
+#  authors: Mallesham Dasari, Conor Kelton, Javad Nejati, Aruna Balasubramanian, and
+#    Samir Das (Stony Brook University)
+#  abstract: "<p>Mobile web page load time depends on three key factors: (1) complexity
+#    of website, (2) underlying network conditions, and (3) processing capability of
+#    devices. While there is substantial work focusing on Web complexity and network,
+#    there is little work in understanding the hardware bottlenecks in page load process.
+#    In this poster, we analyze the effect of hardware bottlenecks of Web pages. We
+#    also analyze the effect of GPU offloading, a commonly used solution to speed up
+#    Web page loads.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34285"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'bitFA: a Novel Data Structure for Fast and Update-friendly Regular Expression
+#    Matching'
+#  authors: Zhe Fu (Tsinghua University), Shijie Zhou (University of Southern California),
+#    and Jun Li (Tsinghua University)
+#  abstract: "<p>This paper proposes bitFA, a novel data structure optimized for fast
+#    and update-friendly regular expression matching. bitFA leverages fast bit manipulation,
+#    instruction-level parallelism and bitmap compression techniques to achieve 5x
+#    to 25x acceleration compared to existing NFA or DFA based regular expression matching
+#    methods.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34216"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'The Root Canary: Monitoring and Measuring the DNSSEC Root Key Rollover'
+#  authors: Roland van Rijswijk-Deij (University of Twente), Taejoong Chung, David
+#    Choffnes, and Alan Mislove (Northeastern University), and Willem Toorop (NLnet
+#    Labs)
+#  abstract: "<p>The Domain Name System (DNS) is part of the core of the Internet.
+#    Over the past decade, much-needed security features were added to this protocol,
+#    with the introduction of the DNS Security Extensions. DNSSEC adds authenticity
+#    and integrity to the protocol using digital signatures, and turns the DNS into
+#    a public key infrastructure (PKI). At the top of this PKI is a single key, the
+#    so-called Key Signing Key (KSK) for the DNS root. The current Root KSK was introduced
+#    in 2010, and has not changed since. This year, the Root KSK will be replaced for
+#    the rst time ever. This event potentially has a major impact on the Internet.
+#    Thousands of DNS resolvers worldwide rely on this key to validate DNSSEC signatures,
+#    and must start using the new key, either through an automated process, or manual
+#    intervention. Failure to pick up the new key will result in resolvers becoming
+#    completely unavailable to end users. This work presents the “Root Canary”, a system
+#    to monitor and measure this event from the perspective of validating DNS resolvers
+#    for its entire nine-month duration. The system combines three active measurement
+#    platforms to have the broadest possible coverage of validating resolvers. Results
+#    will be presented in near real-time, to allow the global DNS community to act
+#    if problems arise. Furthermore, after the Root KSK rollover concludes in March
+#    2018, we will use the recorded datasets for an in-depth analysis, from which the
+#    Internet community can draw lessons for future key rollovers.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34282"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Rethinking TCP Throughput and Latency Modeling
+#  authors: Yi Cao, Aruna Balasubramanian, and Anshul Gandhi (Stony Brook University)
+#  abstract: "<p>TCP throughput and latency models are useful tools to characterize
+#    the TCP performance. The canonical throughput model, while useful, has some limitations
+#    since it does not consider how packet loss rate changes over time. This approach
+#    leads to poor predictions for short flows. We present a new modeling approach
+#    that characterizes the throughput and latency models by: (i) discovering the relationship
+#    between the packet loss rate and the congestion window size, and (ii) incorporating
+#    the starting congestion window and the number of parallel connections. Experimental
+#    results show that our models significantly improve modeling accuracy.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34290"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'uniprof: A Unikernel Stack Profiler'
+#  authors: Florian Schmidt (NEC Laboratories Europe)
+#  abstract: "<p>Unikernels are increasingly gaining traction in real-world deployments,
+#    especially for NFV and microservices, where their low footprint and high performance
+#    are especially beneficial. However, they still suffer from a lack of tools to
+#    support developers. uniprof is a stack profiler that supports Xen unikernels on
+#    x86 and ARM and does not requires any code changes or instrumentation. Its high
+#    speed and low overhead (0.1% at 100 samples/s) makes it usable even in production
+#    environments, allowing the collection of realistic and highly credible data.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34271"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Privacy-Preserving Detection of Inter-Domain SDN Rules Overlaps
+#  authors: Arnaud Dethise (KAUST, Université catholique de Louvain), Marco Chiesa
+#    (Université catholique de Louvain), and Marco Canini (KAUST)
+#  abstract: |
+#    <p>SDN approaches to inter-domain routing promise better traffic engineering, enhanced security, and higher automation. Yet, naive deployment of SDN on the Internet is dangerous as the control-plane expressiveness of BGP is significantly more limited than the data-plane expressiveness of SDN, which allows fine-grained rules to deflect traffic from BGP’s default routes. Most notably, this mismatch may lead to incorrect forwarding behaviors such as forwarding loops and blackholes, ultimately hindering SDN deployment at the inter-domain level.</p>
+#    <p>In this work, we make a first step towards verifying the correctness of inter-domain forwarding state with a focus on loop freedom while keeping private the SDN rules, as they comprise confidential routing information. To this end, we design a simple yet powerful primitive that allows two networks to verify whether their SDN rules overlap, i.e., the set of packets matched by these rules is non-empty, without leaking any information about the SDN rules. We propose an efficient implementation of this primitive by using recent advancements in Secure Multi-Party Computation and we then leverage it as the main building block for designing a system that detects Internet-wide forwarding loops among any set of SDN-enabled Internet eXchange Points.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34262"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: day
+#  time: Wednesday, August 22, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:30am - 5:30pm
+#  room: Legacy Room
+#  title: Session 2 - Poster presenters onsite during coffee breaks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: poster_ts_wed_001
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'BLOP: Batch-Level Order Preserving for GPU-Accelerated Packet Processing'
+#  authors: Zhilong Zheng, Jun Bi, Heng Yu, Chen Sun, and Jianping Wu (Tsinghua University)
+#  abstract: "<p>We propose BLOP, a Batch-Level Order Preserving framework for GPU-accelerated
+#    packet processing. We first study the extent of batch-level out-of-order (up to
+#    26.1%) based on experiments as the motivation for BLOP. Then we propose two key
+#    observations including (1) packet order is strictly maintained inside a batch,
+#    and (2) the difference of processing time between core blocks are small and could
+#    entangle very few batches. Finally, we carefully design the BLOP framework for
+#    enhanced order preserving. BLOP lightly tags batches in CPU before sending them
+#    to GPU, and efficiently reorders batches in CPU after GPU processing. Evaluations
+#    demonstrate that BLOP could achieve order preserving with little performance overhead.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34218"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Enabling Fine-Grained Edge Offloading for IoT
+#  authors: Vittorio Cozzolino, Aaron Yi Ding, and Jörg Ott (Technical University of
+#    Munich) and Dirk Kutscher (Huawei Technologies)
+#  abstract: "<p>In this paper we make the case for IoT edge offloading, which strives
+#    to exploit the resources on edge computing devices by offloading fine-grained
+#    computation tasks from the cloud closer to the users and data generators (i.e.,
+#    IoT devices). The key motive is to enhance performance, security and privacy for
+#    IoT services. Our proposal bridges the gap between cloud computing and IoT by
+#    applying a <em>divide and conquer</em> approach over the multi-level (cloud, edge
+#    and IoT) information pipeline. To validate the design of IoT edge offloading,
+#    we developed a unikernel-based prototype and evaluated the system under various
+#    hardware and network conditions. Our experimentation has shown promising results
+#    and revealed the limitation of existing IoT hardware and virtualization platforms,
+#    shedding light on future research of edge computing and IoT.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34204"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'TCP Proxy Bypass: all the gain with no pain!'
+#  authors: Giuseppe Siracusano (University of Rome, Tor Vergata), Roberto Bifulco
+#    (NEC Laboratories Europe), and Stefano Salsano (University of Rome, Tor Vergata)
+#  abstract: "<p>TCP proxies are widely deployed in modern networks and, sitting on
+#    the network connections’ data path, their efficiency is critical to systems’ cost
+#    and performance. In many cases, the proxy is only required during the initial
+#    phases of a network connection, becoming just a relay during the later stages,
+#    until the connection is finally closed. For example, TCP proxies reading the HTTP
+#    request header may require to access only the first few packets of a connection.
+#    In this paper, we focus on these cases and try to answer the following question:can
+#    established connections be offloaded from the TCP proxy? Our goal is to save precious
+#    resources by transparently removing the TCP proxy from the data path,when the
+#    proxy’s operations are limited to relaying packets.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34291"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'SymPerf: Predicting Network Function Performance'
+#  authors: Felix Rath, Johannes Krude, Jan Rüth, Daniel Schemmel, Oliver Hohlfeld,
+#    Jó Ágila Bitsch, and Klaus Wehrle (RWTH Aachen University)
+#  abstract: "<p>The softwarization of networks provides a new degree of flexibility
+#    in network operation but its software components can result in unexpected runtime
+#    performance and erratic network behavior. This challenges the deployment of flexible
+#    software functions in performance critical (core) networks. To address this challenge,
+#    we present a methodology enabling proactive prediction of runtime performance
+#    and testing of functional behavior of Network Functions. Unlike traditional performance
+#    evaluation, e.g., testbed testing or simulation, our methodology can characterize
+#    the Network Function performance for any possible workload only by code analysis.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34272"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Quick incremental routing logic for dynamic network graphs
+#  authors: Desislava Dimitrova, John Liagouris, Moritz Hoffmann, Vasiliki Kalavri,
+#    Sebastian Wicki, and Timothy Roscoe (ETH Zurich)
+#  abstract: "<p>We present iPath, a principled routing functionality for SDN controllers.
+#    We define routing as an incremental computation on a stream of network updates,
+#    enabling the module to quickly provide paths in response to changes. iPath can
+#    handle 160 network changes per second for a FatTree topology with 3K switches,
+#    using only 8 cores of a single commodity machine. As a result, iPath shows potential
+#    for the design of dynamic policy-based routing modules able to meet demands of
+#    modern workloads compared to existing distributed protocols or SDN-based solutions.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34263"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Is it a SmartNIC or a Key-Value Store?: Both!'
+#  authors: Giuseppe Siracusano (University of Rome, Tor Vergata) and Roberto Bifulco
+#    (NEC Laboratories Europe)
+#  abstract: "<p>In-memory Key-Value stores (KVSs) are important components of modern
+#    web services. In this work we present NICached, a general caching system for KVSs,
+#    which can be supported by upstream Linux Kernels and that can be potentially offloaded
+#    to different types of SmartNICs. NICached can handle KVS requests that use a connection-less
+#    transport protocol (i.e., we do not currently support TCP), achieving a 6x improvement
+#    in terms of requests per second (RPS) over a production ready implementation of
+#    memcached, a popular KVS. Contrary to related work, NICached does not modify the
+#    Linux kernel, nor the KVS, and it can take advantage of SmartNICs’ accelerators
+#    without requiring dedicated hardware KVS implementations.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34219"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Network-Assisted Raft Consensus Algorithm
+#  authors: Yang Zhang (University of Minnesota, Twin Cities), Bo Han (AT&T Labs --
+#    Research), Zhi-Li Zhang (University of Minnesota, Twin Cities), and Vijay Gopalakrishnan
+#    (AT&T Labs -- Research)
+#  abstract: "<p>Consensus algorithm is a common building block of distributed systems.
+#    With the advent of programmable network, we answer the following question in this
+#    paper: can we <span><em>partially</em></span> offload a consensus algorithm to
+#    the network in order to improve its performance? We argue for an affirmative answer
+#    by introducing a network-assisted Raft consensus algorithm which reduces the consensus
+#    latency without sacrificing scalability. Our design offloads only necessary Raft
+#    functionality to a P4 switch to enable Raft-aware forwarding and quick response.
+#    We discuss how to handle failures in the proposed design and show the performance
+#    gain via a prototype implementation.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34293"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: A Case for Information Centric Networking For Smart Grid Communications
+#  authors: Dan Ameme, Satyajayant Misra, and Abderrahmen Mtibaa (New Mexico State
+#    University)
+#  abstract: "<p>The smart grid, with its large array of networked devices and bidirectional
+#    data flow between the end-users and the grid, presents new requirements in service
+#    reliability, communication latency, and data delivery. The traditional TCP/IP
+#    communication paradigm was not designed to handle these requirements at the envisioned
+#    scale. This calls for a novel networking paradigm. This paper makes the case for
+#    the use of the Information Centric Networking (ICN) paradigm to create the smart
+#    grid network architecture. We quantitatively assess the gains resulting from ICN’s
+#    inherent functionalities, such as concurrent use of multiple interfaces, request
+#    aggregation, and stateful forwarding, which enable timely critical message delivery
+#    and fast packet re-transmissions. We perform simulations to compare IP and ICN-based
+#    smart grid deployments. Our results show that the ICN-based solution outperforms
+#    the IP-based solution, especially in a network with packet losses.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34279"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'AS hegemony: A Robust Metric for AS Centrality'
+#  authors: Romain Fontugne (IIJ Research Lab), Anant Shah (Colorado State University),
+#    and Emile Aben (RIPE NCC)
+#  abstract: "<p>Inter-domain routing anomalies happen on a daily basis and are potential
+#    sources of great troubles for Internet users. The origins of these anomalies are
+#    diverse, ranging from operator mistakes to malicious activities. To monitor significant
+#    routing changes network operators rely on tools (e.g.bgpmon.net) that implements
+#    complex heuristics based on AS business relationship, geo info, whois, etc. But
+#    these tools are generally hard to maintain as they require constant updates and
+#    fine tuning. The goal of this ongoing research is to design systematic methods
+#    to identify abnormal routing changes from BGP data. Our first step is to define
+#    a set of discriminative features to monitor the role of each AS for inter-domain
+#    routing. We are particularly interested in quantifying the likelihood of an AS
+#    to lie on paths between two other ASes, also known as AS centrality. Significant
+#    changes in AS centrality are strong evidences of structural routing changes that
+#    might be undesirable. In the literature AS centrality is commonly measured using
+#    Betweenness Centrality (BC). For example, BC enabled researchers to monitor critical
+#    ASes at country-level [5], detect disruptive events [2], and select targets for
+#    control plane attacks [4]. However, in this paper, we report fundamental shortcomings
+#    of BC when used with BGP data (§2), consequently we propose a new centrality metric
+#    called AS hegemony (§3).</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34287"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: The implications of Twitterbot generated data traffic on networked systems
+#  authors: Zafar Gilani (University of Cambridge), Reza Farahbakhsh (Institut Mines
+#    Telecom), Gareth Tyson (Queen Mary University of London), and Jon Crowcroft (University
+#    of Cambridge)
+#  abstract: "<p>The explosion of bots on the Web brings an unprecedented increase
+#    in traffic from non-human sources. This work studies bot traffic on Twitter, finding
+#    that almost 50% of traffic is generated and propagated by a rapidly growing bot
+#    population - a major concern for networked systems in the future.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34288"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Sandboxing Data Plane Programs for Fun and Profit
+#  authors: Miguel Neves (UFRGS), Kirill Levchenko (UC San Diego), and Marinho Barcellos
+#    (UFRGS)
+#  abstract: "<p>This paper describes the design and implementation of a general-purpose
+#    compile-time sandbox for P4 data plane programs. Our mechanism allows a supervisor
+#    to interpose on another program’s interaction with the forwarding device. The
+#    sandboxing technique we use provides also a powerful new program structuring model,
+#    allowing a data plane developer to combine crosscutting program modules in a safe
+#    way. To demonstrate the capabilities of our construct, we describe the implementation
+#    of a data plane security kernel that enforces end host isolation policies on top
+#    of a programmable data plane.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34206"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'HERO: A Hybrid Electrical and Optical Multicast for Accelerating High-Performance
+#    Data Center Applications'
+#  authors: Jinzhen Bao, Baokang Zhao, Dezun Dong, and Zhenghu Gong (National University
+#    of Defense Technology)
+#  abstract: "<p>This paper presents HERO, a system for accelerating high performance
+#    data center applications by integrating hybrid electrical and optical multicast.
+#    We built a prototype and developed a flow-level simulator to evaluate the performance
+#    of HERO. Experiment and simulation results show that HERO reduces the average
+#    MFCT by ~32% and ~28% compared to OCS and EPS multicast, respectively.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34276"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Gather: A Way to Optimize the Routing Process of In-band Control Network'
+#  authors: Yabo Yan (Beijing University of Posts and Telecommunications) and Jun Bi,
+#    Yu Zhou, and Cheng Zhang (Tsinghua University)
+#  abstract: "<p>Nowadays, the in-band way of implementing SDN control network has
+#    received much attention for its feasibility in distributed deployment as well
+#    as the cost effectiveness. However, to maintain such in-band control network,
+#    every switch has to statically pre-store a large number of flow entries to keep
+#    the control channels between switches and the controller. Consequently, this way
+#    of implementing the in-band control network suffers from a serious waste of network
+#    resources such as the TCAM and great complexity of network management. In this
+#    paper, We propose Gather, an optimized routing mechanism for controllers to manage
+#    the in-band control network with better utilization efficiency of memory resources.
+#    Experiment results show that our design can usually reduce 45% to 55% of the overall
+#    flow entries in our test topologies. Meanwhile, the increased delay imposed by
+#    our optimization on the network is less than 5%.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34264"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Time Synchronization in a Network of Bluetooth Low Energy Beacons
+#  authors: Farzad Asgarian and Khalil Najafi (University of Michigan, Ann Arbor)
+#  abstract: "<p>Time synchronization is a vital feature in many wireless sensor networks
+#    with applications ranging from structural health monitoring systems to body area
+#    sensors used for rehabilitation and sport medicine. While different wireless protocols
+#    have been utilized in sensor networks, Bluetooth Low Energy (BLE) has drawn a
+#    lot of attention in the past years due to its low-power architecture and availability
+#    in many consumer electronics. Moreover, the added non-connectable beacon mode
+#    has increased its functionality for Internet of Things (IoT) and sensor fusion.
+#    However, in this mode as devices are not paired with each other no synchronization
+#    service is available. In this paper, we present a synchronization protocol based
+#    on BLE beacons that can be used in conjunction with BLE software stacks provided
+#    with a commercial Bluetooth System-on-Chip (SoC). Offset and frequency-drift estimation
+#    techniques are discussed, and the effects of number of synchronization packets
+#    and their intervals on the overall synchronization accuracy are investigated.
+#    Experimental results show that without any re-synchronization in ten minutes,
+#    average synchronization errors of less than 350 ns per minute (single hop) can
+#    be achieved.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34202"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'CacheP4: A Behavior-level Caching Mechanism for P4'
+#  authors: Zijun Ma, Jun Bi, Cheng Zhang, Yu Zhou, and Abdul Basit Dogar (Tsinghua
+#    University)
+#  abstract: "<p>In recent times, the P4 programming language has been proposed as
+#    a domain specific language for programmable data planes. However, room for further
+#    optimization of faster packet processing remains in P4. In this poster, we propose
+#    CacheP4, a behavior-level caching mechanism for P4, which (1) adds match+action
+#    tables (MATs) as the cache to P4 programs and (2) allows the control plane to
+#    dynamically update cache content by repopulating cache MATs during the runtime.
+#    Experiments on BMv2 target with typical P4 programs indicate that CacheP4 could
+#    achieve a latency decrease over 20% and a throughput increase over 60%.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34208"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'TIDE: Threat Identification Using Active DNS Measurements'
+#  authors: Anna Sperotto, Olivier van der Toorn, and Roland van Rijswijk-Deij (University
+#    of Twente)
+#  abstract: "<p>The Domain Name System contains a wealth of information about the
+#    security, stability and health of the Internet. Most research that leverages the
+#    DNS for detection of malicious activities does so by using passive measurements.
+#    The limitation of this approach, however, is that it is effective only once an
+#    attack is ongoing. In this paper, we explore a different approach. We advocate
+#    the use of active DNS measurements for pro-active (i.e., before the actual attack)
+#    identification of domains set up for malicious use. Our research makes uses of
+#    data from the OpenINTEL large-scale active DNS measurement platform, which, since
+#    February 2015, collects daily snapshots of currently more than 60% of the DNS
+#    namespace. We illustrate the potential of our approach by showing preliminary
+#    results in three case studies, namely snowshoe spam, denial of service attacks
+#    and a case of targeted phishing known as CEO fraud.</p>"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34283"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

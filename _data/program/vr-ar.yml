@@ -1,0 +1,323 @@
+#---
+#- type: day
+#  time: Friday, August 25, 2017
+#  room: Illumination Room (Luskin Center)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:00am - 9:15am
+#  room: Illumination Room (Luskin Center)
+#  title: Opening Remarks
+#  authors: Yong Liu
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: 9:15am - 10:30am
+#  room: Illumination Room (Luskin Center)
+#  title: 'Keynote Talk: AR/VR and the Future of Networked Intelligence'
+#  authors: 'Dr. Tish Shute, Director, AR/VR, Corporate Strategy and Technology Planning,
+#    Huawei, USA. '
+#  abstract: This talk will look at how, given a major shift in computing from “Mobile
+#    First” to “AI First,” we need to re-examine our current understandings of AR/VR.  I
+#    will explore how AR/VR and experiential communications will redefine the relationship
+#    between human and machine intelligence.  This new, intimate connection between
+#    AR/VR and AI will be key to identifying future network architectures as we begin
+#    an era in which the augmentation of humans will not be so much about upgrading
+#    our external tools as merging with them.
+#  bio: Tish Shute is Director, AR/VR, Corporate Strategy and Technology Planning,
+#    Huawei, USA. Previously Tish worked with Will Wright (Sims, Sim City) to create
+#    a new generation of mobile social experiences based on neural nets and innovative
+#    approaches to machine learning. At Stupid Fun Club Tish worked with Will on next
+#    generation entertainment - smart toys, augmented reality television and games.
+#    Tish has taken a leading role in the emergence of augmented and virtual reality
+#    into the consumer market. She is co-founder of Augmented Reality.ORG, a global
+#    not-for-profit organization dedicated to advancing augmented and virtual reality
+#    (AR and VR). She also co-founded Augmented Reality Event (ARE) and Augmented World
+#    Expo (AWE) which is now in its eighth year and the world’s largest event focused
+#    on AR and VR. Tish is a recognized speaker in the AR and VR industry and sought-after
+#    advisor for augmented and virtual reality initiatives. Tish began her career in
+#    design and technology doing visual effects for film, television, theme parks and
+#    aerospace. Tish’s first company NPlus1 pioneered the use of automation and robotics
+#    in film making and entertainment experiences. Tish has an MFA in Combined Media,
+#    Hunter College, NY, and an MPhil. (Ph.D. ABD) in Culture and Media from New York
+#    University.
+#  photo: images/speakers/Tish-Shute.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: Illumination Room (Luskin Center)
+#  title: Session 1
+#  authors: 'Simone Mangiante '
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Characterization of 360-degree Videos
+#  authors: Shahryar Afzal, Jiasi Chen, and K. K. Ramakrishnan (University of California,
+#    Riverside)
+#  abstract: "<p>Online streaming of Virtual Reality and 360-degree videos is rapidly
+#    growing, as more and more major content providers and news outlets adopt the format
+#    to enrich the user experience. We characterize 360-degree videos by examining
+#    several thousand YouTube videos across more than a dozen categories. 360-degree
+#    videos, at first sight, seem to pose a challenge for the network to stream because
+#    of their substantially higher bit rates and larger number of resolutions. However,
+#    a careful examination of video characteristics reveals that there are significant
+#    cant opportunities for reducing the actual bit rate delivered to client devices
+#    based on the user’s field of view. We study the bit rate and the motion in 360-degree
+#    videos, and compare them against regular videos by investigating several important
+#    metrics. We find that 360-degree videos are less variable in terms of bit rate,
+#    and have less motion than regular videos. Our expectation is that variability
+#    in the bit rates due to the motion of the camera in regular videos (or switching
+#    between cameras) is now translated to responsiveness requirements for end-to-end
+#    360-degree streaming architectures.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34701"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: VR Video Conferencing over Named Data Networks
+#  authors: Liyang Zhang, Syed Obaid Amin, and Cedric Westphal (Huawei Research Center)
+#  abstract: "<p>We propose a VR video conferencing system over named data networks
+#    (NDN). The system is designed to support real-time, multi-party streaming and
+#    playback of 360 degree video on a web player. A centralized architecture is used,
+#    with a signaling server to coordinate multiple participants. To ensure real-time
+#    requirement, a protocol featuring prefetching is used for producer-consumer communication.
+#    Along with the native support of multicast in NDN, this design is expected to
+#    better support large amount of data streaming between multiple users. As a proof
+#    of concept, a protoype of the system is implemented with one-way real-time 360
+#    video streaming. Experiments show that seamless streaming and interactive playback
+#    of 360 video can be achieved with low latency. Therefore, the proposed system
+#    has the potential to provide immersive VR experience for real-time multi-party
+#    video conferencing.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34702"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Prioritized Buffer Control in Two-tier 360 Video Streaming
+#  authors: Fanyi Duanmu, Eymen Kurdoglu, Amir Hosseini, Yong Liu, and Yao Wang (New
+#    York University)
+#  abstract: "<p>360 degree video compression and streaming is one of the key components
+#    of Virtual Reality (VR) applications. In 360 video streaming, a user may freely
+#    navigate through the captured 3D environment by changing her desired viewing direction.
+#    Only a small portion of the entire 360 degree video is watched at any time. Streaming
+#    the entire 360 degree raw video is therefore unnecessary and bandwidth-consuming.
+#    One the other hand, only streaming the video in the user’s current view direction
+#    will introduce streaming discontinuity whenever the user changes her view direction.
+#    In this work, a two-tier 360 video streaming framework with prioritized buffer
+#    control is proposed to effectively accommodate the dynamics in both network bandwidth
+#    and viewing direction. Through simulations driven by real network bandwidth and
+#    viewing direction traces, we demonstrate that the proposed framework can significantly
+#    outperform the conventional 360 video streaming solutions.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34703"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Ultra Wide View Based Panoramic VR Streaming
+#  authors: Ran Ju, Jun He, Fengxin Sun, Jin Li, Feng Li, Jirong Zhu, and Lei Han (Huawei
+#    Technologies)
+#  abstract: "<p>Online VR streaming faces great challenges such as the high throughput
+#    and real time interaction requirement. In this paper, we propose a novel ultra
+#    wide view based method to stream high quality VR on Internet at low bandwidth
+#    and little computation cost. First, we only transmit the region where user is
+#    looking at instead of full 360 degree view to save bandwidth. To achieve this
+#    goal, we split the source VR into small grid videos in advance. The grid videos
+#    are able to reconstruct any view flexibly in user end. Second, according to the
+#    fact that users generally interact at low speed, we expand the view that user
+#    requested to meet the real time interaction requirement. Besides, a low resolution
+#    full view stream is supplied to handle exceptional cases such as high speed view
+#    change. We test our solution in an experimental network. The results show remarkable
+#    bandwidth saving of over 60</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34704"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 2:00pm
+#  room: Centennial Terrace
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: Illumination Room (Luskin Center)
+#  title: Session 2
+#  authors: Jiasi Chen
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: On the Networking Challenges of Mobile Augmented Reality
+#  authors: Wenxiao ZHANG (Hong Kong University of Science and Technology), Bo HAN
+#    (AT&T Labs -- Research), and Pan HUI (Hong Kong University of Science and Technology)
+#  abstract: "<p>In this paper, we conduct a reality check for Augmented Reality (AR)
+#    on mobile devices. We dissect and measure the cloud-offloading feature for computation-intensive
+#    visual tasks of two popular commercial AR systems. Our key finding is that their
+#    cloud-based recognition is still not mature and not optimized for latency, data
+#    usage and energy consumption. In order to identify the opportunities for further
+#    improving the Quality of Experience (QoE) for mobile AR, we break down the end-to-end
+#    latency of the pipeline for typical cloud-based mobile AR and pinpoint the dominating
+#    components in the critical path.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34715"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'VR is on the edge: how to deliver 360° videos in mobile networks'
+#  authors: Simone Mangiante and Guenter Klas (Vodafone Group R&D), Amit Navon, Zhuang
+#    GuanHua, and Ju Ran (Huawei), and Marco Dias Silva (Vodafone Group R&D)
+#  abstract: "<p>VR/AR is rapidly progressing towards enterprise and end customers
+#    with the promise of bringing immersive experience to numerous applications. Soon
+#    it will target smartphones from the cloud and 360° video delivery will need unprecedented
+#    requirements for ultra-low latency and ultra-high throughput to mobile networks.
+#    Latest developments in NFV and Mobile Edge Computing reveal already the potential
+#    to enable VR streaming in cellular networks and to pave the way towards 5G and
+#    next stages in VR technology. In this paper we present a Field Of View (FOV) rendering
+#    solution at the edge of a mobile network, designed to optimize the bandwidth and
+#    latency required by VR 360° video streaming. Preliminary test results show the
+#    immediate benefits in bandwidth saving this approach can provide and generate
+#    new directions for VR/AR network research.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34716"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'VR/AR Immersive Communication: Caching, Edge Computing, and Transmission
+#    Trade-Offs'
+#  authors: Jacob Chakareski (The University of Alabama)
+#  abstract: '<p>We study the delivery of <span class="math inline">360<sup>∘</sup></span>-navigable
+#    videos to 5G VR/AR wireless clients in future cooperative multi-cellular systems.
+#    A collection of small-cell base stations interconnected via back-haul links are
+#    sharing their caching and computing resources to maximize the aggregate reward
+#    they earn by serving <span class="math inline">360<sup>∘</sup></span> videos requested
+#    by VR/AR wireless clients. We design an efficient representation method to construct
+#    the <span class="math inline">360<sup>∘</sup></span> videos such that they only
+#    deliver the remote scene viewpoint content genuinely needed by the VR/AR user,
+#    thereby overcoming the present highly inefficient approach of sending a bulky
+#    <span class="math inline">360<sup>∘</sup></span> video, whose major part comprises
+#    scene information never accessed by the user. Moreover, we design an optimization
+#    framework that allows the base stations to select cooperative caching/rendering/streaming
+#    strategies that maximize the aggregate reward they earn when serving the users,
+#    for the given caching/computational resources at each base station. We formulate
+#    the problem of interest as integer programming, show its NP-hardness, and derive
+#    a fully-polynomial-time approximation solution with strong performance guarantees.
+#    Our advances demonstrate orders of magnitude operational efficiency gains over
+#    state-of-the-art caching and <span class="math inline">360<sup>∘</sup></span>
+#    video representation mechanisms and are very promising. This is a first-of-its-kind
+#    study to explore fundamental trade-offs between caching, computing, and communication
+#    for emerging VR/AR applications of prospectively broad societal impact.</p>
+#
+#'
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34717"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Delivering deep learning to mobile devices via offloading
+#  authors: Xukan Ran and Haoliang Chen (University of California, Riverside), Zhenming
+#    Liu (College of William and Mary), and Jiasi Chen (University of California, Riverside)
+#  abstract: |
+#    <p>Deep learning could make Augmented Reality (AR) devices smarter, but few AR apps use such technology today because it is compute-intensive while front-end devices often cannot deliver sufficient compute power. We propose a distributed framework that ties together front-end devices with more powerful backend “helpers” that allow deep learning to be executed locally or to be offloaded. The framework shall be able to intelligently use current estimates of network conditions and backend server loads, and in conjunction with application’s requirements to determine an optimal offload strategy.</p>
+#    <p>This work reports our preliminary investigation in implementing this framework, in which the front-end is assumed to be smartphones. Our specific contributions include (1) development of an Android application that performs real-time object detection, either locally on the smartphone or remotely on a server; and (2) characterization of the tradeoffs between object detection accuracy, latency, and battery drain, based on the system parameters of video resolution, CNN model size, and offloading decision.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34718"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:00pm - 5:30pm
+#  room: Illumination Room (Luskin Center)
+#  title: Open Discussion and closing remarks
+#  authors: Yong Liu
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

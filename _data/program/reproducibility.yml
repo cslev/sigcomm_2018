@@ -1,0 +1,373 @@
+#---
+#- type: day
+#  time: Friday, August 25, 2017
+#  room: Optimist Room (Luskin Center)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:00am - 9:15am
+#  room: Optimist Room (Luskin Center)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Opening Remarks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: files/program-reproducibility/opening_remarks.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:15am - 10:30am
+#  room: Optimist Room (Luskin Center)
+#  title: Session 1 - Why is reproducibility so hard?
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Challenges with Reproducibility '
+#  authors: Vaibhav Bajpai (TU Munich); Mirja Kühlewind (ETH Zürich); Jörg Ott (TU
+#    Munich); Jürgen Schönwälder (Jacobs University Bremen); Anna Sperotto (University
+#    of Twente); Brian Trammell (ETH Zürich)
+#  abstract: The Computer Science (CS) culture is gentle to accepting papers that are
+#    non-reproducible as long as they appear plausible. In this paper, we discuss some
+#    of the challenges with reproducibility and a set of recommendations that we as
+#    a community can undertake to initiate a cultural change.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34775"
+#  slides: files/program-reproducibility/3.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Towards an Ecosystem for Reproducible Research in Computer Networking
+#  authors: Quirin Scheitle (Technical University of Munich); Matthias Wählisch (Freie
+#    Universität Berlin); Oliver Gasser (Technical University of Munich); Thomas C.
+#    Schmidt (HAW Hamburg); Georg Carle (Technical University of Munich)
+#  abstract: Reproducibility is key to rigorous scientific progress. However, many
+#    publications in the computer networks community lack support for reproducibility.
+#    In this paper, we argue that the lack is mainly rooted in the additional effort
+#    that authors need to spend, without expecting sufficient benefits. Based on our
+#    experience in both authoring reproducible research and reproducing publications,
+#    we propose an ecosystem that incentivizes authors and reproducers to invest additional
+#    effort. This ecosystem consists of various building blocks, which can be combined
+#    into venue-specific profiles. A key building block is the Reproducibility Challenge,
+#    which we suggest to co-locate with annual SIGCOMM conference to leverage reproducibility
+#    research in practice.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34776"
+#  slides: files/program-reproducibility/1.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Learning Reproducibility with a Yearly Networking Contest
+#  authors: Marco Canini (KAUST); Jon Crowcroft (University of Cambridge)
+#  abstract: Better reproducibility of networking research results is currently a major
+#    goal that the academic community is striving towards. This position paper makes
+#    the case that improving the extent and pervasiveness of reproducible research
+#    can be greatly fostered by organizing a yearly international contest. We argue
+#    that holding a contest undertaken by a plurality of students will have benefits
+#    that are two-fold. First, it will promote hands-on learning of skills that are
+#    helpful in producing artifacts at the replicable-research level. Second, it will
+#    advance the best practices regarding environments, testbeds, and tools that will
+#    aid the tasks of reproducibility evaluation committees by and large.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34777"
+#  slides: files/program-reproducibility/9.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Taming the complexity of artifact reproducibility
+#  authors: Matthias Flittner, Robert Bauer (Karlsruhe Institute of Technology); Amr
+#    Rizk (Technische Universität Darmstadt); Stefan Geißler, Thomas Zinner (University
+#    of Würzburg); Martina Zitterbart (Karlsruhe Institute of Technology)
+#  abstract: Reproducing research results, as it is required for peer review, can be
+#    a time-consuming and difficult task. In this work, we propose three approaches
+#    to improve the way of how research results can be substantiated and discuss their
+#    applicability. Our proposals are based on a brief study on evaluation methods
+#    (for SDN research) and insights from a comprehensive discussion on reproducibility.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34778"
+#  slides: files/program-reproducibility/4.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: Optimist Room (Luskin Center)
+#  title: Session 2 - How reproducible is our research?
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: 11:00am - 11:35am
+#  room: ''
+#  title: 'Best of CCR: Learning Networking by Reproducing Research Results'
+#  authors: Lisa Yan (Stanford University)
+#  abstract: In the past five years, the graduate networking course at Stanford has
+#    assigned over 200 students the task of repro- ducing results from over 40 networking
+#    papers. We began the project as a means of teaching both engineering rigor and
+#    critical thinking, qualities that are necessary for careers in networking research
+#    and industry. We have observed that reproducing research can simultaneously be
+#    a tool for edu- cation and a means for students to contribute to the net- working
+#    community. Through this editorial we describe our project in reproducing network
+#    research and show through anecdotal evidence that this project is important for
+#    both the classroom and the networking community at large, and we hope to encourage
+#    other institutions to host similar class pro jects.
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: files/program-reproducibility/Keynote1.pptx
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: A Meta-Analysis Approach for Feature Selection in Network Traffic Research
+#  authors: Daniel C. Ferreira, Félix Iglesias, Gernot Vormayr, Maximilian Bachl, Tanja
+#    Zseby (TU Wien)
+#  abstract: The selection of features for network traffic monitoring and anomaly detection
+#    is a challenge for experts who aim to build systems that discover traffic patterns,
+#    characterize networks, and improve security. There are no major guidelines or
+#    best practices for feature selection in the field. The literature is full of different
+#    proposals that ultimately depend on feature availability, types of known traffic,
+#    tool limitations, specific goals, and, fundamentally, the experts’ knowledge and
+#    intuition. In this work we have revisited 71 principal publications from 2005
+#    to 2017. Relevant information has been curated according to formalized data structures
+#    and stored in JSON format, creating a database for the smart retrieval of network
+#    traffic analysis researches. Meta-analysis performed upon the explored publications
+#    disclosed a set of main features that are common in a considerable volume of works
+#    and could be used as a baseline for future research. Additionally, aiming for
+#    validation and generalization in network traffic research, the creation of such
+#    meta-analysis environments is highly required. It allows homogenizing and joining
+#    criteria for the design of experiments and tools, thus avoiding getting lost or
+#    becoming irrelevant due to the high complexity and variability that network traffic
+#    analysis involves.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34779"
+#  slides: files/program-reproducibility/6.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Lessons Learned while Trying to Reproduce the OpenRF Experiment
+#  authors: Mohamed Naoufal Mahfoudi, Thierry Turletti, Thierry Parmentelat, Walid
+#    Dabbous (Université Côte d’Azur, Inria, France)
+#  abstract: Evaluating and comparing performance of wireless systems, like for any
+#    other scientific area, requires the ability to reproduce experimental results.
+#    In this paper, we describe the specific issues that we encountered when focusing
+#    on reproducing the experiments described in a paper related to wireless systems.
+#    We selected the OpenRF paper published in SIGCOMM 2013, a very interesting research
+#    work allowing to perform beamforming on commodity WiFi devices. We illustrate
+#    how reproducibility is strongly dependent on the used hardware, and why an extensive
+#    knowledge of the used hardware and its design is necessary. On the basis of this
+#    experience, we propose some recommendations and lessons for the design of reproducible
+#    wireless experiments.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34770"
+#  slides: files/program-reproducibility/8.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Testbeds Support for Reproducible Research
+#  authors: Lucas Nussbaum (LORIA - INRIA - Université de Lorraine)
+#  abstract: In the context of experimental research, testbeds play an important role
+#    in enabling reproducibility of experiments, by providing a set of services that
+#    help experiments with setting up the experimental environment, and collecting
+#    data about it. This paper explores the status of three different testbeds (Chameleon,
+#    CloudLab and Grid'5000) regarding features required for, or related to reproducible
+#    research, and discusses some open questions on that topic.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34771"
+#  slides: files/program-reproducibility/10.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 2:00pm
+#  room: Centennial Terrace
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: Optimist Room (Luskin Center)
+#  title: Work group discussions
+#  authors: Olivier Bonaventure, Luigi Iannone, and Damien Saucez
+#  abstract: Work groups to define how to enable reproducibility in our community.
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: 2:00pm - 2:45pm
+#  room: ''
+#  title: 'FindResearch.org: How to Encourage Sharing of Research Artifacts'
+#  authors: Christian Collberg (University of Arizona)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: files/program-reproducibility/Keynote2.pdf
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm-3:30pm
+#  room: Optimist Room (Luskin Center)
+#  title: Group discussions
+#  authors: ''
+#  abstract: The attendees will split in two or three work groups aiming at answering
+#    precise questions related to reproducibility and how to implement it in our community
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:00pm - 5:30pm
+#  room: Optimist Room (Luskin Center)
+#  title: Work groups wrap-up and conclusions
+#  authors: Olivier Bonaventure, Luigi Iannone, and Damien Saucez
+#  abstract: Recommendations on reproducibility for our community
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:00pm - 4:45pm
+#  room: Optimist Room (Luskin Center)
+#  title: Work group reporting
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: description
+#  time: ''
+#  room: ''
+#  title: Each work group prepares a report and presentation to discuss their conclusions
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:45pm - 5:25pm
+#  room: Optimist Room (Luskin Center)
+#  title: Wrap-up
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: description
+#  time: ''
+#  room: ''
+#  title: Every work group present their recommendations and define action points.
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 5:25pm - 5:30pm
+#  room: Optimist Room (Luskin Center)
+#  title: Closing remarks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

@@ -1,0 +1,465 @@
+#---
+#- type: day
+#  time: Monday, August 21, 2017
+#  room: Tesla Room (Engineering IV)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 8:30am - 8:45am
+#  room: Tesla Room (Engineering IV)
+#  title: Opening
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 8:45am - 10:30am
+#  room: Tesla Room (Engineering IV)
+#  title: 'Session 1: QoE-based Traffic Monitoring and Analysis'
+#  authors: Florian Wamser (University of Würzburg)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: 8:45am - 9:30am
+#  room: ''
+#  title: Quality of Experience Demystified
+#  authors: Oliver Hohlfeld (RWTH Aachen University)
+#  abstract: "<p>Many Internet applications are designed to be used by humans. Yet
+#    common performance metrics applied to evaluate and optimize these applications
+#    do not consider aspects of human perception. They rather measure machine-centric
+#    performance aspects. To solve this, Quality of Experience (QoE) research aims
+#    at providing human-centric performance evaluation techniques. Yet, many myths
+#    and misconceptions exist on what QoE really is, how it can be applied, and how
+#    research can be performed in the QoE domain. These myths are often rooted in translation
+#    problems between networking and QoE research, two fields having their own language,
+#    concepts, and venues. This talk aims at bridging the gap and motivating research
+#    in the field by demystifying the concept of QoE.</p>"
+#  bio: Oliver Hohlfeld is heading the network architectures group in the institute
+#    of communication and distributed systems (COMSYS) at RWTH Aachen University. He
+#    obtained his Ph.D. from TU Berlin in 2013, advised by Anja Feldmann. His current
+#    research focuses on Internet measurements, adaptive Internet architectures, and
+#    the QoE-driven evaluation of Internet architectures and applications.
+#  photo: images/speakers/Oliver-Hohlfeld.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: 9:30am - 9:50am
+#  room: ''
+#  title: A QoE Perspective on HTTP/2 Server Push
+#  authors: Torsten Zimmermann, Benedikt Wolters, and Oliver Hohlfeld (RWTH Aachen
+#    University)
+#  abstract: "<p>HTTP/2 was recently standardized to optimize the Web by promising
+#    faster Page Load Times (PLT) as compared to the widely deployed HTTP/1.1. One
+#    promising feature is HTTP/2 server push, which turns the former pull-only into
+#    a push-enabled Web. By enabling servers to preemptively push resources to the
+#    clients without explicit request, it promises further improvements of the overall
+#    PLT. Despite this potential, it remains unknown if server push can indeed yield
+#    human perceivable improvements. In this paper, we address this open question by
+#    assessing server push in both i) a laboratory and ii) a crowdsourcing study. Our
+#    study assesses the question if server push can lead to perceivable faster PLTs
+#    as compared to HTTP/1.1 and HTTP/2 without push. We base this study on a set of
+#    28 push-enabled real-word websites selected in an Internet-wide measurement. Our
+#    results reveal that our subjects are able to perceive utilization of server push.
+#    However, its usage does not necessarily accomplish perceived PLT improvements
+#    and can sometimes even be noticeably detrimental.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34727"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: 9:50am - 10:10am
+#  room: ''
+#  title: 'PAIN: A Passive Web Speed Indicator for ISPs'
+#  authors: Martino Trevisan, Idilio Drago, and Marco Mellia (Politecnico di Torino)
+#  abstract: "<p>Understanding the quality of web browsing enjoyed by users is key
+#    to optimize services and keep users’ loyalty. This is crucial for Internet Service
+#    Providers (ISPs) to anticipate problems. Quality is subjective, and the complexity
+#    of today’s pages challenges its measurement. OnLoad time and SpeedIndex are notable
+#    attempts to quantify web performance. However, these metrics are computed using
+#    browser instrumentation and, thus, are not available to ISPs. PAIN (PAssive INdicator)
+#    is an automatic system to observe the performance of web pages at ISPs. It leverages
+#    passive flow-level and DNS measurements which are still available in the network
+#    despite the deployment of HTTPS. With unsupervised learning, PAIN automatically
+#    creates a model from the timeline of requests issued by browsers to render web
+#    pages, and uses it to analyze the web performance in real-time. We compare PAIN
+#    to indicators based on in-browser instrumentation and find strong correlations
+#    between the approaches. It reflects worsening network conditions and provides
+#    visibility into web performance for ISPs.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34728"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: 10:10am - 10:30am
+#  room: ''
+#  title: Perceived Performance of Top Retail Webpages In the Wild
+#  authors: Qingzhu Gao, Prasenjit Dey, and Parvez Ahammad (INSTART LOGIC INC)
+#  abstract: |
+#    <p>Clearly, no one likes webpages with poor quality of experience (QoE). Being perceived as slow or fast is a key element in the overall perceived QoE of web applications. While extensive effort has been put into optimizing web applications (both in industry and academia), not a lot of work exists in characterizing what aspects of webpage loading process truly influence human end-user’s perception of the <em>Speed</em> of a page. In this paper we present <em>SpeedPerception</em> <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, a large-scale web performance crowdsourcing framework focused on understanding the perceived loading performance of above-the-fold (ATF) webpage content. Our end goal is to create free open-source benchmarking datasets to advance the systematic analysis of how humans perceive webpage loading process.</p>
+#    <p>In Phase-1 of our <em>SpeedPerception</em> study using Internet Retailer Top 500 (IR 500) websites <span class="citation"></span>, we found that commonly used navigation metrics such as <em>onLoad</em> and <em>Time To First Byte (TTFB)</em> fail (less than 60% match) to represent majority human perception when comparing the speed of two webpages. We present a simple 3-variable-based machine learning model that explains the majority end-user choices better (with <span class="math inline">87 ± 2%</span> accuracy). In addition, our results suggest that the time needed by end-users to evaluate relative perceived speed of webpage is far less than the time of its <em>visualComplete</em> event.</p>
+#    <div class="footnotes">
+#    <hr />
+#    <ol>
+#    <li id="fn1"><p>http://www.speedperception.com<a href="#fnref1">↩</a></p></li>
+#    </ol>
+#    </div>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34729"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: Tesla Room (Engineering IV)
+#  title: 'Session 2: QoE-based Network Management'
+#  authors: Vyas Sekar (CMU)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: 11:00am - 11:45am
+#  room: ''
+#  title: Perspectives on Internet-QoE from the Vantage Point of a CDN Operator
+#  authors: Marcelo Torres (Akamai)
+#  abstract: "<p>A content distribution network (CDN) delivers transactions to end-users
+#    on behalf of its customers, also known as content providers. It follows that content
+#    providers have a primary role in shaping the view CDNs have of Internet QoE.  Partnerships
+#    with ISPs and carriers around the world are also critical to a CDNs ability to
+#    operate. It’s important that CDNs make decisions that meet the mutual goals of
+#    carriers and CDNs alike. As a fundamental component of the overall physical and
+#    logical infrastructure, CDNs have a responsibility to the collective Internet.
+#    The policies driven by content providers and Internet Service Providers are important
+#    factors that guide how CDNs use active and passive measurements to make instantaneous
+#    control decisions that ultimately determine an end-users Internet QoE. In this
+#    Keynote, we look at these perspectives from the vantage point of a CDN operator.
+#    We take a historical perspective on the way in which customers evaluate the performance
+#    delivered to their clients, describe measurement strategies applied by different
+#    classes of our customers, and provide some perspective on how these measurements
+#    have become increasingly more sophisticated over time. We describe elements of
+#    the Mapping control system that govern how Akamai’s CDN operates, provide some
+#    perspective on the measurements that drive the decision-making made by this control
+#    system, and how these measurements have evolved to meet a richer application specific
+#    and end-user focused Internet QoE landscape. We expect that this subject matter
+#    might help provide some insight into measurement challenges facing the industry
+#    today and in the future.</p>"
+#  bio: Marcelo Torres is the Director of Mapping Performance Engineering at Akamai
+#    Technologies. Since joining Akamai in 2000, Marcelo’s focus has been on the architecture,
+#    models, algorithms, and operating policies that are central components of the
+#    control system that drives how end-users transact with the Akamai platform. Prior
+#    to joining Akamai, Marcelo was at BBN and contributed to the transformation of
+#    the BBN Planet network into a full-fledged ISP. Marcelo received his B.S. in Computer
+#    Science and Engineering from MIT and his Ph.D. in Operations Research from Stanford
+#    University.
+#  photo: images/speakers/Marcelo-Torres.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: 11:45am - 12:10pm
+#  room: ''
+#  title: Server and Content Selection for MPEG DASH Video Streaming with Client Information
+#  authors: Florian Wamser, Steffen Höfner, Michael Seufert, and Phuoc Tran-Gia (University
+#    of Würzburg)
+#  abstract: "<p>In HTTP adaptive streaming (HAS), such as MPEG DASH, the video is
+#    split into chunks and is available in different quality levels. If the video chunks
+#    are stored or cached on different servers to deal with the high load in the network
+#    and the Quality of Experience (QoE) requirements of the users, the problem of
+#    content selection arises. In this paper, we evaluate client-side algorithms for
+#    dynamically selecting an appropriate content server during DASH video streaming.
+#    We present three algorithms with which the DASH client itself can determine the
+#    most appropriate server based on client-specific metrics, like actual latency
+#    or bandwidth to the content servers. We evaluate and discuss the proposed algorithms
+#    with respect to the resulting DASH streaming behavior in terms of buffer levels
+#    and quality level selection.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34720"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: 12:10pm - 12:30pm
+#  room: ''
+#  title: On the Bitrate Adaptation of Shared Media Experience Services
+#  authors: Argyrios G. Tasiopoulos (University College London), Ray Atarashi (IIJ
+#    Innovation Institute), and Ioannis Psaras and George Pavlou (University College
+#    London)
+#  abstract: "<p>In Shared Media Experience Services (SMESs), a group of people is
+#    interested in streaming consumption in a synchronised way, like in the case of
+#    cloud gaming, live streaming, and interactive social applications. However, group
+#    synchronisation comes at the expense of other Quality of Experience (QoE) factors
+#    due to both the dynamic and diverse network conditions that each group member
+#    experiences. Someone might wonder if there is a way to keep a group synchronised
+#    while maintaining the highest possible QoE for each one of its members. In this
+#    work, at first we create a Quality Assessment Framework capable of evaluating
+#    different SMESs improvement approaches with respect to traditional metrics like
+#    media bitrate quality, playback disruption, and end user desynchronisation. Secondly,
+#    we focus on the bitrate adaptation for improving the QoE of SMESs, as an incrementally
+#    deployable end user triggered approach, and we formulate the problem in the context
+#    of Adaptive Real Time Dynamic Programming (ARTDP). Finally, we develop and apply
+#    a simple QoE aware bitrate adaptation mechanism that we compare against youtube
+#    live-streaming traces to find that it improves the youtube performance by more
+#    than 30</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34721"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 2:00pm
+#  room: Centennial Terrace
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: Tesla Room (Engineering IV)
+#  title: 'Session 3: QoE-based Network Measurement'
+#  authors: Fabián Bustamante (Northwestern University)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: 2:00pm - 2:45pm
+#  room: ''
+#  title: The Building Blocks of the Netflix Experience
+#  authors: Lara Deek (Netflix), Sergey Fedorov (Netflix), and Te-Yuan (TY) Huang (Netflix)
+#  abstract: "<p>Video streaming is a huge and growing contributor to Internet traffic.
+#    Netflix alone accounts for over 37% of peak download traffic in the United States.
+#    This talk will give an overview on how Netflix video streaming works, and how
+#    Netflix optimizes the streaming experience. We will touch upon how Netflix accelerates
+#    its control traffic, how video assets are distributed and streamed over the Internet,
+#    and how video quality is dynamically adapted to avoid interruptions. We will also
+#    talk about Fast.com, generic Internet speed test that is powered by Netflix infrastructure.</p>"
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: 'Lara Deek works on the control plane of Open Connect: Netflix''s custom CDN
+#    for video streaming. Her work is primarily at the caching layer, where she designs
+#    algorithms that decide the content of caches across different geographical zones
+#    to ensure the best streaming experience. Lara has a PhD in Computer Science from
+#    the University of California at Santa Barbara, where she worked on building resource-efficient
+#    systems for emerging wireless technology.'
+#  photo: images/speakers/Lara-Deek.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: Sergey Fedorov works on Open Connect - a CDN that delivers all Netflix video
+#    traffic. He worked on tools and services to manage and monitor thousands of Open
+#    Connect servers around the world. Now Sergey tries to find ways to leverage Open
+#    Connect infrastructure to accelerate Netflix APIs. He is also an author of FAST.com
+#    speed test. Prior to Netflix, Sergey spent a few years in corporate world, working
+#    for Microsoft and Intel. He holds a MS degree in Computer Science from Nizhny
+#    Novgorod State University.
+#  photo: images/speakers/Sergery-Fedorov.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: Te-Yuan (TY) Huang works on streaming algorithms at Netflix. She designs algorithms
+#    to help users receive videos with the best possible experience, and she enjoys
+#    her research results every day by watching more videos. Prior to Netflix, TY received
+#    her Ph.D. in Computer Science from Stanford University in 2014. TY is a recipient
+#    of 2013 IRTF Applied Networking Research Prize.
+#  photo: images/speakers/Te-Yuan-Huang.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: 2:45pm - 3:30pm
+#  room: ''
+#  title: Unleashing the Potential of Data-Driven Networking
+#  authors: Vyas Sekar (CMU)
+#  abstract: "<p>The last few years have witnessed the coming of age of data-driven
+#    paradigm in various aspects of computing (partly) empowered by advances in distributed
+#    system research (cloud computing, MapReduce, etc). In this paper, we observe that
+#    the benefits can flow the opposite direction: the design and management of networked
+#    systems and especially Quality of Experience can be improved by the data-driven
+#    paradigm. To this end, we present DDN, a new design framework that has the potential
+#    to significantly achieve better performance through harnessing more data than
+#    one single flow. In this talk, I will try to systematize existing instantiations
+#    of DDN by creating a unified framework for DDN, and use the framework to shed
+#    light on the common challenges and reusable design principles. We believe that
+#    by systematizing this paradigm as a broader community, we can unleash the unharnessed
+#    potential of DDN for QoE optimization.</p>"
+#  bio: Vyas Sekar is an Associate Professor in the ECE Department at Carnegie Mellon
+#    University, where he is part of CyLab. His research interests lie at the intersection
+#    of networking, security, and systems. He received his Ph.D. from the Computer
+#    Science Department at Carnegie Mellon University in 2010. He earned his bachelor's
+#    degree from the Indian Institute of Technology Madras, where he was awarded the
+#    President of India Gold Medal. His work has been recognized with the NSF CAREER
+#    award, the ACM SIGCOMM Rising Star Award, the NSA Best Scientific Cybersecurity
+#    Paper Award, the CSAW Applied Security Research Prize, and multiple best paper
+#    awards (ACM SIGCOMM, ACM CoNext, and ACM Multimedia).
+#  photo: images/speakers/Vyas-Sekar.jpg
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:00pm - 4:45pm
+#  room: Tesla Room (Engineering IV)
+#  title: 'Session 4: QoE Measurement'
+#  authors: Oliver Hohlfeld (RWTH Aachen University)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: On active sampling of controlled experiments for QoE modeling
+#  authors: Muhammad Jawad Khokhar, Nawfal Abbasi Saber, Thierry Spetebroot, and Chadi
+#    Barakat (INRIA, France)
+#  abstract: "<p>For internet applications, measuring, modeling and predicting the
+#    quality experienced by end users as a function of network conditions is challenging.
+#    A common approach for building application specific Quality of Experience (QoE)
+#    models is to rely on controlled experimentation. For accurate QoE modeling, this
+#    approach can result in a large number of experiments to carry out because of the
+#    multiplicity of the network features, their large span (e.g., bandwidth, delay)
+#    and the time needed to setup the experiments themselves. However, most often,
+#    the space of network features in which experimentations are carried out shows
+#    a high degree of uniformity in the training labels of QoE. This uniformity, difficult
+#    to predict beforehand, amplifies the training cost with little or no improvement
+#    in QoE modeling accuracy. So, in this paper, we aim to exploit this uniformity,
+#    and propose a methodology based on active learning, to sample the experimental
+#    space intelligently, so that the training cost of experimentation is reduced.
+#    We prove the feasibility of our methodology by validating it over a particular
+#    case of YouTube streaming, where QoE is modeled both in terms of interruptions
+#    and stalling duration.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34722"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Designing a Survey Tool for Monitoring Enterprise QoE
+#  authors: Kathrin Borchert, Matthias Hirth, and Thomas Zinner (University of Würzburg)
+#    and Anja Göritz (Freiburg University)
+#  abstract: |
+#    <p>Enterprise applications like SAP are part of the day-to-day work of a large number of employees. Similar to many modern applications, enterprise applications are often implemented in a distributed fashion and consequently suffer from network degradations resulting in impairments like increased loading delays. While the influence of these impairments on the perceived quality of users is well researched for consumer applications and network services, the impact of these impairments in a business environment is yet to be investigated.</p>
+#    <p>To address this gap we develop a non-intrusive software tool for continuously collecting subjective ratings on the performance of an enterprise application from a large number of employees. Based on the feedback from a company and results from two initial field studies we discuss the specific challenges when assessing the perceived quality of employees during regular working hours and point out our further research directions.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34723"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:45pm - 5:30pm
+#  room: Tesla Room (Engineering IV)
+#  title: Panel
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: User-centric Networking - Beyond QoE and Engagement
+#  authors: Florian Wamser (University of Würzburg), Oliver Hohlfeld (RWTH Aachen University),
+#    Marcelo Torres (Akamai), Te-Yuan Huang (Netflix), Lara Deek (Netflix), Sergey
+#    Fedorov (Netflix), Vyas Sekar (CMU)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

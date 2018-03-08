@@ -1,0 +1,340 @@
+#---
+#- type: day
+#  time: Friday, August 25, 2017
+#  room: Exploration Room (Luskin Center)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:00am - 9:15am
+#  room: Exploration Room (Luskin Center)
+#  title: Opening Remarks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:15am - 10:30am
+#  room: Exploration Room (Luskin Center)
+#  title: 'Keynote 1: Collaborative Mobile Charging: From Abstraction to Solution'
+#  authors: |-
+#    Jie Wu
+#    Department of Computer and Information Sciences, Temple University
+#  abstract: Wireless energy charging using mobile vehicles has been a viable research
+#    topic recently in the area of wireless networks and mobile computing. This talk
+#    gives a short survey of recent research conducted in our research group in the
+#    area of collaborative mobile charging. In collaborative mobile charging, multiple
+#    mobile chargers work together to accomplish a given set of objectives. These objectives
+#    include charging sensors at different frequencies with a minimum number of mobile
+#    chargers and reaching the farthest sensor for a given set of mobile chargers,
+#    subject to various constraints, including speed and energy limits of mobile chargers.
+#    Through the process of problem formulation, solution construction, and future
+#    work extension for problems related to collaborative mobile charging and coverage,
+#    we present three principles for good practice in conducting research, that is,
+#    select a simple problem, find an elegant solution, and use imagination for extension.
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: TBD
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:00am - 12:00pm
+#  room: Exploration Room (Luskin Center)
+#  title: 'Session 1: Management and QoS'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'BlueSkyNet: BLE Multi-Hop Network Management Architecture'
+#  authors: Makito Kano (Intel Corporation)
+#  abstract: "<p>Bluetooth Low Energy (BLE) is aimed for Internet of Things (IoT) devices
+#    with limited battery capacity and small bandwidth. Despite the increasing number
+#    of IoT devices and the improving performance of BLE, the usage model is still
+#    limited to point-to-point with no mobility. This limitation prevents the devices
+#    to spread across a large field or a home. While multi-hop technologies had been
+#    studied and commercialized, they do not fully take advantage of the BLE’s low-power
+#    feature; and their configurations cannot easily be changed once the network is
+#    deployed. We have designed an architecture called BlueSkyNet. It allows network
+#    administrators to form and manage a BLE multi-hop network that allows nodes to
+#    be mobile. It takes advantage of the improving performance of BLE, and allows
+#    the network configurations to be modified in a software-defined way.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33445"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: A NEAT Approach to Mobile Communication
+#  authors: Per Hurtig, Stefan Alfredsson, and Anna Brunstrom (Karlstad University),
+#    Kristian Evensen (Celerway Communications), Karl-Johan Grinnemo (Karlstad University),
+#    and Audun Fosselie Hansen and Tomasz Rozensztrauch (Celerway Communications)
+#  abstract: "<p>The demands for mobile communication is ever increasing. Mobile applications
+#    are increasing both in numbers and in heterogeneity of their requirements, and
+#    an increasingly diverse set of mobile technologies are employed. This creates
+#    an urgent need for optimizing end-to-end services based on application requirements,
+#    conditions in the network and available transport solutions; something which is
+#    very hard to achieve with today’s internet architecture. In this paper, we introduce
+#    the NEAT transport architecture as a solution to this problem. NEAT is designed
+#    to offer a flexible and evolvable transport system, where applications communicate
+#    their transport-service requirements to the NEAT system in a generic, transport-protocol
+#    independent way. The best transport option is then configured at run-time based
+#    on application requirements, network conditions, and available transport options.
+#    Through a set of real life mobile use case experiments, we demonstrate how applications
+#    with different properties and requirements could employ the NEAT system in multi-access
+#    environments, showing significant performance benefits as a result.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33446"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Popularity-aware Intra-domain Mobility Management
+#  authors: Vasilios A. Siris (Athens University of Economics and Business)
+#  abstract: "<p>We present and evaluate a popularity-aware intra-domain mobile content
+#    management model based on which the Name Resolution System (NRS) is updated with
+#    the current location of mobile content only when the content has sufficiently
+#    high popularity and sufficiently low mobility. Specifically, the current location
+#    of mobile content is updated only when the overall cost of location updates is
+#    smaller than the cost of broadcasting location queries. On the other hand, the
+#    location of content with low popularity and high mobility that is not tracked
+#    by the NRS is discovered by broadcasting location queries. Our evaluation investigates
+#    how the performance gains of the proposed model, in terms of reduced total signaling
+#    cost and reduced memory requirements of the NRS, depend on the aggregate content
+#    request rate, content mobility (rate of content location changes), number of content
+#    objects, content popularity, and correlation between content popularity and mobility.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33447"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 12:00pm - 12:45pm
+#  room: Exploration Room (Luskin Center)
+#  title: 'Session 2: Application and Security'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: A Robust Sign Language Recognition System with Multiple Wi-Fi Devices
+#  authors: Jiacheng Shang and Jie Wu (Temple University)
+#  abstract: "<p>Sign language is important since it provides a way for us to the deaf
+#    culture and more opportunities to communicate with those who are deaf or hard
+#    of hearing. Since sign language chiefly uses body languages to convey meaning,
+#    Human Activity Recognition (HAR) techniques can be used to recognize them for
+#    some sign language translation applications. In this paper, we show for the first
+#    time that Wi-Fi signals can be used to recognize sign language. The key intuition
+#    is that different hand and arm motions introduce different multi-path distortions
+#    in Wi-Fi signals and generate different unique patterns in the time-series of
+#    Channel State Information (CSI). More specifically, we propose a Wi-Fi signal-based
+#    sign language recognition system called WiSign. Different from existing Wi-Fi
+#    signal-based human activity recognition systems, WiSign uses 3 Wi-Fi devices to
+#    improve the recognition performance. We implemented the WiSign using a TP-Link
+#    TL-WR1043ND Wi-Fi router and two Lenovo X100e laptops. The evaluation results
+#    show that our system can achieve a mean prediction accuracy of 93.8</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33448"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Privacy-preserving Quantified Self: Secure Sharing and Processing of Encrypted
+#    Small Data'
+#  authors: Hossein Shafagh and Anwar Hithnawi (ETH Zurich)
+#  abstract: "<p>The emergence of a plethora of wearables and sensing technologies
+#    has enabled non-intrusive digitization of our daily physical activities. Emerging
+#    applications utilize such data to make inferences about our physiological and
+#    health states, provide health diagnosis, and contribute to wellbeing improvements.
+#    The common approach for such applications is to collect data, either using mobile
+#    applications or special hardware, e.g., wearables, and store them on a third party
+#    storage provider. This results in many unconnected data silos of self-quantification
+#    data. Researchers and industry, advocate for a common personal storage space,
+#    to conquer the myriad of small chunks of data, deemed to be lost/forgotten in
+#    the long term. The benefits of such co-located personal data are tremendous, specifically
+#    with regards to personalized medicine, treatment, and health care. However, the
+#    centralized storage of data exacerbates the privacy and security concerns that
+#    the IoT ecosystem is facing today. In this position paper, we advocate the necessity
+#    of privacy and security guarantees for the paradigm of co-located storage of personal
+#    health data. We envision two core security functionalities: true end-to-end encryption,
+#    such that only encrypted data is stored in the cloud and secure sharing of encrypted
+#    data, without disclosing data owner’s secret keys. We discuss the challenges in
+#    adopting such an end-to-end encryption paradigm while preserving the cloud’s basic
+#    processing functionalities over encrypted data and how to cryptographically enforce
+#    access control.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33449"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:45pm - 2:00pm
+#  room: Centennial Terrace
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: Exploration Room (Luskin Center)
+#  title: 'Session 3: Content Centric Networking'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'DICE: Dynamic Multi-RAT Selection in the ICN-enabled Wireless Edge'
+#  authors: Gaurav Panwar, Reza Tourani, Travis Mick, Abderrahmen Mtibaa, and Satyajayant
+#    Misra (New Mexico State University)
+#  abstract: |
+#    <p>Coupled with the rapid increase in mobile device users and the bandwidth and latency demands are the continuous increase of devices’ processing capabilities, storage, and wireless connectivity options. The multiple radio access technology (multi-RAT) is proposed to satisfy mobile users’ increasing needs. The Information-Centric Networking (ICN) paradigm is better tuned (than the current Internet Protocol approach) to support multi-RAT communications. ICN eschews the connection-based content retrieval model used today and has desirable features such as data naming, in-network caching, and device mobility–a paradigm ripe for exploration.</p>
+#    <p>We propose DICE, an ICN forwarding strategy that helps a device dynamically select a subset of its multi-RAT interfaces for communication. DICE assesses the state of edge links and network congestion to determine the minimum number of interfaces required to perform data delivery. We perform simulations to compare DICE’s performance with bestroute2 and multicast strategies (part of the named data networking simulator, ndnSIM). We show that DICE is the best of both worlds: providing a higher delivery ratio (0.2–2 times) and much lower overhead (by 2–8 times) for different packet rates.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33440"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: The Named-Object Abstraction for Realizing Advanced Mobility Services in
+#    the Future Internet
+#  authors: Francesco Bronzino (Inria, Paris) and Shreyasee Mukherjee and Dipankar
+#    Raychaudhuri (WINLAB, Rutgers University)
+#  abstract: |
+#    <p>This paper presents a new abstraction called “Named-Objects” for enabling flexible and advanced mobility services in the future Internet. The concept of named objects falls under the broad category of “information centric networks (ICN)” and is based on the assignment of a globally unique identifier to all Internet attached objects while separating this “name” from the routable “address” or “locator”. The named object approach is supported by a global name resolution service (GNRS) which dynamically maps names to addresses while also providing supplementary service information where desired. The named object is outlined and exemplary mobility related services including device mobility, multihoming and multicast are discussed and compared with alternative ICN designs.</p>
+#    <p>A qualitative and quantitative evaluation of the named object architecture is given relative to alternative ICN designs such as Content Centric Networking (CCN) as well as name-based protocols evolved from IP, i.e. HIP and LISP. Results of the evaluation are given to demonstrate that the proposed named object abstraction provides superior performance for a sample set of mobility services and this has the potential to serve as a foundation for future mobile network protocols.</p>
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33441"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Receiver Mobility in Vehicular Named Data Networking
+#  authors: Joao M. Duarte and Torsten Braun (University of Bern, Switzerland) and
+#    Leandro A. Villas (University of Campinas, Brazil)
+#  abstract: "<p>This work investigates the topic of Vehicular Named Data Networking
+#    (VNDN). We propose a new VNDN routing protocol and address the negative effects
+#    caused by receiver mobility. In particular, we identify the problem of Reverse
+#    Path Partitioning (RPP) that often prevents Data messages from reaching Content
+#    Requesters, degrading application performance. To mitigate RPP we propose a mechanism
+#    called Auxiliary Forwarding Set (AFS). AFS takes several mobility factors as inputs
+#    and extends the NDN core philosophy by identifying an extra set of eligible nodes
+#    to forward Data messages whenever retransmissions are required due to RPP. Simulation
+#    results show that AFS is an efficient and scalable solution to improve VNDN application
+#    performance regardless of receiver mobility.</p>\n"
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N33442"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:00pm - 5:00pm
+#  room: Exploration Room (Luskin Center)
+#  title: Keynote 2
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: Platforms for Advanced Wireless Research (PAWR)
+#  authors: Stefano Basagni and Abhimanyu Gosain​ (North Eastern University)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

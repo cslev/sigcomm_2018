@@ -1,0 +1,485 @@
+#---
+#- type: day
+#  time: Monday, August 21, 2017
+#  room: Illumination Room (Luskin Center)
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 8:45am - 9:00am
+#  room: Illumination Room (Luskin Center)
+#  title: Opening and Welcome
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 9:00am - 10:00am
+#  room: Illumination Room (Luskin Center)
+#  title: Keynote Presentation
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: Motivating Examples and OpenNetVM as a Platform for Mobile Edge Computing
+#  authors: K. K. Ramakrishnan (University of California, Riverside)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 10:00am - 11:40am
+#  room: Illumination Room (Luskin Center)
+#  title: 'Session 1: Edge Infrastructure'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Virtualization and Programmability in Mobile Wireless Networks: Architecture
+#    and Resource Management'
+#  authors: Kleber V. Cardoso (Universidade Federal de Goias), Mohammad J. Abdel-Rahman
+#    (Virginia Tech), Allen B. MacKenzie (Virginia Tech), Luiz A. DaSilva (Trinity
+#    College Dublin)
+#  abstract: |-
+#    We present a high-level end-to-end architecture for virtualization
+#    and programmability in next-generation mobile wireless networks.
+#    Our architecture envisions three major players: Service Providers,
+#    who wish to orchestrate wireless networks with particular characteristics to support particular applications; Resource Providers,
+#    who contribute resources such as spectrum, access points, backhaul
+#    infrastructure, and computing; and Virtual Network Builders, who
+#    marshal resources into networks for Service Providers. We take into
+#    account resource sharing and investigate how virtualization and
+#    programmability affect resource management. We show that: (i)
+#    virtualization reduces cost signifcantly, (ii) this cost reduction does
+#    not degrade the user satisfaction, and (iii) non-virtualized networks
+#    need to keep a large amount of idle capacity to satisfy coverage.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34648"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Information-Centric Mobile Edge Computing for Connected Vehicle Environments:
+#    Challenges and Research Directions'
+#  authors: Dennis Grewe (Robert Bosch GmbH), Marco Wagner (Robert Bosch GmbH), Mayutan
+#    Arumaithurai (University of Goetingen), Ioannis Psaras (University College London),
+#    Dirk Kutscher (Huawei German Research Center)
+#  abstract: |-
+#    Connected vehicle systems form the basis for future features of
+#    functions and applications within the automotive domain. In order
+#    to allow resource intensive services, cloud offloading and especially
+#    Mobile Edge Computing is a promising approach. In this paper, we
+#    present a detailed futuristic vehicular scenario – Electronic Horizon – and list the challenges. We argue that the resulting challenges are
+#    representative of many of the envisioned use-cases of Mobile Edge
+#    Computing. We then present how Information-Centric Networking
+#    in combination with Mobile Edge Computing has the potential to
+#    support such a futuristic scenario. Finally, we present research
+#    directions that could enhance the solution space.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34649"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'Wi-Stitch: Content Delivery in Converged Edge Networks'
+#  authors: Aravindh Raman (King's College London), Nishanth Sastry (King's College
+#    London), Arjuna Sathiaseelan (University of Cambridge), Jigna Chandaria (BBC R&D),
+#    Andrew Secker (BBC R&D)
+#  abstract: |-
+#    Wi-Fi, the most commonly used access technology at the very edge,
+#    supports download speeds that are orders of magnitude faster than
+#    the average home broadband or cellular data connection. Furthermore, it is extremely common for users to be within reach of their
+#    neighbours’ Wi-Fi access points. Given the skewed nature of interest in content items, it is likely that some of these neighbours
+#    are interested in the same items as the users. We sketch the design
+#    of Wi-Stitch, an architecture that exploits these observations to
+#    construct a highly efficient content sharing infrastructure at the
+#    very edge and show through analysis of a real workload that it can
+#    deliver substantial (up to 70%) savings in network traffic. The Wi-Stitch approach can be used both by clients of fixed-line broadband,
+#    as well as mobile devices obtaining indoors access in converged
+#    networks.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34640"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Managing Data in Computational Edge Clouds
+#  authors: Nitinder Mohan (University of Helsinki), Pengyuan Zhou (University of Helsinki),
+#    Keerthana Govindaraj (Robert Bosch GmbH), Jussi Kangasharju (University of Helsinki)
+#  abstract: |-
+#    Edge clouds handle data and computations closer to its source
+#    and users. Applications like industrial automation, bring new
+#    challenges and require solutions tailored for computation-centric edge cloud networks. In this paper we build on existing edge and fog computing models and develop a solution
+#    to predict and store data in edge resource caches for upcoming computations. Our solution is based on grouping caches
+#    according to the workloads they serve. We further develop
+#    methods for populating the caches and ensuring the coherence of the cached data. We evaluate the performance of
+#    our grouping mechanisms and show that they bring significant performance gains, both in terms of network traffic and
+#    access latency.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34641"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 11:40am - 12:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 12:00am - 12:20pm
+#  room: Illumination Room (Luskin Center)
+#  title: Invited Talk
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: 'Platforms for Advanced Wireless Research (PAWR): Helping Define a New Edge
+#    Computing Paradigm'
+#  authors: Abhimanyu Gosain (Technical Program Director of PAWR Project Office)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 1:30pm
+#  room: Foyer
+#  title: Lunch Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 1:30pm - 2:45pm
+#  room: Illumination Room (Luskin Center)
+#  title: 'Session 2: Protocol Optimisation for MEC'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Mobility-based Proactive Multicast for seamless mobility support in cellular
+#    network environments
+#  authors: Xenofon Vasilakos (Athens University of Economics and Business), Mohammed
+#    Q. Al-Khalidi (University of Essex Colchester), Vasilios A. Siris (Athens University
+#    of Economics and Business), Martin J. Reed (University of Essex Colchester), Nikolaos
+#    Thomos (University of Essex Colchester), George C. Polyzos (Athens University
+#    of Economics and Business)
+#  abstract: |-
+#    Information-Centric Networking (ICN) is receiver driven, asynchronous and location-independent, hence it natively supports
+#    client-mobility. However, post-handover delay is a problem for
+#    delay-sensitive mobile applications, as they need to (re-)submit
+#    their subscriptions and wait for them to get resolved and (probably
+#    re-) transmitted before receiving the demanded data. To avoid this
+#    problem and optimize performance, this paper proposes a Mobility-based Proactive Multicast (MPM) scheme. Unlike reactive or blind
+#    multicast solutions proposed in the past, MPM takes autonomous
+#    decisions locally at various network access points (cells) prior to
+#    the movement of mobile clients, using a semi-Markov mobility
+#    prediction model that predicts next-cell transitions, along with anticipating the duration between the transitions for an arbitrary user
+#    in a cellular network. Since cellular backhaul links are typically
+#    a bottleneck, MPM trades-off effectively part of the capacity of
+#    the (congested) backhaul link for a decreased delay experienced
+#    by users after handovers thanks to a congestion pricing scheme
+#    used for backhaul capacity allocation. Our preliminary performance
+#    evaluation results show that MPM captures well the temporal locality of mobile requests due to the semi-Markov mobility prediction model, hence it achieves a better performance compared to both a (i)
+#    blind/naïve multicast and a (ii) content popularity-based proactive multicast.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34642"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Optimization of Webpage Downloading Performance with Content-aware Mobile
+#    Edge Computing
+#  authors: Peng Qian (5G Innovation Centre, Institute for Communication Systems, University
+#    of Surrey), Ning Wang (5G Innovation Centre, Institute for Communication Systems,
+#    University of Surrey), Bong-Hwan Oh (5G Innovation Centre, Institute for Communication
+#    Systems, University of Surrey), Chang Ge (5G Innovation Centre, Institute for
+#    Communication Systems, University of Surrey), Rahim Tafazolli (5G Innovation Centre,
+#    Institute for Communication Systems, University of Surrey)
+#  abstract: |-
+#    With increased complexity of webpages nowadays, computation
+#    latency incurred by webpage processing during downloading operations has become a newly identi�ed factor that may substantially aff�ect user experiences in a mobile network. In order to tackle this issue, we propose a simple but e�ective transport-layer optimization
+#    technique which requires necessary context information dissemination from the mobile edge computing (MEC) server to user devices
+#    where such an algorithm is actually executed. The key novelty in
+#    this case is the mobile edge’s knowledge about webpage content
+#    characteristics which is able to increase downloading throughput
+#    for user QoE enhancement. Our experiment results based on a real
+#    LTE-A test-bed show that, when the proportion of computation
+#    latency varies between 20% and 50% (which is typical for today’s
+#    webpages), the downloading throughput can be improved up to
+#    34.5%, with reduced downloading time by up to 25.1%
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34643"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Realization of CDMA-based IoT Services with Shared Band Operation of LTE
+#    in 5G
+#  authors: Shweta S. Sagari (Huawei Research), Siddarth Mathur (WINLAB, Rutgers University),
+#    Dola Saha (University at Albany, SUNY), Syed Obaid Amin (Huawei Research), Ravishankar
+#    Ravindran (Huawei Research), Ivan Seskar (WINLAB, Rutgers University), Dipankar
+#    Raychaudhuri (WINLAB, Rutgers University), Guoqiang Wang (Huawei Research)
+#  abstract: |-
+#    5G network is geared towards massive deployment of Internet-of-Things (IoTs) with requirements of low end-to-end latency, low
+#    control overhead and low power transmissions. Current 4G network is optimized for large bandwidth applications and inefficient
+#    to handle short sporadic IoT messages. This paper focuses on low power underlay CDMA access for IoT devices considering event-driven and latency sensitive traffic profile, thus will significantly
+#    reduce the access time. We propose a PHY/MAC layer design for CDMA based communication for IoT devices. We evaluate coexisting operation of CDMA based IoT network in presence of the
+#    exiting LTE network. Our proposed protocol will integrate IoT traffic with legacy system by minimal modification at the edge network, essentially eNodeB. We show that the underlay CDMA IoT network meets IoT data traffic requirements with minimal degradation
+#    (~ 3%) to the LTE throughput. We also implement the proposed design using Software Defined Radios and show the viability of the proposal under different network scenarios.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34644"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:45pm - 3:45pm
+#  room: Illumination Room (Luskin Center)
+#  title: 'Industrial Panel : Adoption Challenges and Prospects of Mobile Edge Computing
+#    and Communications'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: Moderator
+#  authors: Martin J. Reed (Senior Lecturer, University of Essex)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: 'Panelist: IoT/Edge Computing'
+#  authors: Bruce Maggs (Vice President, Research, Akamai Technologies)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: 'Panelist: Service and Platform Innovation'
+#  authors: Dirk Trossen (Senior Principle Engineer, InterDigital Europe)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: keynote
+#  time: ''
+#  room: ''
+#  title: 'Panelist: Core Networks'
+#  authors: Joe Mambretti (Director at Metropolitan Research and Education Network,
+#    Northwestern University)
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:45pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:00pm - 5:15pm
+#  room: Illumination Room (Luskin Center)
+#  title: 'Session 3: Edge Resource Allocation'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: Geo-partitioning of MEC resources
+#  authors: Mathieu Bouet (Thales), Vania Conan (Thales)
+#  abstract: "Mobile Edge Computing (MEC) is an emerging technology that\naims at pushing
+#    applications and content close to the users (e.g.\nat base stations, access points,
+#    aggregation networks) to reduce\nlatency, improve quality of experience, and ensure
+#    highly effi\x81cient\nnetwork operation and service delivery.  It principally
+#    relies on\nvirtualization-enabled MEC servers with limited capacity at the\nedge
+#    of the network. One key issue is to dimension such systems\nin terms of server
+#    size, server number and server operation area\nto meet MEC goals. In this paper,
+#    we propose a graph-based algorithm that, taking into account a maximum MEC server
+#    capacity,\nprovides a partition of MEC clusters, which consolidates as many\ncommunications
+#    as possible at the edge. We use a dataset of mobile communications to evaluate
+#    it with real world spatio-temporal\nhuman dynamics.  In addition to quantifying
+#    macroscopic MEC\nbene\x80ts, the evaluation shows that our algorithm provides
+#    MEC\narea partitions that largely ofload the core, thus pushing the load at\nthe
+#    edge (e.g., with 10 small MEC servers around 55% of the tra\x81ffic\nstay at the
+#    edge), and that are well balanced through time."
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34755"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'RAERA: A Robust Auctioning Approach for Edge Resource Allocation'
+#  authors: Abhinandan S. Prasad (University of Goettingen), Mayutan Arumaithurai (University
+#    of Goettingen), David Koll (University of Goettingen), Xiaoming Fu (University
+#    of Goettingen, Germany)
+#  abstract: |-
+#    In edge computing, content and service providers aim at enhancing user experience by providing services closer to the user. At
+#    the same time, infrastructure providers such as access ISPs aim
+#    at utilizing their infrastructure by selling edge resources to these
+#    content and service providers. In this context, auctions are widely
+#    used to set a price that reflects supply and demand in a fair way. In
+#    this work, we propose RAERA, the first robust auction scheme for
+#    edge resource allocation that is suitable to work with the market
+#    uncertainty typical for edge resources—here, customers typically
+#    have different valuation distribution for a wide range of heterogeneous resources. Additionally, RAERA encourages truthful bids
+#    and allows the infrastructure provider to maximize its break-even
+#    profit. Our preliminary evaluations highlight that REARA offers a
+#    time dependent fair price. Sellers can achieve higher revenue in the
+#    range of 5%-15% irrespective of varying demands and the buyers
+#    pay up to 20% lower than their top bid amount.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34756"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: 'SDLB: A Scalable and Dynamic Software Load Balancer for Fog and Mobile Edge
+#    Computing'
+#  authors: Ye Yu (University of Kentucky), Xin Li (University of California, Santa
+#    Cruz), Chen Qian (University of California, Santa Cruz)
+#  abstract: |-
+#    Mobile Edge Computing (MEC) provides computing/storage
+#    offloading and resource virtualization to mobile devices
+#    at the network edge. A load balancer is a necessary network function to determine the destination MEC host of
+#    each packet from a mobile device, for such virtualization.
+#    Due to the new characteristics of MEC, such as resource
+#    limitation and high dynamics, existing solutions of cloud
+#    load balancer cannot be directly applied to MEC. This
+#    paper presents a new design of a Scalable and Dynamic
+#    Load Balancer, called SDLB, that satisfies the require-
+#    ments of MEC. The core algorithm of SDLB is minimal
+#    perfect hashing, which provides two perfect features as
+#    a load balancer. Evaluation results show that SDLB is
+#    faster by 4x to 10x and uses much less (< 50%) memory,
+#    than a widely-used load balancer design for cloud.
+#  bio: ''
+#  photo: ''
+#  link: "//dl.acm.org/authorize?N34757"
+#  slides: ''
+#  video: ''
+#  COL_UID: ''
+#- type: session
+#  time: 5:15pm - 5:30pm
+#  room: Illumination Room (Luskin Center)
+#  title: Concluding Remarks
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

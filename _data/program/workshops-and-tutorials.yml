@@ -1,0 +1,1169 @@
+#---
+#- type: day
+#  time: Monday, August 21, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: break
+#  time: 8:00am - 9:00am
+#  room: Foyer
+#  title: Registration, Breakfast
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_break_1
+#- type: session
+#  time: '09:00am - 10:30am'
+#  room: ''
+#  title: Workshops
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_workshops_1
+#- type: workshop
+#  time: ''
+#  room: Illumination Room (Luskin Center)
+#  title: WS1:Mobile Edge Communications (MECOMM)
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-mecomm.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/MECOMM
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Laureate Room (Luskin Center)
+#  title: 'WS2: Kernel-Bypass Networks (KBNets)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-kbnets.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/KBNets
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Optimist Room (Luskin Center)
+#  title: 'WS3: Big Data Analytics and Machine Learning for Data Communication Networks
+#    (Big-DAMA)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-big-dama.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Big-DAMA
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Tesla Room (Engineering IV)
+#  title: 'WS4: QoE-based Analysis and Management of Data Communication Networks (Internet-QoE)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-internet-qoe.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Internet-QoE
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Exploration Room (Luskin Center)
+#  title: 'WS5: Networking and Programming Languages (NetPL)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-netpl.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/NetPL
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: session
+#  time: '09:00am - 10:30am'
+#  room: ''
+#  title: Tutorials
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_tutorials_1
+#- type: tutorial
+#  time: ''
+#  room: Faraday Room (Engineering IV)
+#  title: 'T1: mmWave (Millimeter-Wave Wireless Networking and Sensing)'
+#  authors: Xinyu Zhang, Upamanyu Madhow
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-mmWave.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Shannon Room (Engineering IV)
+#  title: 'T2: Named Data Networking (NDN) Tutorial'
+#  authors: Van Jacobson and other members of NDN project team
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-ndn.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_break_2
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: ''
+#  title: Workshops
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_workshops_2
+#- type: workshop
+#  time: ''
+#  room: Illumination Room (Luskin Center)
+#  title: WS1:Mobile Edge Communications (MECOMM)
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-mecomm.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/MECOMM
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Laureate Room (Luskin Center)
+#  title: 'WS2: Kernel-Bypass Networks (KBNets)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-kbnets.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/KBNets
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Optimist Room (Luskin Center)
+#  title: 'WS3: Big Data Analytics and Machine Learning for Data Communication Networks
+#    (Big-DAMA)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-big-dama.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Big-DAMA
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Tesla Room (Engineering IV)
+#  title: 'WS4: QoE-based Analysis and Management of Data Communication Networks (Internet-QoE)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-internet-qoe.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Internet-QoE
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Exploration Room (Luskin Center)
+#  title: 'WS5: Networking and Programming Languages (NetPL)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-netpl.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/NetPL
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: ''
+#  title: Tutorials
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_tutorials_2
+#- type: tutorial
+#  time: ''
+#  room: Faraday Room (Engineering IV)
+#  title: 'T1: mmWave (Millimeter-Wave Wireless Networking and Sensing)'
+#  authors: Xinyu Zhang, Upamanyu Madhow
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-mmWave.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Shannon Room (Engineering IV)
+#  title: 'T2: Named Data Networking (NDN) Tutorial'
+#  authors: Van Jacobson and other members of NDN project team
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-ndn.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 2:00pm
+#  room: Centennial Terrace
+#  title: Lunch
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_break_3
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: ''
+#  title: Workshops
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_workshops_3
+#- type: workshop
+#  time: ''
+#  room: Illumination Room (Luskin Center)
+#  title: WS1:Mobile Edge Communications (MECOMM)
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-mecomm.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/MECOMM
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Laureate Room (Luskin Center)
+#  title: 'WS2: Kernel-Bypass Networks (KBNets)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-kbnets.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/KBNets
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Optimist Room (Luskin Center)
+#  title: 'WS3: Big Data Analytics and Machine Learning for Data Communication Networks
+#    (Big-DAMA)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-big-dama.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Big-DAMA
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Tesla Room (Engineering IV)
+#  title: 'WS4: QoE-based Analysis and Management of Data Communication Networks (Internet-QoE)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-internet-qoe.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Internet-QoE
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Exploration Room (Luskin Center)
+#  title: 'WS5: Networking and Programming Languages (NetPL)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-netpl.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/NetPL
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: ''
+#  title: Tutorials
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_tutorials_3
+#- type: tutorial
+#  time: ''
+#  room: Faraday Room (Engineering IV)
+#  title: 'T3: Adaptive Streaming of Traditional and Omnidirectional Media'
+#  authors: Ali C. Begen, Christian Timmerer
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-adaptive-streaming.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_break_4
+#- type: session
+#  time: 4:00pm - 5:30pm
+#  room: ''
+#  title: Workshops
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_workshops_4
+#- type: workshop
+#  time: ''
+#  room: Illumination Room (Luskin Center)
+#  title: WS1:Mobile Edge Communications (MECOMM)
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-mecomm.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/MECOMM
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Laureate Room (Luskin Center)
+#  title: 'WS2: Kernel-Bypass Networks (KBNets)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-kbnets.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/KBNets
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Optimist Room (Luskin Center)
+#  title: 'WS3: Big Data Analytics and Machine Learning for Data Communication Networks
+#    (Big-DAMA)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-big-dama.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Big-DAMA
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Tesla Room (Engineering IV)
+#  title: 'WS4: QoE-based Analysis and Management of Data Communication Networks (Internet-QoE)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-internet-qoe.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Internet-QoE
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Exploration Room (Luskin Center)
+#  title: 'WS5: Networking and Programming Languages (NetPL)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-netpl.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/NetPL
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:00pm - 5:30pm
+#  room: ''
+#  title: Tutorials
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_mon_tutorials_4
+#- type: tutorial
+#  time: ''
+#  room: Faraday Room (Engineering IV)
+#  title: 'T3: Adaptive Streaming of Traditional and Omnidirectional Media'
+#  authors: Ali C. Begen, Christian Timmerer
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-adaptive-streaming.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: day
+#  time: Friday, August 25, 2017
+#  room: ''
+#  title: ''
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: break
+#  time: 8:00am - 9:00am
+#  room: Foyer
+#  title: Registration, Breakfast
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_break_1
+#- type: session
+#  time: '09:00am - 10:30am'
+#  room: ''
+#  title: Workshops
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_workshops_1
+#- type: workshop
+#  time: ''
+#  room: Laureate Room (Luskin Center)
+#  title: 'WS6: Hot Topics in Container Networking and Networked Systems (HotConNet)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-hotconnet.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/HotConNet
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Exploration Room (Luskin Center)
+#  title: 'WS7: Mobility in the Evolving Internet Architecture (MobiArch)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-mobiarch.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/MobiArch
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Illumination Room (Luskin Center)
+#  title: 'WS8: Virtual Reality and Augmented Reality Network (VR/AR Network)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-vrar-network.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/VR-AR
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Optimist Room (Luskin Center)
+#  title: 'WS9: Reproducibility Workshop'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-reproducibility.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Reproducibility
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: session
+#  time: '09:00am - 10:30am'
+#  room: ''
+#  title: Tutorials
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_tutorials_1
+#- type: tutorial
+#  time: ''
+#  room: Shannon Room (Engineering IV)
+#  title: 'T4 + T5: Joint session for P4→NetFPGA and P4'
+#  authors: Gordon Brebner, Noa Zilberman, Nate Foster, Stephen Ibanez, Changhoon Kim
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-p4.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Tesla Room (Engineering IV)
+#  title: 'T6: Understanding Latency - A Root Cost and Mitigation Approach'
+#  authors: Joe Touch
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-latency.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: BH4760 (Boelter Hall)
+#  title: 'T7: The Netmap framework for NFV applications'
+#  authors: Giuseppe Lettieri, Vincenzo Maffione, Luigi Rizzo, Michio Honda
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-netmap-nfv.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: break
+#  time: 10:30am - 11:00am
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_break_2
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: ''
+#  title: Workshops
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_workshops_2
+#- type: workshop
+#  time: ''
+#  room: Laureate Room (Luskin Center)
+#  title: 'WS6: Hot Topics in Container Networking and Networked Systems (HotConNet)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-hotconnet.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/HotConNet
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Exploration Room (Luskin Center)
+#  title: 'WS7: Mobility in the Evolving Internet Architecture (MobiArch)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-mobiarch.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/MobiArch
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Illumination Room (Luskin Center)
+#  title: 'WS8: Virtual Reality and Augmented Reality Network (VR/AR Network)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-vrar-network.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/VR-AR
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Optimist Room (Luskin Center)
+#  title: 'WS9: Reproducibility Workshop'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-reproducibility.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Reproducibility
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: session
+#  time: 11:00am - 12:30pm
+#  room: ''
+#  title: Tutorials
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_tutorials_2
+#- type: tutorial
+#  time: ''
+#  room: Faraday Room (Engineering IV)
+#  title: 'T4: P4→NetFPGA'
+#  authors: Gordon Brebner, Noa Zilberman, Nate Foster, Stephen Ibanez
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-P4-NetFPGA.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Shannon Room (Engineering IV)
+#  title: 'T5: P4: Programming the Network Data Plane'
+#  authors: Nate Foster, Changhoon Kim
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-p4.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Tesla Room (Engineering IV)
+#  title: 'T6: Understanding Latency - A Root Cost and Mitigation Approach'
+#  authors: Joe Touch
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-latency.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: BH4760 (Boelter Hall)
+#  title: 'T7: The Netmap framework for NFV applications'
+#  authors: Giuseppe Lettieri, Vincenzo Maffione, Luigi Rizzo, Michio Honda
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-netmap-nfv.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: break
+#  time: 12:30pm - 2:00pm
+#  room: Centennial Terrace
+#  title: Lunch
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_break_3
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: ''
+#  title: Workshops
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_workshops_3
+#- type: workshop
+#  time: ''
+#  room: Laureate Room (Luskin Center)
+#  title: 'WS6: Hot Topics in Container Networking and Networked Systems (HotConNet)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-hotconnet.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/HotConNet
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Exploration Room (Luskin Center)
+#  title: 'WS7: Mobility in the Evolving Internet Architecture (MobiArch)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-mobiarch.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/MobiArch
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Illumination Room (Luskin Center)
+#  title: 'WS8: Virtual Reality and Augmented Reality Network (VR/AR Network)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-vrar-network.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/VR-AR
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Optimist Room (Luskin Center)
+#  title: 'WS9: Reproducibility Workshop'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-reproducibility.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Reproducibility
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: session
+#  time: 2:00pm - 3:30pm
+#  room: ''
+#  title: Tutorials
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_tutorials_3
+#- type: tutorial
+#  time: ''
+#  room: Faraday Room (Engineering IV)
+#  title: 'T4: P4→NetFPGA'
+#  authors: Gordon Brebner, Noa Zilberman, Nate Foster, Stephen Ibanez
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-P4-NetFPGA.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Shannon Room (Engineering IV)
+#  title: 'T5: P4: Programming the Network Data Plane'
+#  authors: Nate Foster, Changhoon Kim
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-p4.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Tesla Room (Engineering IV)
+#  title: 'T8: C2C (Towards the Tactile Internet: Low Latency Communication for Connected
+#    Cars)'
+#  authors: Falko Dressler
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-c2c.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: BH4760 (Boelter Hall)
+#  title: 'T7: The Netmap framework for NFV applications'
+#  authors: Giuseppe Lettieri, Vincenzo Maffione, Luigi Rizzo, Michio Honda
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-netmap-nfv.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: break
+#  time: 3:30pm - 4:00pm
+#  room: Foyer
+#  title: Coffee Break
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_break_4
+#- type: session
+#  time: 4:00pm - 5:30pm
+#  room: ''
+#  title: Workshops
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_workshops_4
+#- type: workshop
+#  time: ''
+#  room: Laureate Room (Luskin Center)
+#  title: 'WS6: Hot Topics in Container Networking and Networked Systems (HotConNet)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-hotconnet.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/HotConNet
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Exploration Room (Luskin Center)
+#  title: 'WS7: Mobility in the Evolving Internet Architecture (MobiArch)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-mobiarch.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/MobiArch
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Illumination Room (Luskin Center)
+#  title: 'WS8: Virtual Reality and Augmented Reality Network (VR/AR Network)'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-vrar-network.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/VR-AR
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: workshop
+#  time: ''
+#  room: Optimist Room (Luskin Center)
+#  title: 'WS9: Reproducibility Workshop'
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: workshop-reproducibility.html
+#  slides: ''
+#  video: ''
+#  remote: http://www.meetecho.com/sigcomm17/Reproducibility
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: session
+#  time: 4:00pm - 5:30pm
+#  room: ''
+#  title: Tutorials
+#  authors: ''
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: wt_fri_tutorials_4
+#- type: tutorial
+#  time: ''
+#  room: Faraday Room (Engineering IV)
+#  title: 'T4: P4→NetFPGA'
+#  authors: Gordon Brebner, Noa Zilberman, Nate Foster, Stephen Ibanez
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-P4-NetFPGA.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Shannon Room (Engineering IV)
+#  title: 'T5: P4: Programming the Network Data Plane'
+#  authors: Nate Foster, Changhoon Kim
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-p4.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: Tesla Room (Engineering IV)
+#  title: 'T8: C2C (Towards the Tactile Internet: Low Latency Communication for Connected
+#    Cars)'
+#  authors: Falko Dressler
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-c2c.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
+#- type: tutorial
+#  time: ''
+#  room: BH4760 (Boelter Hall)
+#  title: 'T7: The Netmap framework for NFV applications'
+#  authors: Giuseppe Lettieri, Vincenzo Maffione, Luigi Rizzo, Michio Honda
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: tutorial-netmap-nfv.html
+#  slides: ''
+#  video: ''
+#  remote: ''
+#  remote-qa: ''
+#  COL_UID: ''
