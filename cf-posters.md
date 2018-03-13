@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Call for Posters and Demos
-group: Calls
+group: Parallel events
 
 
 ---
@@ -57,3 +57,4 @@ Please submit your abstract at [https://sigcomm18posters.hotcrp.com/](https://si
 
 {% include dates.html track = "posters_demos" %}
 
+[Contact the Poster and Demo Chairs](mailto:marco@kaust.edu.sa,sonkoly@tmit.bme.hu,varvello@research.att.com,akuzma@northwestern.edu?subject=[SIGCOMM 2018] Posters and Demos){: data-role="button" class="button" }

@@ -17,11 +17,21 @@
           </h4>
           <ul data-role="listview" data-inset="false">
             <li data-icon="false">
-              <p>
-                {% if person.photo %}<img class="keynote-photo" src="{{ person.photo }}"/>{% endif %}
-                {{ person.bio }}
-              </p>
-              <p>&nbsp;</p>
+              <!--<p>-->
+                <!--{% if person.photo %}<img class="keynote-photo" src="{{ person.photo }}"/>{% endif %}-->
+
+              <!--</p><br/>-->
+
+
+              <p><span style="font-weight: 700;">Title: </span>
+               {{ person.title }}
+              </p><br/>
+            <p><span style="font-weight: 700;">Abstract: </span>
+              {{ person.abstract }}
+            </p><br/>
+            <p><span style="font-weight: 700;">Bio: </span>
+              {{ person.bio }}
+            </p><br/>
             </li>
           </ul>
         </div>

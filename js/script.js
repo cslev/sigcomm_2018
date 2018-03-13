@@ -3,7 +3,8 @@
 var lcnt;
 var sps;
 
-var slice_num=3;
+// how many news item do we want without clicking on the Older news
+var slice_num=6;
 
 $(document).on("pagebeforeshow", function() {
 

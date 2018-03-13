@@ -111,6 +111,13 @@ Submitted papers must not substantially overlap papers that have been published 
 
 Submissions are to be made to the submission web site at [https://sigcomm18iotsp.hotcrp.com/](https://sigcomm18iotsp.hotcrp.com/). Only PDF files will be accepted. Submissions not meeting these guidelines risk rejection without consideration of their merits. 
 
+### Authors Take Note
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
+
+
 ### Important Dates
 
 {% include dates2.html dates=page.dates %}

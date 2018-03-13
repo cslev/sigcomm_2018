@@ -6,8 +6,6 @@ group: Conference
 awards:
   - type: 2018 SIGCOMM Award Winner
     link: http://www.sigcomm.org/awards/sigcomm-awards
-    people:
-
 
   - type: 2017 SIGCOMM Test of Time Award Winners
     link: http://www.sigcomm.org/awards/test-of-time-paper-award
@@ -24,40 +22,16 @@ awards:
 
   - type: 2017 SIGCOMM Best Paper Award Winners
     papers:
-
-    - title: Re-architecting datacenter networks and stacks for low latency and high performance
-      authors: Mark Handley (University College London), Costin Raiciu, Alexandru Agache,
-        and Andrei Voinescu (University Politehnica of Bucharest), and Andrew Moore, Gianni
-        Antichi, and Marcin Wójcik (University of Cambridge)
-      abstract2: |
-        <p>Modern datacenter networks provide very high capacity via redundant Clos topologies and low switch latency, but transport protocols rarely manage to deliver performance matching the underlying hardware. We present NDP, a novel datacenter transport architecture that achieves both near-optimal completion times for short transfers and near-optimal throughput in a wide range of scenarios including incast. NDP builds upon Cut Payload (CP) which cuts packet payloads when switches overflow, but remedies CP’s shortcomings, and implements a novel high performance multipath-aware transport protocol. Headers of packets whose payload was cut due to congestion give the receiver a complete view of instantaneous demand from all senders. NDP is primarily a receiver-driven transport protocol, as the receiver is the only entity that can accurately manage this demand and prioritize between traffic from different senders during incast scenarios.</p>
-        <p>We implemented NDP in Linux end systems, in a software switch and in hardware switches based on the NetFPGA-SUME platform. We evaluate NDP’s performance both in our implementation and in large-scale simulations. NDP achieves slightly lower short-flow completion times than DCTCP running over lossless Ethernet using PFC, while having better ability to prioritize traffic from stragglers. At the same time, for large transfers in heavily loaded Clos topologies, it can achieve more than 95% of the available network capacity due to its excellent multipath capability, beating DCTCP by approximately 40%.</p>
+    - title: TBD
+      authors: TBD
+      abstract: TBD
       bio: ''
       photo: ''
-      link: http://dl.acm.org/ft_gateway.cfm?id=3098825&ftid=1898916&dwn=1&CFID=776908660&CFTOKEN=29525737
+      link: ''
       slides: ''
       video: ''
       remote: ''
       remote-qa: ''
-      COL_UID: ''
-      '': '3'
-
-     - title: Language-directed hardware design for network performance monitoring
-      authors: Srinivas Narayana, Anirudh Sivaraman, Vikram Nathan, and Prateesh Goyal
-        (MIT CSAIL), Venkat Arun (IIT Guwahati), Mohammad Alizadeh (MIT CSAIL), Vimalkumar
-        Jeyakumar (Cisco Tetration Analytics), and Changhoon Kim (Barefoot Networks)
-      abstract2: |
-        <p>Network performance monitoring today is restricted by existing switch support for measurement, forcing operators to rely heavily on endpoints with poor visibility into the network core. Switch vendors have added progressively more monitoring features to switches, but the current trajectory of adding specific features is unsustainable given the ever-changing demands of network operators. Instead, we ask what switch hardware primitives are required to support an expressive language of network performance questions. We believe that the resulting switch hardware design could address a wide variety of current and future performance monitoring needs.</p>
-        <p>We present a performance query language, Marple, modeled on familiar functional constructs like map, filter, groupby, and zip. is backed by a new programmable key-value store primitive on switch hardware. The key-value store performs flexible aggregations at line rate (e.g., a moving average of queueing latencies per flow), and scales to millions of keys. We present a Marple compiler that targets a P4-programmable software switch and a simulator for high-speed programmable switches. Marple can express switch queries that could previously run only on end hosts, while Marple queries only occupy a modest fraction of a switch’s hardware resources.</p>
-      bio: ''
-      photo: ''
-      link: http://dl.acm.org/ft_gateway.cfm?id=3098829&ftid=1898917&dwn=1&CFID=776908660&CFTOKEN=29525737
-      slides: ''
-      video: ''
-      remote: ''
-      remote-qa: ''
-      COL_UID: ''
-      '': '7'
 
   - type: 2016 SIGCOMM Doctoral Dissertation Award
     link: http://www.sigcomm.org/awards/dissertation

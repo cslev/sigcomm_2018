@@ -159,6 +159,13 @@ Submissions must be original, unpublished work, and not under consideration at a
 
 Submit your paper at [https://sigcomm18big-dama.hotcrp.com/](https://sigcomm18big-dama.hotcrp.com/)
 
+### Authors Take Note
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
+
+
 ### Important Dates
 
 {% include dates2.html dates=page.dates %}

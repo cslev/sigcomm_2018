@@ -157,7 +157,7 @@ Computers and open communication networks have become increasingly interwoven wi
                     </h2>
                   </div>
                   <div class="ui-block-b">
-                    <p>ICSI, UC Berkely, USA</p>
+                    <p>ICSI and Berkeley, USA</p>
                   </div>
                 </div>
                 </a>
@@ -176,6 +176,13 @@ Papers will be accepted based on peer review (3 per paper) and should contain or
 [WTMC 2017](http://wtmc.info/index2017.html)
 
 [WTMC 2016](http://wtmc.info/index2016.html)
+
+
+### Authors Take Note
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
 
 
 ### Important Dates

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ACM SIGCOMM 2018 Workshop on Network Meets AI & ML (NetAIM 2018)"
+title: "ACM SIGCOMM 2018 Workshop on Network Meets AI & ML (NetAI 2018)"
 group: Workshops
 
 dates:
@@ -78,7 +78,7 @@ Distributed processing systems for Artificial Intelligence (AI) and Machine Lear
 
 
 ### Call for Papers
-NetAIM 2018 provides a venue for presenting innovative ideas to discuss future research agendas in computer networking of/by/for AI & ML systems. We look for submissions of previously unpublished work on topics including, but not limited to, the following: 
+NetAI 2018 provides a venue for presenting innovative ideas to discuss future research agendas in computer networking of/by/for AI & ML systems. We look for submissions of previously unpublished work on topics including, but not limited to, the following: 
 
 - telemetry in DC
 - network measurement
@@ -117,16 +117,10 @@ NetAIM 2018 provides a venue for presenting innovative ideas to discuss future r
             </ul>
 
 
-### Sponsored by
-<p style="text-align: center">
-          <a taget="_blank" class="ui-link" href="http://www.huawei.com/en">
-            <img style="max-width: 8%" src="./images/sponsors/huawei.png" alt="HUAWEI">
-          </a>
-        </p>
         
 
 ### Submission Instructions
-  Submission implies the willingness of at least one author to attend the workshop and present the paper. Accepted papers will be included in the ACM SIGCOMM conference proceedings. Workshop organizers reserve the right to exclude a paper from distribution after the workshop if the paper is not presented at the conference. Submitted papers should contain original material that have not be previously published, nor currently submitted for consideration elsewhere. All submissions should be written in English, with a maximum length limit of 6 printed pages, including all the figures, references and appendices. The ACM SIGCOMM LaTeX and Microsoft Word templates, as well as related information, can be found at the [ACM SIG Proceedings website](https://www.acm.org/publications/proceedings-template).
+Submission implies the willingness of at least one author to attend the workshop and present the paper. Accepted papers will be included in the ACM SIGCOMM conference proceedings. Workshop organizers reserve the right to exclude a paper from distribution after the workshop if the paper is not presented at the conference. Submitted papers should contain original material that have not be previously published, nor currently submitted for consideration elsewhere. All submissions should be written in English, with a maximum length limit of 6 printed pages, including all the figures, references and appendices. The ACM SIGCOMM LaTeX and Microsoft Word templates, as well as related information, can be found at the [ACM SIG Proceedings website](https://www.acm.org/publications/proceedings-template).
 
 Specifically, please note the following format requirements:
 
@@ -139,7 +133,10 @@ Specifically, please note the following format requirements:
 Please submit your paper via [https://sigcomm18netaim.hotcrp.com/](https://sigcomm18netaim.hotcrp.com/) 
 
 ### Authors Take Note
-**The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to TWO WEEKS prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work.**
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
 
 
 ### Important Dates

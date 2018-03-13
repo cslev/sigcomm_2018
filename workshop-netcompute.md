@@ -95,6 +95,13 @@ The ACM SIGCOMM Workshop on In-Network Computing (NetCompute 2018) is organized 
 Submissions must describe original, previously unpublished research, not currently under review by another conference or journal. Papers must be submitted electronically via the submission site. The length of papers must be no more than **6 pages**, including tables, figures and references, using the same template as SIGCOMM submission (SIGCOMM submission instructions). The cover page must contain the name and affiliation of author(s) for single--blind peer reviewing by the program committee. Each submission will receive at least three independent blind reviews from the TPC. At least one of the authors of every accepted paper must register and present their work at the workshop. Paper registration and submission can be done via HotCRP at [https://sigcomm18netcompute.hotcrp.com](https://sigcomm18netcompute.hotcrp.com)
 
 
+### Authors Take Note
+{% include workshop_authorstakenote.html %}
+
+
+### Registration
+{% include workshop_registration.html %}
+
 
 
 ### Important Dates

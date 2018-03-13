@@ -118,6 +118,14 @@ We invite submissions on a wide range of topics of interest, including, but not 
 Submissions must be original, unpublished work, and not under consideration at another conference or journal. Submitted papers must be at most six (6) pages long, including all figures, tables, references, and appendices in two-column 10pt ACM format. Papers must include author’s names and affiliations for single-blind peer reviewing by the TPC. Authors of accepted papers are expected to present their papers at the workshop.  Financial assistances will be provided to student authors to cover their travel expenses, with the specific process and policy being coordinated and approved by the organizers. The selected papers will be included in its proceedings and published in the ACM Digital Library. 
 
 Please submit your paper via [https://sigcomm18neat.hotcrp.com/](https://sigcomm18neat.hotcrp.com/).
+
+### Authors Take Note
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
+
+
 ### Important Dates
 
 {% include dates2.html dates=page.dates %}

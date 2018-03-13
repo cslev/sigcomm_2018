@@ -64,24 +64,27 @@ menu:
 - name: Parallel events
   icon: fa-list-ul
   submenu:
-    - name: Posters and demos
-      url: /cf-posters.html
-      icon: fa-eye
-    - name: Industrial demos
-      url: /program-industrial-demos.html
-      icon:  fa-industry
-    - name: Mentoring
-      url: /mentoring.html
-      icon: fa-user-circle-o
-    - name: Student research competition
-      url: /src.html
-      icon: fa-graduation-cap
-    - name: Topic preview
-      url: /topic-preview.html
-      icon:  fa-comments-o
+  - name: Posters and demos
+    url: /cf-posters.html
+    icon: fa-eye
+  - name: Industrial demos
+    url: /cf-industrial-demos.html
+    icon:  fa-industry
+  - name: Mentoring
+    url: /mentoring.html
+    icon: fa-user-circle-o
+  - name: Student research competition
+    url: /src.html
+    icon: fa-graduation-cap
+  - name: Topic preview
+    url: /topic-preview.html
+    icon:  fa-comments-o
 - name: Workshops
   icon: fa-wrench
   submenu:
+  - name: ERC Networking
+    url: /erc_networking_symposium.html
+    icon: fa-gavel
   - name: Big-DAMA
     url: /workshop-bigdama.html
     icon: fa-gavel
@@ -97,7 +100,7 @@ menu:
   - name: NEAT
     url: /workshop-neat.html
     icon: fa-gavel
-  - name: NetAIM
+  - name: NetAI
     url: /workshop-netaim.html
     icon: fa-gavel
   - name: NetCompute

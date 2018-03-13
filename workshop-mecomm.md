@@ -133,6 +133,12 @@ Specifically, please note the following format requirements:
 
 Please submit your paper via [https://mecomm18.hotcrp.com/](https://mecomm18.hotcrp.com/).
 
+### Authors Take Note
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
+
 
 ### Important Dates
 

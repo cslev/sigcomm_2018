@@ -103,6 +103,13 @@ Submissions must be original, unpublished work, and not under consideration at a
 
 Please submit your paper via <a href="https://sigcomm18secson.hotcrp.com/">https://sigcomm18secson.hotcrp.com/</a>.
 
+### Authors Take Note
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
+
+
 ### Important Dates
 
 {% include dates2.html dates=page.dates %}

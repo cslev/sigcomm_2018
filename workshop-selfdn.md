@@ -127,7 +127,11 @@ Please submit your paper at [https://sigcomm-sdn18.hotcrp.com/](https://sigcomm-
 
 
 ### Authors Take Note
-The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to TWO WEEKS prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
+
 
 ### Important Dates
 

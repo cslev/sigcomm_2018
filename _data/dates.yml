@@ -24,6 +24,12 @@ main-tutorials:
   date: August 20 and 24, 2018
   important: true
 
+main-erc:
+  track: workshops
+  info: ERC Networking 2018
+  date: August 24, 2018
+  important: true
+
 
 # order: reg, submission, notification
 #main-notification:
@@ -49,6 +55,12 @@ posters-submission:
   date: May 21, 2018
   important: true
 
+
+main-industrial-demos:
+  track: industrial-demos
+  info: Industrial demo submission deadline
+  date: May 18, 2018
+  important: true
 
 main-notification:
   track: main
@@ -79,7 +91,7 @@ workshop-abstract:
 tutorials-proposals:
   track: tutorials
   info: <span style="color:red;font-weight:700;">Extended </span> deadline for tutorial submissions
-  date: March 12, 2018
+  date: <del>March 12, 2018</del>
   important: true
 
 main-submission:

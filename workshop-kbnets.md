@@ -131,6 +131,12 @@ reviewing by the program committee. Each submission will receive **at least thre
 blind reviews** from the TPC. At least one of the authors of every accepted paper must register
 and present their work at the workshop.
 
+### Authors Take Note
+{% include workshop_authorstakenote.html %}
+
+### Registration
+{% include workshop_registration.html %}
+
 
 ### Important Dates
 
