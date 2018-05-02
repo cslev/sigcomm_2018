@@ -3,13 +3,12 @@ layout: default
 title: ACM SIGCOMM 2018
 og_tags:
   - property: og:description
-    content: The organizing committee is delighted to invite you to ACM SIGCOMM 2018, to be held in Budapest, Hungary, August 20-24, 2018. SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols
+    content: The organizing committee is delighted to invite you to ACM SIGCOMM 2018, to be held in Budapest, Hungary, August 20-25, 2018. SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols
 ---
 
 # Welcome to SIGCOMM 2018
 
-The organizing committee is delighted to invite you to ACM SIGCOMM 2018, to be held in Budapest, Hungary on August 20-24, 2018.
-
+The organizing committee is delighted to invite you to ACM SIGCOMM 2018, to be held in Budapest, Hungary on August 20-25, 2018.
 SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.
 
 

@@ -1,23 +1,22 @@
 ---
 layout: default
-title: "ACM SIGCOMM 2018 Workshop on Kernel Bypassing Networks (KBNets 2018)"
+title: "ACM SIGCOMM 2018 Afternoon Workshop on Kernel Bypassing Networks (KBNets 2018)"
 group: Workshops
 
 dates:
-    - info: Abstract submission deadline
-      date: March 18, 2018
-    - info: Paper submission deadline
-      date: March 25, 2018
-    - info: Acceptance notification
-      date: April 30, 2018
-    - info: Camera-ready deadline
-      date: May 31, 2018
-    - info: Program available online
-      date: Mid-June, 2018   
+    - info: Workshop
+      date: August 20, 2018
     - info: List of organization details
       date: Mid-June, 2018   
-    - info: Workshop
-      date: August 20 or 24, 2018
+    - info: Program available online
+      date: Mid-June, 2018   
+    - info: Camera-ready deadline
+      date: May 31, 2018
+    - info: Acceptance notification
+      date: April 30, 2018
+    - info: Paper submission deadline
+      date: <del>April 01, 2018</del>
+
    
 
 committees:
@@ -124,12 +123,16 @@ Topics include but are not limited to:
 
 ### Submission Instructions
 Submissions must describe original, previously unpublished, complete research, not currently
-under review by another conference or journal. Papers must be submitted electronically via the
-submission site. The length of papers must be no more than **6 pages**, including tables and
-figures but excluding references. The cover page must contain the name and affiliation of author(s) for **single--blind** peer
-reviewing by the program committee. Each submission will receive **at least three independent
-blind reviews** from the TPC. At least one of the authors of every accepted paper must register
-and present their work at the workshop.
+under review by another conference or journal.
+
+Papers must be submitted electronically. 
+The length of papers must be no more than **6 pages, including tables and figures, (in two-column, 10-point format) but excluding references**, following the provided ACM LaTeX style file [https://github.com/scyue/ccp-sigcomm18](https://github.com/scyue/ccp-sigcomm18). 
+The cover page must contain the name and affiliation of author(s) for single-blind peer reviewing by the program committee.
+Each submission will receive at least three independent blind reviews from the TPC. 
+At least one of the authors of every accepted paper must register and present their work at the workshop. 
+
+Please submit your paper via [http://sigcomm18kbnets.hotcrp.com/](http://sigcomm18kbnets.hotcrp.com/)
+
 
 ### Authors Take Note
 {% include workshop_authorstakenote.html %}
@@ -138,7 +141,7 @@ and present their work at the workshop.
 {% include workshop_registration.html %}
 
 
-### Important Dates
+### <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates2.html dates=page.dates %}
 

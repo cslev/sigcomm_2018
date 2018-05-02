@@ -5,20 +5,18 @@ group: Workshops
 
 
 dates:
-    - info: Abstract submission deadline
-      date: March 18, 2018
-    - info: Paper submission deadline
-      date: March 25, 2018
-    - info: Acceptance notification
-      date: April 30, 2018
-    - info: Camera-ready deadline
-      date: May 31, 2018
-    - info: Program available online
-      date: Mid-June, 2018   
+    - info: Workshop
+      date: August 20, 2018
     - info: List of organization details
       date: Mid-June, 2018   
-    - info: Workshop
-      date: August 20 or 24, 2018
+    - info: Program available online
+      date: Mid-June, 2018   
+    - info: Camera-ready deadline
+      date: May 31, 2018
+    - info: Acceptance notification (extended)
+      date: May 07, 2018
+    - info: Paper submission deadline
+      date: <del>April 03, 2018</del>
 
 committees:
     - role: Program Committee Chairs
@@ -140,7 +138,7 @@ Please submit your paper via [https://mecomm18.hotcrp.com/](https://mecomm18.hot
 {% include workshop_registration.html %}
 
 
-### Important Dates
+### <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates2.html dates=page.dates %}
 

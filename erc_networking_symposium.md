@@ -81,6 +81,13 @@ presenters:
       abstract:    "Today, our economy as well as our social life, rely on the smooth and uninterrupted operation of the Internet. To cope with the increasing complexity of inter-networking, network operators rely on advanced traffic engineering techniques, such as BGP communities, i.e., meta-information regarding prefix announcements. In this talk, I show that, indeed, the use of BGP communities is on the rise, but more importantly, it provides an excellent, yet unexplored, source of information to assess the state and health of the Internet. In particular, I show how we utilized BGP communities as a crowd-sourcing mechanism to: (i) detect outages at critical peering infrastructures and pinpoint the epicenter of the outage at the level of a building, (ii) detect mitigation of distributed denial of service, and (iii) infer network policies and assess the level of collaboration among networks. I conclude my talk by presenting shortcomings of the use of BGP communities and suggest ways to overcome them via better coordination of all the involved stakeholders."
 
 
+      
+    - name:        Klaus Wehrle
+      affiliation: RWTH, Germany
+      title:       Symbolic Analysis of Software-based Communication Systems
+      bio:         "Klaus Wehrle is professor of Computer Science and head of the Chair of Communication and Distributed Systems at RWTH Aachen University, Germany. He received his Diploma and PhD degrees from University of Karlsruhe (now KIT). From 2002 till 2003, Klaus was postdoctoral researcher at the International Computer Science Institute at University of California at Berkeley. In 2004 he was awarded a DFG Emmy Noether (starting) grant and established a junior research group on Protocol Engineering and Distributed Systems at University of Tübingen. In 2006, he joined RWTH Aachen University as associate professor, since 2010 as full professor. His research activities are focused on (but not limited to) engineering of networking protocols, (formal) methods for protocol engineering and network analysis, network simulation, reliable communication software as well as all operating system issues of networking."
+      abstract:    "The softwarization of networks provides a new degree of flexibility in network operation. But its software components can result in unexpected runtime performance and erratic network behavior. This challenges the deployment of flexible software functions, so-called Network Functions (NF), in performance critical (core) networks.<br/>To address this challenge, we propose Symbolic Execution as a rigorous and effective methodology enabling a qualitative and quantitative analysis of Network Functions, before deployment.<br/>The talk shows how symbolic analysis methods can be applied in various aspects of networked systems, how the computational challenges can be tackled and that very insidious bugs can be discovered in widely used software."
+
     - name:        Joerg Widmer 
       affiliation: IMDEA, Spain 
       title:       Efficient Networking in Millimeter Wave Bands
@@ -88,12 +95,7 @@ presenters:
       abstract:    "State-of-the-art wireless communication already operates close to Shannon capacity and one of the most promising options to further increase data rates is to increase the communication bandwidth. Very high bandwidth channels are only available in the extremely high frequency part of the radio spectrum, the millimeter wave band (mm-wave). Upcoming communication technologies, such as IEEE 802.11ad, are already starting to exploit this part of the radio spectrum to achieve data rates of several GBit/s. However, communication at such high frequencies also suffers from high attenuation and signal absorption, often restricting communication to line-of-sight (LOS) scenarios and requiring the use of highly directional antennas. This in turn requires a radical rethinking of wireless network design. On the one hand side, such channels experience little interference, allowing for a high degree of spatial reuse and potentially simpler MAC and interference management mechanisms. On the other hand, such an environment is extremely dynamic and channels may appear and disappear over very short time intervals, in particular for mobile devices. It is essential to take these characteristics into account to turn a collection of such very high speed but brittle links into an efficient, low latency, and reliable network. This talk will highlight some of the challenges of and possible approaches for mm-wave networking."
 
       
-    - name:        Balázs Bodó
-      affiliation: UvA, Netherlands
-      title:       TBA
-      bio:         TBA
-      abstract:    TBA
-      
+
     - name:        Dejan Kostic
       affiliation: KTH, Sweden
       title:       TBA
@@ -108,12 +110,7 @@ presenters:
       bio:         TBA
       abstract:    TBA
       
-      
-    - name:        Klaus Wehrle
-      affiliation: RWTH, Germany
-      title:       TBA
-      bio:         TBA
-      abstract:    TBA
+
       
 
 ---

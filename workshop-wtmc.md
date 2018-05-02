@@ -4,12 +4,14 @@ title: "ACM SIGCOMM 2018 Workshop on Traffic Measurements for Cybersecurity (WTM
 group: Workshops
 
 dates:
-    - info: Submission deadline
-      date: March 18, 2018
-    - info: Paper acceptance notification
-      date: April 30, 2018
+    - info: Workshop
+      date: August 20, 2018
     - info: Camera-ready deadline
-      date: May 24, 2018
+      date: May 31, 2018
+    - info: Acceptance notification
+      date: May 7, 2018
+    - info: Submission deadline (extended)
+      date: <del>April 08, 2018</del>
    
 
 committees:
@@ -185,7 +187,7 @@ Papers will be accepted based on peer review (3 per paper) and should contain or
 {% include workshop_registration.html %}
 
 
-### Important Dates
+### <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates2.html dates=page.dates %}
 

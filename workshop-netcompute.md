@@ -1,24 +1,24 @@
 ---
 layout: default
-title: ACM SIGCOMM 2018 Workshop on In-Network Computing (NetCompute 2018)
+title: ACM SIGCOMM 2018 Morning Workshop on In-Network Computing (NetCompute 2018)
 group: Workshops
 
 
 dates:
-    - info: Abstract submission deadline
-      date: March 18, 2018
-    - info: Paper submission deadline
-      date: March 25, 2018
-    - info: Acceptance notification
-      date: April 30, 2018
-    - info: Camera-ready deadline
-      date: May 31, 2018
-    - info: Program available online
-      date: Mid-June, 2018   
+    - info: Workshop
+      date: August 20, 2018
     - info: List of organization details
       date: Mid-June, 2018   
-    - info: Workshop
-      date: August 20 or 24, 2018
+    - info: Program available online
+      date: Mid-June, 2018   
+    - info: Camera-ready deadline
+      date: May 31, 2018
+    - info: Acceptance notification
+      date: April 30, 2018
+    - info: Paper submission deadline
+      date: <del>April 01, 2018</del>
+    - info: Abstract submission deadline
+      date: <del>April 01, 2018</del>
 
 committees:
     - role: Workshop Chairs
@@ -104,7 +104,7 @@ Submissions must describe original, previously unpublished research, not current
 
 
 
-### Important Dates
+### <i class="fa fa-calendar"></i>  Important Dates
 
 {% include dates2.html dates=page.dates %}
 

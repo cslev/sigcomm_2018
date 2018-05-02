@@ -3,6 +3,24 @@ layout: default
 title: Call for Posters and Demos
 group: Parallel events
 
+committees:
+  - role: Poster Chairs
+    mailing_list:  akuzma@northwestern.edu,varvello@research.att.com
+    people:
+    - name:        Aleksandar Kuzmanovic
+      affiliation: Northwestern, USA
+
+    - name:        Matteo Varvello
+      affiliation:   AT&amp;T, USA
+      
+  - role: Demo Chairs
+    mailing_list:  marco@kaust.edu.sa, sonkoly@tmit.bme.hu
+    people:
+    - name:        Marco Canini
+      affiliation: KAUST, KSA
+
+    - name:        Balázs Sonkoly
+      affiliation: BME, Hungary
 
 ---
 
@@ -13,8 +31,8 @@ The SIGCOMM poster and demo sessions showcase works-in-progress in an informal s
 
 Product-focused, as opposed to research-focused, industrial demos may be more appropriately submitted to the SIGCOMM Industrial Demo track. Please feel free to contact either the Poster and Demo Chairs or the [SIGCOMM Industrial Liaison Board](http://www.sigcomm.org/content/sigcomm-industrial-advisory-board) if you are unsure which track to submit to.
 
-## ACM Student Research Competition (SRC)
-The SIGCOMM poster and demo sessions will also serve as an [ACM Student Research Competition](http://src.acm.org/index.html). The ACM Student Research Competition (SRC) offers a unique forum for undergraduate and graduate students to present their original research before a panel of judges and attendees at well-known ACM-sponsored and co-sponsored conferences. Winners will advance to ACM Grand Finals of the Student Research Competition to compete against the winners of other ACM conferences. The SRC is sponsored by Microsoft Research.
+## ACM SIGCOMM Student Research Competition (SRC)
+The SIGCOMM poster and demo sessions will also serve as an [ACM SIGCOMM Student Research Competition](https://conferences.sigcomm.org/sigcomm/2018/src.html). The ACM Student Research Competition (SRC) offers a unique forum for undergraduate and graduate students to present their original research before a panel of judges and attendees at well-known ACM-sponsored and co-sponsored conferences. Winners will advance to ACM Grand Finals of the Student Research Competition to compete against the winners of other ACM conferences. The SRC is sponsored by Microsoft Research.
 
 ## Why should you submit a Poster or a Demo?
 Presenting a poster is a great opportunity, especially for students, to obtain interesting and valuable feedback on ongoing research from a knowledgeable crowd at the conference. Accepted posters and demos will be published as a two-page abstract for the archived conference proceedings. In addition, the top few submissions will be forwarded for publication to the SIGCOMM newsletter, the Computer Communication Review (CCR). Students who are submitting posters are highly encouraged to examine if they are eligible for student travel grants.
@@ -56,5 +74,9 @@ Please submit your abstract at [https://sigcomm18posters.hotcrp.com/](https://si
 ## <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates.html track = "posters_demos" %}
+
+## Organizers
+
+{% include committees.html committees = page.committees %}
 
 [Contact the Poster and Demo Chairs](mailto:marco@kaust.edu.sa,sonkoly@tmit.bme.hu,varvello@research.att.com,akuzma@northwestern.edu?subject=[SIGCOMM 2018] Posters and Demos){: data-role="button" class="button" }

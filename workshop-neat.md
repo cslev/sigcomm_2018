@@ -4,18 +4,18 @@ title: "ACM SIGCOMM 2018 Workshop on Networking for Emerging Applications and Te
 group: Workshops
 
 dates:
-    - info: Submission deadline
-      date: March 25, 2018
-    - info: Paper acceptance notification
-      date: April 30, 2018
-    - info: Camera-ready deadline
-      date: May 31, 2018
-    - info: Program available online
-      date: Mid-June, 2018
+    - info: Workshop
+      date: August 20, 2018
     - info: List of organization details
       date: Mid-June, 2018
-    - info: Workshop
-      date: August 20 or 24, 2018
+    - info: Program available online
+      date: Mid-June, 2018
+    - info: Camera-ready deadline
+      date: May 31, 2018
+    - info: Paper acceptance notification
+      date: May 07, 2018
+    - info: Submission deadline (firm)
+      date: <del>April 07, 2018</del>
 
 committees:
     - role: General Chairs
@@ -126,7 +126,7 @@ Please submit your paper via [https://sigcomm18neat.hotcrp.com/](https://sigcomm
 {% include workshop_registration.html %}
 
 
-### Important Dates
+### <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates2.html dates=page.dates %}
 

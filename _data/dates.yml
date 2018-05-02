@@ -1,33 +1,87 @@
 # Special considerations for the index page:
-# - track's title will be automatically added as a prefix
-# - the specified title will be downcased
 # - info: Workshop proposals due
 # - index page will show date only if important==true
 
 # All listed dates will appear in the specified order
 
+hackathon:
+  track: hackathon
+  info: Hackathon
+  date: August 25, 2018
+  important: true
+
+workshop:
+  track: workshop
+  info: "Workshops: NetAI, SecSoN, VR/AR Network, SelfDN, and ERC Networking"
+  date: August 24, 2018
+  important: true
+
+tutorials:
+  track: tutorials
+  info: "Tutorials: HPNFV, SO-RAN, and IoN"
+  date: August 24, 2018
+  important: true
+
+
 main-program:
   track: main
-  info: Main conference
+  info: Main conference and parallel events
   date: August 21-23, 2018
   important: true
 
-main-workshops:
-  track: workshops
-  info: Workshops
-  date: August 20 and 24, 2018
+
+workshop2:
+  track: workshop
+  info: "Workshops: Big-DAMA, IoT S&P, MECOMM, NEAT, WTMC, NetCompute, and KBNets"
+  date: August 20, 2018
   important: true
 
-main-tutorials:
+tutorials2:
   track: tutorials
-  info: Tutorials
-  date: August 20 and 24, 2018
+  info: "Tutorials: P4, HDA, and RCM"
+  date: August 20, 2018
   important: true
 
-main-erc:
-  track: workshops
-  info: ERC Networking 2018
-  date: August 24, 2018
+
+
+#main-workshops:
+#  track: workshops
+#  info: Workshops
+#  date: August 20 and 24, 2018
+#  important: true
+
+#main-tutorials:
+#  track: tutorials
+#  info: Tutorials
+#  date: August 20 and 24, 2018
+#  important: true
+
+#main-erc:
+#  track: workshops
+#  info: ERC Networking 2018
+#  date: August 24, 2018
+#  important: true
+
+
+travelgrant-acceptance:
+  track: travel_grant
+  info: Travel grants award acceptance
+  date: June 27, 2018
+
+travelgrant-notif:
+  track: travel_grant
+  info: Travel grants award notification
+  date: June 20, 2018
+
+src-notification:
+  track: src
+  info: Acceptance notification
+  date: June 19, 2018
+
+travelgrant-deadline:
+  track: travel_grant
+  info: Travel grants application submission deadline
+  date: May 31, 2018
   important: true
 
 
@@ -56,6 +110,14 @@ posters-submission:
   important: true
 
 
+src-submission:
+  track: src
+  info: ACM SIGCOMM SRC submission deadline
+  date: May 21, 2018
+  important: true
+
+
+
 main-industrial-demos:
   track: industrial-demos
   info: Industrial demo submission deadline
@@ -72,19 +134,19 @@ main-notification:
 workshop-submission:
   track: workshops
   info: Workshop paper submission
-  date: March 25, 2018
+  date: <del>March 25, 2018</del>
   important: true
 
 tutorials-notification:
   track: tutorials
   info: Notification of tutorial acceptance
-  date: March 20, 2018
+  date: <del>March 20, 2018</del>
   important: true
 
 workshop-abstract:
   track: workshops
   info: Workshop abstract registration
-  date: March 18, 2018
+  date: <del>March 18, 2018</del>
   important: true
 
 
@@ -106,6 +168,7 @@ main-registration:
   info: Abstract submission deadline of the main conference
   date: <del>January 24, 2018</del>
   important: true
+
 
 
 

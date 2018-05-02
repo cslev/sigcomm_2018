@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Call for Industrial Demos
+title: ACM SIGCOMM 2018 Call for Industrial Demos
 group: Parallel events
 
 dates:

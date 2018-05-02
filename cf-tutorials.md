@@ -36,7 +36,7 @@ Tutorial proposals should be submitted in PDF format, should not exceed three (3
 
 - Any **restrictions** (e.g., number of participants)
 
-## Important notes:
+## <i class="fa fa-calendar"></i> Important notes:
 
 - It is *recommended* that there are up to three speakers for a full-day tutorial and up to two speakers for a half-day tutorial.
 

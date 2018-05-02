@@ -4,12 +4,14 @@ title: "ACM SIGCOMM 2018 Workshop on Security in Softwarized Networks: Prospects
 group: Workshops
 
 dates:
-    - info: Abstract submission deadline
-      date: March 18, 2018
+    - info: Workshop
+      date: August 24, 2018
+    - info: Author notification (extended)
+      date: May 02, 2018
     - info: Submission deadline
-      date: March 25, 2018
-    - info: Author notification
-      date: April 30, 2018
+      date: <del>March 28, 2018</del>
+    - info: Abstract submission deadline
+      date: <del>March 28, 2018</del> 
 
 committees:
     - role: Workshop Chairs
@@ -110,7 +112,7 @@ Please submit your paper via <a href="https://sigcomm18secson.hotcrp.com/">https
 {% include workshop_registration.html %}
 
 
-### Important Dates
+### <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates2.html dates=page.dates %}
 
