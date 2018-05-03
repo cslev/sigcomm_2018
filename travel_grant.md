@@ -39,7 +39,7 @@ The following criteria will be used in the selection process:
 6. To increase the geographic diversity of the SIGCOMM attendee population, researchers early in their career (at most five years of full-time, full-level [non-postdoc] post-PhD employment) researchers preferably early in their career may be funded via SIGCOMM’s GeoDiversity Travel Grants (applicants who are at most five years of full-time, full-level [non-postdoc] post-PhD employment will be given higher priority). Because the intent of the grants is to increase participation from countries historically under-represented at the SIGCOMM conference (e.g. Latin America, Africa, and parts of Asia), applicants should be from such countries.
 
 ## Where and How to Apply
-All application materials (applicant’s info, CV, and letters compiled into ONE PDF) should be submitted electronically to the website that will be announced HERE shortly.
+All application materials (applicant’s info, CV, and letters compiled into ONE PDF) should be submitted electronically via [https://sigcomm18travel.hotcrp.com](https://sigcomm18travel.hotcrp.com)
 
 Use your full name and surname as the title of the submission. The applicant should create an account in the submission system and upload AS ONE PDF:
 
