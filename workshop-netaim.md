@@ -62,7 +62,11 @@ committees:
        - name:        K. K. Ramakrishnan
          affiliation: UCR, USA      
        - name:        Timothy Wood
-         affiliation: GWU, USA        
+         affiliation: GWU, USA       
+       - name:        Fengyuan Xu
+         affiliation: NJU, CHINA       
+       - name:        Henry Xu
+         affiliation: CityU, HK         
        - name:        Eiko Yoneki
          affiliation: Cambridge, UK
        - name:        Nicholas Zhang
@@ -114,6 +118,18 @@ NetAI 2018 provides a venue for presenting innovative ideas to discuss future re
                   </div>
                   <div class="ui-block-b">
                     <p>Stanford, USA</p>
+                  </div>
+                </div>
+              </li>
+              <li data-icon="false" class="ui-li-static ui-body-inherit ui-last-child">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a">
+                    <h2>
+                      <em>Chuanxiong Guo</em>
+                    </h2>
+                  </div>
+                  <div class="ui-block-b">
+                    <p>ByteDance, China</p>
                   </div>
                 </div>
               </li>
