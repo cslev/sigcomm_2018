@@ -10,7 +10,10 @@
 
   [300, "cisco.png",    "https://www.cisco.com/", "cisco", 0, 200, 379,                    "platinum"],
   [300, "facebook.png", "https://research.fb.com/", "facebook", 0, 713, 2026,              "platinum"],
-  [50, "amazon.png", "https://www.amazon.com/", "amazon", 0, 300, 120, "silver"],
+  [300, "ericsson.png", "https://ericsson.com/", "ericsson", 0, 116, 104,                  "platinum"],
+
+
+  [50, "amazon.png", "https://www.amazon.com/", "amazon", 0, 300, 120,                     "silver"],
 
 ]
 
