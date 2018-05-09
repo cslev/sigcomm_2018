@@ -78,6 +78,12 @@ src-notification:
   info: Acceptance notification
   date: June 19, 2018
 
+registration-earlybird:
+  track: registration
+  info: Early registration deadline
+  date: July 14, 2018
+  important: true
+
 travelgrant-deadline:
   track: travel_grant
   info: Travel grants application submission deadline

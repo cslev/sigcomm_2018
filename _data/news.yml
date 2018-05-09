@@ -1,28 +1,7 @@
-#- date: May 23, 2017
-#  news: <a href="program.html">Conference program</a> is now online
-#- date: May 10, 2017
-#  news: <a href="registration.html">Registration site</a>  is now live!
-#- date: May 10, 2017
-#  news: <a href="accepted-papers.html">Accepted papers for SIGCOMM 2017</a> are now online
-#- date: April 28, 2017
-#  news: <a href="camera-ready.html">Camera-ready instructions</a> for conference and workshop papers is online
-#- date: April 27, 2017
-#  news: <a href="cf-travel-grants.html">Call for Travel Grants Applications</a> is online
-#- date: March 31, 2017
-#  news: Update submissions instructions with a link to <a href="https://github.com/conference-websites/acmart-sigproc-template">an unofficial LaTeX template</a> to simplify preparation of main conference and workshop manuscripts
-#- date: March 13, 2017
-#  news: Updated <a href="submission.html">submission guidelines</a>. Authors must use the <a href="http://www.acm.org/publications/proceedings-template">new ACM templates</a> to prepare camera-ready versions
-#- date: March 13, 2017
-#  news: Calls for participation at <a href="tutorial-c2c.html">C2C</a> and <a href="tutorial-P4-NetFPGA.html">P4→NetFPGA</a> tutorials are online
-#- date: March 13, 2017
-#  news: <a href="cf-industrial-demos.html">Call for Industrial Demos</a> is online
-#- date: February 18, 2017
-#  news: <a href="cf-posters.html">Call for Posters and Demos</a> and the <a href="src.html">Student Research Competition</a> are online
-#- date: November 17, 2016
-#  news: <a href="cf-tutorials.html">Call for tutorials</a> is online
-#- date: October 5, 2016
-#  news: <a href="cf-workshops.html">Call for workshop proposals</a> is online
-
+- date: May 9, 2018
+  news: <a href="registration.html">Registration</a> is open
+- date: May 9, 2018
+  news: <a href="visa.html">Visa</a> information is available
 - date: April 12, 2018
   news: SIGCOMM 2018 poster is available in <a href="files/SIGCOMM_2018_poster.pdf" target="_blank">PDF</a> and <a href="files/SIGCOMM_2018_poster.jpg" target="_blank">JPEG</a>
 - date: April 11, 2018
