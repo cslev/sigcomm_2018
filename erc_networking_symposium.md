@@ -55,6 +55,16 @@ presenters:
                    Softwarized Networks"
       bio:         "Wolfgang Kellerer is a Full Professor with the Technical University of Munich (TUM), Germany, heading the Chair of Communication Networks at the Department of Electrical and Computer Engineering. Before, he was for over ten years with NTT DOCOMO's European Research Laboratories. His last position was head of the research department for wireless communication and mobile networking. His current research focuses on flexible networking based on SDN/NFV and wireless M2M networking towards 5G. He received his Dr.-Ing. degree (Ph.D.) and his Dipl.-Ing. degree (Master) from TUM, in 1995 and 2002, respectively. His research resulted in over 200 publications and 35 granted patents. In 2015, he has been awarded with a Consolidator Grant from the European Commission for his project FlexNets: \"Quantifying Flexibility in Communication Networks\". He is a member of ACM, VDE ITG and a Senior Member of IEEE."
       abstract:    "Empowering flexibility is a common objective of softwarized networks based on concepts such as Network Virtualization, Software Defined Networking and Network Function Virtualization. Up to now, flexibility is mainly used as a qualitative advantage for a certain design choice. Moreover, the meaning of flexibility in such qualitative argument is highly varying in the literature since a common understanding of flexibility is missing. In this talk, an approach towards defining flexibility and a proposal for a quantifying measure are presented. Based on this measure, different network designs can be analyzed and compared quantitatively. In our proposal, we refer to flexibility as the timely ability to support new requests that can be, e.g., changes in the requirements or new traffic distributions. Use case studies illustrate how an application of such measure could lead to a better understanding of flexibility. With our proposed flexibility measure, we would like to stimulate the discussion towards a more quantitative analysis of softwarized networks and beyond."
+
+
+
+    - name:        Dejan Kostic
+      affiliation: KTH, Sweden
+      title:       "Metron: NFV Service Chains at the True Speed of the Underlying Hardware"
+      bio:         "Dejan Kostic obtained his Ph.D. In Computer Science at the Duke University. He spent the last two years of his studies and a brief stay as a postdoctoral scholar at the University of California, San Diego. He received his Master of Science degree in Computer Science from the University of Texas at Dallas, and his Bachelor of Science degree in Computer Engineering and Information Technology from the University of Belgrade (ETF), Serbia. From 2006 until 2012 he worked as a tenure-track Assistant Professor at the School of Computer and Communications Sciences at EPFL (Ecole Polytechnique Federale de Lausanne), Switzerland. In 2010, he received a European Research Council (ERC) Starting Investigator Award. From 2012 until June 2014, he worked at the IMDEA Networks Institute (Madrid, Spain) as a Research Associate Professor with tenure. He is a Professor of Internetworking at KTH since April 2014. In 2017, he received a European Research Council (ERC) Consolidator Award."
+      abstract:    "We present Metron, a Network Functions Virtualization (NFV) platform that achieves high resource utilization by jointly exploiting the underlying network and commodity servers¹ resources. This synergy allows Metron to: (i) offload part of the packet processing logic to the network, (ii) use smart tagging to setup and exploit the affinity of traffic classes, and (iii) use tag-based hardware dispatching to carry out the remaining packet processing at the speed of the servers¹ fastest cache(s), with zero intercore communication. Metron also introduces a novel resource allocation scheme that minimizes the resource allocation overhead for large-scale NFV deployments. With commodity hardware assistance, Metron deeply inspects traffic at 40 Gbps and realizes stateful network functions at the speed of a 100 GbE network card on a single server. Metron has 2.75-6.5x better efficiency than OpenBox, a state of the art NFV system, while ensuring key requirements such as elasticity, fine-grained load balancing, and flexible traffic steering."
+       
+ 
       
     - name:        Angel Lozano 
       affiliation: UPF, Spain
@@ -96,22 +106,6 @@ presenters:
 
       
 
-    - name:        Dejan Kostic
-      affiliation: KTH, Sweden
-      title:       TBA
-      bio:         TBA
-      abstract:    TBA
-      
-
-      
-    - name:        Mooly Sagiv  
-      affiliation: TAU, Israel
-      title:       TBA
-      bio:         TBA
-      abstract:    TBA
-      
-
-      
 
 ---
 
