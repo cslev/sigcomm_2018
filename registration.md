@@ -31,4 +31,4 @@ does not require a full-rate registration from student authors.
 
 The Early Registration deadline is on **July 14**.
 
-[Register for the Main Conference, Workshops, and Tutorials](https://regonline.com/acmsigcomm2018){: data-role="button" class="button" }
+[Register for the Main Conference, Workshops, and Tutorials](https://regonline.com/acmsigcomm2018){: data-role="button" class="button" style="width:90%;"}
