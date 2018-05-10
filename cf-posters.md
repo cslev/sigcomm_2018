@@ -21,6 +21,92 @@ committees:
 
     - name:        Balázs Sonkoly
       affiliation: BME, Hungary
+      
+  - role: Programm Committee Members
+    people:
+    - name:        Gianni Antichi
+      affiliation: University of Cambridge
+    
+    - name:        Chadi Barakat
+      affiliation: Inria, France
+
+    - name:        Marinho Barcellos
+      affiliation: UFRG, Brazil
+      
+    - name:        Pramod Bhatotia
+      affiliation: University of Edinburgh, UK
+      
+    - name:        Pedro Casas
+      affiliation: AIT, Austria
+       
+    - name:        Ang Chen
+      affiliation: Rice University, USA
+       
+    - name:        Jiasi Chen
+      affiliation: UC Riverside, USA
+      
+    - name:        Kai Chen
+      affiliation: HKUST, China
+      
+    - name:        Kenjiro Cho
+      affiliation: IIJ
+      
+    - name:        Marcel Flores
+      affiliation: Verizon, USA
+      
+    - name:        Phillipa Gill
+      affiliation: University of Massachusetts, Amherst, USA
+      
+    - name:        Bo Han
+      affiliation: AT\&T, USA
+      
+    - name:        Ralph Holz
+      affiliation: USYD, Australia
+      
+    - name:        Junchen Jiang
+      affiliation: MSR / University of Chicago, USA
+      
+    - name:        Srinivas Narayana
+      affiliation: MIT, USA
+      
+    - name:        Diego Perino
+      affiliation: Telefonica Research
+      
+    - name:        Gergely Pongracz
+      affiliation: Ericsson Research, Hungary
+      
+    - name:        Sanjay Rao
+      affiliation: Purdue, USA
+      
+    - name:        Gabor Retvari
+      affiliation: BME, Hungary
+      
+    - name:        Dario Rossi
+      affiliation: Telecom ParisTech, France
+      
+    - name:        Stefan Schmid
+      affiliation: University of Vienna, Austria
+      
+    - name:        Anees Shaikh
+      affiliation: Google, USA
+      
+    - name:        Basem Shihada
+      affiliation: KAUST, KSA
+      
+    - name:        Moritz Steiner
+      affiliation: Akamai
+
+    - name:        Nik Sultana
+      affiliation: University of Pennsylvania, USA
+
+    - name:        Robert Szabo
+      affiliation: Ericsson Research, Hungary
+
+    - name:        Laszlo Toka
+      affiliation: BME, Hungary
+
+    - name:        James Zeng
+      affiliation: Facebook, USA
 
 ---
 
