@@ -91,6 +91,9 @@ menu:
   - name: Venue
     url:  /hotel_ws.html
     icon: fa-map-marker
+  - name: Camera-ready instructions
+    url:  /camera-ready_ws.html
+    icon: fa-pencil
   - name: Big-DAMA
     url: /workshop-bigdama.html
     icon: fa-circle
