@@ -140,6 +140,10 @@ Please submit your paper via [http://sigcomm18kbnets.hotcrp.com/](http://sigcomm
 ### Registration
 {% include workshop_registration.html %}
 
+### Camera-ready instructions
+{% include camera-ready_ws_inst.html %}
+
+
 
 ### <i class="fa fa-calendar"></i> Important Dates
 

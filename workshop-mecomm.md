@@ -138,6 +138,10 @@ Please submit your paper via [https://mecomm18.hotcrp.com/](https://mecomm18.hot
 {% include workshop_registration.html %}
 
 
+### Camera-ready instructions
+{% include camera-ready_ws_inst.html %}
+
+
 ### <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates2.html dates=page.dates %}

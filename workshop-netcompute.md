@@ -102,6 +102,8 @@ Submissions must describe original, previously unpublished research, not current
 ### Registration
 {% include workshop_registration.html %}
 
+### Camera-ready instructions
+{% include camera-ready_ws_inst.html %}
 
 
 ### <i class="fa fa-calendar"></i>  Important Dates

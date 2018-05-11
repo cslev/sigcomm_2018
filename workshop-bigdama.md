@@ -164,6 +164,9 @@ Submit your paper at [https://sigcomm18big-dama.hotcrp.com/](https://sigcomm18bi
 ### Registration
 {% include workshop_registration.html %}
 
+### Camera-ready instructions
+{% include camera-ready_ws_inst.html %}
+
 
 ### <i class="fa fa-calendar"></i> Important Dates
 

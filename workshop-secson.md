@@ -111,6 +111,10 @@ Please submit your paper via <a href="https://sigcomm18secson.hotcrp.com/">https
 ### Registration
 {% include workshop_registration.html %}
 
+### Camera-ready instructions
+{% include camera-ready_ws_inst.html %}
+
+
 
 ### <i class="fa fa-calendar"></i> Important Dates
 

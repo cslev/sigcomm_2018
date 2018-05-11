@@ -157,6 +157,10 @@ Please submit your paper via [https://sigcomm18netaim.hotcrp.com/](https://sigco
 ### Registration
 {% include workshop_registration.html %}
 
+### Camera-ready instructions
+{% include camera-ready_ws_inst.html %}
+
+
 
 ### <i class="fa fa-calendar"></i> Important Dates
 
