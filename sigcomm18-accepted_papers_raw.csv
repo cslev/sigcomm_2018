@@ -1,0 +1,255 @@
+paper,title,first,last,email,affiliation,iscontact
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Tong,Yang,yangtongemail@gmail.com,Peking University,yes
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Jie,Jiang,surlavi@pku.edu.cn,Peking University,yes
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Peng,Liu,liu.peng@pku.edu.cn,Peking University,yes
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Qun,Huang,huangqun@ict.ac.cn,"State Key Laboratory of Computer Architecture, ICT, CAS; University of Chinese Academy of Sciences",yes
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Junzhi,Gong,,Peking University,no
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Yang,Zhou,,Peking University,no
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Rui,Miao,rmiao@usc.edu,University of Southern California,yes
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Xiaoming,Li,lxm@pku.edu.cn,Peking University,yes
+5,"Elastic Sketch: Adaptive and Fast Network-wide Measurements",Steve,Uhlig,steve.uhlig@qmul.ac.uk,Queen Mary University of London,yes
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Chi-Yao,Hong,cyh@google.com,Google Inc.,yes
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Subhasree,Mandal,subhasreem@google.com,Google Inc.,yes
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Mohammad,Al-Fares,malfares@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Min,Zhu,mzhu@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Richard,Alimi,ralimi@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Kondapa Naidu,B.,knaidu@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Chandan,Bhagat,chandanbhagat@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Sourabh,Jain,simplysourabh@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Jay,Kaimal,kaimaljay@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Shiyu,Liang,jeffliang@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Kirill,Mendelev,mendelev@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Steve,Padgett,spadgett@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Faro,Rabe,faro@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Saikat,Ray,raysaikat@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Malveeka,Tewari,malveeka@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Matt,Tierney,tierney@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Monika,Zahn,monikaz@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Jonathan,Zolla,jonzolla@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Joon,Ong,joon@google.com,Google Inc.,no
+18,"Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN",Amin,Vahdat,vahdat@google.com,Google Inc.,yes
+22,"KONA: Building Switch Software at Scale",Sean,Choi,yo2seol@stanford.edu,Stanford University,yes
+22,"KONA: Building Switch Software at Scale",Boris,Burkov,borisb@fb.com,"Facebook, Inc.",yes
+22,"KONA: Building Switch Software at Scale",Alex,Eckert,aeckert@fb.com,"Facebook, Inc.",yes
+22,"KONA: Building Switch Software at Scale",Tian,Fang,tfang@fb.com,"Facebook, Inc.",yes
+22,"KONA: Building Switch Software at Scale",Saman,Kazemkhani,samank@fb.com,"Facebook, Inc.",yes
+22,"KONA: Building Switch Software at Scale",Rob,Sherwood,rsher@fb.com,"Facebook, Inc.",yes
+22,"KONA: Building Switch Software at Scale",Ying,Zhang,zhangying@fb.com,"Facebook, Inc.",yes
+22,"KONA: Building Switch Software at Scale",Hongyi,Zeng,zeng@fb.com,"Facebook, Inc.",yes
+24,"Internet Anycast: Performance, Problems and Potential",Zhihao,Li,zhihaoli@cs.umd.edu,"University of Maryland, College Park",yes
+24,"Internet Anycast: Performance, Problems and Potential",Dave,Levin,dml@cs.umd.edu,"University of Maryland, College Park",yes
+24,"Internet Anycast: Performance, Problems and Potential",Neil,Spring,nspring@cs.umd.edu,"University of Maryland, College Park",yes
+24,"Internet Anycast: Performance, Problems and Potential",Bobby,Bhattacharjee,bobby@cs.umd.edu,"University of Maryland, College Park",yes
+44,Debugging P4 programs with Vera,Radu,Stoenescu,radu.stoe@gmail.com,University Politehnica of Bucharest,yes
+44,Debugging P4 programs with Vera,Dragos,Dumitrescu,dragostennis1992@yahoo.com,University Politehnica of Bucharest,yes
+44,Debugging P4 programs with Vera,Matei,Popovici,matei.popovici@cs.pub.ro,University Politehnica of Bucharest,yes
+44,Debugging P4 programs with Vera,Lorina,Negreanu,lorina@moon.ro,University Politehnica of Bucharest,yes
+44,Debugging P4 programs with Vera,Costin,Raiciu,costin.raiciu@cs.pub.ro,University Politehnica of Bucharest,yes
+59,Internet Interdomain Congestion,Amogh,Dhamdhere,amogh@caida.org,"CAIDA/UC San Diego",yes
+59,Internet Interdomain Congestion,David D.,Clark,ddc@csail.mit.edu,"CSAIL/MIT",yes
+59,Internet Interdomain Congestion,Alexander,Gamero-Garrido,alexander@caida.org,"CAIDA/UC San Diego",yes
+59,Internet Interdomain Congestion,Matthew,Luckie,mluckie@waikato.ac.nz,University of Waikato,yes
+59,Internet Interdomain Congestion,Ricky K. P.,Mok,cskpmok@caida.org,"CAIDA/UC San Diego",yes
+59,Internet Interdomain Congestion,Gautam,Akiwate,gakiwate@cs.ucsd.edu,"CAIDA/UC San Diego",yes
+59,Internet Interdomain Congestion,Kabir,Gogia,kabirgogia@gmail.com,"CAIDA/UC San Diego",yes
+59,Internet Interdomain Congestion,Vaibhav,Bajpai,bajpaiv@in.tum.de,"Technische Universität München",yes
+59,Internet Interdomain Congestion,Alex C.,Snoeren,snoeren@cs.ucsd.edu,UC San Diego,yes
+59,Internet Interdomain Congestion,kc,claffy,kc@caida.org,"CAIDA/UC San Diego",yes
+66,Acoustic Noise Cancellation over IoT,Sheng,Shen,sshen19@illinois.edu,University of Illinois at Urbana-Champaign,yes
+66,Acoustic Noise Cancellation over IoT,Nirupam,Roy,nroy8@illinois.edu,University of Illinois at Urbana-Champaign,yes
+66,Acoustic Noise Cancellation over IoT,Junfeng,Guan,jguan8@illinois.edu,University of Illinois at Urbana-Champaign,yes
+66,Acoustic Noise Cancellation over IoT,Haitham,Hassanieh,haitham@illinois.edu,University of Illinois at Urbana-Champaign,yes
+66,Acoustic Noise Cancellation over IoT,Romit Roy,Choudhury,croy@illinois.edu,University of Illinois at Urbana-Champaign,yes
+72,"AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization",Li,Chen,lchenad@ust.hk,Hong Kong University of Science and Technology,yes
+72,"AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization",Justinas,Lingys,jlingy@connect.ust.hk,Hong Kong University of Science and Technology,no
+72,"AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization",Kai,Chen,kaichen@cse.ust.hk,Hong Kong University of Science and Technology,yes
+72,"AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization",Feng,Liu,liufeng@saicmotor.com,SAIC,no
+76,Synchronized Network Snapshots,Nofel,Yaseen,nyaseen@seas.upenn.edu,University of Pennsylvania,yes
+76,Synchronized Network Snapshots,John,Sonchack,jsonch@seas.upenn.edu,University of Pennsylvania,yes
+76,Synchronized Network Snapshots,Vincent,Liu,liuv@seas.upenn.edu,University of Pennsylvania,yes
+76,Synchronized Network Snapshots,Nofel,Yaseen,nofel.my@gmail.com,University of Pennsylvania,contact_only
+99,Restructuring Endpoint Congestion Control,Akshay,Narayan,akshayn@csail.mit.edu,MIT CSAIL,yes
+99,Restructuring Endpoint Congestion Control,Frank,Cangialosi,frankc@csail.mit.edu,MIT CSAIL,yes
+99,Restructuring Endpoint Congestion Control,Deepti,Raghavan,deeptir@mit.edu,MIT CSAIL,yes
+99,Restructuring Endpoint Congestion Control,Prateesh,Goyal,prateesh@csail.mit.edu,MIT CSAIL,yes
+99,Restructuring Endpoint Congestion Control,Srinivas,Narayana,alephtwo@csail.mit.edu,MIT CSAIL,yes
+99,Restructuring Endpoint Congestion Control,Radhika,Mittal,radhika@eecs.berkeley.edu,UC Berkeley,yes
+99,Restructuring Endpoint Congestion Control,Mohammad,Alizadeh,alizadeh@csail.mit.edu,MIT CSAIL,yes
+99,Restructuring Endpoint Congestion Control,Hari,Balakrishnan,hari@csail.mit.edu,MIT CSAIL,yes
+104,"AWStream: Adaptive Wide-Area Streaming Analytics",Ben,Zhang,benzh@cs.berkeley.edu,"University of California, Berkeley",yes
+104,"AWStream: Adaptive Wide-Area Streaming Analytics",Xin,Jin,xinjin@cs.jhu.edu,Johns Hopkins University,yes
+104,"AWStream: Adaptive Wide-Area Streaming Analytics",Sylvia,Ratnasamy,sylvia@eecs.berkeley.edu,"University of California, Berkeley",yes
+104,"AWStream: Adaptive Wide-Area Streaming Analytics",John,Wawrzynek,johnw@eecs.berkeley.edu,"University of California, Berkeley",no
+104,"AWStream: Adaptive Wide-Area Streaming Analytics",Edward A.,Lee,eal@eecs.berkeley.edu,"University of California, Berkeley",yes
+111,"Sonata: Query-Driven Streaming Network Telemetry",Arpit,Gupta,arpitg@cs.princeton.edu,Princeton University,yes
+111,"Sonata: Query-Driven Streaming Network Telemetry",Rob,Harrison,robh2@cs.princeton.edu,Princeton University,yes
+111,"Sonata: Query-Driven Streaming Network Telemetry",Marco,Canini,marco@kaust.edu.sa,KAUST,yes
+111,"Sonata: Query-Driven Streaming Network Telemetry",Nick,Feamster,feamster@cs.princeton.edu,Princeton University,yes
+111,"Sonata: Query-Driven Streaming Network Telemetry",Jennifer,Rexford,jrex@cs.princeton.edu,Princeton University,yes
+111,"Sonata: Query-Driven Streaming Network Telemetry",Walter,Willinger,wwillinger@niksun.com,NIKSUN Inc.,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Li,Li,lili_thu_2012@163.com,Tsinghua University,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Ke,Xu,xuke@mail.tsinghua.edu.cn,Tsinghua University,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Tong,Li,li.tong@huawei.com,Huawei Technologies,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Kai,Zheng,kai.zheng@huawei.com,Huawei Technologies,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Chunyi,Peng,chunyi@purdue.edu,Purdue University,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Dan,Wang,csdwang@comp.polyu.edu.hk,The Hong Kong Polytechnic University,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Xiangxiang,Wang,wxx15@mails.tsinghua.edu.cn,Tsinghua University,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Meng,Shen,shenmeng@bit.edu.cn,Beijing Institute of Technology,yes
+116,A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails,Rashid,Mijumbi,rashid.mijumbi@nokia.com,Nokia Bell Labs,yes
+117,Revisiting Network Support for RDMA,Radhika,Mittal,radhika@eecs.berkeley.edu,UC Berkeley,yes
+117,Revisiting Network Support for RDMA,Alexander,Shpiner,alexshp@mellanox.com,Mellanox,yes
+117,Revisiting Network Support for RDMA,Aurojit,Panda,apanda@cs.nyu.edu,"ICSI/NYU",yes
+117,Revisiting Network Support for RDMA,Eitan,Zahavi,eitan@mellanox.com,Mellanox,yes
+117,Revisiting Network Support for RDMA,Arvind,Krishnamurthy,arvind@cs.washington.edu,University of Washington,yes
+117,Revisiting Network Support for RDMA,Sylvia,Ratnasamy,sylvia@eecs.berkeley.edu,UC Berkeley,yes
+117,Revisiting Network Support for RDMA,Scott,Shenker,shenker@icsi.berkeley.edu,"UC Berkeley/ICSI",yes
+117,Revisiting Network Support for RDMA,Alex,Shpiner,alex.shpiner@gmail.com,Mellanox Technologies,contact_only
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Zahaib,Akhtar,zakhtar@usc.edu,University of Southern California,yes
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Yun Seong,Nam,nam21@purdue.edu,Purdue University,yes
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Ethan Katz,Bassett,ethan@ee.columbia.edu,Columbia University,yes
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Jessica,Chen,xiaochenj@gmail.com,University of Windsor,no
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Ramesh,Govindan,ramesh@usc.edu,University of Southern California,yes
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Sanjay,Rao,sanjay@ecn.purdue.edu,Purdue University,yes
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Bruno Martins,Ribeiro,ribeiro@cs.purdue.edu,Purdue University,no
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Jibin,Zhan,jibin@conviva.com,Conviva,yes
+128,"Oboe: Auto-tuning video ABR algorithms to network conditions",Hui,Zhang,hzhang@conviva.com,Conviva,yes
+136,"SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference",Qun,Huang,huangqun@ict.ac.cn,"State Key Laboratory of Computer Architecture, ICT, CAS; University of Chinese Academy of Sciences",yes
+136,"SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference",Patrick P. C.,Lee,pclee@cse.cuhk.edu.hk,The Chinese University of Hong Kong,yes
+136,"SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference",Yungang,Bao,baoyg@ict.ac.cn,"State Key Laboratory of Computer Architecture, ICT, CAS; University of Chinese Academy of Sciences",yes
+136,"SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference",Qun,Huang,huangqundl@gmail.com,"Institute of Computing Technology, Chinese Academy of Sciences",contact_only
+146,Understanding PCIe performance for end host networking,Rolf,Neugebauer,rn@acm.org,"Docker, Inc.",yes
+146,Understanding PCIe performance for end host networking,Gianni,Antichi,gianni.antichi@cl.cam.ac.uk,University of Cambridge,yes
+146,Understanding PCIe performance for end host networking,"Josè Fernando",Zazo,josefernando.zazo@naudit.es,Naudit HPCN,yes
+146,Understanding PCIe performance for end host networking,Yury,Audvevich,yury.audzevich@cl.cam.ac.uk,University of Cambridge,yes
+146,Understanding PCIe performance for end host networking,Sergio,"López-Buedo",sergio.lopez-buedo@uam.es,"Universidad Autónoma de Madrid",yes
+146,Understanding PCIe performance for end host networking,Andrew W.,Moore,andrew.moore@cl.cam.ac.uk,University of Cambridge,yes
+147,Asynchronous Convergence of Policy-Rich Distributed Bellman-Ford Routing Protocols,Matthew L.,Daggitt,mld46@cam.ac.uk,University of Cambridge,yes
+147,Asynchronous Convergence of Policy-Rich Distributed Bellman-Ford Routing Protocols,Alexander J. T.,Gurney,alexander_gurney@cable.comcast.com,Comcast Cable,yes
+147,Asynchronous Convergence of Policy-Rich Distributed Bellman-Ford Routing Protocols,Timothy G.,Griffin,tgg22@cam.ac.uk,University of Cambridge,yes
+147,Asynchronous Convergence of Policy-Rich Distributed Bellman-Ford Routing Protocols,Timothy,Griffin,timothy.g.griffin@gmail.com,University of Cambridge,contact_only
+154,"Trident: Towards a Unified SDN Programming Framework with Automatic Updates",Kai,Gao,godrickk@gmail.com,Tsinghua University,yes
+154,"Trident: Towards a Unified SDN Programming Framework with Automatic Updates",Taishi,Nojima,taishi.nojima@yale.edu,Yale University,yes
+154,"Trident: Towards a Unified SDN Programming Framework with Automatic Updates",Richard,Yang,yry@cs.yale.edu,Yale University,yes
+157,"Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions",Guyue,Liu,guyue@gwu.edu,George Washington University,yes
+157,"Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions",Yuxin,Ren,ryx@gwu.edu,George Washington University,yes
+157,"Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions",Mykola,Yurchenko,yurchenko@gwu.edu,George Washington University,no
+157,"Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions",K.K.,Ramakrishnan,kk@cs.ucr.edu,"University of California, Riverside",yes
+157,"Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions",Timothy,Wood,timwood@gwu.edu,George Washington University,yes
+158,"Homa: A Receiver-Driven Low-Latency Transport Protocol Using Network Priorities",Behnam,Montazeri,behnamm@cs.stanford.edu,Stanford University,yes
+158,"Homa: A Receiver-Driven Low-Latency Transport Protocol Using Network Priorities",Yilong,Li,yilongl@cs.stanford.edu,Stanford University,yes
+158,"Homa: A Receiver-Driven Low-Latency Transport Protocol Using Network Priorities",Mohammad,Alizadeh,alizadeh@csail.mit.edu,MIT,yes
+158,"Homa: A Receiver-Driven Low-Latency Transport Protocol Using Network Priorities",John,Ousterhout,ouster@cs.stanford.edu,Stanford University,yes
+171,In-body Backscatter Communication and Localization,Deepak,Vasisht,deepakv@mit.edu,MIT,yes
+171,In-body Backscatter Communication and Localization,Guo,Zhang,guozhang@mit.edu,MIT,yes
+171,In-body Backscatter Communication and Localization,Omid,Abari,abari@mit.edu,University of Waterloo,yes
+171,In-body Backscatter Communication and Localization,Dina,Katabi,dina@csail.mit.edu,MIT,yes
+171,In-body Backscatter Communication and Localization,Hsiao-Ming,Lu,hmlu@mgh.harvard.edu,Massachusetts General Hospital,no
+171,In-body Backscatter Communication and Localization,Jacob,Flanz,Flanz@hadron.mgh.harvard.edu,Massachusetts General Hospital,no
+178,Enabling Deep-Tissue Networking for Miniature Medical Devices,Yunfei,Ma,yunfeima@mit.edu,MIT,yes
+178,Enabling Deep-Tissue Networking for Miniature Medical Devices,Zhihong,Luo,zhluo@mit.edu,MIT,yes
+178,Enabling Deep-Tissue Networking for Miniature Medical Devices,Christoph,Steiger,csteiger@mit.edu,MIT,no
+178,Enabling Deep-Tissue Networking for Miniature Medical Devices,Giovanni,Traverso,cgt20@mit.edu,"MIT & Harvard",no
+178,Enabling Deep-Tissue Networking for Miniature Medical Devices,Fadel,Adib,fadel@mit.edu,MIT,yes
+179,"PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions",Yao,Peng,pengyao@nwu.edu.cn,Northwest University,yes
+179,"PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions",Longfei,Shangguan,longfeis@cs.princeton.edu,Princeton University,yes
+179,"PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions",Yue,Hu,huyue@stumail.nwu.edu.cn,Northwest University,no
+179,"PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions",Yujie,Qian,201721027@stumail.nwu.edu.cn,Northwest University,no
+179,"PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions",Xianshang,Lin,lxsnwu@163.com,Northwest University,no
+179,"PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions",Xiaojiang,Chen,xjchen@nwu.edu.cn,Northwest University,yes
+179,"PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions",Dingyi,Fang,dyf@nwu.edu.cn,Northwest University,yes
+179,"PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions",Kyle,Jamieson,kylej@cs.princeton.edu,Princeton University,yes
+187,Incentivizing Censorship Measurements via Circumvention,Aqib,Nisar,anisar@usc.edu,USC,yes
+187,Incentivizing Censorship Measurements via Circumvention,Aqsa,Kashaf,akashaf@andrew.cmu.edu,CMU,yes
+187,Incentivizing Censorship Measurements via Circumvention,Ihsan Ayyub,Qazi,ihsan.qazi@lums.edu.pk,LUMS,yes
+187,Incentivizing Censorship Measurements via Circumvention,Zartash Afzal,Uzmi,zartash@lums.edu.pk,LUMS,yes
+222,"Sincronia: Near-Optimal Network Design for Coflows",Saksham,Agarwal,saksham@cs.cornell.edu,Cornell University,yes
+222,"Sincronia: Near-Optimal Network Design for Coflows",Shijin,Rajakrishnan,shijin@cs.cornell.edu,Cornell University,yes
+222,"Sincronia: Near-Optimal Network Design for Coflows",Akshay,Narayan,akshayn@csail.mit.edu,MIT CSAIL,yes
+222,"Sincronia: Near-Optimal Network Design for Coflows",Rachit,Agarwal,ragarwal@cs.cornell.edu,Cornell University,yes
+222,"Sincronia: Near-Optimal Network Design for Coflows",David,Shmoys,david.shmoys@cornell.edu,Cornell University,yes
+222,"Sincronia: Near-Optimal Network Design for Coflows",Amin,Vahdat,vahdat@google.com,Google,yes
+222,"Sincronia: Near-Optimal Network Design for Coflows",Saksham,Agarwal,sakshamagarwals@gmail.com,Cornell University,contact_only
+222,"Sincronia: Near-Optimal Network Design for Coflows",Akshay,Narayan,akshayn@mit.edu,MIT CSAIL,contact_only
+223,"RADWAN: Rate Adaptive Wide Area Network",Rachee,Singh,rachee@cs.umass.edu,UMass Amherst,yes
+223,"RADWAN: Rate Adaptive Wide Area Network",Monia,Ghobadi,mgh@microsoft.com,Microsoft Research,yes
+223,"RADWAN: Rate Adaptive Wide Area Network",Klaus-Tycho,Foerster,ktfoerster@googlemail.com,University of Vienna,yes
+223,"RADWAN: Rate Adaptive Wide Area Network",Mark,Filer,mafiler@microsoft.com,Microsoft,yes
+223,"RADWAN: Rate Adaptive Wide Area Network",Phillipa,Gill,phillipa@cs.umass.edu,UMass Amherst,yes
+223,"RADWAN: Rate Adaptive Wide Area Network",Klaus-Tycho,Foerster,ktfoerster@cs.aau.dk,Aalborg University,contact_only
+229,"Polymorphic radios: A new design paradigm for ultra-low power communication",Mohammad,Rostami,mrostami@cs.umass.edu,University of Massachusetts Amherst,yes
+229,"Polymorphic radios: A new design paradigm for ultra-low power communication",Jeremy,Gummeson,gummeson@cs.umass.edu,University of Massachusetts Amherst,yes
+229,"Polymorphic radios: A new design paradigm for ultra-low power communication",Ali,Kiaghadi,akiaghadi@umass.edu,University of Massachusetts Amherst,yes
+229,"Polymorphic radios: A new design paradigm for ultra-low power communication",Deepak,Ganesan,dganesan@cs.umass.edu,University of Massachusetts Amherst,yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Daehyeok,Kim,daehyeok@cs.cmu.edu,"Carnegie Mellon University & Microsoft Research",yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Amirsaman,Memaripour,amemarip@eng.ucsd.edu,"UC San Diego & Microsoft Research",yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Anirudh,Badam,anirudh.badam@microsoft.com,Microsoft Research,yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Hongqiang Harry,Liu,lampson0505@gmail.com,Alibaba Group,yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Yibo,Zhu,yibzh@microsoft.com,Microsoft Research,yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Jitu,Padhye,padhye@microsoft.com,Microsoft Azure,yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Shachar,Raindel,shacharr@microsoft.com,Microsoft Azure,yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Vyas,Sekar,vsekar@andrew.cmu.edu,Carnegie Mellon University,yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Srinivasan,Seshan,srini@cs.cmu.edu,Carnegie Mellon University,yes
+245,"HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems",Steven,Swanson,swanson@cs.ucsd.edu,UC San Diego,yes
+256,Automated Synthesis of Adversarial Workloads for Network Functions,Luis,Pedrosa,luis.pedrosa@epfl.ch,EPFL,yes
+256,Automated Synthesis of Adversarial Workloads for Network Functions,Rishabh,Iyer,rishabh.iyer@epfl.ch,EPFL,yes
+256,Automated Synthesis of Adversarial Workloads for Network Functions,Arseniy,Zaostrovnykh,arseniy.zaostrovnykh@epfl.ch,EPFL,yes
+256,Automated Synthesis of Adversarial Workloads for Network Functions,Jonas,Fietz,jonas.fietz@epfl.ch,EPFL,yes
+256,Automated Synthesis of Adversarial Workloads for Network Functions,Katerina,Argyraki,katerina.argyraki@epfl.ch,EPFL,yes
+258,"Chameleon: Video Analytics at Scale via Adaptive Configurations and Cross-Camera Correlations",Junchen,Jiang,junchenj@uchicago.edu,"Microsoft Research/University of Chicago",yes
+258,"Chameleon: Video Analytics at Scale via Adaptive Configurations and Cross-Camera Correlations",Ganesh,Ananthanarayanan,GA@microsoft.com,Microsoft Research,yes
+258,"Chameleon: Video Analytics at Scale via Adaptive Configurations and Cross-Camera Correlations",Peter,Bodik,peterb@microsoft.com,Microsoft Research,yes
+258,"Chameleon: Video Analytics at Scale via Adaptive Configurations and Cross-Camera Correlations",Siddhartha,Sen,sidsen@microsoft.com,Microsoft Research,yes
+258,"Chameleon: Video Analytics at Scale via Adaptive Configurations and Cross-Camera Correlations",Ion,Stoica,istoica@berkeley.edu,UC Berkeley,yes
+258,"Chameleon: Video Analytics at Scale via Adaptive Configurations and Cross-Camera Correlations",Junchen,Jiang,livejc@gmail.com,CMU,contact_only
+265,"On low-latency-capable topologies, and their impact on the design of intra-domain routing",Nikola,Gvozdiev,n.gvozdiev@cs.ucl.ac.uk,"University College London (UCL)",yes
+265,"On low-latency-capable topologies, and their impact on the design of intra-domain routing",Stefano,Vissicchio,s.vissicchio@ucl.ac.uk,"University College London (UCL)",yes
+265,"On low-latency-capable topologies, and their impact on the design of intra-domain routing",Brad,Karp,bkarp@cs.ucl.ac.uk,"University College London (UCL)",yes
+265,"On low-latency-capable topologies, and their impact on the design of intra-domain routing",Mark,Handley,m.handley@cs.ucl.ac.uk,"University College London (UCL)",yes
+266,Leveraging Interconnections for Performance - The Serving Infrastructure of a Large CDN,Florian,Wohlfart,wohlfart@net.in.tum.de,Technical University of Munich,yes
+266,Leveraging Interconnections for Performance - The Serving Infrastructure of a Large CDN,Nikolaos,Chatzis,nchatzis@akamai.com,Akamai Technologies,yes
+266,Leveraging Interconnections for Performance - The Serving Infrastructure of a Large CDN,Caglar,Dabanoglu,cdabanog@akamai.com,Akamai Technologies,no
+266,Leveraging Interconnections for Performance - The Serving Infrastructure of a Large CDN,Georg,Carle,carle@net.in.tum.de,Technical University of Munich,yes
+266,Leveraging Interconnections for Performance - The Serving Infrastructure of a Large CDN,Walter,Willinger,wwillinger@niksun.com,"NIKSUN, Inc.",yes
+267,Masking Failures from Application Performance in Data Center Networks with Shareable Backup,Dingming,Wu,dingming.wu@rice.edu,Rice University,yes
+267,Masking Failures from Application Performance in Data Center Networks with Shareable Backup,Yiting,Xia,yiting.xia@rice.edu,Rice University,yes
+267,Masking Failures from Application Performance in Data Center Networks with Shareable Backup,Xiaoye Steven,Sun,xs6@rice.edu,Rice University,yes
+267,Masking Failures from Application Performance in Data Center Networks with Shareable Backup,Xin Sunny,Huang,xinh@rice.edu,Rice University,yes
+267,Masking Failures from Application Performance in Data Center Networks with Shareable Backup,Simbarashe,Dzinamarira,dzinamarira@rice.edu,Rice University,yes
+267,Masking Failures from Application Performance in Data Center Networks with Shareable Backup,T. S. Eugene,Ng,eugeneng@cs.rice.edu,Rice University,yes
+276,"Chorus: Truly Distributed Distributed-MIMO",Ezzeldin,Hamed,ezz@mit.edu,MIT,yes
+276,"Chorus: Truly Distributed Distributed-MIMO",Hariharan,Rahul,rahul@csail.mit.edu,MIT,yes
+276,"Chorus: Truly Distributed Distributed-MIMO",Bahar,Partov,bahar@wavelite.net,Wavelite,yes
+279,RF-Based 3D Skeletons,Mingmin,Zhao,mingmin@mit.edu,MIT,yes
+279,RF-Based 3D Skeletons,Dina,Katabi,dina@csail.mit.edu,MIT,yes
+279,RF-Based 3D Skeletons,Yonglong,Tian,yonglong@mit.edu,MIT,yes
+279,RF-Based 3D Skeletons,Hang,Zhao,hangzhao@mit.edu,MIT,yes
+279,RF-Based 3D Skeletons,Mohammad Abu,Alsheikh,mabualsh@mit.edu,MIT,yes
+279,RF-Based 3D Skeletons,Tianhong,Li,tianhong@mit.edu,MIT,yes
+279,RF-Based 3D Skeletons,Antonio,Torralba,torralba@mit.edu,MIT,no
+279,RF-Based 3D Skeletons,Rumen,Hristov,rhristov@mit.edu,MIT,no
+279,RF-Based 3D Skeletons,Mohammad,Abu Alsheikh,mabualsh@ieee.org,MIT,contact_only
+292,"Networking across Boundaries: Enabling Communication through the Water-Air Interface",Francesco,Tonolini,tonolini@mit.edu,MIT,yes
+292,"Networking across Boundaries: Enabling Communication through the Water-Air Interface",Fadel,Adib,fadel@mit.edu,MIT,yes
+302,Fast Millimeter Wave Beam Alignment,Haitham,Hassanieh,haitham@illinois.edu,UIUC,yes
+302,Fast Millimeter Wave Beam Alignment,Omid,Abari,abari@mit.edu,University of Waterloo,yes
+302,Fast Millimeter Wave Beam Alignment,Michael,Rodriguez,mrod@csail.mit.edu,MIT,no
+302,Fast Millimeter Wave Beam Alignment,Mohammed,Abdelghany,mabdelghany@umail.ucsb.edu,UCSB,no
+302,Fast Millimeter Wave Beam Alignment,Dina,Katabi,dina@csail.mit.edu,MIT,yes
+302,Fast Millimeter Wave Beam Alignment,Piotr,Indyk,indyk@csail.mit.edu,MIT,yes
+302,Fast Millimeter Wave Beam Alignment,Dina,Katabi,dk@mit.edu,MIT,contact_only
+302,Fast Millimeter Wave Beam Alignment,Piotr,Piotr Indyk,indyk@mit.edu,MIT,contact_only
+304,"p4v: Practical Verification for Programmable Data Planes",Calin,Cascaval,cascaval@barefootnetworks.com,Barefoot Networks,yes
+304,"p4v: Practical Verification for Programmable Data Planes",Nate,Foster,jnfoster@cs.cornell.edu,Cornell University,yes
+304,"p4v: Practical Verification for Programmable Data Planes",William,Hallahan,William.Hallahan@yale.edu,Yale University,yes
+304,"p4v: Practical Verification for Programmable Data Planes",Jeongkeun,Lee,jklee@barefootnetworks.com,Barefoot Networks,yes
+304,"p4v: Practical Verification for Programmable Data Planes",Jed,Liu,jliu@barefootnetworks.com,Barefoot Networks,yes
+304,"p4v: Practical Verification for Programmable Data Planes",Nick,McKeown,nickm@stanford.edu,Stanford University,yes
+304,"p4v: Practical Verification for Programmable Data Planes",Cole,Schlesinger,cschlesinger@barefootnetworks.com,Barefoot Networks,yes
+304,"p4v: Practical Verification for Programmable Data Planes",Milad,Sharif,msharif@barefootnetworks.com,Barefoot Networks,yes
+304,"p4v: Practical Verification for Programmable Data Planes",Robert,"Soulé",robert.soule@usi.ch,"Università della Svizzera italiana",yes
+304,"p4v: Practical Verification for Programmable Data Planes",Han,Wang,han.wang@barefootnetworks.com,Barefoot Networks,yes
+316,Control Plane Compression,Ryan,Beckett,rbeckett@princeton.edu,Princeton,yes
+316,Control Plane Compression,Aarti,Gupta,aartig@cs.princeton.edu,Princeton,yes
+316,Control Plane Compression,Ratul,Mahajan,ratul@ratul.org,Intentionet,yes
+316,Control Plane Compression,David,Walker,dpw@princeton.edu,Princeton,yes
+
