@@ -4,8 +4,8 @@ title: ACM SIGCOMM 2018 Call for Industrial Demos
 group: Parallel events
 
 dates:
-    - info: Submission deadline
-      date: May 18, 2018
+    - info: Submission deadline (extended)
+      date: May 29, 2018
     - info: Notification of acceptance
       date: June 15, 2018
     - info: Final pdf version for program website

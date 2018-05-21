@@ -7,9 +7,9 @@ dates:
     - info: Workshop
       date: August 20, 2018
     - info: Camera-ready deadline
-      date: May 31, 2018       
+      date: June 10, 2018      
     - info: Acceptance notification
-      date: May 7, 2018   
+      date: <del>May 7, 2018</del>  
     - info: Paper registration/submission deadline (extended)
       date: <del>April 1, 2018</del>
 

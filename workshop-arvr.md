@@ -11,9 +11,9 @@ dates:
     - info: Program available online
       date: Mid-June, 2018
     - info: Camera-ready deadline
-      date: May 31, 2018
+      date: June 10, 2018
     - info: Paper acceptance notification
-      date: May 07, 2018
+      date: <del>May 07, 2018</del>
     - info: Submission deadline
       date: <del>April 07, 2018</del>
 
@@ -128,4 +128,4 @@ Submit your paper at [https://sigcomm18vrar.hotcrp.com/](https://sigcomm18vrar.h
 
 {% include committees.html committees=page.committees %}
 
-[Contact the VR/AR Network chairs](mailto:renwe.li@huawei.com,yongliu@nyu.edu?subject=[VR/AR Network 2018]){: data-role="button" class="button" }
+[Contact the VR/AR Network chairs](mailto:renwei.li@huawei.com,yongliu@nyu.edu?subject=[VR/AR Network 2018]){: data-role="button" class="button" }

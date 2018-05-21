@@ -12,9 +12,9 @@ dates:
     - info: Program available online
       date: Mid-June, 2018   
     - info: Camera-ready deadline
-      date: May 31, 2018
+      date: June 10, 2018
     - info: Acceptance notification (extended)
-      date: May 07, 2018
+      date: <del>May 07, 2018</del>
     - info: Paper submission deadline
       date: <del>April 03, 2018</del>
 

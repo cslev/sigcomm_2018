@@ -140,7 +140,7 @@ All demos will be provided with table space, a poster board and wireless Interne
 In both cases, acceptance will be primarily based on review of the submitted abstract.
 
 All submissions must obey the following formatting requirements.
-- Submit abstracts of no more than two (posters) or three (demos) single–spaced pages, including references, figures, tables, etc. Abstracts whose content is longer than the page limit will not be reviewed.
+- Submit abstracts of no more than two single–spaced pages, including references, figures, tables, etc.; for demos, an additional third page is required solely for describing the technical requirements. Abstracts whose content is longer than the page limit will not be reviewed.
 - Submit abstracts formatted for printing on Letter-sized (8.5” by 11”) paper. Paper text blocks must follow ACM guidelines: double-column, with each column 9.25” by 3.33”, 0.33” space between columns. Each column must use 10-point font or larger, and contain no more than 55 lines of text.
 - It is your responsibility to ensure that your submission satisfies the above requirements. If you are using LaTeX, you can make use of [this template for ACM conference proceedings](https://github.com/scyue/ccp-sigcomm18). Unlike the official template, it only includes example for conference proceedings.
 

@@ -6,8 +6,10 @@ group: Workshops
 dates:
     - info: Workshop
       date: August 24, 2018
+    - info: Camera-ready deadline
+      date: June 10, 2018
     - info: Author notification (extended)
-      date: May 02, 2018
+      date: <del>May 02, 2018</del>
     - info: Submission deadline
       date: <del>March 28, 2018</del>
     - info: Abstract submission deadline
