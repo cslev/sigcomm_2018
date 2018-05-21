@@ -43,6 +43,11 @@ tutorials2:
   important: true
 
 
+registration-earlybird:
+  track: registration
+  info: Early registration deadline
+  date: July 14, 2018
+  important: true
 
 #main-workshops:
 #  track: workshops
@@ -73,16 +78,25 @@ travelgrant-notif:
   info: Travel grants award notification
   date: June 20, 2018
 
+camera-ready:
+  track: camera_ready
+  info: Camera-ready deadline for the main conference
+  date: June 22, 2018
+  important: true
+
+camera-ready-ws:
+  track: camera_ready
+  info: Camera-ready deadline for the workshops
+  date: June 10, 2018
+  important: true
+
+
 src-notification:
   track: src
   info: Acceptance notification
   date: June 19, 2018
 
-registration-earlybird:
-  track: registration
-  info: Early registration deadline
-  date: July 14, 2018
-  important: true
+
 
 travelgrant-deadline:
   track: travel_grant
@@ -109,31 +123,33 @@ travelgrant-deadline:
 #  date: TBA
 #  important: true
 
-posters-submission:
-  track: posters_demos
-  info: Poster and demo submission deadline
-  date: May 21, 2018
-  important: true
 
-
-src-submission:
-  track: src
-  info: ACM SIGCOMM SRC submission deadline
-  date: May 21, 2018
-  important: true
 
 
 
 main-industrial-demos:
   track: industrial-demos
   info: Industrial demo submission deadline
-  date: May 18, 2018
+  date: May 29, 2018
+  important: true
+
+posters-submission:
+  track: posters_demos
+  info: Poster and demo submission deadline
+  date: May 22, 2018
+  important: true
+
+
+src-submission:
+  track: src
+  info: ACM SIGCOMM SRC submission deadline
+  date: May 22, 2018
   important: true
 
 main-notification:
   track: main
   info: Reviews returned to authors of the main conference
-  date: May 11, 2018
+  date: <del>May 11, 2018</del>
   important: true
 
 

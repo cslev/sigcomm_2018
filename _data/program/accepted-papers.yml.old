@@ -1,0 +1,603 @@
+---
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Elastic Sketch: Adaptive and Fast Network-wide Measurements'
+  authors: Tong	Yang, Jie Jiang, Peng Liu (Peking University), Qun Huang (State Key Laboratory of Computer Architecture, ICT, CAS; University of Chinese Academy of Sciences), Junzhi Gong, Yang Zhou (Peking University), Rui	Miao (University of Southern California), Xiaoming	 Li (Peking University), Steve Uhlig (Queen Mary University of London)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in a Software-Defined WAN'
+  authors: Chi-Yao Hong, Subhasree Mandal, Mohammad Al-Fares, Min Zhu, Richard Alimi, Kondapa Naidu B., Chandan Bhagat, Sourabh Jain, Jay Kaimal, Shiyu Liang, Kirill Mendelev, Steve Padgett, Faro Rabe, Saikat Ray, Malveeka Tewari, Matt Tierney, Monika Zahn, Jonathan Zolla, Joon Ong, Amin Vahdat (Google Inc.)
+
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'KONA: Building Switch Software at Scale'
+  authors: Sean Choi (Stanford University),Boris Burkov,Alex Eckert,Tian Fang,Saman Kazemkhani,Rob Sherwood,Ying Zhang,Hongyi Zeng (Facebook, Inc.)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Internet Anycast: Performance, Problems and Potential'
+  authors: Zhihao Li,Dave Levin,Neil Spring,Bobby Bhattacharjee (University of Maryland, College Park)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Debugging P4 programs with Vera'
+  authors: Radu Stoenescu,Dragos Dumitrescu,Matei Popovici,Lorina Negreanu,Costin Raiciu (University Politehnica of Bucharest)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Internet Interdomain Congestion'
+  authors: Amogh Dhamdhere (CAIDA/UC San Diego),David D. Clark (CSAIL/MIT),Alexander Gamero-Garrido (CAIDA/UC San Diego),Matthew Luckie (University of Waikato), Ricky K. P. Mok,Gautam Akiwate,Kabir Gogia (CAIDA/UC San Diego),Vaibhav Bajpai (Technische Universität München),Alex C. Snoeren (UC San Diego),kc claffy (CAIDA/UC San Diego)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Acoustic Noise Cancellation over IoT'
+  authors: Sheng Shen,Nirupam Roy,Junfeng Guan,Haitham Hassanieh,Romit Roy Choudhury (University of Illinois at Urbana-Champaign),Florian Wohlfart (Technical University of Munich),Nikolaos Chatzis,Caglar Dabanoglu (Akamai Technologies),Georg Carle (Technical University of Munich),Walter Willinger (NIKSUN)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization'
+  authors: Li Chen,Justinas Lingys,Kai Chen (Hong Kong University of Science and Technology),Feng Liu (SAIC)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Synchronized Network Snapshots'
+  authors: Nofel Yaseen,John Sonchack,Vincent Liu,Nofel Yaseen (University of Pennsylvania),Ezzeldin Hamed,Hariharan Rahul (MIT),Bahar Partov (Wavelite)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Restructuring Endpoint Congestion Control'
+  authors: Akshay Narayan,Frank Cangialosi,Deepti Raghavan,Prateesh Goyal,Srinivas Narayana,Radhika Mittal,Mohammad Alizadeh,Hari Balakrishnan (MIT CSAIL)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'AWStream: Adaptive Wide-Area Streaming Analytics'
+  authors: Ben Zhang (University of California, Berkeley),Xin Jin (Johns Hopkins University),Sylvia Ratnasamy,John Wawrzynek,Edward A. Lee (University of California, Berkeley)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Sonata: Query-Driven Streaming Network Telemetry'
+  authors: Arpit Gupta,Rob Harrison (Princeton University),Marco Canini (KAUST), Nick Feamster,Jennifer Rexford (Princeton University),Walter Willinger (NIKSUN Inc.)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails'
+  authors: Li Li,Ke Xu (Tsinghua University),Tong Li ,Kai Zheng (Huawei Technologies),Chunyi Peng (Purdue University),Dan Wang (The Hong Kong Polytechnic University), Xiangxiang Wang (Tsinghua University) ,Meng Shen  (Beijing Institute of Technology) ,Rashid Mijumbi (Nokia Bell Labs)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Revisiting Network Support for RDMA'
+  authors: Radhika Mittal (UC Berkeley),Alexander Shpiner (Mellanox), Aurojit Panda (ICSI/NYU),Eitan Zahavi (Mellanox),Arvind Krishnamurthy (University of Washington),Sylvia Ratnasamy (UC Berkeley),Scott Shenker (UC Berkeley/ICSI),Alex Shpiner (Mellanox Technologies)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Oboe: Auto-tuning video ABR algorithms to network conditions'
+  authors: Zahaib Akhtar (University of Southern California),Yun Seong Nam (Purdue University),Ethan Katz Bassett (Columbia University),Jessica Chen (University of Windsor), Ramesh Govindan (University of Southern California),Sanjay Rao, Bruno Martins (Purdue University) Ribeiro,Jibin Zhan,Hui Zhang (Conviva)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference'
+  authors: Qun Huang (State Key Laboratory of Computer Architecture, ICT, CAS; University of Chinese Academy of Sciences),Patrick P. C. Lee (The Chinese University of Hong Kong),Yungang Bao (State Key Laboratory of Computer Architecture, ICT, CAS; University of Chinese Academy of Sciences),Qun Huang (Institute of Computing Technology, Chinese Academy of Sciences)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Understanding PCIe performance for end host networking'
+  authors: Rolf Neugebauer (Docker, Inc.),Gianni Antichi (University of Cambridge),"Josè Fernando" Zazo (Naudit HPCN),Yury Audvevich (University of Cambridge),Sergio "López-Buedo" (Universidad Autónoma de Madrid),Andrew W. Moore (University of Cambridge)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Asynchronous Convergence of Policy-Rich Distributed Bellman-Ford Routing Protocols'
+  authors: Matthew L. Daggitt (University of Cambridge),Alexander J. T. Gurney (Comcast Cable),Timothy G. Griffin,Timothy Griffin (University of Cambridge)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Trident: Towards a Unified SDN Programming Framework with Automatic Updates'
+  authors: Kai Gao (Tsinghua University),Taishi Nojima,Richard Yang (Yale University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Asynchronous TCP Stacks and Dynamic Subscriptions'
+  authors: Guyue Liu,Yuxin Ren,Mykola Yurchenko (George Washington University), K.K. Ramakrishnan (University of California, Riverside),Timothy Wood (George Washington University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Homa: A Receiver-Driven Low-Latency Transport Protocol Using Network Priorities'
+  authors: Behnam Montazeri ,Yilong Li (Stanford University),Mohammad Alizadeh (MIT),John Ousterhout (Stanford University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'In-body Backscatter Communication and Localization'
+  authors: Deepak Vasisht,Guo Zhang (MIT),Omid Abari (University of Waterloo),Dina Katabi (MIT),Hsiao-Ming Lu,Jacob Flanz (Massachusetts General Hospital)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Enabling Deep-Tissue Networking for Miniature Medical Devices'
+  authors: Yunfei Ma,Zhihong Luo,Christoph Steiger (MIT),Giovanni Traverso (MIT \& Harward),Fadel Adib (MIT)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions'
+  authors: Yao Peng (Northwest University),Longfei Shangguan (Princeton University),Yue Hu ,Yujie Qian,Xianshang Lin,Xiaojiang Chen,Dingyi Fang (Northwest University),Kyle Jamieson (Princeton University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Incentivizing Censorship Measurements via Circumvention'
+  authors: Aqib Nisar (USC),Aqsa Kashaf (CMU),Ihsan Ayyub Qazi,Zartash Afzal Uzmi (LUMS)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: ''
+  authors: Saksham Agarwal,Shijin Rajakrishnan (Cornell University),Akshay Narayan (MIT CSAIL),Rachit Agarwal,David Shmoys (Cornell University), Amin Vahdat (Google),Saksham Agarwal (Cornell University),Akshay Narayan (MIT CSAIL)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'RADWAN: Rate Adaptive Wide Area Network'
+  authors: Rachee Singh (UMass Amherst), Monia Ghobadi (Microsoft Research),Klaus-Tycho Foerster (University of Vienna),Mark Filer (Microsoft),Phillipa Gill (UMass Amherst), Klaus-Tycho Foerster (Aalborg University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Polymorphic radios: A new design paradigm for ultra-low power communication'
+  authors: Mohammad Rostami,Jeremy Gummeson,Ali Kiaghadi,Deepak Ganesan (University of Massachusetts Amherst)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems'
+  authors: Daehyeok Kim (Carnegie Mellon University \& Microsoft Research),Amirsaman Memaripour (UC San Diego & Microsoft Research),Anirudh Badam (Microsoft Research),Hongqiang Harry Liu (Alibaba Group),Yibo Zhu (Microsoft Research),Jitu Padhye,Shachar Raindel (Microsoft Azure),Vyas Sekar,Srinivasan Seshan (Carnegie Mellon University),Steven Swanson (UC San Diego)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Automated Synthesis of Adversarial Workloads for Network Functions'
+  authors: Luis Pedrosa,Rishabh Iyer,Arseniy Zaostrovnykh,Jonas Fietz,Katerina Argyraki (EPFL)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Chameleon: Video Analytics at Scale via Adaptive Configurations and Cross-Camera Correlations'
+  authors: Junchen Jiang (Microsoft Research/University of Chicago),Ganesh Ananthanarayanan, Peter Bodik,Siddhartha Sen (Microsoft Research),Ion Stoica (UC Berkeley),Junchen Jiang (CMU)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'On low-latency-capable topologies, and their impact on the design of intra-domain routing'
+  authors: Nikola Gvozdiev,Stefano Vissicchio,Brad Karp,Mark Handley (University College London (UCL))
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Leveraging Interconnections for Performance - The Serving Infrastructure of a Large CDN'
+  authors: Florian Wohlfart (Technical University of Munich),Nikolaos Chatzis ,Caglar Dabanoglu (Akamai Technologies),Georg Carle (Technical University of Munich),Walter Willinger (NIKSUN, Inc.)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Masking Failures from Application Performance in Data Center Networks with Shareable Backup'
+  authors: Dingming Wu,Yiting Xia,Xiaoye Steven Sun,Xin Sunny Huang,Simbarashe Dzinamarira,T. S. Eugene Ng (Rice University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Chorus: Truly Distributed Distributed-MIMO'
+  authors: Ezzeldin Hamed,Hariharan Rahul (MIT),Bahar Partov (Wavelite)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'RF-Based 3D Skeletons'
+  authors: Mingmin Zhao,Dina Katabi,Yonglong Tian,Hang Zhao,Mohammad Abu Alsheikh,Tianhong Li,Antonio Torralba,Rumen Hristov,Mohammad Abu Alsheikh (MIT)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Networking across Boundaries: Enabling Communication through the Water-Air Interface'
+  authors: Francesco Tonolini,Fadel Adib (MIT)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Fast Millimeter Wave Beam Alignment'
+  authors: Haitham Hassanieh (UIUC,),Omid Abari (University of Waterloo),Michael Rodriguez (MIT),Mohammed Abdelghany (UCSB),Dina Katabi,Piotr Indyk,Dina Katabi,Piotr Piotr Indyk (MIT)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'p4v: Practical Verification for Programmable Data Planes'
+  authors: Calin Cascaval (Barefoot Networks),Nate Foster (Cornell University),William Hallahan (Yale University),Jeongkeun Lee,Jed Liu (Barefoot Networks),Nick McKeown (Stanford University),Cole Schlesinger, Milad Sharif (Barefoot Networks),Robert "Soulé" (Università della Svizzera italiana),Han Wang (Barefoot Networks)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Control Plane Compression'
+  authors: Ryan Beckett,Aarti Gupta (Princeton),Ratul Mahajan (Intentionet), David Walker (Princeton)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+#- type: paper
+#  time: ''
+#  room: ''
+#  title: ''
+#  authors:
+#  abstract: ''
+#  bio: ''
+#  photo: ''
+#  link: ''
+#  slides: ''
+#  video: ''
+#  COL_UID: ''

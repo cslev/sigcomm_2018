@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Accepted Papers for SIGCOMM 2018
-group: Conference
+title: Accepted Papers of the Main Conference
+group: Main conference
 
 ---
 

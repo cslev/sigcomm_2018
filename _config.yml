@@ -54,15 +54,21 @@ menu:
     - name: Venue
       url:  /vigado_mc.html
       icon: fa-map-marker
+    - name: Camera-ready instructions
+      url:  /camera-ready.html
+      icon: fa-pencil
+    - name: Accepted papers
+      url:  /accepted-papers.html
+      icon: fa-trophy
+    - name: Program committee
+      url:  /tpc.html
+      icon: fa-users
     - name: Submission instructions
       url:  /submission.html
       icon: fa-pencil
     - name: Call for papers
       url:  /cfp.html
       icon: fa-bell-o
-    - name: Program committee
-      url:  /tpc.html
-      icon: fa-users
   url: /program.html
 - name: Parallel events
   icon: fa-list-ul

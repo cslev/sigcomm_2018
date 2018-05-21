@@ -1,752 +1,600 @@
-#---
+---
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Elastic Sketch: Adaptive and Fast Network-wide Measurements'
+  authors: Tong	Yang,  Jie Jiang,  Peng Liu (Peking University),  Qun Huang (State Key Laboratory of Computer Architecture,  ICT,  CAS; University of Chinese Academy of Sciences),  Junzhi Gong,  Yang Zhou (Peking University),  Rui	Miao (University of Southern California),  Xiaoming	 Li (Peking University),  Steve Uhlig (Queen Mary University of London)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Managing Hierarchy,  Partitioning,  and Asymmetry for Availability and Scale in a Software-Defined WAN'
+  authors: Chi-Yao Hong,  Subhasree Mandal,  Mohammad Al-Fares,  Min Zhu,  Richard Alimi,  Kondapa Naidu B.,  Chandan Bhagat,  Sourabh Jain,  Jay Kaimal,  Shiyu Liang,  Kirill Mendelev,  Steve Padgett,  Faro Rabe,  Saikat Ray,  Malveeka Tewari,  Matt Tierney,  Monika Zahn,  Jonathan Zolla,  Joon Ong,  Amin Vahdat (Google Inc.)
+
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'KONA: Building Switch Software at Scale'
+  authors: Sean Choi (Stanford University), Boris Burkov, Alex Eckert, Tian Fang, Saman Kazemkhani, Rob Sherwood, Ying Zhang, Hongyi Zeng (Facebook,  Inc.)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Internet Anycast: Performance,  Problems and Potential'
+  authors: Zhihao Li, Dave Levin, Neil Spring, Bobby Bhattacharjee (University of Maryland,  College Park)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Debugging P4 programs with Vera'
+  authors: Radu Stoenescu, Dragos Dumitrescu, Matei Popovici, Lorina Negreanu, Costin Raiciu (University Politehnica of Bucharest)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Internet Interdomain Congestion'
+  authors: Amogh Dhamdhere (CAIDA/UC San Diego), David D. Clark (CSAIL/MIT), Alexander Gamero-Garrido (CAIDA/UC San Diego), Matthew Luckie (University of Waikato),  Ricky K. P. Mok, Gautam Akiwate, Kabir Gogia (CAIDA/UC San Diego), Vaibhav Bajpai (Technische Universität München), Alex C. Snoeren (UC San Diego), kc claffy (CAIDA/UC San Diego)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Acoustic Noise Cancellation over IoT'
+  authors: Sheng Shen, Nirupam Roy, Junfeng Guan, Haitham Hassanieh, Romit Roy Choudhury (University of Illinois at Urbana-Champaign), Florian Wohlfart (Technical University of Munich), Nikolaos Chatzis, Caglar Dabanoglu (Akamai Technologies), Georg Carle (Technical University of Munich), Walter Willinger (NIKSUN)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization'
+  authors: Li Chen, Justinas Lingys, Kai Chen (Hong Kong University of Science and Technology), Feng Liu (SAIC)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Synchronized Network Snapshots'
+  authors: Nofel Yaseen, John Sonchack, Vincent Liu (University of Pennsylvania)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Restructuring Endpoint Congestion Control'
+  authors: Akshay Narayan, Frank Cangialosi, Deepti Raghavan, Prateesh Goyal, Srinivas Narayana, Radhika Mittal, Mohammad Alizadeh, Hari Balakrishnan (MIT CSAIL)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'AWStream: Adaptive Wide-Area Streaming Analytics'
+  authors: Ben Zhang (University of California,  Berkeley), Xin Jin (Johns Hopkins University), Sylvia Ratnasamy, John Wawrzynek, Edward A. Lee (University of California,  Berkeley)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Sonata: Query-Driven Streaming Network Telemetry'
+  authors: Arpit Gupta, Rob Harrison (Princeton University), Marco Canini (KAUST),  Nick Feamster, Jennifer Rexford (Princeton University), Walter Willinger (NIKSUN Inc.)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High-speed Rails'
+  authors: Li Li, Ke Xu (Tsinghua University), Tong Li, Kai Zheng (Huawei Technologies), Chunyi Peng (Purdue University), Dan Wang (The Hong Kong Polytechnic University), Xiangxiang Wang (Tsinghua University), Meng Shen (Beijing Institute of Technology), Rashid Mijumbi (Nokia Bell Labs)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Revisiting Network Support for RDMA'
+  authors: Radhika Mittal (UC Berkeley), Alexander Shpiner (Mellanox),  Aurojit Panda (ICSI/NYU), Eitan Zahavi (Mellanox), Arvind Krishnamurthy (University of Washington), Sylvia Ratnasamy (UC Berkeley), Scott Shenker (UC Berkeley/ICSI)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Oboe: Auto-tuning video ABR algorithms to network conditions'
+  authors: Zahaib Akhtar (University of Southern California), Yun Seong Nam (Purdue University), Ethan Katz Bassett (Columbia University), Jessica Chen (University of Windsor),  Ramesh Govindan (University of Southern California), Sanjay Rao,  Bruno Martins (Purdue University) Ribeiro, Jibin Zhan, Hui Zhang (Conviva)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference'
+  authors: Qun Huang (State Key Laboratory of Computer Architecture,  ICT,  CAS; University of Chinese Academy of Sciences), Patrick P. C. Lee (The Chinese University of Hong Kong), Yungang Bao (State Key Laboratory of Computer Architecture,  ICT,  CAS; University of Chinese Academy of Sciences)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Understanding PCIe performance for end host networking'
+  authors: Rolf Neugebauer (Docker,  Inc.), Gianni Antichi (University of Cambridge), Josè Fernando Zazo (Naudit HPCN), Yury Audvevich (University of Cambridge), Sergio López-Buedo (Universidad Autónoma de Madrid), Andrew W. Moore (University of Cambridge)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Asynchronous Convergence of Policy-Rich Distributed Bellman-Ford Routing Protocols'
+  authors: Matthew L. Daggitt (University of Cambridge), Alexander J. T. Gurney (Comcast Cable), Timothy Griffin (University of Cambridge)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Trident: Towards a Unified SDN Programming Framework with Automatic Updates'
+  authors: Kai Gao (Tsinghua University), Taishi Nojima, Richard Yang (Yale University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions'
+  authors: Guyue Liu, Yuxin Ren, Mykola Yurchenko (George Washington University),  K.K. Ramakrishnan (University of California,  Riverside), Timothy Wood (George Washington University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Homa: A Receiver-Driven Low-Latency Transport Protocol Using Network Priorities'
+  authors: Behnam Montazeri , Yilong Li (Stanford University), Mohammad Alizadeh (MIT), John Ousterhout (Stanford University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'In-body Backscatter Communication and Localization'
+  authors: Deepak Vasisht, Guo Zhang (MIT), Omid Abari (University of Waterloo), Dina Katabi (MIT), Hsiao-Ming Lu, Jacob Flanz (Massachusetts General Hospital)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Enabling Deep-Tissue Networking for Miniature Medical Devices'
+  authors: Yunfei Ma, Zhihong Luo, Christoph Steiger (MIT), Giovanni Traverso (MIT & Harward), Fadel Adib (MIT)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions'
+  authors: Yao Peng (Northwest University), Longfei Shangguan (Princeton University), Yue Hu, Yujie Qian, Xianshang Lin, Xiaojiang Chen, Dingyi Fang (Northwest University), Kyle Jamieson (Princeton University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Incentivizing Censorship Measurements via Circumvention'
+  authors: Aqib Nisar (USC), Aqsa Kashaf (CMU), Ihsan Ayyub Qazi, Zartash Afzal Uzmi (LUMS)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Sincronia: Near-Optimal Network Design for Coflows'
+  authors: Saksham Agarwal, Shijin Rajakrishnan (Cornell University), Akshay Narayan (MIT CSAIL), Rachit Agarwal, David Shmoys (Cornell University),  Amin Vahdat (Google)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'RADWAN: Rate Adaptive Wide Area Network'
+  authors: Rachee Singh (UMass Amherst),  Monia Ghobadi (Microsoft Research), Klaus-Tycho Foerster (University of Vienna), Mark Filer (Microsoft), Phillipa Gill (UMass Amherst)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Polymorphic radios: A new design paradigm for ultra-low power communication'
+  authors: Mohammad Rostami, Jeremy Gummeson, Ali Kiaghadi, Deepak Ganesan (University of Massachusetts Amherst)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems'
+  authors: Daehyeok Kim (Carnegie Mellon University & Microsoft Research), Amirsaman Memaripour (UC San Diego & Microsoft Research), Anirudh Badam (Microsoft Research), Hongqiang Harry Liu (Alibaba Group), Yibo Zhu (Microsoft Research), Jitu Padhye, Shachar Raindel (Microsoft Azure), Vyas Sekar, Srinivasan Seshan (Carnegie Mellon University), Steven Swanson (UC San Diego)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Automated Synthesis of Adversarial Workloads for Network Functions'
+  authors: Luis Pedrosa, Rishabh Iyer, Arseniy Zaostrovnykh, Jonas Fietz, Katerina Argyraki (EPFL)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Chameleon: Video Analytics at Scale via Adaptive Configurations and Cross-Camera Correlations'
+  authors: Junchen Jiang (Microsoft Research/University of Chicago), Ganesh Ananthanarayanan,  Peter Bodik, Siddhartha Sen (Microsoft Research), Ion Stoica (UC Berkeley)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'On low-latency-capable topologies,  and their impact on the design of intra-domain routing'
+  authors: Nikola Gvozdiev, Stefano Vissicchio, Brad Karp, Mark Handley (University College London (UCL))
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Leveraging Interconnections for Performance - The Serving Infrastructure of a Large CDN'
+  authors: Florian Wohlfart (Technical University of Munich), Nikolaos Chatzis , Caglar Dabanoglu (Akamai Technologies), Georg Carle (Technical University of Munich), Walter Willinger (NIKSUN,  Inc.)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Masking Failures from Application Performance in Data Center Networks with Shareable Backup'
+  authors: Dingming Wu, Yiting Xia, Xiaoye Steven Sun, Xin Sunny Huang, Simbarashe Dzinamarira, T. S. Eugene Ng (Rice University)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Chorus: Truly Distributed Distributed-MIMO'
+  authors: Ezzeldin Hamed, Hariharan Rahul (MIT), Bahar Partov (Wavelite)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'RF-Based 3D Skeletons'
+  authors: Mingmin Zhao, Dina Katabi, Yonglong Tian, Hang Zhao, Mohammad Abu Alsheikh, Tianhong Li, Antonio Torralba, Rumen Hristov (MIT)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Networking across Boundaries: Enabling Communication through the Water-Air Interface'
+  authors: Francesco Tonolini, Fadel Adib (MIT)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Fast Millimeter Wave Beam Alignment'
+  authors: Haitham Hassanieh (UIUC, ), Omid Abari (University of Waterloo), Michael Rodriguez (MIT), Mohammed Abdelghany (UCSB), Dina Katabi, Piotr Indyk (MIT)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'p4v: Practical Verification for Programmable Data Planes'
+  authors: Calin Cascaval (Barefoot Networks), Nate Foster (Cornell University), William Hallahan (Yale University), Jeongkeun Lee, Jed Liu (Barefoot Networks), Nick McKeown (Stanford University), Cole Schlesinger,  Milad Sharif (Barefoot Networks), Robert Soulé (Università della Svizzera italiana), Han Wang (Barefoot Networks)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
+- type: paper
+  time: ''
+  room: ''
+  title: 'Control Plane Compression'
+  authors: Ryan Beckett, Aarti Gupta (Princeton), Ratul Mahajan (Intentionet),  David Walker (Princeton)
+  abstract: ''
+  bio: ''
+  photo: ''
+  link: ''
+  slides: ''
+  video: ''
+  COL_UID: ''
+
+
 #- type: paper
 #  time: ''
 #  room: ''
-#  title: 'NFP: Enabling Network Function Parallelism in NFV'
-#  authors: Chen Sun, Jun Bi, Zhilong Zheng, and Heng Yu (Tsinghua University) and
-#    Hongxin Hu (Clemson University)
-#  abstract: "<p>Software-based sequential service chains in Network Function Virtualization
-#    (NFV) could introduce significant performance overhead.  Current acceleration
-#    efforts for NFV mainly target on optimizing each component of the sequential service
-#    chain.  However, based on the statistics from real world enterprise networks,
-#    we observe that 53.8% network function (NF) pairs can work in parallel. In particular,
-#    41.5% NF pairs can be parallelized without causing extra resource overhead.  In
-#    this paper, we present NFP, a high performance framework, that innovatively enables
-#    network function parallelism  to improve NFV performance.  NFP consists of three
-#    logical components. First, NFP provides a policy specification scheme for operators
-#    to intuitively describe sequential or parallel NF chaining intents. Second, NFP
-#    orchestrator intelligently identifies NF dependency and automatically compiles
-#    the policies into high performance service graphs. Third, NFP infrastructure performs
-#    light-weight packet copying, distributed parallel packet delivery, and load-balanced
-#    merging of packet copies to support NF parallelism. We implement an NFP prototype
-#    based on DPDK in Linux containers. Our evaluation results show that NFP achieves
-#    significant latency reduction for real world service chains.</p>"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'Taking the Edge off with Espresso: Scale, Reliability and Programmability
-#    for Global Internet Peering'
-#  authors: Kok-Kiong Yap, Murtaza Motiwala, Jeremy Rahe, Steve Padgett, Matthew Holliman,
-#    Gary Baldus, Marcus Hines, Taeeun Kim, Ashok Narayanan, Ankur Jain, Victor Lin,
-#    Colin Rice, Brian Rogan, Arjun Singh, Bert Tanaka, Manish Verma, Puneet Sood,
-#    Mukarram Tariq, Matt Tierney, Dzevad Trumic, Vytautas Valancius, Calvin Ying,
-#    Mahesh Kallahalla, Bikash Koley, and Amin Vahdat (Google)
-#  abstract: "<p>We present the design of Espresso, Google’s SDN-based Internet peering
-#    edge routing infrastructure. This architecture grew out of a need to exponentially
-#    scale the Internet edge cost-effectively and to enable application-aware routing
-#    at Internet-peering scale. Espresso utilizes commodity switches and host-based
-#    routing/packet processing to implement a novel fine-grained traffic engineering
-#    capability. Overall, Espresso provides Google a scalable peering edge that is
-#    programmable, reliable, and integrated with global traffic systems. Espresso also
-#    greatly accelerated deployment of new networking features at our peering edge.
-#    Espresso has been in production for two years and serves over 22% of Google’s
-#    total traffic to the Internet.</p>"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Credit-Scheduled Delay-Bounded Congestion Control for Datacenters
-#  authors: Inho Cho (KAIST), Keon Jang (Google), and Dongsu Han (KAIST)
-#  abstract: |
-#    <p>Small RTTs (<span class="math inline">∼</span>tens of microseconds), bursty flow arrivals, and a large number of concurrent flows (thousands) in datacenters bring fundamental challenges to congestion control as they either force a flow to send at most one packet per RTT or induce a large queue build-up. The widespread use of shallow buffered switches also makes the problem more challenging with hosts generating many flows in bursts. In addition, as link speeds increase, algorithms that gradually probe for bandwidth take a long time to reach the fair-share. An ideal datacenter congestion control must provide 1) zero data loss, 2) fast convergence, 3) low buffer occupancy, and 4) high utilization. However, these requirements present conflicting goals.</p>
-#    <p>This paper presents a new radical approach, called ExpressPass, an end-to-end credit-scheduled, delay-bounded congestion control for datacenters. ExpressPass uses credit packets to control congestion even before sending data packets, which enables us to achieve bounded delay and fast convergence. It gracefully handles bursty flow arrivals. We implement ExpressPass using commodity switches and provide evaluations using testbed experiments and simulations. ExpressPass converges up to <span class="math inline">80</span> times faster than DCTCP in <span class="math inline">10</span>Gbps links, and the gap increases as link speeds become faster. It greatly improves performance under heavy incast workloads and significantly reduces the flow completion times, especially, for small and medium size flows compared to RCP, DCTCP, HULL, and DX under realistic workloads.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: A Formally Verified NAT
-#  authors: Arseniy Zaostrovnykh, Solal Pirelli, Luis Pedrosa, Katerina Argyraki, and
-#    George Candea (EPFL)
-#  abstract: "<p>We present a Network Address Translator (NAT) written in C and proven
-#    to be semantically correct according to RFC 3022, as well as crash-free and memory-safe.
-#    There exists a lot of recent work on network verification, but it mostly assumes
-#    models of network functions and proves properties specific to network configuration,
-#    such as reachability and absence of loops. Our proof applies directly to the C
-#    code of a network function, and it demonstrates the absence of implementation
-#    bugs. Prior work argued that this is not feasible (i.e., that verifying a real,
-#    stateful network function written in C does not scale) but we demonstrate otherwise:
-#    NAT is one of the most popular network functions and maintains per-flow state
-#    that needs to be properly updated and expired, which is a typical source of verification
-#    challenges. We tackle the scalability challenge with a new combination of symbolic
-#    execution and proof checking using separation logic; this combination matches
-#    well the typical structure of a network function. We then demonstrate that formally
-#    proven correctness in this case does not come at the cost of performance. The
-#    NAT code, proof toolchain, and proofs are available at https://vignat.github.io.</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Dynamic Service Chaining with Dysco
-#  authors: Pamela Zave (AT&T Labs--Research), Ronaldo A. Ferreira (Federal University
-#    of Mato Grosso do Sul), X. Kelvin Zou (Google), Masaharu Morimoto (NEC Corporation
-#    of America), and Jennifer Rexford (Princeton University)
-#  abstract: "<p>Middleboxes are crucial for improving network security and performance,
-#    but only if the right traffic goes through the right middleboxes at the right
-#    time. Existing traffic-steering techniques rely on a central controller to install
-#    fine-grained forwarding rules in network elements—at the expense of a large number
-#    of rules, a central point of failure, challenges in ensuring all packets of a
-#    session traverse the same middleboxes, and difficulties with middleboxes that
-#    modify the “five tuple.” We argue that a session-level protocol is a fundamentally
-#    better approach to traffic steering, while naturally supporting host mobility
-#    and multihoming in an integrated fashion. In addition, a session-level protocol
-#    can enable new capabilities like dynamic service chaining, where the sequence
-#    of middleboxes can change during the life of a session, e.g., to remove a load-balancer
-#    that is no longer needed, replace a middlebox undergoing maintenance, or add a
-#    packet scrubber when traffic looks suspicious. Our Dysco protocol steers the packets
-#    of a TCP session through a service chain, and can dynamically reconfigure the
-#    chain for an ongoing session. Dysco requires no changes to end-host and middlebox
-#    applications, host TCP stacks, or IP routing. Dysco’s distributed reconfiguration
-#    protocol handles the removal of proxies that terminate TCP connections, middleboxes
-#    that change the size of a byte stream, and concurrent requests to reconfigure
-#    different parts of a chain. Through formal verification using Spin and experiments
-#    with our Linux-based prototype, we show that Dysco is provably correct, highly
-#    scalable, and able to reconfigure service chains across a range of middleboxes.</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Who is Fiddling with Prices? Building and Deploying a Watchdog Service for
-#    E-commerce
-#  authors: Costas Iordanou (Universidad Carlos III de Madrid, Telefonica Research),
-#    Claudio Soriente (Telefonica Research), Michael Sirivianos (Cyprus University
-#    of Technology), and Nikolaos Laoutaris (Telefonica Research)
-#  abstract: "<p>We present the design, implementation, validation, and deployment
-#    of the Price $heriff, a highly distributed system for detecting various types
-#    of online price discrimination in e-commerce. The Price $heriff uses a peer-to-peer
-#    architecture, sandboxing, and secure multiparty computation to allow users to
-#    tunnel price check requests through the browsers of other peers without tainting
-#    their local or server-side browsing history and state. Having operated the Price
-#    $heriff for several months with approximately one thousand real users, we identify
-#    several instances of cross-border price discrimination based on the country of
-#    origin. Even within national borders, we identify several retailers that return
-#    different prices for the same product to different users. We examine whether the
-#    observed differences are due to personal-data-induced discrimination or A/B testing,
-#    and conclude that it is the latter.</p>"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'SketchVisor: Robust Network Measurement for Software Packet Processing'
-#  authors: Qun Huang (Huawei Future Network Theory Lab), Xin Jin (Johns Hopkins University),
-#    Patrick P. C. Lee (The Chinese University of Hong Kong), Runhui Li (Huawei Future
-#    Network Theory Lab), Lu Tang (The Chinese University of Hong Kong), and Yi-Chao
-#    Chen and Gong Zhang (Huawei Future Network Theory Lab)
-#  abstract: |
-#    <p>Network measurement remains a missing piece in today’s software packet processing platforms. Sketches provide a promising building block for filling this void by monitoring every packet with fixed-size memory and bounded errors. However, our analysis shows that existing sketch-based measurement solutions suffer from severe performance drops under high traffic load. Although sketches are efficiently designed, applying them in network measurement inevitably incurs heavy computational overhead.</p>
-#    <p>We present SketchVisor, a robust network measurement framework for software packet processing. It augments sketch-based measurement in the data plane with a fast path, which is activated under high traffic load to provide high-performance local measurement with slight accuracy degradations. It further recovers accurate network-wide measurement results via compressive sensing. We have built a SketchVisor prototype on top of Open vSwitch. Extensive testbed experiments show that SketchVisor achieves high throughput and high accuracy for a wide range of network measurement tasks and microbenchmarks.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Beyond fat-trees without antennae, mirrors, and disco-balls
-#  authors: Simon Kassing (ETH Zürich), Asaf Valadarsky, Gal Shahaf, and Michael Schapira
-#    (Hebrew University of Jerusalem), and Ankit Singla (ETH Zürich)
-#  abstract: |
-#    <p>Recent studies have observed that large data center networks often have a few hotspots while most of the network is underutilized. Consequently, numerous data center network designs have explored the approach of identifying these communication hotspots in real-time and eliminating them by leveraging flexible optical or wireless connections to dynamically alter the network topology. These proposals are based on the premise that statically wired network topologies, which lack the opportunity for such online optimization, are fundamentally inefficient, and must be built at uniform full capacity to handle unpredictably skewed traffic.</p>
-#    <p>We show this assumption to be false. Our results establish that state-of-the-art static networks can also achieve the performance benefits claimed by dynamic, reconfigurable designs of the same cost: for the skewed traffic workloads used to make the case for dynamic networks, the evaluated static networks can achieve performance matching full-bandwidth fat-trees at two-thirds of the cost. Surprisingly, this can be accomplished even without relying on any form of online optimization, including the optimization of routing configuration in response to the traffic demands.</p>
-#    <p>Our results substantially lower the barriers for improving upon today’s data centers by showing that a static, cabling-friendly topology built using commodity equipment yields superior performance when combined with well-understood routing methods.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: The Impact of Router Outages on the AS-level Internet
-#  authors: Matthew Luckie (University of Waikato) and Robert Beverly (Naval Postgraduate
-#    School)
-#  abstract: |
-#    <p>We propose and evaluate a new metric for understanding the dependence of the AS-level Internet on <em>individual</em> routers. Whereas prior work uses large volumes of reachability probes to infer outages, we design an efficient active probing technique that directly and unambiguously reveals router restarts. We use our technique to survey 149,560 routers across the Internet for 2.5 years. 59,175 of the surveyed routers (40%) experience at least one reboot, and we quantify the resulting impact of each router outage on global IPv4 and IPv6 BGP reachability.</p>
-#    <p>Our technique complements existing data and control plane outage analysis methods by providing a causal link from BGP reachability failures to the responsible router(s) and multi-homing configurations. While we found the Internet core to be largely robust, we identified specific routers that were <em>single points of failure</em> for the prefixes they advertised. In total, 2,385 routers – 4.0% of the routers that restarted over the course of 2.5 years of probing – were single points of failure for 3,396 IPv6 prefixes announced by 1,708 ASes. We inferred 59% of these routers were the customer-edge border router. 2,374 (70%) of the withdrawn prefixes were not covered by a less specific prefix, so 1,726 routers (2.9%) of those that restarted were single points of failure for at least one network. However, a covering route did not imply reachability during a router outage, as no previously-responsive address in a withdrawn more specific prefix responded during a one-week sample. We validate our reboot and single point of failure inference techniques with four networks, finding no false positive or false negative reboots, but find some false negatives in our single point of failure inferences.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'A Tale of Two Topologies: Exploring Convertible Data Center Network Architectures
-#    with Flat-tree'
-#  authors: Yiting Xia, Xiaoye Steven Sun, Simbarashe Dzinamarira, Dingming Wu, Xin
-#    Sunny Huang, and T. S. Eugene Ng (Rice University)
-#  abstract: "<p>This paper promotes convertible data center network architectures,
-#    which can dynamically change the network topology to combine the benefits of multiple
-#    architectures. We propose the flat-tree prototype architecture as the first step
-#    to realize this concept. Flat-tree can be implemented as a Clos network and later
-#    be converted to approximate random graphs of different sizes, thus achieving both
-#    Clos-like implementation simplicity and random-graph-like transmission performance.
-#    We present the detailed design for the network architecture and the control system.
-#    Simulations using real data center traffic traces show that flat-tree is able
-#    to optimize various workloads with different topology options. We implement an
-#    example flat-tree network on a 20-switch 24- server testbed. The traffic reaches
-#    the maximal throughput in 2.5s after a topology change, proving the feasibility
-#    of converting topology at run time. The network core bandwidth is increased by
-#    27.6% just by converting the topology from Clos to approximate random graph. This
-#    improvement can be translated into acceleration of applications as we observe
-#    reduced communication time in Spark and Hadoop jobs.</p>"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Constant Time Updates in Hierarchical Heavy Hitters
-#  authors: Ran Ben Basat (Technion), Gil Einziger (Nokia Bell Labs), Roy Friedman
-#    (Technion), Marcelo Caggiani Luizelli (Federal University of Rio Grande do Sul),
-#    and Erez Waisbard (Nokia Bell Labs)
-#  abstract: |
-#    <p>Monitoring tasks, such as anomaly and DDoS detection, require identifying frequent flow aggregates based on common IP prefixes. These are known as hierarchical heavy hitters (HHH), where the hierarchy is determined based on the type of prefixes of interest in a given application. The per packet complexity of existing HHH algorithms is proportional to the size of the hierarchy, imposing significant overheads.</p>
-#    <p>In this paper, we propose a randomized constant time algorithm for HHH. We prove probabilistic precision bounds backed by an empirical evaluation. Using four real Internet packet traces, we demonstrate that our algorithm indeed obtains comparable accuracy and recall as previous works, while running up to 62 times faster. Finally, we extended Open vSwitch (OVS) with our algorithm and showed it is able to handle 13.8 millions of packets per second. In contrast, incorporating previous works in OVS only obtained 2.5 times lower throughput.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Empowering Low-Power Wide Area Networks in Urban Settings
-#  authors: Rashad Eletreby, Diana Zhang, Swarun Kumar, and Osman Yagan (Carnegie Mellon
-#    University)
-#  abstract: |
-#    <p>Low-Power Wide Area Networks (LP-WANs) are an attractive emerging platform to connect the Internet-of-things. LP-WANs enable low-cost devices with a 10-year battery to communicate at few kbps to a base station, kilometers away. But deploying LP-WANs in large urban environments is challenging, given the sheer density of nodes that causes interference, coupled with attenuation from buildings that limits signal range. Yet, state-of-the-art techniques to address these limitations demand inordinate hardware complexity at the base stations or clients, increasing their size and cost.</p>
-#    <p>This paper presents Choir, a system that overcomes challenges pertaining to density and range of urban LP-WANs despite the limited capabilities of base station and client hardware. First, Choir proposes a novel technique that aims to disentangle and decode large numbers of interfering transmissions at a simple, single-antenna LP-WAN base station. It does so, perhaps counter-intuitively, by taking the hardware imperfections of low-cost LP-WAN clients to its advantage. Second, Choir exploits the correlation of sensed data collected by LP-WAN nodes to collaboratively reach a far-away base station, even if individual clients are beyond its range. We implement and evaluate Choir on USRP N210 base stations serving a 10 square kilometer area surrounding Carnegie Mellon University campus. Our results reveal that Choir improves network throughput of commodity LP-WAN clients by 6.84<span class="math inline">×</span> and expands communication range by 2.65<span class="math inline">×</span>.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'Pretzel: Email encryption and provider-supplied functions are compatible'
-#  authors: Trinabh Gupta (The University of Texas at Austin and New York University),
-#    Henrique Fingler (The University of Texas at Austin), Lorenzo Alvisi (The University
-#    of Texas at Austin and Cornell University), and Michael Walfish (New York University)
-#  abstract: "<p>Emails today are often encrypted, but only between mail servers—the
-#    vast majority of emails are exposed in plaintext to the mail servers that handle
-#    them. While better than no encryption, this arrangement leaves open the possibility
-#    of attacks, privacy violations, and other disclosures. Publicly, email providers
-#    have stated that default end-to-end encryption would conflict with essential functions
-#    (spam filtering, etc.), because the latter requires analyzing email text. The
-#    goal of this paper is to demonstrate that there is no conflict. We do so by designing,
-#    implementing, and evaluating Pretzel. Starting from a cryptographic protocol that
-#    enables two parties to jointly perform a classification task without revealing
-#    their inputs to each other, Pretzel refines and adapts this protocol to the email
-#    context. Our experimental evaluation of a prototype demonstrates that email can
-#    be encrypted end-to-end and providers can compute over it, at tolerable cost:
-#    clients must devote some storage and processing, and provider overhead is roughly
-#    5 times versus the status quo</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'RotorNet: A Scalable, Low-complexity, Optical Datacenter Network'
-#  authors: William M. Mellette, Rob McGuinness, Arjun Roy, Alex Forencich, George
-#    Papen, Alex C. Snoeren, and George Porter (UC San Diego)
-#  abstract: |-
-#    <p>The ever-increasing bandwidth requirements of modern datacenters have led researchers to propose networks based upon optical circuit switches, but these proposals face significant deployment challenges. In particular, previous proposals dynamically configure circuit switches in response to changes in workload, requiring network-wide demand estimation, centralized circuit assignment, and tight time synchronization between various network elements—resulting in a complex and unwieldy control plane. Moreover, limitations in the technologies underlying the individual circuit switches restrict both the rate at which they can be reconfigured and the scale of the network that can be constructed.</p>
-#    <p>We propose RotorNet, a circuit-based network design that addresses these two challenges. While RotorNet dynamically reconfigures its constituent circuit switches, it decouples switch configuration from traffic patterns, obviating the need for demand collection and admitting a fully decentralized control plane. At the physical layer, RotorNet relaxes the requirements on the underlying circuit switches—in particular by not requiring individual switches to implement a full crossbar—enabling them to scale to 1000s of ports. We show that RotorNet outperforms comparably priced Fat Tree topologies under a variety of workload conditions, including traces taken from two commercial datacenters. We also demonstrate a small-scale RotorNet operating in practice on an eight-node testbed.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'DRILL: Micro Load Balancing for Low-latency Data Center Networks'
-#  authors: Soudeh Ghorbani (University of Wisconsin - Madison), Zibin Yang and Brighten
-#    Godfrey (University of Illinois at Urbana-Champaign), Yashar Ganjali (University
-#    of Toronto), and Amin Firoozshahian (Intel)
-#  abstract: |
-#    <p>The trend towards simple datacenter network fabric strips most network functionality, including load balancing, out of the network core and pushes it to the edge. This slows reaction to microbursts, the main culprit of packet loss in datacenters. We investigate the opposite direction: could slightly smarter fabric significantly improve load balancing?</p>
-#    <p>This paper presents DRILL, a datacenter fabric for Clos networks which performs <em>micro load balancing</em> to distribute load as evenly as possible on microsecond timescales. DRILL employs per-packet decisions at each switch based on local queue occupancies and randomized algorithms to distribute load. Our design addresses the resulting key challenges of packet reordering and topological asymmetry. In simulations with a detailed switch hardware model and realistic workloads, DRILL outperforms recent edge-based load balancers particularly under heavy load. Under 80% load, for example, it achieves <span class="math inline">1.3</span>-<span class="math inline">1.4×</span> lower mean flow completion time than recent proposals, primarily due to shorter upstream queues. To test hardware feasibility, we implement DRILL in Verilog and estimate its area overhead to be less than 1%. Finally, we analyze DRILL’s stability and throughput-efficiency.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Language-directed hardware design for network performance monitoring
-#  authors: Srinivas Narayana, Anirudh Sivaraman, Vikram Nathan, and Prateesh Goyal
-#    (MIT CSAIL), Venkat Arun (IIT Guwahati), Mohammad Alizadeh (MIT CSAIL), Vimalkumar
-#    Jeyakumar (Cisco Tetration Analytics), and Changhoon Kim (Barefoot Networks)
-#  abstract: |
-#    <p>Network performance monitoring today is restricted by existing switch support for measurement, forcing operators to rely heavily on endpoints with poor visibility into the network core. Switch vendors have added progressively more monitoring features to switches, but the current trajectory of adding specific features is unsustainable given the ever-changing demands of network operators. Instead, we ask what switch hardware primitives are required to support an expressive language of network performance questions. We believe that the resulting switch hardware design could address a wide variety of current and future performance monitoring needs.</p>
-#    <p>We present a performance query language, Marple, modeled on familiar functional constructs like map, filter, groupby, and zip. is backed by a new programmable key-value store primitive on switch hardware. The key-value store performs flexible aggregations at line rate (e.g., a moving average of queueing latencies per flow), and scales to millions of keys. We present a Marple compiler that targets a P4-programmable software switch and a simulator for high-speed programmable switches. Marple can express switch queries that could previously run only on end hosts, while Marple queries only occupy a modest fraction of a switch’s hardware resources.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: A High Performance Packet Core for Next Generation Cellular Networks
-#  authors: Zafar Qazi (University of California Berkeley), Melvin Walls (Nefeli Networks,
-#    Inc.), Aurojit Panda (University of California Berkeley), Vyas Sekar (Carnegie
-#    Mellon University), and Sylvia Ratnasamy and Scott Shenker (University of California
-#    Berkeley)
-#  abstract: |
-#    <p>Cellular traffic continues to grow rapidly making the scalability of the cellular infrastructure a critical issue. However, there is mounting evidence that the current Evolved Packet Core (EPC) is ill-suited to meet these scaling demands: EPC solutions based on specialized appliances are expensive to scale and recent software EPCs perform poorly, particularly with increasing numbers of devices or signaling traffic.</p>
-#    <p>In this paper, we design and evaluate a new system architecture for a software EPC that achieves high and scalable performance. We postulate that the poor scaling of existing EPC systems stems from the manner in which the system is decomposed which leads to device state being duplicated across multiple components which in turn results in frequent interactions between the different components. We propose an alternate approach in which state for a single device is consolidated in one location and EPC functions are (re)organized for efficient access to this consolidated state. In effect, our design “slices” the EPC by user.</p>
-#    <p>We prototype and evaluate PEPC, a software EPC that implements the key components of our design. We show that PEPC achieves 3-7x higher throughput than comparable software EPCs that have been implemented in industry and over 10x higher throughput than a popular open-source implementation (OpenAirInterface). Compared to the industrial EPC implementations, PEPC sustains high data throughput for 10-100x more users devices per core, and a 10x higher ratio of signaling-to-data traffic. In addition to high performance, PEPC’s by-user organization enables efficient state migration and customization of processing pipelines. We implement user migration in PEPC and show that state can be migrated with little disruption, e.g., migration adds only up to 4us of latency to median per packet latencies.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Bootstrapping evolvability for inter-domain routing with D-BGP
-#  authors: Raja R. Sambasivan (Boston University), David Tran-Lam and Aditya Akella
-#    (University of Wisconsin-Madison), and Peter Steenkiste (Carnegie Mellon University)
-#  abstract: "<p>The Internet’s inter-domain routing infrastructure, provided today
-#    by BGP, is extremely rigid and does not facilitate the introduction of new inter-domain
-#    routing protocols. This rigidity has made it incredibly difficult to widely deploy
-#    critical fixes to BGP. It has also depressed ASes’ ability to sell value-added
-#    services or replace BGP entirely with a more sophisticated protocol. Even if operators
-#    undertook the significant effort needed to fix or replace BGP, it is likely the
-#    next protocol will be just as difficult to change or evolve. To help, this paper
-#    identifies two features needed in the routing infrastructure (i.e., within any
-#    inter-domain routing protocol) to facilitate evolution to new protocols. To understand
-#    their utility, it presents D-BGP, a version of BGP that incorporates them.</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'Carousel: Scalable Traffic Shaping at End-Hosts'
-#  authors: Ahmed Saeed (Georgia Institute of Technology) and Nandita Dukkipati, Vytautas
-#    Valancius, Vinh The Lam, Carlo Contavalli, and Amin Vahdat (Google Inc.)
-#  abstract: |-
-#    <p>Traffic shaping, including pacing and rate limiting, is fundamental to the correct and efficient operation of both datacenter and wide area networks. Sample use cases include policy-based bandwidth allocation to flow aggregates, rate-based congestion control algorithms, and packet pacing to avoid bursty transmissions that can overwhelm router buffers. Driven by the need to scale to millions of flows and to apply complex policies, traffic shaping is moving from network switches into the end hosts, typically implemented in software in the kernel networking stack.</p>
-#    <p>In this paper, we show that the performance overhead of end-host traffic shaping is substantial limits overall system scalability as we move to thousands of individual traffic classes per server. Measurements from production servers show that shaping at hosts consumes considerable CPU and memory, unnecessarily drops packets, suffers from head of line blocking and inaccuracy, and does not provide backpressure up the stack. We present Carousel, a framework that scales to tens of thousands of policies and flows per server, built from the synthesis of three key ideas: i) a single queue shaper using time as the basis for releasing packets, ii) fine-grained, just-in-time freeing of resources in higher layers coupled to actual packet departures, and iii) one shaper per CPU core, with lock-free coordination. Our production experience in serving video traffic at a Cloud service provider shows that Carousel shapes traffic accurately while improving overall machine CPU utilization by 8% (an improvement of 20% in the CPU utilization attributed to networking) relative to state-of-art deployments. It also conforms 10 times more accurately to target rates, and consumes two orders of magnitude less memory than existing approaches.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'Engineering Egress with Edge Fabric: Steering Oceans of Content to the World'
-#  authors: Brandon Schlinker (Facebook / University of Southern California), Hyojeong
-#    Kim and Timothy Cui (Facebook), Ethan Katz-Bassett (University of Southern California
-#    / Columbia University), Harsha V. Madhyastha (University of Michigan), Italo Cunha
-#    (Universidade Federal de Minas Gerais), and James Quinn, Saif Hasan, Petr Lapukhov,
-#    and Hongyi Zeng (Facebook)
-#  abstract: "<p> Large content providers build points of presence around the world,
-#    each connected to tens or hundreds of networks. Ideally, this connectivity lets
-#    providers better serve users, but providers cannot obtain enough capacity on some
-#    preferred peering paths to handle peak traffic demands. These capacity constraints,
-#    coupled with volatile traffic and performance and the limitations of the 20 year
-#    old BGP protocol, make it difficult to best use this connectivity.    We present
-#    Edge Fabric, an SDN-based system we built and deployed to tackle these challenges
-#    for Facebook, which serves over two billion users from dozens of points of presence
-#    on six continents. We provide the first public details on the connectivity of
-#    a provider of this scale, including opportunities and challenges. We describe
-#    how Edge Fabric operates in near real-time to avoid congesting links at the edge
-#    of Facebook’s network. Our evaluation on production traffic worldwide demonstrates
-#    that Edge Fabric efficiently uses interconnections without congesting them and
-#    degrading performance. We also present real-time performance measurements of available
-#    routes and investigate incorporating them into routing decisions. We relate challenges,
-#    solutions, and lessons from four years of operating and evolving Edge Fabric.</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Drone Relays for Battery-Free Networks
-#  authors: Yunfei Ma, Nicholas Selby, and Fadel Adib (MIT)
-#  abstract: |
-#    <p>Battery-free sensors, such as RFIDs, are annually attached to billions of items including pharmaceutical drugs, clothes, and manufacturing parts. The fundamental challenge with battery-free sensors is that they are only reliable at short distances of tens of centimeters to few meters. As a result, today’s systems for communicating with and localizing battery-free sensors are crippled by the limited range.</p>
-#    <p>To overcome this challenge, this paper presents RFly, a system that leverages drones as relays for battery-free networks. RFly delivers two key innovations. It introduces the first full-duplex relay for battery-free networks. The relay can seamlessly integrate with a deployed RFID infrastructure, and it preserves phase and timing characteristics of the forwarded packets. RFly also develops the first RF-localization algorithm that can operate through a mobile relay.</p>
-#    <p>We built a hardware prototype of RFly’s relay into a custom PCB circuit and mounted it on a Parrot Bebop drone. Our experimental evaluation demonstrates that RFly enables communication with commercial RFIDs at over 50m. Moreover, its through-relay localization algorithm has a median accuracy of 19 centimeters. These results demonstrate that RFly provides powerful primitives for communication and localization in battery-free networks.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'SilkRoad: Making Stateful Layer-4 Load Balancing Fast and Cheap Using Switching
-#    ASICs'
-#  authors: Rui Miao (University of Southern California), Hongyi Zeng (Facebook), Changhoon
-#    Kim and Jeongkeun Lee (Barefoot Networks), and Minlan Yu (Yale University)
-#  abstract: |-
-#    <p>In this paper, we show that up to hundreds of software load balancer (SLB) servers can be replaced by a single modern switching ASIC, potentially reducing the cost of load balancing by over two orders of magnitude. Today, large data centers typically employ hundreds or thousands of servers to load-balance incoming traffic over application servers. These software load balancers (SLBs) map packets destined to a service (with a virtual IP address, or VIP), to a pool of servers tasked with providing the service (with multiple direct IP addresses, or DIPs). An SLB is stateful, it must always map a connection to the same server, even if the pool of servers changes and/or if the load is spread differently across the pool. This property is called per-connection consistency or PCC. The challenge is that the load balancer must keep track of millions of connections simultaneously.</p>
-#    <p>Until recently, it was not possible to implement a load balancer with PCC in a merchant switching ASIC, because high-performance switching ASICs typically can not maintain per-connection states with PCC. Newer switching ASICs provide resources and primitives to enable PCC at a large scale. In this paper, we explore how to use switching ASICs to build much faster load balancers than have been built before. Our system, called SilkRoad, is defined in a 400 line P4 program and when compiled to a state-of-the-art switching ASIC, we show it can load-balance ten million connections simultaneously at line rate.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'SWIFT: Predictive Fast Reroute'
-#  authors: Thomas Holterbach (ETH Zürich; CAIDA UC San Diego), Stefano Vissicchio
-#    (University College London), Alberto Dainotti (CAIDA, UC San Diego), and Laurent
-#    Vanbever (ETH Zürich)
-#  abstract: |-
-#    <p>Network operators often face the problem of remote transit outages, which can cause data-plane downtimes. The key issue is that BGP, the Internet routing protocol, converges very slowly upon such outages, as large bursts of messages have to be processed and propagated router-by-router.</p>
-#    <p>In this paper, we present SWIFT, a fast-reroute mechanism which enables routers to restore connectivity in few seconds upon remote transit outages. SWIFT is based on two novel techniques. First, SWIFT deals with slow outage notification by predicting the overall extent of a remote failure out of few control-plane (BGP) messages. The key insight is that significant inference speed can be gained at the price of some accuracy. Second, SWIFT introduces a new data-plane encoding scheme which enables quick and flexible update of the impacted forwarding entries. SWIFT is deployable on existing devices, without modifying BGP.</p>
-#    <p>We implemented SWIFT and demonstrate that it is both fast and accurate. It predicts the extent of a remote outage in few seconds with an accuracy of ~90% and can restore connectivity for 99% of the impacted destinations.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'Vroom: Accelerating the Mobile Web with Server-Aided Dependency Resolution'
-#  authors: Vaspol Ruamviboonsuk (University of Michigan), Ravi Netravali (MIT), and
-#    Muhammed Uluyol and Harsha V. Madhyastha (University of Michigan)
-#  abstract: |
-#    <p>The existing slowness of the web on mobile devices frustrates users and hurts the revenue of website providers. Prior studies have attributed high page load times to dependencies within the page load process: network latency in fetching a resource delays its processing, which in turn delays when dependent resources can be discovered and fetched.</p>
-#    <p>To securely address the impact that these dependencies have on page load times, we present Vroom, a rethink of how clients and servers interact to facilitate web page loads. Unlike existing solutions, which require clients to either trust proxy servers or discover all the resources on any page themselves, Vroom’s key characteristics are that clients fetch every resource directly from the domain that hosts it but web servers aid clients in discovering resources. Input from web servers decouples a client’s processing of resources from its fetching of resources, thereby enabling independent use of both the CPU and the network. As a result, Vroom reduces the median page load time by more than 5 seconds across popular News and Sports sites. To enable these benefits, our contributions lie in making web servers capable of accurately aiding clients in resource discovery and judiciously scheduling a client’s receipt of resources.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Resilient Datacenter Load Balancing in the Wild
-#  authors: Hong Zhang, Junxue Zhang, Wei Bai, and Kai Chen (Hong Kong University of
-#    Science and Technology) and Mosharaf Chowdhury (University of Michigan)
-#  abstract: |-
-#    <p>Production datacenters operate under various uncertainties such as traffic dynamics, topology asymmetry, and failures. Therefore, datacenter load balancing schemes must be resilient to these uncertainties; i.e., they should accurately sense path conditions and timely react to mitigate the fallouts. Despite significant efforts, prior solutions have important drawbacks. On the one hand, solutions such as Presto and DRB are oblivious to path conditions and blindly reroute at fixed granularity. On the other hand, solutions such as CONGA and CLOVE can sense congestion, but they can only reroute when flowlets emerge; thus, they cannot always react timely to uncertainties. To make things worse, these solutions fail to detect/handle failures such as blackholes and random packet drops, which greatly degrades their performance.</p>
-#    <p>In this paper, we introduce Hermes, a datacenter load balancer that is resilient to the aforementioned uncertainties. At its heart, Hermes leverages comprehensive sensing to detect path conditions including failures unattended before, and it reacts using timely yet cautious rerouting. Hermes is a practical edge-based solution with no switch modification. We have implemented Hermes with commodity switches and evaluated it through both testbed experiments and large-scale simulations. Our results show that Hermes achieves comparable performance to CONGA and Presto in normal cases, and well handles uncertainties: under asymmetries, Hermes achieves up to 10% and 20% better flow completion time (FCT) than CONGA and CLOVE; under switch failures, it outperforms all other schemes by over 32%.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'Disk|Crypt|Net: rethinking the stack for high performance video streaming'
-#  authors: Ilias Marinos and Robert N.M. Watson (University of Cambridge), Mark Handley
-#    (University College London), and Randall Ray Stewart (Netflix Inc.)
-#  abstract: |
-#    <p>Conventional general-purpose operating systems form the core of today’s networked and storage systems. Although network stacks have evolved to become faster, disk-related bottlenecks could greatly mask any CPU- or network-associated overheads, and this has traditionally been the reason that persistent storage was explicitly kept out of the fast path of performance-critical network services. An exciting opportunity is presented by the commoditization of PCIe-attached flash: memories have become faster, more reliable, and affordable, while jettisoning conventional storage buses/interfaces (e.g., AHCI/SATA) and attaching storage directly to the PCIe bus.</p>
-#    <p>We present diskmap, a novel framework that provides safe high-performance userspace direct I/O access to NVME devices, while amortizing system overheads by utilizing efficient batching of outstanding I/O requests, process-to-completion and zerocopy operations. Building upon diskmap and netmap, we show how to design and implement high performance network services that saturate existing hardware while serving data directly from disks, without the need of a traditional in-memory buffer cache. We demonstrate how a buffer-cache-free design is not only practical, but required in order to achieve efficient use of memory bandwidth on contemporary microarchitectures, and we illustrate the power of this design by building a video streaming web server that outperforms state-of-the-art configurations, and saturates modern NIC hardware while using a fraction of the available CPU cores on commodity hardware.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Neural Adaptive Video Streaming with Pensieve
-#  authors: Hongzi Mao, Ravi Netravali, and Mohammad Alizadeh (MIT Computer Science
-#    and Artificial Intelligence Laboratory)
-#  abstract: |-
-#    <p>Client-side video players employ adaptive bitrate (ABR) algorithms to optimize user quality of experience (QoE). Despite the abundance of recently proposed schemes, state-of-the-art ABR algorithms suffer from a key limitation: they use fixed control rules based on simplified or inaccurate models of the deployment environment. As a result, existing schemes inevitably fail to achieve optimal performance across a broad set of network conditions and QoE objectives.</p>
-#    <p>We propose Pensieve, a system that generates ABR algorithms using reinforcement learning (RL). Pensieve uses RL to train a neural network model that selects bitrates for future video chunks based on observations collected by client video players. Unlike existing approaches, Pensieve does not rely upon pre-programmed models or assumptions about the environment. Instead, it learns to make ABR decisions solely through observations of the resulting performance of past decisions. As a result, Pensieve can automatically learn ABR algorithms that adapt to a wide range of environments and QoE metrics. We compare Pensieve to state-of-the-art ABR algorithms using trace-driven and real world experiments spanning a wide variety of network conditions, QoE metrics, and video properties. In all considered scenarios, Pensieve outperforms the best state-of-the-art scheme, with improvements in average QoE of 12%-25%. Pensieve also generalizes well, outperforming existing schemes even on networks for which it was not explicitly trained.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Quantitative Network Monitoring with NetQRE
-#  authors: Yifei Yuan (University of Pennsylvania), Dong Lin (LinkedIn Inc.), and
-#    Ankit Mishra, Sajal Marwaha, Rajeev Alur, and Boon Thau Loo (University of Pennsylvania)
-#  abstract: "<p>In network management today, dynamic updates are required for traffic
-#    engineering and for timely response to security threats. Decisions for such updates
-#    are based on monitoring network traffic to compute numerical quantities based
-#    on a variety of network and application-level performance metrics. Today’s state-of-the-art
-#    tools lack programming abstractions that capture application or session-layer
-#    semantics, and thus require network operators to specify and reason about complex
-#    state machines and interactions across layers. To address this limitation, we
-#    present the design and implementation of NetQRE, a high-level declarative toolkit
-#    that aims to simplify the specification and implementation of such quantitative
-#    network policies. NetQRE integrates regular-expression-like pattern matching at
-#    flow-level as well as application-level payloads with aggregation operations such
-#    as sum and average counts. We describe a compiler for NetQRE that automatically
-#    generates an efficient implementation with low memory footprint. Our evaluation
-#    results demonstrate that NetQRE allows natural specification of a wide range of
-#    quantitative network tasks ranging from detecting security attacks to enforcing
-#    application-layer network management policies. NetQRE results in high performance
-#    that is comparable with optimized manually-written low-level code and is significantly
-#    more efficient than alternative solutions, and can provide timely enforcement
-#    of network policies that require quantitative network monitoring.</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Re-architecting datacenter networks and stacks for low latency and high performance
-#  authors: Mark Handley (University College London), Costin Raiciu, Alexandru Agache,
-#    and Andrei Voinescu (University Politehnica of Bucharest), and Andrew Moore, Gianni
-#    Antichi, and Marcin Wójcik (University of Cambridge)
-#  abstract: |
-#    <p>Modern datacenter networks provide very high capacity via redundant Clos topologies and low switch latency, but transport protocols rarely manage to deliver performance matching the underlying hardware. We present NDP, a novel datacenter transport architecture that achieves both near-optimal completion times for short transfers and near-optimal throughput in a wide range of scenarios including incast. NDP builds upon Cut Payload (CP) which cuts packet payloads when switches overflow, but remedies CP’s shortcomings, and implements a novel high performance multipath-aware transport protocol. Headers of packets whose payload was cut due to congestion give the receiver a complete view of instantaneous demand from all senders. NDP is primarily a receiver-driven transport protocol, as the receiver is the only entity that can accurately manage this demand and prioritize between traffic from different senders during incast scenarios.</p>
-#    <p>We implemented NDP in Linux end systems, in a software switch and in hardware switches based on the NetFPGA-SUME platform. We evaluate NDP’s performance both in our implementation and in large-scale simulations. NDP achieves slightly lower short-flow completion times than DCTCP running over lossless Ethernet using PFC, while having better ability to prioritize traffic from stragglers. At the same time, for large transfers in heavily loaded Clos topologies, it can achieve more than 95% of the available network capacity due to its excellent multipath capability, beating DCTCP by approximately 40%.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'The QUIC Transport Protocol: Design and Internet-Scale Deployment'
-#  authors: Adam Langley, Alistair Riddoch, Alyssa Wilk, Antonio Vicente, Charles Krasic,
-#    Dan Zhang, and Fan Yang (Google), Fedor Kouranov (Yandex), Ian Swett, Janardhan
-#    Iyengar, Jeff Bailey, and Jeremy Dorfman (Google), Jim Roskind (Amazon), and Joanna
-#    Kulik, Patrik Westin, Raman Tenneti, Robbie Shade, Ryan Hamilton, Victor Vasiliev,
-#    Wan-Teh Chang, and Zhongyi Shi (Google)
-#  abstract: "<p>We present our experience with BALI, an encrypted, multiplexed, and
-#    low-latency transport protocol designed from the ground up to improve transport
-#    performance for HTTPS traffic and to enable rapid deployment and continued evolution
-#    of transport mechanisms. BALI has been globally deployed on thousands of servers
-#    and is used to serve traffic to a range of clients including a widely-used web
-#    browser and a popular mobile video streaming app. We estimate that 7% of Internet
-#    traffic is now BALI. We describe our motivations for developing a new transport,
-#    the principles that guided our design, the Internet-scale process that we used
-#    to perform iterative experiments on BALI, performance improvements seen by our
-#    various services, and our experience deploying BALI globally. We also share lessons
-#    about transport design and the Internet ecosystem that we learned from our deployment.</p>"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Detecting Peering Infrastructure Outages in the Wild
-#  authors: Vasileios Giotsas (CAIDA / UCSD), Christoph Dietzel (TU Berlin / DE-CIX),
-#    Georgios Smaragdakis (MIT/TU Berlin), Anja Feldmann (TU Berlin), Arthur Berger
-#    (MIT/Akamai), and Emile Aben (RIPE NCC)
-#  abstract: "<p>Peering infrastructures, namely, colocation facilities and Internet
-#    exchange points, are located in every major city, have hundreds of network members,
-#    and support hundreds of thousands of interconnections around the globe. These
-#    infrastructures are well provisioned and managed, but outages have to be expected,
-#    e.g., due to power failures, human errors, attacks, and natural disasters. However,
-#    little is known about the frequency and impact of outages at these critical infrastructures
-#    with high peering concentration. In this paper, we develop a novel and lightweight
-#    methodology for detecting peering infrastructure outages. Our methodology relies
-#    on the observation that BGP communities, announced with routing updates, are an
-#    excellent and yet unexplored source of information allowing us to pinpoint outage
-#    locations with high accuracy. We build and operate a system that can locate the
-#    epicenter of infrastructure outages at the level of a building and track the reaction
-#    of networks in near real-time. Our analysis unveils four times as many outages
-#    as compared to those publicly reported over the past five years. Moreover, we
-#    show that such outages have significant impact on remote networks and peering
-#    infrastructures. Our study provides a unique view of the Internet’s behavior under
-#    stress that often goes unreported.</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: A General Approach to Network Configuration Verification
-#  authors: Ryan Beckett and Aarti Gupta (Princeton University), Ratul Mahajan (Intentionet),
-#    and David Walker (Princeton University)
-#  abstract: "<p>We present Minesweeper, a tool to verify that a network satisfies
-#    a wide range of intended properties such as reachability or isolation among nodes,
-#    waypointing, black holes, bounded path length, load-balancing, functional equivalence
-#    of two routers, and fault-tolerance. Minesweeper translates network configuration
-#    files into a logical formula that captures the stable states to which the network
-#    forwarding will converge as a result of interactions between routing protocols
-#    such as OSPF, BGP and static routes. It then combines the formula with constraints
-#    that describe the intended property. If the combined formula is satisfiable, there
-#    exists a stable state of the network in which the property does not hold. Otherwise,
-#    no stable state (if any) violates the property. We used Minesweeper to check four
-#    properties of 152 real networks from a large cloud provider. We found 120 violations,
-#    some of which are potentially serious security vulnerabilities. We also evaluated
-#    Minesweeper on synthetic benchmarks, and found that it can verify rich properties
-#    for networks with hundreds of routers in under five minutes. This performance
-#    is due to a suite of model-slicing and hoisting optimizations that we developed,
-#    which reduce runtime by over 460x for large networks.</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'dRMT: Disaggregated Programmable Switching'
-#  authors: Sharad Chole, Andy Fingerhut, and Sha Ma (Cisco Systems), Anirudh Sivaraman
-#    (Massachusetts Institute of Technology), Shay Vargaftik, Alon Berger, and Gal
-#    Mendelson (Technion), Mohammad Alizadeh (Massachusetts Institute of Technology),
-#    Shang-Tse Chuang (Cisco Systems), Isaac Keslassy (Technion, VMware), Ariel Orda
-#    (Technion), and Tom Edsall (Cisco Systems)
-#  abstract: |
-#    <p>We present dRMT (disaggregated Reconfigurable Match-Action Table), a new architecture for programmable switches. dRMT overcomes two important restrictions of RMT, the predominant pipeline-based architecture for programmable switches: (1) table memory is local to an RMT pipeline stage, implying that memory not used by one stage cannot be reclaimed by another, and (2) RMT is hard-wired to always sequentially execute matches followed by actions as packets traverse pipeline stages. We show that these restrictions make it difficult to execute programs efficiently on RMT.</p>
-#    <p>dRMT resolves both issues by disaggregating the memory and compute resources of a programmable switch. Specifically, dRMT moves table memories out of pipeline stages and into a centralized pool that is accessible through a crossbar. In addition, dRMT replaces RMT’s pipeline stages with a cluster of processors that can execute match and action operations in any order.</p>
-#    <p>We show how to schedule a P4 program on dRMT at compile time to guarantee deterministic throughput and latency. We also present a hardware design for dRMT and analyze its feasibility and chip area. Our results show that dRMT can run programs at line rate with fewer processors compared to RMT, and avoids performance cliffs when there are not enough processors to run a program at line rate. dRMT’s hardware design incurs a modest increase in chip area relative to RMT, mainly due to the crossbar.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'Wi-Fi Goes to Town: Rapid Picocell Switching for Wireless Transit Networks'
-#  authors: Zhenyu Song, Longfei Shangguan, and Kyle Jamieson (Princeton University)
-#  abstract: "<p>This paper presents the design and implementation of Wi-Fi Goes to
-#    Town, the first Wi-Fi based roadside hotspot network designed to operate at vehicular
-#    speeds with meter-sized picocells. Wi-Fi Goes to Town APs make delivery decisions
-#    to the vehicular clients they serve at millisecond-level granularities, exploiting
-#    path diversity in roadside networks. In order to accomplish this, we introduce
-#    new buffer management algorithms that allow participating APs to manage each others’
-#    queues, rapidly quenching each others’ transmissions and flushing each others’
-#    queues. We furthermore integrate our fine-grained AP selection and queue management
-#    into 802.11’s frame aggregation and block acknowledgment functions, making the
-#    system effective at modern 802.11 bit rates that need frame aggregation to maintain
-#    high spectral efficiency. We have implemented our system in an eight-AP network
-#    alongside a nearby road, and evaluate its performance with mobile clients moving
-#    at up to 35 mph. Depending on the clients’ speed, Wi-Fi Goes to Town achieves
-#    a 2.4–4.7X TCP throughput improvement over a baseline fast handover protocol that
-#    captures the state of the art in Wi-Fi roaming, including the recent IEEE 802.11k
-#    and 802.11r standards.</p>\n"
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: 'NFVnice: Dynamic Backpressure and Scheduling for NFV Service Chains'
-#  authors: Sameer G Kulkarni (University of Göttingen), Wei Zhang (George Washington
-#    University), Jinho Hwang and Shriram Rajagopalan (IBM T J Watson Reseach center),
-#    K. K. Ramakrishnan (University of California, Riverside), Timothy Wood (George
-#    Washington University), and Mayutan Arumaithurai and Xiaoming Fu (University of
-#    Göttingen)
-#  abstract: |
-#    <p>Managing Network Function (NF) service chains requires careful system resource management. We propose NFVnice, a user space NF scheduling and service chain management framework to provide fair, efficient and dynamic resource scheduling capabilities on Network Function Virtualization (NFV) platforms.</p>
-#    <p>The NFVnice framework monitors load on a service chain at high frequency (1000Hz) and employs backpressure to shed load early in the service chain, thereby preventing wasted work. Borrowing concepts such as rate proportional scheduling from hardware packet schedulers, CPU shares are computed by accounting for heterogeneous packet processing costs of NFs, I/O, and traffic arrival characteristics. By leveraging cgroups, a user space process scheduling abstraction exposed by the operating system, NFVnice is capable of controlling when network functions should be scheduled. NFVnice improves NF performance by complementing the capabilities of the OS scheduler but without requiring changes to the OS’s scheduling mechanisms. Our controlled experiments show that NFVnice provides the appropriate rate-cost proportional fair share of CPU to NFs and significantly improves NF performance (throughput and loss) by reducing wasted work across an NF chain, compared to using the default OS scheduler. NFVnice achieves this even for heterogeneous NFs with vastly different computational costs and for heterogeneous workloads.</p>
-#  bio: ''
-#  photo: ''
-#  link: ''
-#  slides: ''
-#  video: ''
-#  COL_UID: ''
-#- type: paper
-#  time: ''
-#  room: ''
-#  title: Understanding and Mitigating Packet Corruption in Data Center Networks
-#  authors: Danyang Zhuo (University of Washington), Monia Ghobadi (Microsoft Research),
-#    Ratul Mahajan (Intentionet), Klaus-Tycho Förster (Aalborg University), and Arvind
-#    Krishnamurthy and Thomas Anderson (University of Washington)
-#  abstract: "<p>We take a comprehensive look at packet corruption in data center networks,
-#    which leads to packet losses and application performance degradation. By studying
-#    350K links across 15 production data centers, we find that the extent of corruption
-#    losses is significant and that its characteristics differ markedly from congestion
-#    losses. Corruption impacts fewer links than congestion, but imposes a heavier
-#    loss rate; and unlike congestion, corruption rate on a link is stable over time
-#    and is not correlated with its utilization. Based on these observations, we developed
-#    CorrOpt, a system to mitigate corruption. To minimize corruption losses, it intelligently
-#    selects which corrupting links can be safely disabled, while ensuring that each
-#    top-of-rack switch has a minimum number of paths to reach other switches. CorrOpt
-#    also recommends specific actions (e.g., replace cables, clean connectors) to repair
-#    disabled links, based on our analysis of common symptoms of different root causes
-#    of corruption. Our recommendation engine has been deployed in over seventy data
-#    centers of a large cloud provider. Our analysis shows that, compared to current
-#    state of the art, CorrOpt can reduce corruption losses by three to six orders
-#    of magnitude and improve repair accuracy by 60%.</p>\n"
+#  title: ''
+#  authors:
+#  abstract: ''
 #  bio: ''
 #  photo: ''
 #  link: ''
