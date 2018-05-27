@@ -4,7 +4,7 @@
   time: ''
   room: ''
   title: 'Elastic Sketch: Adaptive and Fast Network-wide Measurements'
-  authors: Tong	Yang,  Jie Jiang,  Peng Liu (Peking University),  Qun Huang (State Key Laboratory of Computer Architecture,  ICT,  CAS; University of Chinese Academy of Sciences),  Junzhi Gong,  Yang Zhou (Peking University),  Rui	Miao (University of Southern California),  Xiaoming	 Li (Peking University),  Steve Uhlig (Queen Mary University of London)
+  authors: Tong	Yang,  Jie Jiang,  Peng Liu (Peking University),  Qun Huang (State Key Laboratory of Computer Architecture,  ICT,  CAS; University of Chinese Academy of Sciences),  Junzhi Gong,  Yang Zhou (Peking University),  Rui Miao (University of Southern California), Xiaoming Li (Peking University), Steve Uhlig (Queen Mary University of London)
   abstract: ''
   bio: ''
   photo: ''
@@ -97,7 +97,7 @@
   time: ''
   room: ''
   title: 'Acoustic Noise Cancellation over IoT'
-  authors: Sheng Shen, Nirupam Roy, Junfeng Guan, Haitham Hassanieh, Romit Roy Choudhury (University of Illinois at Urbana-Champaign), Florian Wohlfart (Technical University of Munich), Nikolaos Chatzis, Caglar Dabanoglu (Akamai Technologies), Georg Carle (Technical University of Munich), Walter Willinger (NIKSUN)
+  authors: Sheng Shen, Nirupam Roy, Junfeng Guan, Haitham Hassanieh, Romit Roy Choudhury (University of Illinois at Urbana-Champaign)
   abstract: ''
   bio: ''
   photo: ''
@@ -216,6 +216,7 @@
   room: ''
   title: 'Revisiting Network Support for RDMA'
   authors: Radhika Mittal (UC Berkeley), Alexander Shpiner (Mellanox),  Aurojit Panda (ICSI/NYU), Eitan Zahavi (Mellanox), Arvind Krishnamurthy (University of Washington), Sylvia Ratnasamy (UC Berkeley), Scott Shenker (UC Berkeley/ICSI)
+
   abstract: ''
   bio: ''
   photo: ''
@@ -230,7 +231,7 @@
   time: ''
   room: ''
   title: 'Oboe: Auto-tuning video ABR algorithms to network conditions'
-  authors: Zahaib Akhtar (University of Southern California), Yun Seong Nam (Purdue University), Ethan Katz Bassett (Columbia University), Jessica Chen (University of Windsor),  Ramesh Govindan (University of Southern California), Sanjay Rao,  Bruno Martins (Purdue University) Ribeiro, Jibin Zhan, Hui Zhang (Conviva)
+  authors: Zahaib Akhtar (University of Southern California), Yun Seong Nam (Purdue University), Ethan Katz Bassett (Columbia University), Jessica Chen (University of Windsor),  Ramesh Govindan (University of Southern California), Sanjay Rao,  Bruno Martins Ribeiro (Purdue University), Jibin Zhan, Hui Zhang (Conviva)
   abstract: ''
   bio: ''
   photo: ''
@@ -321,7 +322,7 @@
   time: ''
   room: ''
   title: 'Homa: A Receiver-Driven Low-Latency Transport Protocol Using Network Priorities'
-  authors: Behnam Montazeri , Yilong Li (Stanford University), Mohammad Alizadeh (MIT), John Ousterhout (Stanford University)
+  authors: Behnam Montazeri, Yilong Li (Stanford University), Mohammad Alizadeh (MIT), John Ousterhout (Stanford University)
   abstract: ''
   bio: ''
   photo: ''
@@ -431,7 +432,7 @@
   time: ''
   room: ''
   title: 'HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems'
-  authors: Daehyeok Kim (Carnegie Mellon University & Microsoft Research), Amirsaman Memaripour (UC San Diego & Microsoft Research), Anirudh Badam (Microsoft Research), Hongqiang Harry Liu (Alibaba Group), Yibo Zhu (Microsoft Research), Jitu Padhye, Shachar Raindel (Microsoft Azure), Vyas Sekar, Srinivasan Seshan (Carnegie Mellon University), Steven Swanson (UC San Diego)
+  authors: Daehyeok Kim (Carnegie Mellon University), Amirsaman Memaripour (UC San Diego), Anirudh Badam (Microsoft Research), Hongqiang Harry Liu (Alibaba Group), Yibo Zhu (Microsoft Research), Jitu Padhye, Shachar Raindel (Microsoft Azure), Vyas Sekar, Srinivasan Seshan (Carnegie Mellon University), Steven Swanson (UC San Diego)
   abstract: ''
   bio: ''
   photo: ''
@@ -552,7 +553,7 @@
   time: ''
   room: ''
   title: 'Fast Millimeter Wave Beam Alignment'
-  authors: Haitham Hassanieh (UIUC, ), Omid Abari (University of Waterloo), Michael Rodriguez (MIT), Mohammed Abdelghany (UCSB), Dina Katabi, Piotr Indyk (MIT)
+  authors: Haitham Hassanieh (UIUC), Omid Abari (University of Waterloo), Michael Rodriguez (MIT), Mohammed Abdelghany (UCSB), Dina Katabi, Piotr Indyk (MIT)
   abstract: ''
   bio: ''
   photo: ''
