@@ -5,9 +5,9 @@ group: Parallel events
 
 dates:
     - info: Submission deadline (extended)
-      date: May 29, 2018
-    - info: Notification of acceptance
       date: June 15, 2018
+    - info: Notification of acceptance
+      date: June 22, 2018
     - info: Final pdf version for program website
       date: June 29, 2018
       
