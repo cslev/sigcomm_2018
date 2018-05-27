@@ -3,6 +3,7 @@
   [10, "akamai.png", "https://www.akamai.com/", "akamai", 0, 195, 450,                     "bronze"],
   [10, "netapp.jpeg", "https://www.netapp.com/", "netapp", 0, 478, 1200,                   "bronze"],
   [10, "comcast.jpg", "https://www.comcast.com/", "comcast", 0, 263, 594,                  "bronze"],
+  [10, "nokia.jpg", "https://www.bell-labs.com/", "nokia", 0, 825, 217,                    "bronze"],
 
   [100, "huawei.png", "https://www.huawei.com/", "huawei", 0, 406, 406,                    "gold"],
   [100, "alibaba.jpg", "https://www.alibaba.com/", "alibaba", 0, 600, 178,                 "gold"],
