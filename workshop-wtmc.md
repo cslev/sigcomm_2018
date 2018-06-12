@@ -121,6 +121,10 @@ committees:
 
 # {{ page.title }}
 
+### Workshop Program
+
+{% include program-online.html type="wtmc" %}
+
 ### Overview
 Computers and open communication networks have become increasingly interwoven with our daily lives and have profoundly changed our societies. While this has significantly increased people's well being, our growing dependence on an increasingly pervasive, complex, and ever evolving network infrastructures also poses a wide range of cybersecurity risks with potentially large socio-economic impacts. From this perspective, network traffic measurements and monitoring have become a crucial line of research. It enables to enhance our understanding of cybersecurity threats and use this knowledge to further develop new ways to detect and mitigate them.
 

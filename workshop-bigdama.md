@@ -122,6 +122,10 @@ committees:
 ---
 # {{ page.title }}
 
+### Workshop Program
+
+{% include program-online.html type="bigdama" %}
+
 ### Call for Papers
 <img style="width: 50%; float: right; margin: 10px;" src="{{ site.baseurl }}/images/workshop-Big-DAMA-2017-logo.jpg" alt="Big-DAMA 2017" align="middle">
 

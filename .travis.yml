@@ -1,0 +1,24 @@
+language: ruby
+sudo: false
+dist: trusty
+rvm:
+  - 2.2
+branches:
+  only:
+    - master
+addons:
+  apt:
+    packages:
+    - lftp
+env:
+  global:
+    - secure: "Ttbz6nvTKhrCpJYXO4x25lIacHX+GtMpYbd/KGRMap++DHuGcpYIlxXdShdOTLkVm8TTFJc+JwTBF2ZPqrx5b3GQnpi/yGOBpkk2mGOVe1romTCpEg+8toTSJwiqgRQBHDUBcC16mgYgeek58N7TucbrOuWCekt4vxJuEBnhYZxskNLFH+Yl6bOstzPendbT4PmRUadl61ivxNa80Yi2KffYQSer0Vwry9cw7LgIX1aeATyn9XzAPaaSOjpAqtyWRFBSWqSpCgDswK8iCJxvSRUjF3yWV6SYzfPi3mPSgNiEFMfuinEGhh0aE0wP74uJua4BToM6UCIfDO9CGQexseTgWU9xUcgv7D1iDUCOrc+3ORglVZWmDlYb+/vIw9vErx0iAJOT/nXIEcnJ8IUsnFXYkiJaWs+r/XDg9NMdTemf0vkwSLobfA9DjjGGrLSy7nodqK7QBARDTHfwkVgJ4MaIq4x9qvDHXzQlGBVy9xSXi7yBbLGoaYY4QUqBneGfAYskhe8K+AiZKp4hJ9P8bn6nSbOPFT1XSaDLcsvzmR03NqAQ8DxLMQl22QjhiW2UL+tihJ+qx6FxhSuUNfNuJnmumJcItuqWlJEOc9HTGol6N1lrg/E6jTySMXOoiWGA8kEKil28zzGXzu1s5KWM0smHV4WeYxfy09d3sLIqhJ8="
+    - secure: "t+hRlsjKuy7Ti10eFRCbUud2MGBOBLVXDLVq68g4mHJBP9nrBTYZ/D1z36KHmdZ5+iHNiA1o8hA63altw0D93IBbQxvsgeVyhSGYbEejDup0qXpbIi/NFyFujgWM5fqFccWC4eNbzPwnPC+QSDhBMNVubRWCeQpKRnaf/pdu9ftctWU2K6wozkIQaKWbM1FBu6Q/BGD7Dg8mj2sqGj9B2ZEBspAEwJtE2ipNdl0ReV7trKkKYGch/sCsOVycFSrNUZjLymzeQiRMtSXSKLnxmwMQJCSs50VlPgbYjrmmg1RUPQPTQSZtyTqZ1Y6NTYe4gdmKKJ9c98Wr9bFqamXRVYWxJnlJEufwJ6QKeL+rCKOR1EQ6WNFewKwJbaQqQWxyZMZDZ5kLeheyFD2dL/ao/aWEscLwMwCMG5QdP6lMRuSMkaWOdIjbNEHedSByrrkEyENZIPP2J2vkRzjkjWCtaDT/8GPagJJhpp6m/BY+EQLEH76hONMKxr3gobHqCW5KnQtFV0po0WQCLo+GHADVhTL/czGX2ht2pH1QamNTFvftkyKQgjLRNteTFxPPxIHO2ezkV9fl0Vprn6qrUgw1nKfcv+a3PskEv5sx4R91mzVyvFJycpr+4/VuPudl+O/oZeqiVSaEzyPqrtfnpVf9Wfimg+BVkwsh05AA7Paxx4k="
+script:
+  - gem install bundler
+  - bundle exec jekyll build
+after_success:
+  - echo set ftp:ssl-force on > ~/.lftprc
+  - echo set ftp:ssl-protect-data on >> ~/.lftprc
+  - echo set ssl:verify-certificate no >> ~/.lftprc
+  - lftp -u "$USERNAME,$PASSWORD" "$SERVER" -e "mirror --delete --delete-first --verbose -R _site/ .; bye"
