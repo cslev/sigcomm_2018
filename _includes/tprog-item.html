@@ -9,15 +9,24 @@
 
 <li data-icon="false" class="prog-item {{ progitemclass }}">
   <div {{ item_style }}>
-    <p class="paper-header">
-      {% if has_link %}
-        <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">{{ paper.title }}</a>
-      {% else %}
-        {{ paper.title }}
-      {% endif %}  
-    </p>
-    <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
-    <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+  <table>
+         <tr>
+             <td style="font-size:80%; padding-right:10px; max-width:20%;">{{paper.time}}</td>
+             <td style="max-width:70%;">
+
+                <p class="paper-header">
+                  {% if has_link %}
+                    <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">{{ paper.title }}</a>
+                  {% else %}
+                    {{ paper.title }}
+                  {% endif %}
+                </p>
+                <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+             </td>
+             <td style="max-width:10%;"> </td>
+         </tr>
+  </table>
   </div>
   <div class="ui-li-aside-item">
       {% if has_link %}

@@ -8,10 +8,12 @@ group: Social events
 
 
 # {{ page.title }}
-We are organizing a dinner for all women attending SIGCOMM. Dinner will be held on Thursday 23rd between 7 and 10pm at the beautiful Akadémia Klub (Hungarian Academy of Sciences), Budapest. N2Women dinner aims to foster the minority community within SIGCOMM, and make it easier for the under-represented attendees to fully participate in the conference.
+We are organizing a dinner for all women attending SIGCOMM. The dinner will be held on Thursday, August 23, from 7 pm to 10 pm in the beautiful Akadémia Klub (Hungarian Academy of Sciences), Budapest. The N2Women dinner aims to foster the minority community within SIGCOMM, and make it easier for the under-represented attendees to fully participate in the conference. If you plan to attend, please submit a short [registration](https://goo.gl/forms/aToMCA8rQw2MJkVg1).
 
 
 ## Venue
+Krúdy Hall
+
 Akadémia Klub
 
 1051 Budapest, Széchenyi István tér 9.

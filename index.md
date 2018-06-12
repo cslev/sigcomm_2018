@@ -43,7 +43,7 @@ SIGCOMM is the flagship annual conference of the ACM Special Interest Group on D
 
 ## <i class="fa fa-calendar"></i> Important Dates
 
-{% include dates.html %}
+{% include dates_main.html %}
 
 ## <i class="fa fa-gg"></i> Sponsors
 

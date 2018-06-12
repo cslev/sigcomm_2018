@@ -15,6 +15,7 @@
 
 
   [50, "amazon.png", "https://www.amazon.com/", "amazon", 0, 300, 120,                     "silver"],
+  [50, "microsoft.jpg", "https://www.microsoft.com/research", "microsoft", 0, 600, 250,            "silver"],
 
 ]
 

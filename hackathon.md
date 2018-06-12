@@ -4,17 +4,14 @@ title: Hackathon at ACM SIGCOMM 2018
 group: Hackathon
 
 
-June 22 2018: Application submission deadline
-June 29 2018: Notification
-25 August 2018: Hackathon 
-
 dates:
-    - info: Application submission deadline
-      date: June 22, 2018
-    - info: Notification
-      date: June 29, 2018
     - info: Hackathon
-      date: 25 August, 2018
+      date: August 25, 2018
+    - info: Notification
+      date: July 2, 2018
+    - info: Application submission deadline
+      date: June 27, 2018
+    
 
 ---
 
@@ -23,7 +20,7 @@ dates:
 # {{ page.title }}
 
 ## Introduction
-The ACM SIGCOMM 2018 Hackathon is an one-day event that offers a unique opportunity for collaboration on the development of new ideas and software related to research topics presented in the SIGCOMM conference. The event will bring together people with a variety of skills to encourage the combination of different types of expertise and inspire creativity. The Hackathon aims to encourage students, researchers, and engineers to gain experience through collaboration in contributing to open source software, transfer their research experience and expertise in open source development, and foster reproducibility of research results.
+The ACM SIGCOMM 2018 Hackathon is a one-day event that offers a unique opportunity for collaboration on the development of new ideas and software related to research topics presented in the SIGCOMM conference. The event will bring together people with a variety of skills to encourage the combination of different types of expertise and inspire creativity. The Hackathon aims to encourage students, researchers, and engineers to gain experience through collaboration in contributing to open source software, transfer their research experience and expertise in open source development, and foster reproducibility of research results.
 
 ## Apply
 We are inviting students, researchers, developers, data scientists, designers and anyone who is enthusiastic about cooperation, and can contribute new and creative ideas to join us in hacking new tools, documentation and visualizations. Registration for the Hackathon is separate from the SIGCOMM conference; conference registration is not required, but space is limited. 
@@ -32,9 +29,12 @@ We are inviting students, researchers, developers, data scientists, designers an
 <a href="https://goo.gl/forms/SMiWH6Lx5U7wvoTU2">Apply by filling out this form</a>
 </div>
 
+
 ## <i class="fa fa-calendar"></i> Important Dates
 
-{% include dates2.html dates=page.dates %}
+{% include dates.html track="hackathon" %}
+
+
 
 
 ## Details
@@ -45,14 +45,14 @@ Prior to the event, the participants use the discussion mailing list and slack c
 The Hackathon chairs will offer a webinar to the participants prior to the event, where we will give a basic introduction to the team members, the logistics and discuss the proposed projects. 
 
 
-Event Date: **Saturday 25 August, 2018**
+Event Date: **Saturday, August 25, 2018**
 
-Time: Saturday: **09:00 - 19:00** followed by social event
+Time: Saturday: **from 9 am to 7 pm**, followed by social event
 
-Location: NOKIA Budapest
+Location: [Nokia Skypark]({{site.baseurl}}/hackathon_venue.html)
 
 
-If you have any questions please contact the hackathon chairs: [hackathonchairs2018@sigcomm.org](mailto:hackathonchairs2018@sigcomm.org?subject=[Hackathon at SIGCOMM 2018])
+If you have any questions, please contact the hackathon chairs: [hackathonchairs2018@sigcomm.org](mailto:hackathonchairs2018@sigcomm.org?subject=[Hackathon at SIGCOMM 2018])
 
 
 ## List of Topics
@@ -67,8 +67,21 @@ A number of open-source networking projects and research groups are supporting t
    
 [Emulab](http://www.emulab.net/), [CloudLab](https://www.cloudlab.us/), [PhantomNet](https://www.phantomnet.org/), and [Powder](https://powderwireless.net/) will make available resources for testing and experimentation, and will provide technical guidance.
 
+<div style="text-align:center;">
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/emulab.png" alt="Emulab logo" style="max-width:25%;"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/cloudlab.png" alt="CloudLab logo" style="max-width:25%;padding-left:10px;"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/phantomnet.png" alt="Phantomnet logo" style="max-width:25%;padding-left:10px;"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/powder.svg" alt="Powder logo" style="max-width:10%;padding-left:10px;"/>
+</div>
 
-Experts from [GNS3](https://www.gns3.com), [Mininet](http://mininet.org/) and [Nokia](https://www.nokia.com/en_int) will propose projects, will provide mentoring, and will join the jury.
+Experts from [GNS3](https://www.gns3.com), [Mininet](http://mininet.org/), [Nokia](https://www.nokia.com/en_int) and [Mobileinsigth](http://www.mobileinsight.net/) propose projects, provide mentoring, and participate in the jury.
+
+<div style="text-align:center;">
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/gns3.png" alt="GNS3 logo" style="max-width:6.5%"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/mininet_logo.png" alt="Mininet logo" style="max-width:25%;padding-left:10px;"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/nokia.png" alt="Nokia logo" style="max-width:25%;padding-left:10px;"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/mobileinsight.png" alt="Powder logo" style="max-width:6%;padding-left:10px;"/>
+</div>
 
 <div style="border:1px red solid;font-style:italic; padding:5px;">
 Open-source projects, companies and organisations that would like to support the Hackathon are strongly encouraged to contact the Hackathon chairs: <a href="hackathonchairs2018@sigcomm.org?subject=[Hackathon at SIGCOMM 2018]">hackathonchairs2018@sigcomm.org</a> 
@@ -85,7 +98,19 @@ If you experience or witness behaviour that violates this Code of Conduct, pleas
 
 
 ## Prizes
-TBD
+The winning teams will be selected by the jury members at the end of the Hackathon, and will share 1000€ of Amazon gift cards sponsored by [DE-CIX](https://www.de-cix.net/).
+
+**1st team**: 500€ 
+
+**2nd team**: 300€
+
+**3rd team**: 200€
+
 
 ## Jury Members 
 TBD
+
+## Sponsors
+<a href="https://www.de-cix.net/" target="_blank">
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/de-cix.png" alt="de-cix logo" style="width:20%;"/>
+</a>

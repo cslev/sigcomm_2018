@@ -33,7 +33,7 @@
   time: ''
   room: ''
   title: 'KONA: Building Switch Software at Scale'
-  authors: Sean Choi (Stanford, USA), Boris Burkov, Alex Eckert, Tian Fang, Saman Kazemkhani, Rob Sherwood, Ying Zhang, Hongyi Zeng (Facebook,  Inc.)
+  authors: Sean Choi (Stanford, USA), Boris Burkov, Alex Eckert, Tian Fang, Saman Kazemkhani, Rob Sherwood, Ying Zhang, Hongyi Zeng (Facebook, USA)
   abstract: ''
   bio: ''
   photo: ''
@@ -151,7 +151,7 @@
   time: ''
   room: ''
   title: 'Restructuring Endpoint Congestion Control'
-  authors: Akshay Narayan, Frank Cangialosi, Deepti Raghavan, Prateesh Goyal, Srinivas Narayana, Radhika Mittal, Mohammad Alizadeh, Hari Balakrishnan (MIT, USA)
+  authors: Akshay Narayan, Frank Cangialosi, Deepti Raghavan, Prateesh Goyal, Srinivas Narayan (MIT, USA), Radhika Mittal (Berkeley, USA), Mohammad Alizadeh, Hari Balakrishnan (MIT, USA)
   abstract: ''
   bio: ''
   photo: ''
@@ -231,7 +231,7 @@
   time: ''
   room: ''
   title: 'Oboe: Auto-tuning Video ABR Algorithms to Network Conditions'
-  authors: Zahaib Akhtar (USC, USA), Yun Seong Nam (Purdue, USA), Ethan Katz Bassett (Columbia, USA), Jessica Chen (UWindsor, Canada),  Ramesh Govindan (USC, USA), Sanjay Rao,  Bruno Martins Ribeiro (Purdue, USA), Jibin Zhan, Hui Zhang (Conviva)
+  authors: Zahaib Akhtar (USC, USA), Yun Seong Nam (Purdue, USA), Ethan Katz Bassett (Columbia, USA), Jessica Chen (UWindsor, Canada),  Ramesh Govindan (USC, USA), Sanjay Rao,  Bruno Martins Ribeiro (Purdue, USA), Jibin Zhan, Hui Zhang (Conviva, USA)
   abstract: ''
   bio: ''
   photo: ''
@@ -246,7 +246,7 @@
   time: ''
   room: ''
   title: 'SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference'
-  authors: Qun Huang (SCAS, China), Patrick P. C. Lee (CUHK, China), Yungang Bao (CAS, China)
+  authors: Qun Huang (CAS, China), Patrick P. C. Lee (CUHK, China), Yungang Bao (CAS, China)
   abstract: ''
   bio: ''
   photo: ''
@@ -261,7 +261,7 @@
   time: ''
   room: ''
   title: 'Understanding PCIe Performance for End Host Networking'
-  authors: Rolf Neugebauer (Docker,  Inc.), Gianni Antichi (Cambridge, UK), Josè Fernando Zazo (Naudit HPCN, Spain), Yury Audzevich (Cambridge, UK), Sergio López-Buedo (UAM, Spain), Andrew W. Moore (Cambridge, UK)
+  authors: Rolf Neugebauer (Docker, USA), Gianni Antichi (Cambridge, UK), Josè Fernando Zazo (Naudit HPCN, Spain), Yury Audzevich (Cambridge, UK), Sergio López-Buedo (UAM, Spain), Andrew W. Moore (Cambridge, UK)
   abstract: ''
   bio: ''
   photo: ''
@@ -306,7 +306,7 @@
   time: ''
   room: ''
   title: 'Microboxes: High Performance NFV with Customizable, Asynchronous TCP Stacks and Dynamic Subscriptions'
-  authors: Guyue Liu, Yuxin Ren, Mykola Yurchenko (GWU, USA),  K.K. Ramakrishnan (University of California,  Riverside), Timothy Wood (GWU, USA)
+  authors: Guyue Liu, Yuxin Ren, Mykola Yurchenko (GWU, USA),  K.K. Ramakrishnan (UCR, USA), Timothy Wood (GWU, USA)
   abstract: ''
   bio: ''
   photo: ''
@@ -432,7 +432,7 @@
   time: ''
   room: ''
   title: 'HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated Transactions in Multi-Tenant Storage Systems'
-  authors: Daehyeok Kim (CMU, USA), Amirsaman Memaripour (UCSD, USA), Anirudh Badam (Microsoft, USA), Hongqiang Liu (Alibaba Group), Yibo Zhu (Microsoft, USA), Jitendra Padhye, Shachar Raindel (Microsoft, USA), Vyas Sekar, Srinivasan Seshan (CMU, USA), Steven Swanson (UCSD, USA)
+  authors: Daehyeok Kim (CMU, USA), Amirsaman Memaripour (UCSD, USA), Anirudh Badam (Microsoft, USA), Hongqiang Liu (Alibaba, China), Yibo Zhu, Jitendra Padhye, Shachar Raindel (Microsoft, USA), Vyas Sekar, Srinivasan Seshan (CMU, USA), Steven Swanson (UCSD, USA)
   abstract: ''
   bio: ''
   photo: ''
@@ -484,7 +484,7 @@
   time: ''
   room: ''
   title: 'Leveraging Interconnections for Performance - The Serving Infrastructure of a Large CDN'
-  authors: Florian Wohlfart (TU Munich, Germany), Nikolaos Chatzis, Caglar Dabanoglu (Akamai Technologies), Georg Carle (TU Munich, Germany), Walter Willinger (NIKSUN,  Inc.)
+  authors: Florian Wohlfart (TU Munich, Germany), Nikolaos Chatzis, Caglar Dabanoglu (Akamai, Germany), Georg Carle (TU Munich, Germany), Walter Willinger (NIKSUN,  USA)
   abstract: ''
   bio: ''
   photo: ''

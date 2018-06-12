@@ -25,67 +25,67 @@ committees:
   - role: Programm Committee Members
     people:
     - name:        Gianni Antichi
-      affiliation: University of Cambridge
+      affiliation: Cambridge, UK
     
     - name:        Chadi Barakat
       affiliation: Inria, France
 
     - name:        Marinho Barcellos
-      affiliation: UFRG, Brazil
+      affiliation: UFRGS, Brazil
       
     - name:        Pramod Bhatotia
-      affiliation: University of Edinburgh, UK
+      affiliation: Edinburgh, UK
       
     - name:        Pedro Casas
       affiliation: AIT, Austria
        
     - name:        Ang Chen
-      affiliation: Rice University, USA
+      affiliation: Rice, USA
        
     - name:        Jiasi Chen
-      affiliation: UC Riverside, USA
+      affiliation: UCR, USA
       
     - name:        Kai Chen
       affiliation: HKUST, China
       
     - name:        Kenjiro Cho
-      affiliation: IIJ
+      affiliation: IIJ, Japan
       
     - name:        Marcel Flores
       affiliation: Verizon, USA
       
     - name:        Phillipa Gill
-      affiliation: University of Massachusetts, Amherst, USA
+      affiliation: UMass USA
       
     - name:        Bo Han
-      affiliation: AT\&T, USA
+      affiliation: AT&T, USA
       
     - name:        Ralph Holz
       affiliation: USYD, Australia
       
     - name:        Junchen Jiang
-      affiliation: MSR / University of Chicago, USA
+      affiliation: Microsoft and UChicago, USA
       
     - name:        Srinivas Narayana
       affiliation: MIT, USA
       
     - name:        Diego Perino
-      affiliation: Telefonica Research
+      affiliation: Telefonica, Spain
       
-    - name:        Gergely Pongracz
-      affiliation: Ericsson Research, Hungary
+    - name:        Gergely Pongrácz
+      affiliation: Ericsson, Hungary
       
     - name:        Sanjay Rao
       affiliation: Purdue, USA
       
-    - name:        Gabor Retvari
+    - name:        Gábor Rétvári
       affiliation: BME, Hungary
       
     - name:        Dario Rossi
-      affiliation: Telecom ParisTech, France
+      affiliation: ENST, France
       
     - name:        Stefan Schmid
-      affiliation: University of Vienna, Austria
+      affiliation: Univie, Austria
       
     - name:        Anees Shaikh
       affiliation: Google, USA
@@ -94,15 +94,15 @@ committees:
       affiliation: KAUST, KSA
       
     - name:        Moritz Steiner
-      affiliation: Akamai
+      affiliation: Akamai, USA
 
     - name:        Nik Sultana
-      affiliation: University of Pennsylvania, USA
+      affiliation: UPenn, USA
 
-    - name:        Robert Szabo
-      affiliation: Ericsson Research, Hungary
+    - name:        Róbert Szabó
+      affiliation: Ericsson, Hungary
 
-    - name:        Laszlo Toka
+    - name:        László Toka
       affiliation: BME, Hungary
 
     - name:        James Zeng

@@ -8,4 +8,6 @@ group: Social events
 
 
 ## {{ page.title }}
-TBA
+The SIGCOMM 2018 Student Dinner will be held from 8 pm and 11 pm on
+Tuesday, August 21.
+
