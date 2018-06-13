@@ -2,7 +2,7 @@
 # - info: Workshop proposals due
 # - index page will show date only if important==true
 
-# All listed dates will appear in the specified order
+# All listed dates will appear in the specified order, so for chronological order, please place your items in a chronological order :D
 
 # info: general info field included in the corresponding site
 # info_main: the same info with additional text appearing in the home page
@@ -15,19 +15,6 @@ hackathon:
   date: August 25, 2018
   important: true
 
-hackathon-application:
-  track: hackathon
-  info_main: Hackathon application submission deadline
-  info: Application submission deadline
-  date: June 27, 2018
-  important: true
-
-hackathon-notification:
-  track: hackathon
-  info_main: Hackathon notification
-  info: Notification
-  date: July 2, 2018
-  important: true
 
 
 workshop:
@@ -69,6 +56,20 @@ registration-earlybird:
   date: July 14, 2018
   important: true
 
+
+hackathon-notification:
+  track: hackathon
+  info_main: Hackathon notification
+  info: Notification
+  date: July 2, 2018
+  important: true
+
+hackathon-application:
+  track: hackathon
+  info_main: Hackathon application submission deadline
+  info: Application submission deadline
+  date: June 27, 2018
+  important: true
 
 
 travelgrant-acceptance:
