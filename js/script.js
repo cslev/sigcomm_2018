@@ -4,19 +4,28 @@ var lcnt;
 var sps;
 
 // how many news item do we want without clicking on the Older news
-var slice_num=6;
+var slice_num_info=6;
+var slice_num_dates=11;
 
 $(document).on("pagebeforeshow", function() {
 
     try {
         /* Hide news list items on page show. */
         var newslibtn = $.mobile.activePage.find(".newslibtn");
+        var dateslibtn = $.mobile.activePage.find(".dateslibtn");
 
         if (newslibtn != null) {
-            $(newslibtn).siblings().slice(slice_num).hide();
+            $(newslibtn).siblings().slice(slice_num_info).hide();
             $(newslibtn).find("a").text("Older News");
             $(newslibtn).find("span").toggleClass("ui-icon-plus", true);
             $(newslibtn).find("span").toggleClass("ui-icon-minus", false);
+        }
+
+        if (dateslibtn != null) {
+            $(dateslibtn).siblings().slice(slice_num_dates).hide();
+            $(dateslibtn).find("a").text("Older Dates");
+            $(dateslibtn).find("span").toggleClass("ui-icon-plus", true);
+            $(dateslibtn).find("span").toggleClass("ui-icon-minus", false);
         }
 
         /* Configure sponsor ticker tape */
@@ -58,17 +67,28 @@ $(document).on("pageshow", function() {
 /* Show/hide list items on newslibtn click. */
 
 function showall(divname) {
-    var newslibtn = $.mobile.activePage.find(".newslibtn");
-
+    // var newslibtn = $.mobile.activePage.find(".newslibtn");
+    var newslibtn = $.mobile.activePage.find(divname);
+    var news_or_dates = "News";
+    if (divname == ".dateslibtn"){
+        news_or_dates = "Dates";
+    }
     if (newslibtn != null) {
         $(newslibtn).find("span").toggleClass("ui-icon-plus ui-icon-minus");
 
         if ($(newslibtn).find("span").hasClass('ui-icon-minus')) {
             $(newslibtn).siblings().show();
-            $(newslibtn).find("a").text("Hide Older News");
+
+            $(newslibtn).find("a").text("Hide Older " + news_or_dates);
         } else {
-            $(newslibtn).siblings().slice(slice_num).hide();
-            $(newslibtn).find("a").text("Older News");
+            if(news_or_dates == "News") {
+                $(newslibtn).siblings().slice(slice_num_info).hide();
+            }
+            else{
+                $(newslibtn).siblings().slice(slice_num_dates).hide();
+            }
+
+            $(newslibtn).find("a").text("Older "+ news_or_dates);
         }
     }
 }
