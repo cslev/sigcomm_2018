@@ -80,6 +80,11 @@ committees:
 
 # {{ page.title }}
 
+
+### Workshop Program
+
+{% include program-online.html type="vrar" %}
+
 ### Call for Papers
 Virtual Reality (VR) and Augmented Reality (AR) are expected to be the next generation Killer-Apps in the future Internet. VR/AR is projected to form a $162 billion market by 2020. However, many technical bottlenecks and challenges still need to be overcome to facilitate the wide adoption of VR/AR. In particular, VR/AR applications increasingly require higher bandwidth, shorter delay, lower packet loss rate, and faster computation. Immersive VR/AR videos are the representative applications. High-throughput and low-latency video delivery, realtime video generation, processing and adaption call for significant engineering innovations, which can only happen through interdisciplinary research. 
 

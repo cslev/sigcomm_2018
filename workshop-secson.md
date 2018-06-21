@@ -79,6 +79,10 @@ committees:
 
 # {{ page.title }}
 
+### Workshop Program
+
+{% include program-online.html type="secson" %}
+
 ### Call for Papers
 The First Workshop on Security in Softwarized Networks: Prospects and Challenges (SecSoN) will be held in conjunction with ACM SIGCOMM 2018 in Budapest, Hungary, on August 20-24, 2018.
 

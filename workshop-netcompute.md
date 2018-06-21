@@ -70,6 +70,11 @@ committees:
 
 # {{ page.title }}
 
+
+### Workshop Program
+
+{% include program-online.html type="netcompute" %}
+
 ### Call for Papers
 In-network computing is an emerging topic that draws a lot of attention from both academia and industry. In-network computing exploits the capabilities of new programmable network devices such as programmable switch ASICs, network processors, FPGAs, and programmable NICs to offload computing from CPUs to the network. While in-network computing can be dated back to early efforts such as active networking two decades ago, many believe that the time has finally come due to a combination of hardware and software innovations. On the hardware side, many hardware vendors have released products that provide programmability without sacrificing performance, such as Barefoot Tofino, Intel FlexPipe, Cavium XPliant, and Netronome Agilio. On the software side, besides new network functionalities such as in-network telemetry and layer-4 load balancing, many new application-level functionalities beyond traditional packet processing have been proposed, such as key-value caching, consensus, and even machine learning.
 

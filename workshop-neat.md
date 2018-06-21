@@ -93,6 +93,11 @@ committees:
 
 # {{ page.title }}
 
+
+### Workshop Program
+
+{% include program-online.html type="neat" %}
+
 ### Call for Papers
 This workshop aims to provide a forum for both industry and academia to exchange  ideas about new network architectures, technologies and protocols specifically in the context of emerging applications such as those promised by 5G, with a particular focus on achieving accurate prescribed latency, high throughput, and meeting service level objectives in complex and large-scale networks. 
 The goal is to explore possibilities beyond the traditional statistical multiplexing-based internet architecture, protocols, network resource allocation, control and packet scheduling in favor of new approaches such as deterministic packet delivery techniques, data-driven adaptation, in large scale networks, for emerging applications such as vehicular networks, tactile networks, industrial networks, and AR/VR media delivery. Participants will be able to share their viewpoints, the findings, the latest research, and their project descriptions and goals. 

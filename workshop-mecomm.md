@@ -86,6 +86,10 @@ committees:
 
 # {{ page.title }}
 
+### Workshop Program
+
+{% include program-online.html type="mecomm" %}
+
 ### Call for Papers
 Future mobile networking aims to support ultra low latency, context-related service offering, personalised service delivery and highly flexible and efficient resource management. One of the key approaches to meet these targets focuses on the introduction of virtualized compute and storage resources at the edge of the network, having closer proximity to mobile subscribers. This approach has the potential to reduce end-to-end latency and time-to-response, while increasing the flexibility and agility of allocating resources. The Mobile Edge Computing (MEC) paradigm takes this approach  to facilitate computation/storage capabilities at the edge, with a particular focus on their interaction with applications and services. In a similar fashion, virtualisation brings advantages related with the flexible realization and management of network and application functionality on top of virtualized compute, storage and network resources. As a consequence a new promising landscape is being shaped, where key capabilities of resource virtualization and programmability foster the emergence of intelligent solutions at the edge of the network.     
 

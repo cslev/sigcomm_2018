@@ -90,6 +90,11 @@ committees:
 ---
 # {{ page.title }}
 
+
+### Workshop Program
+
+{% include program-online.html type="selfdn" %}
+
 ### Call for Papers
 For at least a decade, networking researchers, equipment vendors, and Internet service providers alike have argued for “autonomous” or “self-managing” networks, where network management and control decisions are made in real time and in an automated fashion. Yet, building such “self-driving” networks that are practically deployable has largely remained unrealized. Recent technological advances and scientific innovations, however, provide exciting new opportunities for finally realizing self-driving networks. These advances and innovations include (1) fully programmable, protocol-independent data planes and languages for programming them; and (2) the emergence of scalable platforms for processing distributed streaming data while leveraging the latest (big) data analysis and machine learning (ML) tools and software. 
 

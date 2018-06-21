@@ -71,6 +71,10 @@ committees:
 ---
 # {{ page.title }}
 
+### Workshop Program
+
+{% include program-online.html type="kbnet" %}
+
 ### Call for Papers
 Kernel Bypassing Networks (including, but not limited to RDMA, DPDK and SmartNIC) have
 recently drawn much attention from both the research community and the industry. Emerging

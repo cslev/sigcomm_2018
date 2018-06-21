@@ -159,11 +159,11 @@ Computers and open communication networks have become increasingly interwoven wi
                 <div class="ui-grid-a">
                   <div class="ui-block-a">
                     <h2>
-                      <em>Vern Paxson</em>
+                      <em>TBA</em>
                     </h2>
                   </div>
                   <div class="ui-block-b">
-                    <p>ICSI and Berkeley, USA</p>
+                    <p></p>
                   </div>
                 </div>
                 </a>

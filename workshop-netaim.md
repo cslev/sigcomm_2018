@@ -80,6 +80,10 @@ committees:
 
 # {{ page.title }}
 
+## Workshop Program
+
+{% include program-online.html type="netai" %}
+
 ### Overview
 Distributed processing systems for Artificial Intelligence (AI) and Machine Learning (ML), such as Hadoop, Spark, Storm, GraphLab, TensorFlow etc., are widely used by industry. On the one hand, networking is a well-known bottleneck for AI & ML systems. For example, traffic patterns experienced by ML applications during training can be optimized using techniques such as parameter servers and vertex-cut for graphs. New technologies are also being embedded in the network; examples include RDMA over converged Ethernet (RoCE) and GPU direct. On the other hand, the ever increasing complexity of networks makes effective monitoring, modeling, auditing, and overall control of network traffic difficult if not impossible. Hence there is a need for more powerful methods to solve the challenges faced in network design, deployment, and management. AI & ML have been successfully applied to various perceptual domains, including computer vision, natural language processing, and voice recognition. In addition, ML techniques are showing impressive results in new domains such as medicine, finance and astronomy, to name a few. This success in non-perceptual domains suggests that ML techniques could be successfully applied to problems in the network space. The networking community should look upon all these challenges as their opportunities in the Machine Learning era.
 
