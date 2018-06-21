@@ -15,7 +15,7 @@
       <p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
     {% endif %}
     {% if session.room and session.room != "" %}
-      <p>Room: {{ session.room }}</p>
+      <p>Location: {{ session.room }}</p>
     {% endif %}
   {% endif %}
   {% if include.is_break != true %}

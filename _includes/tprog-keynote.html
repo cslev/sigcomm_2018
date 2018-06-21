@@ -14,10 +14,10 @@
      if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
      if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
 
-  <li data-icon="false" class="prog-item {{ progitemclass }} prog-keynote">
+  <li data-icon="false" class="prog-item {{ progitemclass }}">
 
     {% if keynote.title and keynote.title != "" %}
-    <h2 {{ item_style }}>
+    <h2 {{ item_style }} >
       Keynote:
       {% if has_link %}
         <a href="{{ keynote.link }}" rel="external" target="_blank" style="color: black;">{{ keynote.title }}</a>

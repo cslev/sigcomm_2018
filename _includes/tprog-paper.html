@@ -17,15 +17,23 @@
   <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
     <h4>
       <div {{ item_style }}>
-        <p class="paper-header">
-          {% if has_link == true %}
-            <a href="javascript:void(0)" onclick="window.location='{{ paper.link  }}'; event.stopPropagation();" class="ui-link">{{ paper.title }}</a>
-          {% else %}
-            {{ paper.title }}
-          {% endif %}  
-        </p>
-        <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
-        <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+        <table>
+          <tr>
+            <td style="font-size:80%; padding-right:10px; max-width:20%; font-weight:100;">{{paper.time}}</td>
+            <td style="max-width:70%;">
+              <p class="paper-header">
+                {% if has_link == true %}
+                  <a href="javascript:void(0)" onclick="window.location='{{ paper.link  }}'; event.stopPropagation();" class="ui-link">{{ paper.title }}</a>
+                {% else %}
+                  {{ paper.title }}
+                {% endif %}
+              </p>
+              <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+              <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+          </td>
+          <td style="max-width:10%;"> </td>
+          </tr>
+        </table>
       </div>
       <div class="ui-li-aside">
         {% if has_link %}

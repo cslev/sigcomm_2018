@@ -20,6 +20,8 @@
         {% assign session = item %}{% include tprog-tutorial.html %}
       {% elsif item.type == "workshop"     %}
         {% assign session = item %}{% include tprog-workshop.html %}
+      {% elsif item.type == "topic-preview"      %}
+        {% assign session = item %}{% include tprog-topic-preview.html %}
       {% elsif item.type == "social"      %}
         {% include tprog-social.html %}
       {% elsif item.type == "talk"        %}
