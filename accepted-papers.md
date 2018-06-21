@@ -7,4 +7,4 @@ group: Main conference
 
 # {{ page.title }}
 
-{% include program-online.html type="accepted-papers" %}
+{% include program-online.html type="accepted_papers" %}
