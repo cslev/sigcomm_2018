@@ -111,6 +111,10 @@ presenters:
 
 # {{ page.title }}
 
+## Workshop Program
+
+{% include program-online.html type="erc" %}
+
 ### Overview
 ERC Networking 2018 meets in Budapest on Friday, August 24, during the ACM
 SIGCOMM 2018 conference. The symposium brings together researchers and
