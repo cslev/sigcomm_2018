@@ -27,6 +27,10 @@ committees:
 
 # {{ page.title }}
 
+## Tutorial Program
+
+{% include program-online.html type="rcm" %}
+
 ## Call For Participation
 Repeatability of experiments and comparability of results is a cornerstone of the scientific method. This tutorial dives into the subject of repeatability and comparability in active Internet measurements. We begin with a brief introduction to a set of well-known measurement tools and platforms and examine two active measurement tools focused on a specific problem in Internet measurement: detecting and localizing impairments to feature deployment at layer 4. We then show how frameworks for handling metadata can contribute to repeatability, and how the systemization of normalization and successive data analysis can lead to better repeatability and comparability. This will be done using the MAMI Path Transparency Observatory, which implements this process for impairment measurement in the Internet.
 

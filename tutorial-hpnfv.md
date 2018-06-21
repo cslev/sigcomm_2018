@@ -26,6 +26,10 @@ organizers:
 
 # {{ page.title }}
 
+## Tutorial Program
+
+{% include program-online.html type="hpnfv" %}
+
 ## Call For Participation
 
 This tutorial will offer an introduction to Network Function Virtualization (NFV) technologies and in-depth hands-on understanding of an NFV platform to demonstrate their use in building high performance middleboxes and endpoint services. We will cover kernel bypass networking using DPDK, managing chains of network functions using OpenNetVM, and deploying high performance endpoint services using the mTCP user-space stack.
