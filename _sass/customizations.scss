@@ -377,6 +377,8 @@ html .ui-bar-a a:link, html .ui-bar-a a:visited, html .ui-bar-a a:hover, html .u
     border-color: #bbb;
 }
 
+
+
 .content-primary .program .ui-bar-b h3 {
     font-weight: 400;
     color: #000000;
@@ -397,16 +399,61 @@ html .ui-bar-a a:link, html .ui-bar-a a:visited, html .ui-bar-a a:hover, html .u
     text-shadow: none;
 }
 
+.content-primary .program .prog-keynote {
+    padding: 0em 1.0em;
+    background-color: $program-keynote-background;
+    border-color: #bbbbbb;
+}
+table.prog-keynote
+{
+    color: #000000;
+}
+
+.content-primary .program .prog-keynote h3 {
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: left;
+    text-shadow: none;
+}
+
 .content-primary .program .prog-tutorial {
     padding: 0em 1.0em;
-    background-color: #f2ffef;
+    background-color: #ffb224;
+    color: #000000;
     // border-color: #bbbbbb;
+}
+
+.content-primary .program .prog-tutorial h3 {
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
 }
 
 .content-primary .program .prog-workshop {
     padding: 0em 1.0em;
-    background-color: #eff5ff;
+    background-color: #5eebff;
 }
+
+.content-primary .program .prog-workshop h3 {
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+}
+
+.content-primary .program .prog-topic-preview {
+    padding: 0em 1.0em;
+    background-color: #33ff93;
+}
+
+.content-primary .program .prog-topic-preview h3 {
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+}
+
 
 /* miscelaneous controls (hotel page, roomshare, etc.) */
 
