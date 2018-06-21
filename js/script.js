@@ -5,7 +5,7 @@ var sps;
 
 // how many news item do we want without clicking on the Older news
 var slice_num_info=6;
-var slice_num_dates=11;
+var slice_num_dates=15;
 
 $(document).on("pagebeforeshow", function() {
 
