@@ -19,7 +19,7 @@ hackathon:
 
 workshop:
   track: workshop
-  info_main: "Workshops: NetAI, SecSoN, VR/AR Network, SelfDN, and ERC Networking"
+  info_main: "Workshops: NetAI, SecSoN, VR/AR Network (morning), SelfDN (afternoon), and ERC Networking"
   date: August 24, 2018
   important: true
 
@@ -39,7 +39,7 @@ main-program:
 
 workshop2:
   track: workshop
-  info_main: "Workshops: Big-DAMA, IoT S&P, MECOMM, NEAT, WTMC, NetCompute, and KBNets"
+  info_main: "Workshops: Big-DAMA, IoT S&P, MECOMM, NEAT, WTMC, NetCompute (morning), and KBNets (afternoon)"
   date: August 20, 2018
   important: true
 
@@ -77,12 +77,16 @@ travelgrant-acceptance:
   info: Award acceptance
   info_main: Travel grants award acceptance
   date: June 27, 2018
+  important: true
 
-travelgrant-notif:
-  track: travel_grant
-  info_main: Travel grants award notification
-  info: Award notification
-  date: June 20, 2018
+posters-due:
+  track: posters_demos
+  info: Camera ready deadline
+  info_main: Posters and demos camera ready deadline
+  date: June 26, 2018
+  important: true
+
+
 
 camera-ready:
   track: camera_ready
@@ -91,11 +95,19 @@ camera-ready:
   date: June 22, 2018
   important: true
 
-camera-ready-ws:
-  track: camera_ready
-  info: Camera-ready deadline for the workshops
-  info_main: Camera-ready deadline for the workshops
-  date: <del>June 10, 2018</del>
+travelgrant-notif:
+  track: travel_grant
+  info_main: Travel grants award notification
+  info: Award notification
+  date: June 20, 2018
+  important: true
+
+
+posters-notification:
+  track: posters_demos
+  info_main: Posters and demos acceptance notification
+  info: Acceptance notification
+  date: <del>June 19, 2018</del>
   important: true
 
 
@@ -103,9 +115,15 @@ src-notification:
   track: src
   info: Acceptance notification
   info_main: SRC acceptance notification
-  date: June 19, 2018
+  date: <del>June 19, 2018</del>
+  important: true
 
-
+camera-ready-ws:
+  track: camera_ready
+  info: Camera-ready deadline for the workshops
+  info_main: Camera-ready deadline for the workshops
+  date: <del>June 10, 2018</del>
+  important: true
 
 travelgrant-deadline:
   track: travel_grant
@@ -219,18 +237,10 @@ workshops-proposals:
   important: true
 
 
-posters-notification:
-  track: posters_demos
-  info_main: Posters acceptance notification
-  info: Acceptance notification
-  date: June 19, 2018
 
 
-posters-due:
-  track: posters_demos
-  info-main: Camera ready deadline
-  info: Posters camera ready deadline
-  date: June 26, 2017
+
+
 
 
 
