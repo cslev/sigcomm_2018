@@ -32,14 +32,57 @@ program:
    google_client_id: .travis.d/google_client_id.json
    # Google spreadsheet with the conference data
    spreadsheet:
-        - "1uFunPbJPPACJsPJacgV9-LIBzQItuEGOkViG07wMwbU" # bigdama
-        - "1u4N8XIfZ8swTLaaUUo28M9iO2OakPsJJkcc2THt88fU" # wtmc
-
-# Configuration for navbar.html
+        - "1gyxUVtqXmi9Rldiy8PsSv-OHpFqyL0TS5EWlQ3Qf_Go" # main
+#        - "1uFunPbJPPACJsPJacgV9-LIBzQItuEGOkViG07wMwbU" # bigdama
+#        - "1u4N8XIfZ8swTLaaUUo28M9iO2OakPsJJkcc2THt88fU" # wtmc
+#        - "11DHECtvCCPQYnzF7ibO4as5elOTFaS_p_sFJNqX2b3I" # secson
+#        - "1DZ4bBMv38jofdO-a65ssG74SG8Cg2OfyUuf2ARfTX10" # kbnet
+#        - "1kCmFo17CKyWn2vLmIIv488C7mOKdJDeRKz1vohf401w" # hpnfv
+#        - "1_8aeelPZo_bEHkFIhIdsfPyDLeOSq-pAA-gAIA_av5g" # erc
+#        - "1CqsVCVhX25G-q1VsH4HzF5625MMGg1uYcYKNg0o1GyM" # mecomm
+#        - "1eYfMDEtrS7HoMhw3ZakF_8g6P_8v7pY9qpUMHEjJulg" # netcompute
+#        - "1kRdqUj8fYoO0bouuqXvzErTxYkJODaQq-0Vqp4cDD-0" # selfDN
+#        - "1Eip2UmPO2J0yWG3gf7nAYkFgEdoNn4d1hlVtXzLmclI" # vrar
+#        - "1v5YpWQp0bWZvtqzEvj0Hs9TPU2u_TPlPDszbO4iCIYE" # neat
+#        - "1SiftVJPjFwPOif4vPOH5gpDQQu2Obc_9cl5fLGdyYbs" # p4
+#        - "1trR9gHEwQvz1xTJTOvCEaDGteKFy5LLzbfgGW7XM8z8" # ion
+#        - "1JrjASjJ2tPwkt2vLoPIs81Ivxbpr6PL6tYjDt-LldD0" # iot
+#        - "1pj6C7IBa5i1B__xu3yiSeTFgCRZjARJMEydOt5RFrAg" # netai
+#        - "1drXnfIz9Fwn9aLtkaxtU37McZ5j_dOr3w8qdM8pHl0w" # rcm
+#        - "19eA_DNOJmH2pf4Sz_hq7HRlpjrrcxWcMhCyDRo4WU24" # hda
+## Configuration for navbar.html
 menu:
 - name: Home
   url: /
   icon: fa-home
+- name: Program
+  icon: fa-calendar
+  submenu:
+    - name: All days
+      url: /program.html
+      icon: fa-calendar
+    - name: Sunday
+      url: /program_sunday.html
+      icon: fa-calendar
+    - name: Monday
+      url: /program_monday.html
+      icon: fa-calendar
+    - name: Tuesday
+      url: /program_tuesday.html
+      icon: fa-calendar
+    - name: Wednesday
+      url: /program_wednesday.html
+      icon: fa-calendar
+    - name: Thursday
+      url: /program_thursday.html
+      icon: fa-calendar
+    - name: Friday
+      url: /program_friday.html
+      icon: fa-calendar
+    - name: Saturday
+      url: /program_saturday.html
+      icon: fa-calendar
+
 - name: Main conference
   icon: fa-area-chart
   submenu:
@@ -74,6 +117,9 @@ menu:
   - name: Industrial demos
     url: /cf-industrial-demos.html
     icon:  fa-industry
+  - name: Best of CCR
+    url: /best-of-ccr.html
+    icon: fa-shield
   - name: Mentoring
     url: /mentoring.html
     icon: fa-user-circle-o
@@ -83,6 +129,9 @@ menu:
   - name: Topic preview
     url: /topic-preview.html
     icon:  fa-comments-o
+  - name: Open business meeting
+    url: /open_business_meeting.html
+    icon: fa-handshake-o
 - name: Workshops
   icon: fa-wrench
   submenu:
@@ -167,6 +216,9 @@ menu:
   - name: Venue
     url:  /hackathon_venue.html
     icon: fa-map-marker
+  - name: Netflix hackathon travel grant
+    url:  /hackathon_netflix.html
+    icon: fa-money
   - name: Call for participation
     url: /hackathon.html
     icon: fa-bell-o
@@ -204,107 +256,7 @@ menu:
   url: /org-committee.html
   icon: fa-users
 
-#- name: Program
-#  url: /program.html
-#  icon: fa-list-ul
-# - name: Workshops and Tutorials
-#   url: /program-workshops-and-tutorials.html
-#   icon: fa-list-ul
-#- name: Conference
-#  icon: fa-bar-chart
-#  submenu:
-#    - name: Registration
-#      url: /registration.html
-#      # highlight: menu-hl
-#    - name: Program
-#      url: /program.html
-#      # icon: fa-list-ul
-#    - name: Posters
-#      url: /program-posters.html
-#    - name: Demos
-#      url: /program-demos.html
-#    - name: Industrial Demos
-#      url: /program-industrial-demos.html
-#    - name: Awards
-#      url: /awards.html
-#    - name: Social Events
-#      url: /social-events.html
-#    - name: Accepted Papers
-#      url: /accepted-papers.html
-#    - name: Program Committee
-#      url: /tpc.md
-      # icon: fa-users
-#    - name: Organizing Committee
-#      url: /org-committee.html
-#      # icon: fa-users
-    # - name: ACM SRC
-    #   url: /acm-src.html
-    # - name: Industrial Demos
-    #   url: /industrial-demos.html
-    # - name: Posters/Demos from Main Track
-    #   url: /posters-and-demos-main-track.html
-    # - name: Topic Preview
-    #   url: /topic-preview.html
-#    - name: Mentoring
-#      url: /mentoring.html
-#    - name: Remote Participation
-#      url: /remote.html
-#- name: Workshops
-#  icon: fa-bullhorn
-#  submenu:
-#    - name: Program
-#      url: /program-workshops-and-tutorials.html
-#      icon: fa-list-ul
-#    - name: "WS1: MECOMM"
-#      url: /workshop-mecomm.html
-#    - name: "WS2: KBNets"
-#      url: /workshop-kbnets.html
-#    - name: "WS3: Big-DAMA"
-#      url: /workshop-big-dama.html
-#    - name: "WS4: Internet QoE"
-#      url: /workshop-internet-qoe.html
-#    - name: "WS5: NetPL"
-#      url: /workshop-netpl.html
-#    - name: "WS6: HotConNet"
-#      url: /workshop-hotconnet.html
-#    - name: "WS7: MobiArch"
-#      url: /workshop-mobiarch.html
-#    - name: "WS8: VR/AR Network"
-#      url: /workshop-vrar-network.html
-#    - name: "WS9: Reproducibility"
-#      url: /workshop-reproducibility.html
-#    - name: N2Women
-#      url: /workshop-n2women.html
-#- name: Tutorials
-#  icon: fa-newspaper-o
-#  submenu:
-#    - name: Program
-#      url: /program-workshops-and-tutorials.html
-#      icon: fa-list-ul
-#    - name: "T1: mmWave"
-#      url: /tutorial-mmWave.html
-#      icon: fa-adjust
-#    - name: "T2: NDN"
-#      url: /tutorial-ndn.html
-#      icon: fa-adjust
-#    - name: "T3: Adaptive Streaming"
-#      url: /tutorial-adaptive-streaming.html
-#      icon: fa-adjust
-#    - name: "T4: P4→NetFPGA"
-#      url: /tutorial-P4-NetFPGA.html
-#      icon: fa-circle
-#    - name: "T5: P4"
-#      url: /tutorial-p4.html
-#      icon: fa-circle
-#    - name: "T6: Understanding Latency"
-#      url: /tutorial-latency.html
-#      icon: fa-adjust
-#    - name: "T7: Netmap for NFV"
-#      url: /tutorial-netmap-nfv.html
-#      icon: fa-circle
-#    - name: "T8: C2C"
-#      url: /tutorial-c2c.html
-#      icon: fa-adjust
+
 - name: Local information
   icon:  fa-map-pin
   submenu:
@@ -320,55 +272,16 @@ menu:
   - name: Bike to SIGCOMM
     url: /bike-to-sigcomm.html
     icon: fa-bicycle
+  - name: Room sharing
+    url: /room-share.html
+    icon: fa-bed
   - name: Getting around
     url: /getting_around.html
     icon: fa-compass
-#    - name: Accommodations
-#      url: /accommodations.html
-#    - name: Visa
-#      url: /visa.html
-#      icon: fa-address-card-o
-#    - name: Tourism
-#      url: /tourism.html
-#    - name: Room Share
-#      url: /room-share.html
+
 - name: Policies
   icon: fa-book
-  submenu:
-    - name: Anti-harassment policy
-      url: /policy-anti-harassment.html
-      icon: fa-file-text-o
-
-
-#- name: Calls
-#  icon: fa-bullhorn
-#  submenu:
-##    - name: Call for Travel Grants
-##      url: /cf-travel-grants.html
-#    - name: Call for Papers
-#      url: /cfp.html
-#    - name: Submission Requirements
-#      url: /submission.html
-#    - name: Camera-Ready Instructions
-#      url: /camera-ready.html
-#    - name: Call for Posters & Demos
-#      url: /cf-posters.html
-#    - name: Student Research Competition
-#      url: /src.html
-#    - name: Call for Industrial Demos
-#      url: /cf-industrial-demos.html
-#    - name: Call for Tutorials
-#      url: /cf-tutorials.html
-#    - name: Call for Workshops
-#      url: /cf-workshops.html
-#    - name: Author Registration Policy
-#      url: /policy-author-registration.html
-# - name: Policies
-#   icon: fa-book
-#   submenu:
-#- name: Anti-Harassment Policy
-#  url: /policy-anti-harassment.html
-#  icon: fa-book
+  url: /policies.html
 
 colors:
   highlight: aaaaaa
