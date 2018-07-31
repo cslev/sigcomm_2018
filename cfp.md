@@ -4,7 +4,7 @@ title: Call for Papers
 group: Main conference
 ---
 
-# Call for Papers
+# {{page.title}}
 
 The ACM SIGCOMM 2018 conference seeks papers describing significant research contributions to the field of data communication networks and networked systems. SIGCOMM’18 takes a broad view of networking research. This includes new ideas relating to (but not limited to) mobile, wide-area, data-center, home, and enterprise networks using a variety of link technologies (wired, wireless, visual, and acoustic), as well as social networks and network architecture. It encompasses all aspects of networks and networked systems, including packet-processing hardware and software, virtualization, mobility, sensors, provisioning and resource management, performance, energy consumption, topology, robustness and security, measurement, diagnosis, verification, privacy, economics and evolution, interactions with applications, internet-of-things, novel applications of machine learning to networking, and usability of underlying networking technologies.
 

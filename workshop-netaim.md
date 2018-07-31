@@ -64,9 +64,9 @@ committees:
        - name:        Timothy Wood
          affiliation: GWU, USA       
        - name:        Fengyuan Xu
-         affiliation: NJU, CHINA       
+         affiliation: NJU, China       
        - name:        Henry Xu
-         affiliation: CityU, HK         
+         affiliation: CityU, China         
        - name:        Eiko Yoneki
          affiliation: Cambridge, UK
        - name:        Nicholas Zhang

@@ -7,7 +7,7 @@ dates:
     - info: Workshop
       date: August 20, 2018
     - info: Camera-ready deadline
-      date: June 10, 2018
+      date: <del>June 10, 2018</del>
     - info: Acceptance notification
       date: <del>May 7, 2018</del>
     - info: Submission deadline (extended)
@@ -150,25 +150,6 @@ Computers and open communication networks have become increasingly interwoven wi
 - Measurements of network protocol and applications behavior and its impact on cybersecurity and users' privacy
 - Measurements related to network security and privacy
 - Ethical issues in measurements for cybersecurity
-
-
-### Keynotes
-<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl ui-listview ui-listview-inset ui-corner-all ui-shadow ui-group-theme-a">
-              <li data-icon="false">
-              <a class="ui-btn" href="http://www.icir.org/vern/" target="_blank" rel="external">
-                <div class="ui-grid-a">
-                  <div class="ui-block-a">
-                    <h2>
-                      <em>TBA</em>
-                    </h2>
-                  </div>
-                  <div class="ui-block-b">
-                    <p></p>
-                  </div>
-                </div>
-                </a>
-              </li>
-            </ul>
 
 
 ### Submissions

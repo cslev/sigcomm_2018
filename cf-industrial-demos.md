@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ACM SIGCOMM 2018 Call for Industrial Demos
+title: ACM SIGCOMM 2018 Industrial Demos
 group: Parallel events
 
 dates:
@@ -26,6 +26,9 @@ committees:
 
 The 2018 SIGCOMM industrial demo session will continue the highly successful tradition of previous SIGCOMM industrial demo sessions since 2015. The session showcases demos from industry in the areas of networking and cloud, networked systems, as well as new forms of network intelligence and networked applications. The objective of this session is to bring together industry and academia around demos of innovative and cutting-edge technology and products.
 
+## Accepted industrial demos
+{% include program-online.html type="accepted_industrial_demos" %}
+
 ## Why Present Industrial Demos at SIGCOMM?
 SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication. The conference is single-track and features a high-quality technical program with significant opportunities for technical and social interactions. SIGCOMM is the premier conference in its field and typically attracts over 600 attendees (scientists, engineers, educators, and students).
 
@@ -36,7 +39,7 @@ An industrial demo is an opportunity for companies to show industrial leadership
 Please submit a small description of your demo (up to two pages) together with the names and affiliation of the demo presenters. Please also specify the Demo requirements, including space, power and network requirements, etc.  The Industrial Demo Chairs are responsible for the selection of industrial demo program in conjunction with SIGCOMM industrial liaison board.
 Demos coming at least partly from industry can be submitted also to the general SIGCOMM demo session. The industrial demo session puts more focus on products and upcoming technologies towards which an industry player is already committed (e.g., technology on roadmap), while research projects from industry that are more experimental are better suited for the general SIGCOMM Demo session. Feel free to contact the Industrial Demo Chairs (by clicking on the button below) or the regular demo chairs if you have any questions.
 
-[Contact Industrial Demo co-chairs](mailto:industrialChairs2018@sigcomm.org?subject=[SIGCOMM'18 Industrial Demos]){: data-role="button" class="button" }.
+[Contact the Industrial Demo Chairs](mailto:industrialChairs2018@sigcomm.org?subject=[SIGCOMM'18 Industrial Demos]){: data-role="button" class="button" }.
 
 ## When and Where to Submit
 Submission Site: [https://sigcomm18indus-demos.hotcrp.com/](https://sigcomm18indus-demos.hotcrp.com/)

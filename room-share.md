@@ -7,7 +7,7 @@ group: Local Information
 
 ## {{ page.title }}
 
-In order to help attendees in arranging for shared lodging and/or transportation with other attendees, we created the [sigcomm-17-room-share mailing list / Google Group](https://groups.google.com/forum/embed/?place=forum/sigcomm-17-room-share){: target="_blank"}.
+In order to help attendees in arranging for shared lodging and/or transportation with other attendees, we created the [sigcomm-18-room-share mailing list / Google Group](https://groups.google.com/forum/embed/?place=forum/sigcomm-18-room-share){: target="_blank"}.
 
 Subscription is open to anyone interested.
 When posting a message, please include any preferences and schedule restrictions for who you would like to share costs with.
@@ -34,18 +34,16 @@ University of São Paulo, Brazil
 
 Attention newcomers: Do not forget to check the list archives and see what has been posted already. The list archives and members are available to subscribers only. There is no restriction on membership, though. Please consider that when posting to the list.
 
-<div>
-    <iframe id="forum_embed"
-      src="javascript:void(0)"
-      scrolling="no"
-      frameborder="0"
-      width="700"
-      height="700">
-    </iframe>
-    <script type="text/javascript">
-      document.getElementById('forum_embed').src =
-         'https://groups.google.com/forum/embed/?place=forum/sigcomm-17-room-share'
-         + '&showsearch=true&showpopout=true&showtabs=false'
-         + '&parenturl=' + encodeURIComponent(window.location.href);
-         </script>
-</div>
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/sigcomm-18-room-share'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script> 

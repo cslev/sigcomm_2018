@@ -8,9 +8,9 @@ dates:
     - info: Hackathon
       date: August 25, 2018
     - info: Notification
-      date: July 2, 2018
-    - info: Application submission deadline
-      date: June 27, 2018
+      date: July 16, 2018
+    - info: Application submission deadline (extended)
+      date: July 12, 2018
     
 
 ---
@@ -74,13 +74,14 @@ A number of open-source networking projects and research groups are supporting t
 <img src="{{site.baseurl}}/images/hackathon_cfp_figures/powder.svg" alt="Powder logo" style="max-width:10%;padding-left:10px;"/>
 </div>
 
-Experts from [GNS3](https://www.gns3.com), [Mininet](http://mininet.org/), [Nokia](https://www.nokia.com/en_int) and [Mobileinsigth](http://www.mobileinsight.net/) propose projects, provide mentoring, and participate in the jury.
+Experts from [MLab](https://www.measurementlab.net/), [GNS3](https://www.gns3.com), [Mininet](http://mininet.org/), [Nokia](https://www.nokia.com/en_int) and [MobileInsigth](http://www.mobileinsight.net/) propose projects, provide mentoring, and participate in the jury.
 
 <div style="text-align:center;">
 <img src="{{site.baseurl}}/images/hackathon_cfp_figures/gns3.png" alt="GNS3 logo" style="max-width:6.5%"/>
-<img src="{{site.baseurl}}/images/hackathon_cfp_figures/mininet_logo.png" alt="Mininet logo" style="max-width:25%;padding-left:10px;"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/mininet_logo.png" alt="Mininet logo" style="max-width:20%;padding-left:10px;"/>
 <img src="{{site.baseurl}}/images/hackathon_cfp_figures/nokia.png" alt="Nokia logo" style="max-width:25%;padding-left:10px;"/>
-<img src="{{site.baseurl}}/images/hackathon_cfp_figures/mobileinsight.png" alt="Powder logo" style="max-width:6%;padding-left:10px;"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/mobileinsight.png" alt="MobileInsight logo" style="max-width:23%;padding-left:10px;"/>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/mlab_logo.png" alt="MLab logo" style="max-width:15%;padding-left:10px;"/>
 </div>
 
 <div style="border:1px red solid;font-style:italic; padding:5px;">
@@ -106,11 +107,30 @@ The winning teams will be selected by the jury members at the end of the Hackath
 
 **3rd team**: 200€
 
+[Nokia](https://web.facebook.com/nokiahungary/about/?ref=page_internal&_rdc=1&_rdr) Budapest will also award a special prize of 1000€
+
 
 ## Jury Members 
-TBD
+Toncsi Koczka, Nokia Budapest, Head of Location
+
+Andra Lutu (Telefonica, Spain)
+
+Angelos Marnerides (Lancaster, UK)
+
+Christoph Dietzel (DE-CIX, Germany)
+
+Georgia Bullen (Open Technology Institute, USA)
+
+Hamed Haddadi (ICL, UK)
+
+Vaibhav Bajpai (TU Munich, Germany)
 
 ## Sponsors
+<div style="text-align:center;">
+
 <a href="https://www.de-cix.net/" target="_blank">
 <img src="{{site.baseurl}}/images/hackathon_cfp_figures/de-cix.png" alt="de-cix logo" style="width:20%;"/>
 </a>
+<img src="{{site.baseurl}}/images/hackathon_cfp_figures/nokia.png" alt="Nokia logo" style="max-width:30%;padding-left:10%;"/>
+<br/><br/>
+</div>

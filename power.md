@@ -8,4 +8,5 @@ group: Local information
 
 
 ## {{ page.title }}
-TBA
+
+[https://www.power-plugs-sockets.com/hungary/](https://www.power-plugs-sockets.com/hungary/)

@@ -54,7 +54,7 @@ committees:
        - name:        Simon Peter
          affiliation: UT, USA
          
-       - name:        Jitu Padhye
+       - name:        Jitendra Padhye
          affiliation: Microsoft, USA
         
        - name:        Costin Raiciu

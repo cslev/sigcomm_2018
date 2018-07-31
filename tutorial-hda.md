@@ -26,6 +26,10 @@ organizers:
 
 # {{ page.title }}
 
+## Tutorial Program
+
+{% include program-online.html type="hda" %}
+
 ## Call For Participation
 This tutorial will provide participants with a hands-on introduction to new technologies to accelerate network function processing on server networking hardware (​[www.open-nfp.org](https://www.open-nfp.org)​). Attendees will learn how to express new data-plane applications in eBPF and P4 and how to compile, execute, and evaluate these applications on production hardware.
 
