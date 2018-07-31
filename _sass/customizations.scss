@@ -347,6 +347,7 @@ p {
     float: right;
     margin: 0px 0px 15px 15px;
     width: 120px;
+    border-radius:7%;
 }
 
 .content-primary .program .prog-item {
@@ -369,56 +370,78 @@ html .ui-bar-a a:link, html .ui-bar-a a:visited, html .ui-bar-a a:hover, html .u
     color: #FFFFFF;
     text-align: left;
     text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
-.content-primary .program .ui-bar-b {
+//.content-primary .program .ui-bar-b {
+//    padding: 0em 1.0em;
+//    background-color: $program-break-background;
+//    border-color: #bbb;
+//}
+
+.content-primary .program .prog-break {
     padding: 0em 1.0em;
     background-color: $program-break-background;
     border-color: #bbb;
+    color: #000000;
 }
 
 
-
-.content-primary .program .ui-bar-b h3 {
+.content-primary .program .prog-break h3 {
     font-weight: 400;
     color: #000000;
     text-align: left;
     text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .content-primary .program .prog-social {
     padding: 0em 1.0em;
-    background-color: #558282;
+    background-color: $program-social;
     border-color: #bbbbbb;
 }
 
 .content-primary .program .prog-social h3 {
-    font-weight: 500;
-    color: #FFFFFF;
+    font-weight: 700;
+    color: #000000;
     text-align: left;
     text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .content-primary .program .prog-keynote {
     padding: 0em 1.0em;
     background-color: $program-keynote-background;
     border-color: #bbbbbb;
+    color: #ffffff;
+
 }
+
+span.show_hide {
+    color: #666666;
+    float:right;
+}
+
 table.prog-keynote
 {
     color: #000000;
 }
 
 .content-primary .program .prog-keynote h3 {
-    font-weight: 500;
+    font-weight: 700;
     color: #FFFFFF;
     text-align: left;
     text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .content-primary .program .prog-tutorial {
     padding: 0em 1.0em;
-    background-color: #ffb224;
+    background-color: $program-tutorial-background;
     color: #000000;
     // border-color: #bbbbbb;
 }
@@ -428,11 +451,13 @@ table.prog-keynote
     color: #000000;
     text-align: left;
     text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .content-primary .program .prog-workshop {
     padding: 0em 1.0em;
-    background-color: #5eebff;
+    background-color: $program-workshop-background;
 }
 
 .content-primary .program .prog-workshop h3 {
@@ -440,11 +465,30 @@ table.prog-keynote
     color: #000000;
     text-align: left;
     text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
 }
+
+
+.content-primary .program .prog-panel h3 {
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.content-primary .program .prog-panel {
+    padding: 0em 1.0em;
+    background-color: $program-panel-background;
+}
+
+
 
 .content-primary .program .prog-topic-preview {
     padding: 0em 1.0em;
-    background-color: #33ff93;
+    background-color: $program-topic-preview;
 }
 
 .content-primary .program .prog-topic-preview h3 {
@@ -452,6 +496,137 @@ table.prog-keynote
     color: #000000;
     text-align: left;
     text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.content-primary .program .prog-topic-preview-talk {
+    padding: 0em 1.0em;
+    background-color: $program-topic-preview;
+}
+
+.content-primary .program .prog-topic-preview-talk h3 {
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.content-primary .program .prog-bestccr {
+    padding: 0em 1.0em;
+    color: $program-bestccr-font;
+    background-color: $program-bestccr;
+}
+
+.content-primary .program .prog-bestccr h3 {
+    font-weight: 700;
+    color: $program-bestccr-font;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
+
+.content-primary .program .prog-industrial-demo {
+    padding: 0em 1.0em;
+    background-color: $program-industrial-demo-paper;
+    color: #ffffff;
+}
+
+.content-primary .program .prog-industrial-demo h3 {
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.content-primary .program .prog-demo {
+    padding: 0em 1.0em;
+    background-color: $program-demo;
+    color: $program-poster-text-color;
+}
+
+.content-primary .program .prog-demo h3 {
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.content-primary .program .prog-poster {
+    padding: 0em 1.0em;
+    background-color: $program-poster;
+    color: $program-poster-text-color;
+}
+
+.content-primary .program .prog-poster h3 {
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
+.content-primary .program .prog-bestccr-talk {
+    padding: 0em 1.0em;
+    background-color: $program-bestccr;
+    color: #000000;
+}
+
+.content-primary .program .prog-bestccr-talk h3 {
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
+
+.content-primary .program .prog-poster_demo {
+    padding: 0em 1.0em;
+    background-color: $program-poster_demo;
+    //border: 1px solid $program-poster_demo;
+    color: #ffffff;
+
+
+}
+
+.content-primary .program .prog-poster_demo h3 {
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.content-primary .program .prog-poster_demo-paper {
+    padding: 0em 1.0em;
+    background-color: $program-poster_demo;
+    //border: 1px solid $program-poster_demo;
+    color: #ffffff;
+
+}
+
+.content-primary .program .prog-poster_demo-paper h3 {
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: none;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 
