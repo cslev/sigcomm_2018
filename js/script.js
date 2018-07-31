@@ -5,7 +5,9 @@ var sps;
 
 // how many news item do we want without clicking on the Older news
 var slice_num_info=6;
-var slice_num_dates=15;
+var slice_num_dates=9;
+
+
 
 $(document).on("pagebeforeshow", function() {
 
@@ -64,8 +66,26 @@ $(document).on("pageshow", function() {
 
 });
 
-/* Show/hide list items on newslibtn click. */
+function show_hide(divname) {
+    var x = document.getElementById(divname);
+    var button = document.getElementById(divname+"_button");
+    if (x.style.display == "none") {
+        x.style.display = "block";
+        if (button.classList) {
+            console.log("button has classlist");
+            button.classList.remove('fa-arrow-circle-o-down');
+            button.classList.add('fa-arrow-circle-o-up');
 
+        }
+
+    } else {
+        x.style.display = "none";
+        button.classList.remove('fa-arrow-circle-o-up');
+        button.classList.add('fa-arrow-circle-o-down');
+    }
+
+}
+/* Show/hide list items on newslibtn click. */
 function showall(divname) {
     // var newslibtn = $.mobile.activePage.find(".newslibtn");
     var newslibtn = $.mobile.activePage.find(divname);
