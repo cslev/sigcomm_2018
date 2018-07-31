@@ -1,18 +1,23 @@
 <li class="prog-tutorial prog-item {{ progitemclass }}">
-  <h3>
-    {{ session.time }}
-    {% if session.link and session.link != "" %}
-      <a href="{{ session.link }}">{{ session.title }}</a>
-    {% else %}
-      {{ session.title }}
-    {% endif %}
-  </h3>
-  {% if include.is_break != true %}
-    {% if session.authors and session.authors != "" %}
-      <p>Presenter(s): {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
-    {% endif %}
+  <table style="width: 100%;">
+    <tr>
+      <!--<td style="font-size:80%; padding-right:10px; max-width:20%;">{{session.time}}</td>-->
+      <td style="max-width:95%;min-width:75%;">
+
+        <h3>
+          {{session.time}} {{ session.title }}
+        </h3>
+
+      </td>
+      <td style="max-width:5%; text-align:right;">
+        {% if session.link and session.link != "" %}
+        <a href="{{site.baseurl}}/{{ session.link }}"><i class="fa fa-calendar"></i></a>
+        {% endif %}
+      </td>
+    </tr>
+  </table>
+
     {% if session.room and session.room != "" %}
       <p>Location: {{ session.room }}</p>
       {% endif %}
-  {% endif %}
 </li>

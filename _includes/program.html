@@ -7,25 +7,43 @@
           <h3>{{ item.time }}{% if item.room and item.room != "" %}, {{ item.room }}{% endif %}</h3>
         </li>
       {% elsif item.type == "break"       %}
-        {% assign session = item %}{% include tprog-session.html is_break = true%}
+        {% assign session = item %}{% include tprog-break.html is_break=true %}
       {% elsif item.type == "description" or item.type == "disc" %}
         {% assign paper = item %}{% include tprog-item.html %}
       {% elsif item.type == "keynote"     %}
-        {% assign keynote = item %}{% include tprog-keynote.html %}
-      {% elsif item.type == "paper" or item.type == "poster" or item.type == "demo" %}
-        {% assign paper = item %}{% include tprog-paper.html %}
+        {% assign session = item %}{% include tprog-keynote2.html %}
+      {% elsif item.type == "poster_demo" %}
+        {% assign session = item %}{% include tprog-poster_demo.html %}
+      {% elsif item.type == "poster_demo-paper" %}
+        {% assign session = item %}{% include tprog-poster_demo-paper.html %}
+      {% elsif item.type == "paper" %}
+        {% assign paper = item %}{% include tprog-item.html %}
       {% elsif item.type == "session"     %}
         {% assign session = item %}{% include tprog-session.html %}
       {% elsif item.type == "tutorial"     %}
         {% assign session = item %}{% include tprog-tutorial.html %}
       {% elsif item.type == "workshop"     %}
         {% assign session = item %}{% include tprog-workshop.html %}
+      {% elsif item.type == "bestccr"     %}
+        {% assign session = item %}{% include tprog-bestccr.html %}
+      {% elsif item.type == "bestccr-talk"     %}
+        {% assign session = item %}{% include tprog-bestccr-talk.html %}
+      {% elsif item.type == "industrial_demo"     %}
+        {% assign paper = item %}{% include tprog-paper-industrial-demo.html %}
+      {% elsif item.type == "demo"     %}
+        {% assign paper = item %}{% include tprog-demo.html %}
+      {% elsif item.type == "poster"     %}
+        {% assign paper = item %}{% include tprog-poster.html %}
+      {% elsif item.type == "panel"     %}
+        {% assign session = item %}{% include tprog-panel.html %}
       {% elsif item.type == "topic-preview"      %}
         {% assign session = item %}{% include tprog-topic-preview.html %}
       {% elsif item.type == "social"      %}
         {% include tprog-social.html %}
       {% elsif item.type == "talk"        %}
         {% assign keynote = item %}{% include tprog-talk.html %}
+      {% elsif item.type == "topic-preview-talk"        %}
+        {% assign session = item %}{% include tprog-topic-preview-talk.html %}
       {% elsif item.type == "remote"        %}
         {% assign paper = item %}{% include tprog-remote.html %}
       {% endif %}

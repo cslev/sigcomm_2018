@@ -1,15 +1,15 @@
-<li class="ui-li ui-bar-{% if include.is_break %}b{% else %}a{% endif %} prog-item ui-li-divider {{ progitemclass }} {% if forloop.last %}listlast{% endif %} {% if forloop.last %}listlast{% endif %} {% if site.enable_remote and session.remote and session.remote != "" %}ui-li-has-remote{% endif %}" data-role="list-divider">
-  <h3>
+<li class="ui-li ui-bar-a prog-item ui-li-divider {{ progitemclass }} {% if forloop.last %}listlast{% endif %} {% if forloop.last %}listlast{% endif %} {% if site.enable_remote and session.remote and session.remote != "" %}ui-li-has-remote{% endif %}" data-role="list-divider">
+
+
+  <h3 style="font-weight: 700;">
     {{ session.time }}
-    {% if session.link and session.link != "" %}
-      <a href="{{ session.link }}">{{ session.title }}</a>
-    {% else %}
-      {{ session.title }}
-    {% endif %}
-    {% if include.is_break and session.room and session.room %}
-      ({{ session.room }})
-    {% endif %}
+    {{ session.title }}
   </h3>
+
+<!--{% if session.link and session.link != "" %}-->
+    <!--<div style="float:right; text-align: right;"><a href="{{site.baseurl}}/{{ session.link }}"><i class="fa fa-calendar"></i></a></div>-->
+    <!--{% endif %}-->
+
   {% if include.is_break != true %}
     {% if session.authors and session.authors != "" %}
       <p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>

@@ -1,0 +1,29 @@
+<li class="prog-bestccr prog-item {{ progitemclass }} {% if session.remote and session.remote != "" %}ui-li-has-remote{% endif %}">
+<table style="width: 100%;">
+    <tr>
+        <!--<td style="font-size:80%; padding-right:10px; max-width:20%;">{{session.time}}</td>-->
+        <td style="max-width:95%;min-width:75%;">
+
+            <h3>
+                {{session.time}} {{ session.title }}
+            </h3>
+
+        </td>
+        <td style="max-width:5%; text-align:right;">
+            {% if session.link and session.link != "" %}
+            <a href="{{site.baseurl}}/{{ session.link }}"><i class="fa fa-calendar"></i></a>
+            {% endif %}
+        </td>
+    </tr>
+</table>
+
+{% if session.room and session.room != "" %}
+<p>Location: {{ session.room }}</p>
+{% endif %}
+
+{% if session.authors and session.authors != "" %}
+<p>Session Chair: {{ session.authors }}</p>
+{% endif %}
+
+
+</li>

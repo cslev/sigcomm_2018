@@ -1,0 +1,52 @@
+<!--{% if paper.link and paper.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}-->
+
+<li data-icon="false" class="prog-industrial-demo {{ progitemclass }}">
+    <!--<div {{ item_style }}>-->
+
+        <table>
+            <tr>
+                <td style="width: 3%;">
+                    {% if paper.time and paper.time != "" %}
+                        {{paper.time}}
+                    {% endif %}
+                    <i class="fa fa-industry"> </i>
+                </td>
+
+                <td style="width: 100%;text-align: left;">
+
+                    <p class="paper-header">
+                        {{ paper.title }}
+                    </p>
+                    <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+                    <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+                </td>
+                {% if paper.link and paper.link   != "" %}
+                <td>
+                    <a style="color: whitesmoke;" href="{{site.baseUrl}}/sigcomm/2018/files/indus-demos-final-versions/{{paper.link}}" rel="external" target="_blank">
+                        <i class="fa fa-file-text"> </i>
+                    </a>
+                </td>
+
+                {% endif %}
+
+            </tr>
+        </table>
+    <!--</div>-->
+    <!--<div class="ui-li-aside-item">-->
+        <!--{% if paper.link and paper.link   != "" %}-->
+            <!--<a href="{{site.baseUrl}}/files/indus-demos-final-versions/{{ paper.link }}" target="_blank">-->
+                <!--<i class="fa file-text-o"> </i>-->
+            <!--</a>-->
+        <!--{% endif %}-->
+        <!--{% if has_slides %}-->
+        <!--<div class="button-paper">-->
+            <!--<a href="{{ paper.slides }}" rel="external" target="_blank" class="ui-link">Slides</a>-->
+        <!--</div>-->
+        <!--{% endif %}-->
+        <!--{% if has_video %}-->
+        <!--<div class="button-paper">-->
+            <!--<a href="{{ paper.video }}" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!--{% endif %}-->
+    <!--</div>-->
+</li>

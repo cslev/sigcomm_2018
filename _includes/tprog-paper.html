@@ -14,13 +14,15 @@
    if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
 
 <li data-icon="false" class="prog-item {{ progitemclass }}">
-  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-    <h4>
-      <div {{ item_style }}>
+  <!--<div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">-->
+    <!--<h4>-->
+      <!--<div {{ item_style }}>-->
         <table>
           <tr>
-            <td style="font-size:80%; padding-right:10px; max-width:20%; font-weight:100;">{{paper.time}}</td>
-            <td style="max-width:70%;">
+            {% if paper.time and paper.time != "" %}
+            <td style="font-size:80%; padding-right:10px; max-width:20%;font-weight:500;">{{paper.time}}</td>
+            {% endif %}
+            <td style="width:70%;text-align:left;">
               <p class="paper-header">
                 {% if has_link == true %}
                   <a href="javascript:void(0)" onclick="window.location='{{ paper.link  }}'; event.stopPropagation();" class="ui-link">{{ paper.title }}</a>
@@ -31,35 +33,46 @@
               <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
               <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
           </td>
-          <td style="max-width:10%;"> </td>
+         {% if has_link %}
+            <td>
+                <a style="color: whitesmoke;" href="{{paper.link}}" rel="external" target="_blank">
+                    <i class="fa fa-file-text"> </i>
+                </a>
+            </td>
+          {% endif %}
           </tr>
         </table>
-      </div>
-      <div class="ui-li-aside">
-        {% if has_link %}
-        <div class="button-paper">      
-          <a href="{{ paper.link }}" onclick="window.location='{{ paper.link }}'; event.stopPropagation();" class="ui-link">Paper</a>
-        </div>
-        {% endif %}
-        {% if has_slides %}
-        <div class="button-paper">      
-          <a href="{{ paper.slides }}" onclick="window.location='{{ paper.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
-        </div>
-        {% endif %}
-        {% if has_video %}
-        <div class="button-paper">      
-          <a href="{{ paper.video }}" onclick="window.location='{{ paper.video }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Video</a>
-        </div>
-        {% endif %}
-      </div>
-    </h4>
-    <ul data-role="listview" data-inset="false">
-      <li data-icon="false">
-        <p><b>{{ abstract_label }}: </b>{{ paper.abstract }}</p>
-        <p>&nbsp;</p>
-      </li>
-    </ul>
-  </div>
+      <!--</div>-->
+      <!--<div class="ui-li-aside">-->
+        <!--{% if has_link %}-->
+        <!--<div class="button-paper">      -->
+          <!--<a href="{{ paper.link }}" onclick="window.location='{{ paper.link }}'; event.stopPropagation();" class="ui-link">Paper</a>-->
+        <!--</div>-->
+        <!--{% endif %}-->
+        <!--{% if has_slides %}-->
+        <!--<div class="button-paper">      -->
+          <!--<a href="{{ paper.slides }}" onclick="window.location='{{ paper.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>-->
+        <!--</div>-->
+        <!--{% endif %}-->
+        <!--{% if has_video %}-->
+        <!--<div class="button-paper">      -->
+          <!--<a href="{{ paper.video }}" onclick="window.location='{{ paper.video }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Video</a>-->
+        <!--</div>-->
+        <!--{% endif %}-->
+      <!--</div>-->
+    <!--</h4>-->
+    <!--<ul data-role="listview" data-inset="false">-->
+      <!--<li data-icon="false">-->
+        <!--<p><b>{{ abstract_label }}: </b>{{ paper.abstract }}</p>-->
+        <!--<p>&nbsp;</p>-->
+        <!--{% if paper.bio != nil and paper.bio != "" %}-->
+          <!--<p><b>About the speaker: </b>{{ paper.bio }}</p>-->
+          <!--<p>&nbsp;</p>-->
+          <!--{% endif %}-->
+      <!--</li>-->
+    <!--</ul>-->
+
+  <!--</div>-->
 </li>
 
 {% endif %}

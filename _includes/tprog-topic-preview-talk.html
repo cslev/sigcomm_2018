@@ -1,0 +1,46 @@
+<li class="prog-topic-preview-talk prog-item {{ progitemclass }} {% if session.remote and session.remote != "" %}ui-li-has-remote{% endif %}">
+<table>
+    <tr>
+        <td style="font-size:80%; padding-right:10px; min-width: 20%; max-width:20%; font-weight:100;">{{session.time}}</td>
+        <td style="max-width:70%;">
+            <p class="paper-header">
+                {% if has_link == true %}
+                <a href="javascript:void(0)" onclick="window.location='{{ paper.link  }}'; event.stopPropagation();" class="ui-link">{{ session.title }}</a>
+                {% else %}
+                {{ session.title }}
+                {% endif %}
+            </p>
+            <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
+            <p>{{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+        </td>
+        <td style="max-width:10%;"> </td>
+    </tr>
+</table>
+
+
+<!--<h3>-->
+    <!--{{ session.time }}-->
+    <!--{% if session.link and session.link != "" %}-->
+    <!--<a href="{{ session.link }}">{{ session.title }}</a>-->
+    <!--{% else %}-->
+    <!--{{ session.title }}-->
+    <!--{% endif %}-->
+<!--</h3>-->
+<!--{% if session.room and session.room != "" %}-->
+<!--<p>Location: {{ session.room }}</p>-->
+<!--{% endif %}-->
+<!--{% if site.enable_remote and session.remote and session.remote != "" %}-->
+<!--<div class="ui-li-aside-item">-->
+    <!--{% if session.remote-qa and session.remote-qa != "" %}-->
+    <!--<div class="button-remote">-->
+        <!--{% assign tags = session.remote-qa | remove: '#' | split: ' ' %}-->
+
+        <!--<a href="https://twitter.com/intent/tweet?hashtags={{ tags | join: ',' }}" rel="external" target="_blank" class="ui-link"><i class="fa fa-twitter"></i> Q&A</a>-->
+    <!--</div>-->
+    <!--{% endif %}-->
+    <!--<div class="button-remote">-->
+        <!--<a href="{{ session.remote }}" rel="external" target="_blank" class="ui-link">Live Streaming</a>-->
+    <!--</div>-->
+<!--</div>-->
+<!--{% endif %}-->
+</li>

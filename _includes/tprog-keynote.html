@@ -1,8 +1,8 @@
-{% if (keynote.abstract == nil or keynote.abstract == "") and (keynote.bio == nil or keynote.bio == "") %}
-  {% assign paper = keynote %}
-  {% assign paper.title = "Keynote: " | append: keynote.title %}
-  {% include tprog-item.html %}
-{% else %}
+<!--{% if (keynote.abstract == nil or keynote.abstract == "") and (keynote.bio == nil or keynote.bio == "") %}-->
+  <!--{% assign paper = keynote %}-->
+  <!--{% assign paper.title = "Keynote: " | append: keynote.title %}-->
+  <!--{% include tprog-item.html %}-->
+<!--{% else %}-->
   {% if keynote.bio    and keynote.bio    != "" %}{% assign has_bio    = true %}{% else %}{% assign has_bio   = nil %}{% endif %}
   {% if keynote.abstract and keynote.abstract != "" %}{% assign has_abstract = true %}{% else %}{% assign has_abstract = nil %}{% endif %}
   {% if keynote.link   and keynote.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
@@ -14,7 +14,7 @@
      if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
      if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
 
-  <li data-icon="false" class="prog-item {{ progitemclass }}">
+  <li data-icon="false" class="prog-item {{ progitemclass }} prog-keynote">
 
     {% if keynote.title and keynote.title != "" %}
     <h2 {{ item_style }} >
@@ -49,6 +49,7 @@
       {{ keynote.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}
     </p>
     {% if has_abstract or has_bio %}
+
       {% if keynote.title and keynote.title != "" %}
         <hr class="keynote-divider" />
       {% endif %}
@@ -67,4 +68,4 @@
       {% endif %}
     {% endif %}
   </li>
-{% endif %}
+<!--{% endif %}-->
