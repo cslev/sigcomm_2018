@@ -25,7 +25,7 @@ workshop:
 
 tutorials:
   track: tutorials
-  info_main: "Tutorials: HPNFV, SO-RAN, and IoN"
+  info_main: "Tutorials: HPNFV, SO-RAN (morning), and IoN (afternoon)"
   date: August 24, 2018
   important: true
 
@@ -45,10 +45,16 @@ workshop2:
 
 tutorials2:
   track: tutorials
-  info_main: "Tutorials: P4, HDA, and RCM"
+  info_main: "Tutorials: P4, HDA (morning), and RCM (afternoon)"
   date: August 20, 2018
   important: true
 
+hackathon-notification:
+  track: hackathon
+  info_main: Hackathon notification
+  info: Notification
+  date: July 16, 2018
+  important: true
 
 registration-earlybird:
   track: registration
@@ -57,18 +63,22 @@ registration-earlybird:
   important: true
 
 
-hackathon-notification:
-  track: hackathon
-  info_main: Hackathon notification
-  info: Notification
-  date: July 2, 2018
-  important: true
+
 
 hackathon-application:
   track: hackathon
-  info_main: Hackathon application submission deadline
-  info: Application submission deadline
-  date: June 27, 2018
+  info_main: Hackathon application submission deadline (extended)
+  info: Application submission deadline (extended)
+  date: July 12, 2018
+  important: true
+
+
+
+posters-due:
+  track: posters_demos
+  info: Camera ready deadline
+  info_main: Posters and demos camera ready deadline
+  date: <del>June 30, 2018</del>
   important: true
 
 
@@ -76,15 +86,9 @@ travelgrant-acceptance:
   track: travel_grant
   info: Award acceptance
   info_main: Travel grants award acceptance
-  date: June 27, 2018
+  date: <del>June 27, 2018</del>
   important: true
 
-posters-due:
-  track: posters_demos
-  info: Camera ready deadline
-  info_main: Posters and demos camera ready deadline
-  date: June 26, 2018
-  important: true
 
 
 
@@ -92,14 +96,14 @@ camera-ready:
   track: camera_ready
   info_main: Camera-ready deadline for the main conference
   info: Camera-ready deadline for the main conference
-  date: June 22, 2018
+  date: <del>June 22, 2018</del>
   important: true
 
 travelgrant-notif:
   track: travel_grant
   info_main: Travel grants award notification
   info: Award notification
-  date: June 20, 2018
+  date: <del>June 20, 2018</del>
   important: true
 
 
