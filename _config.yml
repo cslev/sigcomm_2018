@@ -120,7 +120,7 @@ menu:
   - name: Best of CCR
     url: /best-of-ccr.html
     icon: fa-shield
-  - name: Mentoring
+  - name: Mentoring and one-on-one
     url: /mentoring.html
     icon: fa-user-circle-o
   - name: Student research competition
@@ -266,6 +266,9 @@ menu:
   - name: Power
     url: /power.html
     icon: fa-plug
+  - name: Language
+    url: /language.html
+    icon: fa-commenting
   - name: Getting here
     url: /getting_here.html
     icon: fa-plane
