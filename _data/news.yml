@@ -1,3 +1,20 @@
+#set the number of items to show before older dates in the header of js/script.js
+- date: August 26, 2018
+  news: Thank you everyone for participating. Selected images of all days of the conference is available <a href="https://photos.app.goo.gl/sJgi1aN74cSkaNWi6">here</a>
+- date: August 20, 2018
+  news: <a href="files/posters_demo_assignment.pptx" target="_blank">Poster and demo assignment</a> is announced
+- date: August 20, 2018
+  news: 'Workshops and Tutorials: the Monday Early Morning Session is <a href="program_monday_early_morning.html">being streamed</a>'
+- date: August 17, 2018
+  news: Information about the <a href="currency.html">currency</a>, <a href="power.html">electricity</a>, <a href="language.html">language</a>, <a href="getting_here.html">getting here</a> and <a href="getting_around.html">around</a> is updated
+- date: August 15, 2018
+  news: Support for <a href="mentoring.html">one-on-one and mentoring meetings</a> is enabled
+- date: August 15, 2018
+  news: SIGCOMM 2018 <a href="policies.html">Ad-Hoc CARES Committee</a> is announced
+- date: August 9, 2018
+  news: Papers of the workshops, main conference, posters, and demos are available through links in the <a href="program.html">program</a>
+- date: August 2, 2018
+  news: The Ceremonial Hall of Vigadó is close to its full capacity, and we might need to close the main conference for further registrations shortly. If you would like to attend the main conference or its parallel events, <a href="https://conferences.sigcomm.org/sigcomm/2018/registration.html">register now</a> for one of the few remaining spots
 - date: July 12, 2018
   news: Lists of <a href="cf-posters.html">demos and posters of main-conference papers</a> are published
 - date: July 9, 2018
