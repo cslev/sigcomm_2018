@@ -16,13 +16,16 @@ In addition to the main conference, SIGCOMM 2018 will have a series of co-locate
 
 <img src="images/vigado.png" alt="" style="margin-right:auto;margin-left:auto;width:99%"/>
 
-# Submissions
+## Submissions
 SIGCOMM is a highly selective conference where papers report novel results typically substantiated by experimentation, deployment, simulation, or analysis. Submissions should be in two-column, 10-point format, and can be up to 12 pages in length with as many additional pages as necessary for references. 
 
 Detailed submission instructions can be found [here](https://conferences.sigcomm.org/sigcomm/2018/submission.html).
 
-# Ethical Concerns
+## Ethical Concerns
 Authors must as part of the submission process attest that their work complies with all applicable ethical standards of their home institution(s), including, but not limited to privacy policies and policies on experiments involving humans. Note that submitting research for approval by one’s institution’s ethics review body is necessary, but not sufficient – in cases where the PC has concerns about the ethics of the work in a submission, the PC will have its own discussion of the ethics of that work. The PC takes a broad view of what constitutes an ethical concern, and authors agree to be available at any time during the review process to rapidly respond to queries from the PC chairs regarding ethical standards.
+
+## Authors Take Note
+The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to TWO WEEKS prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.
 
 ## <i class="fa fa-calendar"></i> Important dates
 

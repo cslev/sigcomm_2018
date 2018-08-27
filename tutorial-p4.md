@@ -20,6 +20,10 @@ organizers:
 - name:        Robert Soulé 
   affiliation: USI, Switzerland
   bio:         "<p>Robert Soulé is an Assistant Professor at the Università della Svizzera italiana (USI) and a Research Scientist at Barefoot Networks. His research interests are in distributed systems, networking, and applied programming languages. Prior to joining USI, he was a postdoctoral associate at Cornell University. He received his PhD from New York University, and his BA from Brown University. For two years, he was a research co-op in the Data Intensive Systems and Analytics Group at IBM T. J. Watson Research Center.</p>"
+  
+- name:       Noa Zilberman
+  affiliation: Cambridge, UK
+  bio:        "<p>Noa Zilberman is a Leverhulme Early Career Fellow, also supported by the Isaac Newton Trust, in the Systems Research Group, University of Cambridge' Computer Laboratory. In her last roles before joining the System Research Group, she was a senior principal chip architect in Broadcom's Network Switching group, and a researcher in the DIMES project (Tel-Aviv University). Amongst others, she led the hardware development of the first 100Gbps traffic manager, and the architecture of Broadcom's StrataDNX BCM88670. Her research interests include open-source network & computing research, network performance, routing and switching architectures, converged interconnect, memories architecture and performance, Internet measurements and topology. Noa received her BSC, MSc (both Magna Cum Laude) and PhD in Electrical Engineering from Tel-Aviv University.</p>"
 
 ---
 
@@ -92,3 +96,43 @@ Recently, P4 has evolved to embrace the functional and architectural heterogenei
 [6] Yuliang Li, et al. “FlowRadar: A Better NetFlow for Data Centers,” Proceedings of the USENIX NSDI, 2016.<br/>
 [7] Xin Jin, et al. “NetChain: Scale-Free Sub-RTT Coordination,” to appear in NSDI 2018.
 </p>
+
+### Virtual Machine
+We have created a virtual machine that has all of the software needed to complete the developer day exercises already installed. You can either download a virtual machine image or build it from source. Note that both of these procedures can take around 45 minutes depending on the speed of your network connection.
+
+
+#### To download the virtual machine image
+1. Install VirtualBox
+
+   [https://virtualbox.org](https://virtualbox.org)
+2. Download virtual machine image
+
+   [P4 Tutorial 2018-06-01.ova](https://drive.google.com/uc?id=1f22-DYlUV33DsR88_MeMb4s7-1NX_ams&export=download)
+3. Import virtual machine into VirtualBox 
+
+   Open VirtualBox, select "File > Import Appliance", and navigate to the downloaded file.
+4. Boot virtual machine
+
+   Select "P4 Tutorial 2018-06-01", and click "Start".
+ 
+
+#### To build the virtual machine from source
+1. Install VirtualBox
+
+   [https://virtualbox.org](https://virtualbox.org)
+2. Install Vagrant
+
+   [https://vagrantup.com](https://vagrantup.com)
+3. Clone the tutorial repository
+
+   `$ git clone https://github.com/p4lang/tutorials`
+    
+    - Navigate to the vm directory
+    
+      `$ cd tutorials/vm/`
+    - Build the virtual machine
+    
+      `$ vagrant up`
+ 
+#### Final steps
+After the machine boots, you should have a graphical desktop with  all required software pre-installed, logged in as username "p4"  (with password "p4").

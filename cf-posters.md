@@ -133,6 +133,12 @@ The SIGCOMM poster and demo sessions showcase works-in-progress in an informal s
 Product-focused, as opposed to research-focused, industrial demos may be more appropriately submitted to the SIGCOMM Industrial Demo track. Please feel free to contact either the Poster and Demo Chairs or the [SIGCOMM Industrial Liaison Board](http://www.sigcomm.org/content/sigcomm-industrial-advisory-board) if you are unsure which track to submit to.
 
 
+## Poster and demo assignment
+Please find the assignment in the following [pptx file](files/posters_demo_assignment.pptx).
+
+## Authors Take Note
+The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to TWO WEEKS prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.
+
 <a name="CR"></a>
 ## Camera-ready instruction for posters and demos
 For each event of SIGCOMM 2018 that publishes proceedings, the proceedings will be produced via the HotCRP site used for the review process. The HotCRP site will collect the final papers and interface with the ACM to manage publication rights for the papers.

@@ -160,3 +160,24 @@ title: Supporters
 
 </p>
 
+<p>
+<div class="ui-corner-all custom-corners">
+<div class="ui-bar ui-bar-a" markdown="1">
+### One-on-One Meeting Software
+
+</div>
+
+<div class="ui-body ui-body-a" markdown="1">
+
+<div style="text-align: center;">
+{% for supporter in site.data.supporters
+%}{% if supporter[7] == "meeting_software"
+%}<a href="{{ supporter[2] }}"><img src="{{ site.baseurl }}/images/sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 90px; margin: 10px" /></a>
+{% endif
+%}{% endfor %}
+</div>
+</div>
+</div>
+
+</p>
+

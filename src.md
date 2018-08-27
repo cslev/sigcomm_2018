@@ -6,31 +6,89 @@ group: Parallel events
 
 
 committees:
-    - role: Student Research Competition Chairs
-      mailing_list:  CompetitionChairs2018@sigcomm.org
-      people:
-      - name:        Marco Chiesa
-        affiliation: KTH, Sweden
-        homepage:    http://marchiesa.bitbucket.io
+  - role: Student Research Competition Chairs
+    mailing_list:  CompetitionChairs2018@sigcomm.org
+    people:
+    - name:        Marco Chiesa
+      affiliation: KTH, Sweden
+      homepage:    http://marchiesa.bitbucket.io
 
-      - name:        Zhi-Li Zhang
-        affiliation: UMN, USA
-        homepage:    https://www-users.cs.umn.edu/~zhang089/
+    - name:        Zhi-Li Zhang
+      affiliation: UMN, USA
+      homepage:    https://www-users.cs.umn.edu/~zhang089/
 
-    - role: Pre-selection reviewers
-      people:
-      - name:        Same reviewers of Posters and demos
-        affiliation:  
-        homepage:    https://conferences.sigcomm.org/sigcomm/2018/cf-posters.html
+  - role: Pre-selection reviewers
+    people:
+    - name:        Same reviewers of Posters and demos
+      affiliation:  
+      homepage:    https://conferences.sigcomm.org/sigcomm/2018/cf-posters.html
+    
       
-        
-    - role: First and second phase judges
-      people:
-      - name:       TBA
-        affiliation:  few days before the conference
+  - role: First and second phase judges
+    people:
+    - name:       TBA
+      affiliation:  few days before the conference
+      
+
+  - role: Juros
+    people:
+    - name:         Anat Bremler-Barr
+      affiliation:  Interdisciplinary Center (IDC) Herzliya
+    - name:         Anja Feldmann
+      affiliation:  Max-Planck-Institut für Informatik, Germany
+    - name:         Ankit Singla
+      affiliation:  ETH, Germany
+    - name:         Anna Brunstrom
+      affiliation:  Karlstad University, Sweden
+    - name:         Arpit Gupta
+      affiliation:  Princeton, USA
+    - name:         Balakrishnan Chandrasekaran,
+      affiliation:  Max-Planck-Institut für Informatik, Germany
+    - name:         Bruce Maggs
+      affiliation:  Duke and Akamai, USA
+    - name:         Craig Partridge
+      affiliation:  CSU, USA
+    - name:         Dongsu Han
+      affiliation:  KAIST, South Korea
+    - name:         Georgina Wilcox,
+      affiliation:  Google, UK
+    - name:         Ignacio Castro
+      affiliation:  QMUL, UK
+    - name:         Jennifer Rexford
+      affiliation:  Princeton, USA
+    - name:         Jussi Kangasharju
+      affiliation:  UH, Finnland
+    - name:         Justine Sherry
+      affiliation:  CMU, USA
+    - name:         Kirill Kogan
+      affiliation:  IMDEA, Spain
+    - name:         Konstantina Papagiannaki
+      affiliation:  Google, USA
+    - name:         Martina Zitterbart
+      affiliation:  KIT, Germany
+    - name:         Miki Yamamoto
+      affiliation:  Kansai University, Japan
+    - name:         Paolo Costa
+      affiliation:  Microsoft, USA
+    - name:         Patrick P. C. Lee
+      affiliation:  CUHK, China
+    - name:         Bujata Banerjee
+      affiliation:  VMware, USA
+    - name:         Tilman Wolf
+      affiliation:  UMass, USA
+    - name:         Timothy Wood
+      affiliation:  GWU, USA
+    - name:         Torsten Runge
+      affiliation:  UC Berkeley and ICSI, USA
+    - name:         Wenjun Hu
+      affiliation:  Yale, USA
+    - name:         Xiaoming Fu
+      affiliation:  University of Goettingen, Germany
+      
 ---
 
 # {{ page.title }}
+
 
 ## Introduction
 The {{ page.title }} offers a unique forum for undergraduate and graduate students to present their original research before a panel of judges and attendees at well-known ACM-sponsored and co-sponsored conferences.
@@ -69,9 +127,64 @@ Selected students must register to the ACM SIGCOMM conference.
 ## Sponsors
 <img src="{{ site.baseurl }}/images/sponsors/microsoft.jpeg" style="width:45%;"/>
 
+## List of winners
+- Undergraduate winners:
+
+  - 1st place: Zili Meng, Tsinghua University
+    
+    "PAM: When Overloaded, Push Your Neighbor Aside!"
+
+  - 2nd place: Gonzalo Marín, AIT Austrian Institute of Technology
+    
+    "RawPower: Deep Learning based Anomaly Detection from Raw Network Traffic Measurements"
+
+  - 3rd place: Angelo Tulumello, CNIT/Rome Tor Vergata University
+
+    "A Fully Portable TCP Implementation Using XFSMs"
+
+
+<table style="width:100%">
+<tr>
+  <td>
+      <img src="{{site.baseurl}}/images/src_2.jpg" alt="SRC undergraduate winners" style="height: 100%; width: 100%; object-fit: contain"/>
+  </td>
+</tr>
+</table>
+
+
+    
+- Graduate winners:
+  
+  - 1st place: Suraj Jog, University of Illinois at Urbana Champaign
+    
+    "Enabling Dense Spatial Reuse in mmWave Networks"
+
+  -  2nd place: Marcin Nawrocki, Freie Universität Berlin
+     
+     "On the Potential of BGP Flowspec for DDoS Mitigation at Two Sources: ISP and IXP"
+
+  - 3rd place: Pedro Marcos, UFRGS and FURG
+
+    "Dynam-IX: a Dynamic Interconnection eXchange"  
+    
+
+<table style="width:100%">
+<tr>
+  <td>
+    <img src="{{site.baseurl}}/images/src_1.jpg" alt="SRC graduate winners"
+    style="height: 100%; width: 100%; object-fit: contain"/>
+  </td>
+</tr>
+</table>
+
+
+
+
 ## <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates.html track = "src" %}
+
+
 
 ## Organizers
 

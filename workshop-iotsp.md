@@ -85,6 +85,11 @@ committees:
 
 {% include program-online.html type="iot" %}
 
+### Best Paper Award
+The Best Paper Award goes to the paper entitle **Towards a Resilient Smart Home**.
+
+Congratulations.
+
 ### Call for Papers
 Motivated by an increasing number of attacks and information leaks, IoT device manufactures, cloud providers, and researchers are working to design systems to secure to control the flow of information between devices, to detect new vulnerabilities; and to provide security and privacy within the context of user and the devices. While researchers continue to tackle IoT security and privacy, many questions remain open. Further, with the growing adoption of IoT devices, we will see a growth in the number of security and privacy issues. The goal of the Second ACM SIGCOMM Workshop on IoT S&P is to bring together academic and industry researchers from the security and networking communities to design, measure, and analyze secure and privacy enhancing systems for IoT devices.
 

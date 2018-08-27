@@ -1,56 +1,29 @@
 ---
 layout: default
-title: Mentoring Moments at ACM SIGCOMM 2018
+title: ACM SIGCOMM 2018 Mentoring and One-on-One Meetings
 group: Parallel events
 
-dates:
-    - info: Application deadline for full consideration
-      date: TBA
-
-committees:
-    - role: Mentoring Chair
-      people:
-       - name:        Fahad Dogar
-         affiliation: Tufts University
 ---
 
 
 
 ## {{ page.title }}
-TBA
+To foster better communication and dissemination of ideas between conference attendees,  SIGCOMM 2018 has set aside 7 small meeting rooms, referred to as "dressing rooms" in the floor plans of Vigadó, on the 2nd, 3rd, and 4th floors of the building that can be used by attendees during conference breaks to talk in a quiet environment. We offer support for two types of meetings:
 
-<!--
-ACM SIGCOMM 2018 will offer the opportunity for what we call "mentoring moments." The idea is to give graduate students a chance to talk one-on-one (or, in some cases, one-on-two) about their research with outstanding researchers beyond those available at the students' universities.
-A graduate student can apply for a private meeting with one or two well-known researchers to get feedback on a research idea. The idea can be a dissertation proposal or simply a research idea that the student is currently pursuing.
- 
-The mentoring sessions were held for the first time at SIGCOMM'15, then organized again in [SIGCOMM'16](http://conferences.sigcomm.org/sigcomm/2016/mentoring.php) and [SIGCOMM'17](http://conferences.sigcomm.org/sigcomm/2017/mentoring.php).
+- One-to-one meetings between participants - to book a room please use [The MeetingTool](https://sigcomm2018.meetingtool.events/login/checkregisteredcodeform.html) after registering yourself in the system with code R7GB-EG9Q-N5KH-E6WA
+- Mentoring meetings - students can request meetings with their chosen senior member of the community either [directly ](https://sigcomm2018.meetingtool.events/login/checkregisteredcodeform.html) (after registering yourself in the system with code R7GB-EG9Q-N5KH-E6WA), or via the mediation of Costin Raiciu, the SIGCOMM 2018 mentoring and one-on-one chair.  
 
 
-### The Process
- 
-We are planning two types of mentoring sessions:
- 
-**Formal**: The graduate student gets around 20 minutes in which to explain her or his work to a team of two mentors. The presentation can be about work-in-progress or a possible dissertation thesis idea or any research topic in networking that the student wants to explore. Another 10 minutes are reserved for general discussion and feedback from the mentors. (So the session is a total of 30 minutes). Students are encouraged to bring slides to explain their ideas, but this meeting is not a talk. It is a candid exchange, in which the student presents their ideas and goals and the researchers offer constructive feedback. The student's advisor is encouraged to attend, but should let the student and mentors lead the session.
- 
-**Informal**: The graduate student will be paired with a mentor. We will arrange a one-to-one meeting between the student and mentor during the welcome reception or coffee breaks (the meeting will typically last 15-20 minutes). Students should view this as an opportunity for a structured hallway discussion with the mentor -- they can get advice about the positioning, direction, or any other aspect of their work.
-### How to Apply
-TBA
+For mentoring meetings, you can book meeting rooms here after you have contacted your mentor and obtained his agreement to meet. If you need help to reach out to your chosen mentor, or want advice on which member of the community would be best suited for you, write an email to Costin Raiciu before or on August 19th and he will attempt to accomodate all requests.
 
-For full consideration, please apply by August 1, 2017 using [this form](https://goo.gl/ziiwS1)
- 
-We will evaluate your application to make sure it is in scope for our SIGCOMM mentors and then seek to assign you a time with mentor(s) with relevant expertise in your topic area.
-Students are welcome to indicate their preference about the kind of mentoring (formal or informal) they would like to receive. We will make the final decision based on your preference, availability of mentors, and our own judgement regarding which type of mentoring will best serve your needs.
-If we are oversubscribed for mentoring sessions, we'll do some mix of trying to sign up more mentoring teams, finding more space for mentoring meetings, and, if we must, trying to figure out who will most benefit from the mentoring sessions.
-### When Sessions Will Take Place
-
-Sessions will be scattered through the conference week in the Boardroom and Prodigy Rooms of the Luskin Conference center.
-
-### Important Dates
-
-{% include dates2.html dates=page.dates %}
+[Contact the Mentoring and One-on-One Chair](mailto:costin.raiciu@cs.pub.ro?subject=[SIGCOMM 2018 Mentoring and One-on-One Meetings]){: data-role="button" class="button" }
 
 
-### Organizers
+## Sponsor
+<div class="imagetext">
+    <img src="{{ site.baseurl }}/images/sponsors/Logo_MeetingTool_1000px.png" style="width:50%;" alt="MeetingTool" />
+</div>
 
-{% include committees.html committees=page.committees %}
--->
+
+
+
