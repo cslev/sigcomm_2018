@@ -2,28 +2,39 @@
 <table style="width: 100%;">
     <tr>
         <!--<td style="font-size:80%; padding-right:10px; max-width:20%;">{{session.time}}</td>-->
-        <td style="max-width:95%;min-width:75%;">
+        <td style="width:100%;text-align:left;">
+            <p>
+                <h3>
+                    {{session.time}} {{ session.title }}
+                </h3>
+            </p>
+        {% if session.room and session.room != "" %}
+            <p>Location: {{ session.room }}</p>
+        {% endif %}
 
-            <h3>
-                {{session.time}} {{ session.title }}
-            </h3>
+        {% if session.authors and session.authors != "" %}
+            <p>Session Chair: {{ session.authors }}</p>
+        {% endif %}
+        </td>
+        <!--<td style="max-width:5%; text-align:right;">-->
+            <!--{% if session.link and session.link != "" %}-->
+            <!--<a href="{{site.baseurl}}/{{ session.link }}"><i class="fa fa-calendar"></i></a>-->
+            <!--{% endif %}-->
+        <!--</td>-->
 
+        {% if session.video and session.video != "" %}
+        <td>
+            <!--<div style="background-color: #ffffff;border-radius: 2px;display:inline-block">-->
+              <a style="color: dimgray;" href="{{session.video}}" rel="external" target="_blank">
+                  <i class="fa fa-youtube-square" style="font-size:200%;"></i>
+              </a>
+            <!--</div>-->
         </td>
-        <td style="max-width:5%; text-align:right;">
-            {% if session.link and session.link != "" %}
-            <a href="{{site.baseurl}}/{{ session.link }}"><i class="fa fa-calendar"></i></a>
-            {% endif %}
-        </td>
+      {% endif %}
     </tr>
 </table>
 
-{% if session.room and session.room != "" %}
-<p>Location: {{ session.room }}</p>
-{% endif %}
 
-{% if session.authors and session.authors != "" %}
-<p>Session Chair: {{ session.authors }}</p>
-{% endif %}
 
 
 </li>

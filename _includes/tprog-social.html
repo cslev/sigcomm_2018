@@ -1,5 +1,10 @@
 <li class="prog-social prog-item {{ progitemclass }} {% if foreach.last %}listlast{% endif %}" data-role="list-divider">
   <h3>{{ item.time }} {{ item.title }}</h3>
+
+{% if item.room and item.room != "" %}
+<p>Location: {{ item.room }}</p>
+{% endif %}
+
 </li>
 {% comment %}
 // a list divider is not visible if not followed by an ordinary item,

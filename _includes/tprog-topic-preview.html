@@ -1,15 +1,16 @@
 <li class="prog-topic-preview prog-item {{ progitemclass }} {% if session.remote and session.remote != "" %}ui-li-has-remote{% endif %}">
 <h3>
     {{ session.time }}
-    {% if session.link and session.link != "" %}
-    <a href="{{ session.link }}">{{ session.title }}</a>
-    {% else %}
     {{ session.title }}
-    {% endif %}
+
 </h3>
 {% if session.room and session.room != "" %}
 <p>Location: {{ session.room }}</p>
 {% endif %}
+{% if session.authors and session.authors != "" %}
+<p>Session Chair: {{ session.authors }}</p>
+{% endif %}
+
 {% if site.enable_remote and session.remote and session.remote != "" %}
 <div class="ui-li-aside-item">
     {% if session.remote-qa and session.remote-qa != "" %}

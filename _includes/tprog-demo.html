@@ -3,25 +3,29 @@
 
         <table>
             <tr>
-                <td style="font-size:80%; padding-right:10px; max-width:20%;">
+                <td style="font-size:80%; padding-right:10px; width:3%;">
                     {% if paper.time and paper.time != "" %}
                         {{paper.time}}
                     {% endif %}
                     <i class="fa fa-eye"> </i>
                 </td>
-                <td style="max-width:70%;">
+                <td style="width:100%;">
 
                     <p class="paper-header">
 
-                        {% if has_link %}
-                        <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">{{ paper.title }}</a>
-                        {% else %}
                         {{ paper.title }}
-                        {% endif %}
+
                     </p>
                     <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
                     <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
                 </td>
+                {% if paper.link and paper.link != "" %}
+                <td>
+                    <a style="color: dimgray;" href="{{paper.link}}" rel="external" target="_blank">
+                        <i class="fa fa-file-text"> </i>
+                    </a>
+                </td>
+                {% endif %}
                 <!--<td style="max-width:10%;"></td>-->
             </tr>
         </table>

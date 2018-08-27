@@ -1,39 +1,76 @@
 <li class="ui-li ui-bar-a prog-item ui-li-divider {{ progitemclass }} {% if forloop.last %}listlast{% endif %} {% if forloop.last %}listlast{% endif %} {% if site.enable_remote and session.remote and session.remote != "" %}ui-li-has-remote{% endif %}" data-role="list-divider">
 
+<table>
+  <tr>
+    <!--<td style="width:20%;padding-right:10px; max-width:20%;">-->
+    <!--<h3 style="font-weight: 700;">-->
+      <!--{{ session.time }}-->
+    <!--</h3>-->
+    <!--</td>-->
 
-  <h3 style="font-weight: 700;">
-    {{ session.time }}
-    {{ session.title }}
-  </h3>
+    <td style="width:100%;text-align:left;">
+      <p>
+        <h3 style="font-weight: 700;">
+          {{ session.time }}
+          {{ session.title }}
+        </h3>
+      </p>
+      {% if include.is_break != true %}
+        {% if session.authors and session.authors != "" %}
+          <p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
+        {% endif %}
+
+        {% if session.room and session.room != "" %}
+          <p>Location: {{ session.room }}</p>
+        {% endif %}
+      {% endif %}
+    </td>
+
+
+  {% if session.video and session.video != "" %}
+    <td>
+        <!--<div style="background-color: #ffffff;border-radius: 2px;display:inline-block">-->
+          <a style="color: dimgray;" href="{{session.video}}" rel="external" target="_blank">
+              <i class="fa fa-youtube-square" style="font-size:200%; color:#ffffff;"></i>
+          </a>
+        <!--</div>-->
+    </td>
+  {% endif %}
+
+
 
 <!--{% if session.link and session.link != "" %}-->
     <!--<div style="float:right; text-align: right;"><a href="{{site.baseurl}}/{{ session.link }}"><i class="fa fa-calendar"></i></a></div>-->
     <!--{% endif %}-->
 
-  {% if include.is_break != true %}
-    {% if session.authors and session.authors != "" %}
-      <p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
-    {% endif %}
-    {% if session.room and session.room != "" %}
-      <p>Location: {{ session.room }}</p>
-    {% endif %}
-  {% endif %}
-  {% if include.is_break != true %}
-    {% if site.enable_remote and session.remote and session.remote != "" %}
-      <div class="ui-li-aside-item">
-        {% if session.remote-qa and session.remote-qa != "" %}
-          <div class="button-remote">
-            {% assign tags = session.remote-qa | remove: '#' | split: ' ' %}
+  <!--{% if include.is_break != true %}-->
+    <!--{% if session.authors and session.authors != "" %}-->
+      <!--<p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>-->
+    <!--{% endif %}-->
+    <!--{% if session.room and session.room != "" %}-->
+      <!--<p>Location: {{ session.room }}</p>-->
+    <!--{% endif %}-->
+  <!--{% endif %}-->
 
-            <a href="https://twitter.com/intent/tweet?hashtags={{ tags | join: ',' }}" rel="external" target="_blank" class="ui-link"><i class="fa fa-twitter"></i> Q&A</a>
-          </div>
-        {% endif %}
-        <div class="button-remote">
-          <a href="{{ session.remote }}" rel="external" target="_blank" class="ui-link">Live Streaming</a>
-        </div>
-      </div>
-    {% endif %}
-  {% endif %}
+
+  </tr>
+</table>
+<!--{% if include.is_break != true %}-->
+    <!--{% if site.enable_remote and session.remote and session.remote != "" %}-->
+      <!--<div class="ui-li-aside-item">-->
+        <!--{% if session.remote-qa and session.remote-qa != "" %}-->
+          <!--<div class="button-remote">-->
+            <!--{% assign tags = session.remote-qa | remove: '#' | split: ' ' %}-->
+
+            <!--<a href="https://twitter.com/intent/tweet?hashtags={{ tags | join: ',' }}" rel="external" target="_blank" class="ui-link"><i class="fa fa-twitter"></i> Q&A</a>-->
+          <!--</div>-->
+        <!--{% endif %}-->
+        <!--<div class="button-remote">-->
+          <!--<a href="{{ session.remote }}" rel="external" target="_blank" class="ui-link">Live Streaming</a>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--{% endif %}-->
+  <!--{% endif %}-->
 </li>
 {% comment %}
   // a list divider is not visible if not followed by an ordinary item,
