@@ -8,6 +8,8 @@
 # info_main: the same info with additional text appearing in the home page
 # i.e., submission deadline for papers, but Main conference submission deadline for the home page to avoid confusing other submission deadlines...entendi?
 # HOWEVER, info_main will only appear on the main site if important:true is present!
+
+#set the number of items to show before older dates in the header of js/script.js
 hackathon:
   track: hackathon
   info: Hackathon
@@ -53,13 +55,13 @@ hackathon-notification:
   track: hackathon
   info_main: Hackathon notification
   info: Notification
-  date: July 16, 2018
+  date: <del>July 16, 2018</del>
   important: true
 
 registration-earlybird:
   track: registration
   info_main: Early registration deadline
-  date: July 14, 2018
+  date: <del>July 14, 2018</del>
   important: true
 
 
@@ -69,7 +71,7 @@ hackathon-application:
   track: hackathon
   info_main: Hackathon application submission deadline (extended)
   info: Application submission deadline (extended)
-  date: July 12, 2018
+  date: <del>July 12, 2018</del>
   important: true
 
 
