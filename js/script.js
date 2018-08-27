@@ -4,8 +4,8 @@ var lcnt;
 var sps;
 
 // how many news item do we want without clicking on the Older news
-var slice_num_info=6;
-var slice_num_dates=9;
+var slice_num_info=4;
+var slice_num_dates=6;
 
 
 
