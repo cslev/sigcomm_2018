@@ -4,6 +4,7 @@
   [10, "netapp.jpeg", "https://www.netapp.com/", "netapp", 0, 478, 1200,                   "bronze"],
   [10, "comcast.jpg", "https://www.comcast.com/", "comcast", 0, 263, 594,                  "bronze"],
   [10, "nokia.jpg", "https://www.bell-labs.com/", "nokia", 0, 825, 217,                    "bronze"],
+  [10, "vmware.jpg", "https://www.vmware.com/", "vmware", 0, 420, 100,                    "bronze"],
 
   [100, "huawei.png", "https://www.huawei.com/", "huawei", 0, 406, 406,                    "gold"],
   [100, "alibaba.jpg", "http://alibabagroup.com/en/global/home", "alibaba", 0, 600, 178,   "gold"],
@@ -20,7 +21,7 @@
   [5, "sig.png", "https://www.sigcomm.org", "sigcomm", 0, 843, 324,                        "travel_grant"],
   [5, "nsf.jpg", "https://www.nsf.gov", "nsf", 0, 295, 298,                                "travel_grant"],
   [5, "netflix.png", "https://www.netflix.com", "netflix", 0, 1800, 756,                   "travel_grant"],
-
+  [5, "Logo_MeetingTool_1000px.png", "https://sigcomm2018.meetingtool.events/login/checkregisteredcodeform.html", "meetingtool", 0, 1000, 587,                   "meeting_software"],
 
 ]
 
