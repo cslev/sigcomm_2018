@@ -29,8 +29,27 @@
                 <a style="color: dimgray;" href="{{paper.link}}" rel="external" target="_blank">
                     <i class="fa fa-file-text"></i>
                 </a>
-            </td>
+                </td>
           {% endif %}
+             {% if paper.slides and paper.slides != "" %}
+                <td style="padding-left:4px;">
+                <a style="color: dimgray;" href="{{site.baseurl}}/{{paper.slides}}" rel="external" target="_blank">
+                    <i class="fa fa-file-powerpoint-o"></i>
+                </a>
+                </td>
+          {% endif %}
+             {% if paper.video and paper.video != "" %}
+        <td>
+        <!--<div style="background-color: #ffffff;border-radius: 2px;display:inline-block">-->
+        <a style="color: dimgray;" href="{{paper.video}}" rel="external" target="_blank">
+        <!--<span class="show_hide" onclick="show_hide('div_{{session.title}}')">-->
+        <i class="fa fa-youtube" style="font-size:100%; color:dimgray;" ></i>
+        <!--</span>-->
+        </a>
+        <!--</div>-->
+        </td>
+        {% endif %}
+
          </tr>
   </table>
   <!--</div>-->

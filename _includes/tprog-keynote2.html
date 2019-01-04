@@ -39,6 +39,30 @@
             </span>
         </td>
         {% endif %}
+
+
+
+        {% if session.slides and session.slides != "" %}
+                <td style="padding-left:4px;">
+                <a style="color: #ffffff;" href="{{site.baseurl}}/{{session.slides}}" rel="external" target="_blank">
+                    <i style="font-size:160%; color:#ffffff;" class="fa fa-file-powerpoint-o"></i>
+                </a>
+                </td>
+          {% endif %}
+
+        {% if session.video and session.video != "" %}
+        <td>
+            <!--<div style="background-color: #ffffff;border-radius: 2px;display:inline-block">-->
+              <a style="color: #ffffff;" href="{{session.video}}" rel="external" target="_blank">
+                <!--<span class="show_hide" onclick="show_hide('div_{{session.title}}')">-->
+                  <i class="fa fa-youtube" style="font-size:200%; color:#ffffff;" ></i>
+                <!--</span>-->
+                  </a>
+            <!--</div>-->
+        </td>
+         {% endif %}
+
+
     </tr>
 </table>
 

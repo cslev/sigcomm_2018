@@ -30,14 +30,108 @@ committees:
       affiliation:  few days before the conference
       
 
-  - role: Juros
+  - role: Poster Juros
+    people:
+    - name:         Aleksandar Kuzmanovic
+      affiliation:  Northwestern University & bloXroute Labs, USA
+    - name:         Anat Bremler-Barr,
+      affiliation:  Interdisciplinary Center (IDC) Herzliya
+    - name:         Anja Feldmann
+      affiliation:  Max-Planck-Institut für Informatik, Germany
+    - name:         Ankit Singla
+      affiliation:  ETH, Switzerland
+    - name:         Anna Brunstrom
+      affiliation:  Karlstad University, Sweden
+    - name:         Arpit Gupta
+      affiliation:  Princeton, USA
+    - name:         Balakrishnan Chandrasekaran
+      affiliation:  Max-Planck-Institut für Informatik, Germany
+    - name:         Bruce Maggs
+      affiliation:  Duke and Akamai, USA
+    - name:         Chadi Barakat
+      affiliation:  INRIA, France
+    - name:         Chuanxiong Guo
+      affiliation:  Bytedance Inc
+    - name:         Chunyi Peng
+      affiliation:  Purdue, USA
+    - name:         Colin Perkins
+      affiliation:  University of Glasgow, UK
+    - name:         Craig Partridge
+      affiliation:  CSU, USA    
+    - name:         Cristian Lumezanu
+      affiliation:  NEC Labs America, USA
+    - name:         David Dai 
+      affiliation:  Huawei, China
+    - name:         Dah Ming Chiu
+      affiliation:  CUHK, China
+    - name:         David Hay
+      affiliation:  Hebrew University, Israel
+    - name:         David Walker
+      affiliation:  Princeton, USA
+    - name:         Dongsu Han
+      affiliation:  KAIST, South Korea      
+    - name:         Georgina Wilcox,
+      affiliation:  Google, UK
+    - name:         Hamed Haddadi
+      affiliation:  ICL, UK
+    - name:         Hitesh Ballani
+      affiliation:  Microsoft, UK
+    - name:         Huapeng Zhou
+      affiliation:  Facebook, USA
+    - name:         Ignacio Castro
+      affiliation:  QMUL, UK       
+    - name:         Jennifer Rexford
+      affiliation:  Princeton, USA
+    - name:         Jussi Kangasharju
+      affiliation:  UH, Finnland
+    - name:         Justine Sherry
+      affiliation:  CMU, USA
+    - name:         Kirill Kogan
+      affiliation:  IMDEA, Spain
+    - name:         Konstantina Papagiannaki
+      affiliation:  Google, USA
+    - name:         Lan Wang
+      affiliation:  University of Memphis, USA
+    - name:         Lars Eggert
+      affiliation:  NetApp
+    - name:         Lixin Gao
+      affiliation:  UMass, USA
+    - name:         Martina Zitterbart
+      affiliation:  KIT, Germany
+    - name:         Miki Yamamoto
+      affiliation:  Kansai University, Japan
+    - name:         Paolo Costa
+      affiliation:  Microsoft, USA
+    - name:         Patrick P. C. Lee
+      affiliation:  CUHK, China    
+    - name:         Ramesh Sitaraman
+      affiliation:  UMass, USA
+    - name:         Sara Ayoubi
+      affiliation:  INRIA, France
+    - name:         Sujata Banerjee
+      affiliation:  VMware, USA
+    - name:         Thierry Turletti
+      affiliation:  INRIA, France
+    - name:         Tilman Wolf
+      affiliation:  UMass, USA
+    - name:         Timothy Wood
+      affiliation:  GWU, USA
+    - name:         Torsten Runge
+      affiliation:  UC Berkeley and ICSI, USA
+    - name:         Wenjun Hu
+      affiliation:  Yale, USA
+    - name:         Xiaoming Fu
+      affiliation:  University of Goettingen, Germany      
+      
+                       
+  - role: Presentation Juros
     people:
     - name:         Anat Bremler-Barr
       affiliation:  Interdisciplinary Center (IDC) Herzliya
     - name:         Anja Feldmann
       affiliation:  Max-Planck-Institut für Informatik, Germany
     - name:         Ankit Singla
-      affiliation:  ETH, Germany
+      affiliation:  ETH, Switzerland
     - name:         Anna Brunstrom
       affiliation:  Karlstad University, Sweden
     - name:         Arpit Gupta
@@ -72,7 +166,7 @@ committees:
       affiliation:  Microsoft, USA
     - name:         Patrick P. C. Lee
       affiliation:  CUHK, China
-    - name:         Bujata Banerjee
+    - name:         Sujata Banerjee
       affiliation:  VMware, USA
     - name:         Tilman Wolf
       affiliation:  UMass, USA

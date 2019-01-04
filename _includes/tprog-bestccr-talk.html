@@ -9,14 +9,21 @@
             <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
             <p>{{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
         </td>
-         {% if session.link and session.link   != "" %}
-                <td style="padding-left:1%; font-size:140%;">
-                    <a style="color: black;" href="{{session.link}}" rel="external" target="_blank">
-                        <i class="fa fa-file-text"> </i>
-                    </a>
-                </td>
+        {% if session.link and session.link   != "" %}
+            <td style="padding-left:1%; font-size:140%;">
+                <a style="color: #5a5454;" href="{{session.link}}" rel="external" target="_blank">
+                    <i class="fa fa-file-text"> </i>
+                </a>
+            </td>
+        {% endif %}
 
-                {% endif %}
+        {% if session.slides and session.slides != "" %}
+            <td style="padding-left:1.3%;">
+            <a style="color: #5a5454;" href="{{site.baseurl}}/{{session.slides}}" rel="external" target="_blank">
+                <i style="font-size:143%;" class="fa fa-file-powerpoint-o"></i>
+            </a>
+            </td>
+        {% endif %}
     </tr>
 </table>
 

@@ -31,10 +31,13 @@
     <td>
         <!--<div style="background-color: #ffffff;border-radius: 2px;display:inline-block">-->
           <a style="color: dimgray;" href="{{session.video}}" rel="external" target="_blank">
-              <i class="fa fa-youtube-square" style="font-size:200%; color:#ffffff;"></i>
-          </a>
+            <!--<span class="show_hide" onclick="show_hide('div_{{session.title}}')">-->
+              <i class="fa fa-youtube" style="font-size:200%; color:#ffffff;" ></i>
+            <!--</span>-->
+              </a>
         <!--</div>-->
     </td>
+
   {% endif %}
 
 
@@ -51,10 +54,18 @@
       <!--<p>Location: {{ session.room }}</p>-->
     <!--{% endif %}-->
   <!--{% endif %}-->
-
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/t_5__v6CNYE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
 
   </tr>
 </table>
+
+<!--{% if session.video and session.video != "" %}-->
+  <!--<div id="div_{{session.title}}" style="display:none;">-->
+    <!--<hr class="keynote-divider" />-->
+
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/t_5__v6CNYE?start=260" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  </div>-->
+<!--{% endif %}-->
+
 <!--{% if include.is_break != true %}-->
     <!--{% if site.enable_remote and session.remote and session.remote != "" %}-->
       <!--<div class="ui-li-aside-item">-->
