@@ -68,10 +68,28 @@ For questions or to check on status of your request, you may try following up wi
 
 You should receive further instructions from ACM on how to upload content to the server when your account is setup.
 
-## Advice and Future Enhancement Ideas from 2017 Web Chairs
+## Other hints
+- Once `_config.yml` is edited in order to add a new menu entry, don't forget that since all pages will be related, not just index.html should be updated (on the server), but all other html files as well.
 
-One thing that would really be good to automate is creation of "schedule-at-glance".  Right now, it was generated from a google spreadsheet more or less by hand and close to conference dates there are a number of modifications you may expect there.
+- The program item styles (talk,paper,demo,session,etc.) are defined in `_sass/customization.scss` (for instance, .prog-social).
 
-Consider adding support for mobile apps.
+- Some basic coloring scheme is defined in `_sass/variables.scss`.
 
-Some of the styling in the program doesn't look too good on mobiles, especially when links to papers/slides are added.  Consider hacking jquerymobile to make visualization a bit better.
+- To change the sources of the picture slideshow on the main site, edit index.md. In particular, add your pictures here:
+```
+<div id="sliderFrame">
+  <div id="slider">
+    <img src="images/header_1.png" alt="" style="width:500px"/>
+    <img src="images/header_2.png" alt="" style="width:500px"/>
+  </div>
+</div>
+```
+
+- Supporters and their priorities that will be shown on the footer (and on the supporters.html as well), please edit `_data/supporters.json` (prio, picture name, link, 0, width, height, tag). Note that width and height are important since they are used to show the pictures in a good aspect ratio. You can easily get this info in linux as follows:
+```
+$ file vmware.jpg
+
+vmware.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=2, software=GIMP 2.8.10, datetime=2016:07:11 16:32:06], progressive, precision 8, 420x100, frames 3
+```
+
+
